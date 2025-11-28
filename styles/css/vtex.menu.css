@@ -1,0 +1,38 @@
+.styledLinkContainer {
+  margin: 0 15px;
+}
+
+.menuContainerNav {
+  width: 100%;
+}
+
+.menuContainer {
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+}
+
+.styledLinkContent {
+  color: var(--fontes);
+  font-size: 16px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .menuContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding: 0 15px;
+  }
+
+  .styledLinkContent {
+    color: black;
+    font-size: 22px;
+  }
+
+  .styledLinkContainer {
+    margin: 0 2px;
+    padding: 0;
+  }
+}

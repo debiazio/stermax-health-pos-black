@@ -1,0 +1,21 @@
+.hideDecorators {
+  background-color: #F6F6F6;
+  ;
+}
+
+.vtex-input__suffix {
+  background-color: #F6F6F6;
+  ;
+}
+
+@media screen and (max-width: 1000px) {
+  .hideDecorators {
+    background-color: white;
+    ;
+  }
+
+  .vtex-input__suffix {
+    background-color: white;
+    ;
+  }
+}

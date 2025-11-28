@@ -1,0 +1,152 @@
+{
+  "responsive-layout.desktop#slider-home-desktop": {
+    "children": [
+      "slider-layout#home-images"
+    ]
+  },
+  // SLIDER IMAGENS DESKTOP
+  "slider-layout#home-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "width": 1300,
+
+      "showNavigationArrows": "always",
+      "title": "Slider Imagens Desktop",
+      "blockClass": "slider-desktop-home",
+      "autoplay": {
+        "timeout": 8000
+      }
+    },
+    "children": [
+      "modal-trigger#trigger2-roleta",
+      "image#purehealth",
+      "image#vida-vertical",
+      "image#experiencia-stx"
+    ]
+  },
+  // TRIGGER ROLETA desktop
+  "modal-trigger#trigger2-roleta": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "image#teste-trigger-roleta",
+      "modal-layout#roleta"
+    ]
+  },
+  "image#teste-trigger-roleta": {
+    "props": {
+      "src": "assets/home/home-black-friday/banners/roleta-desk.gif",
+      "alt": "Roleta",
+      "width": 1300,
+      "lazyLoad": false,
+      "preload": true,
+      "blockClass": [
+        "image-slider-desktop",
+        "cursor-pointer"
+      ]
+    }
+  },
+  "image#purehealth": {
+    "props": {
+      "src": "assets/home/home-black-friday/banners/pure-health.webp",
+      "alt": "Pure health",
+      "blockClass": "image-slider-desktop",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  "image#vida-vertical":{
+    "props": {
+      "blockClass": "image-slider-desktop",
+      "alt": "Vida vertical",
+      "src": "assets/home/home-black-friday/banners/vida-vertical.webp"
+    }
+  },
+  "image#experiencia-stx":{
+    "props": {
+      "blockClass": "image-slider-desktop",
+      "alt": "Experiência",
+      "src": "assets/home/home-black-friday/banners/banner-home-desktop-esterilizacao.webp"
+    }
+  },
+  // MOBILE
+  "responsive-layout.mobile#slider-home-mobile":{
+    "children": [
+      "slider-layout#home-images-mobile"
+    ]
+  },
+  // SLIDER IMAGENS DESKTOP
+  "slider-layout#home-images-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "height": 298,
+      "showNavigationArrows": "always",
+      "title": "Slider Imagens Mobile",
+      "blockClass": "slider-mobile-home",
+      "autoplay": {
+        "timeout": 8000
+      }
+    },
+    "children": [
+      "modal-trigger#trigger2-roleta-mobile",
+      "image#purehealth-mobile",
+      "image#vida-vertical-mobile",
+      "image#experiencia-stx-mobile"
+    ]
+  },
+  // TRIGGER ROLETA mobile
+  "modal-trigger#trigger2-roleta-mobile": {
+    "props": {
+      "trigger": "click"
+    },
+    "children": [
+      "image#teste-trigger-roleta-mobile",
+      "modal-layout#roleta"
+    ]
+  },
+  "image#teste-trigger-roleta-mobile": {
+    "props": {
+      "src": "assets/home/home-black-friday/banners/mobile/Roleta-mobile.gif",
+      "alt": "Roleta",
+      "lazyLoad": false,
+      "preload": true,
+      "blockClass": [
+        "image-slider-mobile",
+        "cursor-pointer"
+      ]
+    }
+  },
+  "image#purehealth-mobile":{
+    "props": {
+      "blockClass": "image-slider-mobile",
+      "alt": "Imagem ",
+      "src": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
+    }
+  },
+  "image#vida-vertical-mobile":{
+    "props": {
+      "blockClass": "image-slider-mobile",
+      "alt": "Imagem ",
+      "src": "assets/home/home-black-friday/banners/mobile/mobile-vida.webp"
+    }
+  },
+  "image#experiencia-stx-mobile":{
+    "props": {
+      "blockClass": "image-slider-mobile",
+      "alt": "Imagem ",
+      "src": "assets/home/home-black-friday/banners/mobile/banner-home-mobile-esterilizacao.webp"
+    }
+  }
+}

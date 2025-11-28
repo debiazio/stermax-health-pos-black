@@ -1,0 +1,95 @@
+{
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#spacer-mobile": {
+    "props": {
+      "width": "grow",
+      "blockClass": "spacer"
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "props": {
+      "blockClass": "linha-disclosure-mobile-pesquisa"
+    },
+    "children": [
+      "disclosure-layout#pesquisa-mobile"
+    ]
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/black-friday/logo-blackF.webp",
+      "width": "77.5",
+      "height": "27.5"
+    }
+  },
+  "image#icone-pesquisa-mobile": {
+    "props": {
+      "blockClass": "icone-pesquisa-mobile",
+      "src": "assets/Lupa.svg",
+      "alt": "Ícone de pesquisa",
+      "title": "Ícone de pesquisa mobile"
+    }
+  },
+  "disclosure-layout#pesquisa-mobile": {
+    "props": {
+      "blockClass": "container-disclosure"
+    },
+    "children": [
+      "disclosure-trigger#clica-lupa",
+      "disclosure-content#pesquisa-mobile"
+    ]
+  },
+  "disclosure-trigger#clica-lupa": {
+    "props": {
+      "blockClass": "trigger-disclosure"
+    },
+    "children": [
+      "image#icone-pesquisa-mobile"
+    ]
+  },
+  "disclosure-content#pesquisa-mobile": {
+    "props": {
+      "blockClass": "pesquisa-disclosure"
+    },
+    "children": [
+      "flex-layout.col#search-bar-header"
+    ]
+  }
+}

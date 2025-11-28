@@ -1,0 +1,1044 @@
+.paragraph--texto-pronto-para{
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+
+.paragraph--titulo-milhares-confiam {
+  font-size: 36px;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+.container--texto-milhares-confiam {
+  max-width: 60vw;
+}
+
+.paragraph--texto-milhares-confiam {
+  font-size: 24px;
+  font-family: "jost-regular";
+  font-weight: 400;
+  color: #5D5D5D;
+  text-align: center;
+  margin: 0;
+}
+
+.flexRowContent--linha-titulo-original {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--titulo-original {
+  font-family: "fraunces-regular";
+  font-size: 36px;
+  color: #505050;
+  margin: 0;
+  white-space: nowrap;
+}
+
+
+.container--titulo-cronograma,
+.container--subtitulo-cronograma,
+.container--conteudo-cronograma {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.paragraph--titulo-cronograma {
+  color: #574D41;
+  font-family: "fraunces-regular";
+  font-size: 45px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+}
+
+.paragraph--subtitulo-cronograma {
+  color: #574D41;
+  font-family: "fraunces-regular";
+  font-size: 27px;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+}
+
+.paragraph--conteudo-cronograma {
+  font-family: "jost-regular";
+  font-size: 20px;
+  text-align: right;
+  margin: 22px 0;
+}
+
+.paragraph--titulo-selos-pq-comprar {
+  font-family: "fraunces-regular";
+  font-size: 40px;
+  font-weight: 600;
+  color: #574D41;
+  margin: 0;
+}
+
+
+.paragraph--texto-selos-pq-comprar {
+  font-family: "jost-regular";
+  font-size: 22px;
+  font-weight: 400;
+  color: #686868;
+  margin: 0;
+  padding-bottom: 60px;
+}
+
+.strong--texto-selos-pq-comprar {
+  font-weight: 700;
+}
+
+
+.container--balao-pq-comprar {
+  z-index: 2;
+}
+
+.paragraph--balao-pq-comprar {
+  background-color: white;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 30px 30px 0;
+  padding: 10px 40px;
+  font-family: "fraunces-regular";
+  font-size: 20px;
+  font-weight: 500;
+  color: #777777;
+  margin-left: 80px;
+  max-width: 60%;
+  transition: all 0.2s ease;
+}
+
+.paragraph--balao-pq-comprar:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.009);
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.35);
+}
+
+.strong--balao-pq-comprar {
+  font-family: "fraunces-bold";
+  color: #3B3B3BB8;
+  font-weight: 700;
+}
+
+.paragraph--intro-pq-comprar {
+  margin: 0;
+  font-family: "fraunces-regular";
+  font-weight: 300;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #736969;
+  margin-top: 35px;
+}
+
+.paragraph--stermaxhealth-pq-comprar {
+  margin: 0;
+  font-family: "fraunces-bold";
+  font-weight: 800;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #1F7ECA;
+  line-height: 70%;
+}
+
+
+.container--titulo-texto-seja-bemvindo,
+.container--subtitulo-texto-seja-bemvindo {
+  display: flex;
+  justify-content: center;
+  padding: 0 25px;
+}
+
+.strong--titulo-texto-seja-bemvindo {
+  font-weight: 700;
+}
+
+.paragraph--titulo-texto-seja-bemvindo {
+  color: #1F80CA;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-texto-seja-bemvindo {
+  color: #1F80CA;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+
+.paragraph--texto-content {
+  font-family: "jost-regular";
+  font-weight: 400;
+  font-size: 21px;
+  color: #A7A7A7;
+}
+
+.paragraph--texto-trigger {
+  font-family: "jost-regular";
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #636363;
+}
+
+.paragraph--texto-trigger-30anos::before {
+  content: "+ ";
+  white-space: nowrap;
+}
+
+.paragraph--titulo-pq-escolher {
+  font-family: "fraunces-regular";
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+}
+
+.strong--titulo-biosseguranca {
+  font-weight: 900;
+  font-family: "fraunces-bold";
+}
+
+.paragraph--titulo-biosseguranca {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "fraunces-regular";
+  margin: 0 50px 0 50px;
+}
+
+.paragraph--texto-biosseguranca {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  font-family: "jost-regular";
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.paragraph--titulo-biosseguranca,
+.paragraph--texto-biosseguranca {
+
+  color: #574D41;
+}
+
+.paragraph--titulo-nosso-proposito {
+  font-family: "fraunces-regular";
+  font-weight: 600;
+  font-size: 40px;
+  color: #4C4A48;
+  margin: 20px 0 22px 0;
+}
+
+.paragraph--texto-nosso-proposito {
+  font-family: "fraunces-regular";
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4C4A48;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+
+.paragraph--titulo-quem-somos {
+  font-family: "fraunces-regular";
+  font-weight: 900;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: var(--fontes);
+  margin: 0;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.container--texto-quem-somos {
+  padding: 10px;
+}
+
+.paragraph--texto-quem-somos {
+  color: var(--fontes);
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  line-height: normal;
+}
+
+.container--texto-titulo-gatilho-medo,
+.container--texto-subtitulo-gatilho-medo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper--texto-titulo-gatilho-medo,
+.wrapper--texto-subtitulo-gatilho-medo {
+  width: 58%;
+}
+
+.paragraph--texto-titulo-gatilho-medo,
+.paragraph--texto-subtitulo-gatilho-medo {
+  color: var(--fontes);
+  text-align: start;
+  margin: 0 20px;
+}
+
+.paragraph--texto-titulo-gatilho-medo {
+  font-size: 45px;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+}
+
+.paragraph--texto-subtitulo-gatilho-medo {
+  font-size: 18px;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+}
+
+/* CSS ROLETA ABAIXO */
+.paragraph--titulo-regras-roleta {
+  font-family: "jost-regular";
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFFB2;
+}
+
+.container--subtitulo-nova-roleta,
+.container--titulo-nova-roleta {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.paragraph--subtitulo-nova-roleta {
+  color: #FFFFFF;
+  font-family: "jost-regular";
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.container--titulo-form-roleta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  font-size: 40px;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.paragraph--titulo-form-roleta {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper--titulo-form-roleta {
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+}
+
+.paragraph--confirm-form-roleta {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "fraunces-regular";
+  display: none;
+}
+
+.container--titulo-regras-roleta {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.container--texto-rules-roleta {
+  padding-top: 10px;
+}
+
+.paragraph--texto-rules-roleta {
+  margin: 0;
+  font-family: "jost-regular";
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFFFFFB2;
+}
+
+
+
+/* CSS ROLETA ACIMA */
+
+
+.paragraph--titulo-footer-bandeiras,
+.paragraph--titulo-textos-horario,
+.paragraph--textos-horarios,
+.paragraph--textos-contatos {
+  white-space: nowrap !important;
+}
+
+/* footer desktop  */
+
+/* footer */
+
+.container--texto-final-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paragraph--texto-final-footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  font-size: 12px;
+}
+
+.link--textos-contatos {
+  text-decoration: none;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.paragraph--textos-horarios {
+  margin: 0;
+  margin-left: 0 !important;
+}
+
+.paragraph--textos-horarios,
+.paragraph--textos-contatos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-left: 11.55px;
+
+}
+
+.paragraph--titulo-footer-bandeiras,
+.paragraph--titulo-textos-horarios,
+.paragraph--titulo-fale-com {
+  font-family: "domine-semibold";
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: start;
+  text-transform: capitalize;
+
+}
+
+.container--endereco-footer {
+  max-width: 273px;
+}
+
+.paragraph--endereco-footer {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* footer */
+
+.paragraph--subtitulos-textos-modelos {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.paragraph--titulos-textos-modelos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.container--subtitulos-textos-modelos {
+  max-width: 145px;
+}
+
+.paragraph--subtitulos-textos-modelos-75l {
+  margin-bottom: 127px;
+}
+
+.paragraph--titulo-modelos {
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  color: #4C4A48;
+  font-size: 40px;
+  margin: 0;
+}
+
+.paragraph--subtitulo-modelos {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  color: #747474;
+  font-size: 32px;
+  margin: 0;
+}
+
+.paragraph--rich-text-topo {
+  margin: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: "fraunces-regular";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.container--rich-text-topo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--titulo-manuais {
+  font-weight: bold;
+}
+
+.link--texto-horarios {
+  text-decoration: none;
+  color: white;
+}
+
+.paragraph--texto-horarios,
+.paragraph--texto-contato,
+.heading--titulo-contato {
+  color: white;
+}
+
+.paragraph--rich-text-produtos-relacionados {
+  color: #5C5A58;
+  font-family: var(--fonte-secundaria);
+  font-size: 60px;
+}
+
+.wrapper--titulo-descricao {
+  font-family: var(--fonte-secundaria);
+  font-size: 48px;
+  color: #5C5A58;
+}
+
+.paragraph--titulo-descricao {
+  margin: 0 50px;
+  padding: 0;
+}
+
+.container--texto-numeros {
+  font-family: var(--fonte-secundaria);
+}
+
+.link--texto-numeros {
+  text-decoration: none;
+  color: var(--cinza-medio);
+}
+
+.paragraph--texto-numeros {
+  margin: 0;
+  color: var(--cinza-medio);
+}
+
+.container--linha-texto {
+  margin-bottom: 30px;
+}
+
+.paragraph--linha-texto {
+  margin: 0;
+  padding: 0;
+  font-family: var(--fonte-secundaria);
+  font-size: 15px;
+  color: var(--cinza-medio);
+}
+
+.link--texto-trocas-devolucoes {
+  text-decoration: none;
+  color: white;
+}
+
+
+.container--texto-trocas-devolucoes,
+.container--titulo-trocas-devolucoes {
+  color: white;
+}
+
+.paragraph--contatos-footer-titulo {
+  font-family: var(--fonte-secundaria);
+  font-size: 24px;
+  margin-top: 63px;
+  color: var(--cinza-medio);
+}
+
+.paragraph--texto-digitando {
+  color: var(--fontes);
+  font-size: 24px;
+  font-family: "fraunces-regular";
+  margin-top: 5px;
+}
+
+.container--texto-digitando {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container--subtitulo-banner-esquerdo {
+  text-align: right;
+}
+
+.container--titulo-banner-direito,
+.container--subtitulo-banner-direito {
+  text-align: left;
+}
+
+.paragraph--subtitulo-banner-direito,
+.paragraph--titulo-banner-direito,
+.paragraph--titulo-banner-esquerdo,
+.paragraph--subtitulo-banner-direito,
+.paragraph--subtitulo-banner-esquerdo {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.paragraph--subtitulo-banner-esquerdo {
+  font-size: 16px;
+  font-family: "jost-regular";
+  font-weight: 400;
+  color: var(--fontes);
+  margin-top: 20px;
+}
+
+.paragraph--titulo-banner-direito,
+.paragraph--titulo-banner-esquerdo {
+  font-family: "fraunces-regular";
+  font-size: 36px;
+  margin-top: 40px;
+  line-height: normal;
+  font-weight: 400;
+  color: var(--fontes);
+}
+
+.wrapper--titulo-banner-esquerdo,
+.wrapper--titulo-banner-esquerdo {
+  text-align: right;
+
+}
+
+.paragraph--titulo-banner-secundario {
+  background-color: var(--header);
+  padding: 15px;
+  border-radius: 166px;
+  color: white;
+  font-size: 19px;
+  font-family: "fraunces-regular";
+  margin-right: 50px;
+}
+
+.container--titulo-banner-secundario {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  bottom: 58px;
+}
+
+.wrapper--deals,
+.strong--deals {
+  font-family: "jost-regular";
+}
+
+.container--deals {
+  color: #868181;
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "jost";
+}
+
+.container--shelfTitle {
+  color: #F6F6F6;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  text-align: left;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.container--footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .paragraph--texto-pronto-para{
+    font-size: 20px;
+  }
+  .container--texto-milhares-confiam{
+    max-width: unset;
+  }
+
+  .paragraph--titulo-milhares-confiam {
+    font-size: 18px;
+  }
+
+  .paragraph--texto-milhares-confiam {
+    font-size: 12px;
+  }
+
+  .paragraph--titulo-cronograma {
+    font-size: 22px;
+  }
+
+  .paragraph--subtitulo-cronograma {
+    font-size: 14px;
+  }
+
+  .paragraph--conteudo-cronograma {
+    font-size: 12px;
+  }
+
+
+  .container--texto-selos-pq-comprar {
+    max-width: 50vw;
+  }
+
+  .paragraph--titulo-selos-pq-comprar {
+    font-size: 18px;
+  }
+
+  .paragraph--texto-selos-pq-comprar {
+    font-size: 12px;
+    margin: 15px 0;
+    padding-bottom: 24px;
+  }
+
+  .paragraph--titulo-texto-seja-bemvindo {
+    font-size: 18px;
+  }
+
+  .paragraph--subtitulo-texto-seja-bemvindo {
+
+    font-size: 18px;
+  }
+
+  .paragraph--texto-content {
+    font-size: 16px;
+  }
+
+  .paragraph--texto-trigger {
+    font-size: 18px;
+  }
+
+  .paragraph--titulo-pq-escolher {
+    font-size: 24px;
+  }
+
+
+  .paragraph--texto-nosso-proposito {
+    margin-bottom: 20px;
+  }
+
+  .container--titulo-biosseguranca,
+  .container--texto-biosseguranca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .paragraph--titulo-biosseguranca {
+    font-size: 24px;
+    margin: 60px 20px 10px 20px;
+    text-align: center;
+  }
+
+  .paragraph--texto-biosseguranca {
+    font-size: 12px;
+    margin: 10px 20px;
+    text-align: center;
+  }
+
+  .paragraph--titulo-nosso-proposito {
+    margin: 0px 0 22px 0;
+  }
+
+
+  /* CSS ROLETA ABAIXO */
+  .container--titulo-regras-roleta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container--texto-rules-roleta {
+    width: fit-content;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 5px;
+    max-width: 80vw;
+    padding: 0 25px;
+  }
+
+  .wrapper--titulo-form-roleta {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .paragraph--confirm-form-roleta {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .container--confirm-form-roleta {
+    text-align: center;
+  }
+
+
+  /* CSS ROLETA ACIMA */
+
+  .paragraph--rich-text-produtos-relacionados {
+    font-size: 1.8rem;
+  }
+
+  .paragraph--titulo-descricao {
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .wrapper--titulo-descricao {
+    font-size: 1rem;
+  }
+
+  .container--deals {
+    font-size: 6px;
+  }
+
+  .paragraph--deals {
+    margin: 0 0 0 10px;
+  }
+
+  .paragraph--titulo-banner-secundario {
+    padding: 10px;
+    font-size: 8px;
+    margin-right: 0px;
+  }
+
+  .container--titulo-banner-secundario {
+    bottom: 20px;
+  }
+
+  .paragraph--titulo-banner-direito,
+  .paragraph--titulo-banner-esquerdo {
+    font-size: 18px;
+  }
+
+  .paragraph--subtitulo-banner-direito,
+  .paragraph--subtitulo-banner-esquerdo {
+    font-size: 10px;
+  }
+
+  .wrapper--texto-digitando {
+    font-size: 1rem;
+  }
+
+  .paragraph--contatos-footer-titulo {
+    font-size: 12px;
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  .paragraph--footer-titulo {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .paragraph--linha-texto,
+  .container--texto-numeros {
+    font-size: 10px;
+  }
+
+
+  .flexColChild--container-footer-mobile {
+    height: fit-content !important;
+  }
+
+  .wrapper--footer-links {
+    padding: 0 5px;
+  }
+
+  .paragraph--subtitulos-textos-modelos-75 {
+    margin-bottom: unset;
+  }
+
+  .paragraph--titulos-textos-modelos {
+    margin: 50px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .paragraph--subtitulos-textos-modelos {
+    font-size: 10px;
+  }
+
+  .paragraph--titulo-modelos {
+    font-size: 12px;
+  }
+
+  .paragraph--subtitulo-modelos {
+    font-size: 9px;
+  }
+
+  .paragraph--texto-digitando {
+    font-size: 12px;
+  }
+
+  .paragraph--texto-rules-roleta {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+}
+
+/* footer desktop  */
+@media screen and (min-width: 1000px) {
+  .container--endereco-footer {
+    border-top: 1px solid white;
+  }
+
+  .paragraph--endereco-footer {
+    text-align: start !important;
+  }
+
+  .paragraph--texto-final-footer {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .paragraph--texto-rules-roleta {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  .wrapper--confirm-form-roleta {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .paragraph--subtitulo-nova-roleta {
+    font-size: 10px;
+  }
+}

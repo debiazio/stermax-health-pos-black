@@ -1,0 +1,91 @@
+{
+  "store.custom#contato": {
+    "children": [
+      "flex-layout.row#container-contato"
+    ]
+  },
+
+  "flex-layout.row#container-contato": {
+    "props": {
+      "blockClass": "contato"
+    },
+    "children": [
+      "flex-layout.col#coluna-contato"
+    ]
+  },
+
+  "flex-layout.col#coluna-contato": {
+    "props": {
+      "blockClass": "coluna-contato"
+    },
+    "children": [
+      "flex-layout.row#linha-contato",
+      "flex-layout.row#linha-horarios",
+      "flex-layout.row#linha-contatos"
+    ]
+  },
+  "flex-layout.row#linha-contato":{
+    "props": {
+      "blockClass": "linha-contato"
+    },
+    "children": [
+      "rich-text#titulo-contato",
+      "rich-text#texto-contato"
+    ]
+  },
+
+  "rich-text#titulo-contato": {
+    "props": {
+      "text": "## Fale com a Stermax",
+      "blockClass": "titulo-contato"
+    }
+  },
+  "rich-text#texto-contato":{
+    "props": {
+      "text": "A Stermax é uma empresa socialmente responsável, que valoriza um relacionamento justo e correto com seus clientes, com seus recursos humanos internos, com o meio ambiente, com o cumprimento das leis e com a comunidade em geral.",
+      "blockClass": "texto-horarios"
+    }
+  },
+  "flex-layout.row#linha-horarios":{
+    "props": {
+      "blockClass": "linha-horarios"
+    },
+    "children": [
+      "rich-text#titulo-horarios",
+      "rich-text#texto-horarios"
+    ]
+  },
+  "rich-text#titulo-horarios": {
+    "props": {
+      "text": "## Atendimento",
+      "blockClass": "titulo-contato"
+    }
+  },
+  "rich-text#texto-horarios":{
+    "props": {
+      "text": "Segunda a Quinta - 08:00 às 18:00\nSexta - 08:00 às 17:00",
+      "blockClass": "texto-horarios"
+    }
+  },
+  "flex-layout.row#linha-contatos":{
+    "props": {
+      "blockClass": "linha-horarios"
+    },
+    "children": [
+      "rich-text#titulo-contatos",
+      "rich-text#texto-contatos"
+    ]
+  },
+  "rich-text#titulo-contatos": {
+    "props": {
+      "text": "",
+      "blockClass": "titulo-horarios"
+    }
+  },
+  "rich-text#texto-contatos":{
+    "props": {
+      "text": "0800 721 8533\n41 9 9971 0062\n41 3668 2144\nstermax@stermax.com.br",
+      "blockClass": "texto-horarios"
+    }
+  }
+}

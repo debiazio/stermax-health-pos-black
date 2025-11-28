@@ -1,0 +1,102 @@
+/* teste aneis do botão  */
+
+/* teste aneis do botão  */
+
+
+
+.link--link-orcamento-pronto-para{
+  text-transform: uppercase;
+  box-shadow:
+  0 0 0 5px #1F7ECA1A,
+  0 0 0 10px #1F7ECA1A,
+  0 0 0 17px #ffffff,
+  0 0 0 20px #D2E5F480;
+
+}
+
+.link--link-orcamento-pronto-para,
+.link--link-selos-pq-comprar {
+  text-decoration: none;
+  color: white;
+  background-color: #1F7ECA;
+  padding: 12px 30px;
+  border-radius: 100px;
+  margin: 10px 0;
+  font-family: "fraunces-regular";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* footer */
+.link--link-footer {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 18px;
+  font-family: "fraunces-regular";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+/* footer */
+.link--link-manuais {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.link--footer-links {
+  text-decoration: none;
+  font-family: var(--fonte-secundaria);
+  color: var(--cinza-medio);
+  font-size: 20px;
+}
+
+.link--link-banner-quarto {
+  text-decoration: none;
+  font-family: "fraunces-regular";
+  font-size: 20px;
+  color: var(--fontes);
+  border-radius: 85px;
+  padding: 10px 25px;
+  text-wrap-mode: nowrap;
+  background-color: var(--header);
+}
+
+.link--link-ver-mais-autoclaves {
+  text-decoration: none;
+}
+
+.label--link-ver-mais-autoclaves {
+  font-family: "fraunces-regular";
+  font-size: 21px;
+  color: #717171;
+  border-radius: 85px;
+  padding: 15px;
+  background-color: #DDDDDD;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+  .link--link-orcamento-pronto-para{
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .link--link-selos-pq-comprar {
+    font-size: 12px;
+  }
+
+  .link--link-banner-quarto {
+    font-size: 9px;
+  }
+
+  .label--footer-links {
+    font-size: 10px;
+    width: max-content;
+  }
+
+}

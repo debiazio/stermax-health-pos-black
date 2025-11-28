@@ -1,0 +1,185 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#quem-somos",
+      "menu-item#loja",
+      "menu-item#contato",
+      "menu-item#por-que-comprar"
+    ]
+  },
+  "menu-item#loja": {
+    "props": {
+      "id": "menu-item-loja",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/autoclave",
+        "noFollow": false,
+        "tagTitle": "Loja",
+        "text": "LOJA"
+      }
+    }
+
+  },
+  // "vtex.menu@2.x:submenu#category-apparel": {
+  //   "props": {
+  //     "width": "auto"
+  //   },
+  //   "children": [
+  //     "vtex.menu@2.x:menu#category-apparel"
+  //   ]
+  // },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "Quem somos",
+        "text": "QUEM SOMOS"
+      }
+    }
+  },
+  "menu-item#contato": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contato",
+        "noFollow": true,
+        "tagTitle": "Contato",
+        "text": "CONTATO"
+      }
+    }
+  },
+  "menu-item#por-que-comprar": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/por-que-comprar",
+        "noFollow": true,
+        "tagTitle": "Por que comprar",
+        "text": "POR QUE COMPRAR"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  }
+}

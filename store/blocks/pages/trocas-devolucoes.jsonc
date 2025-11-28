@@ -1,0 +1,30 @@
+{
+    "store.custom#trocas-devolucoes": {
+        "children": [
+            "flex-layout.row#container-trocas-devolucoes"
+        ]
+    },
+    "flex-layout.row#container-trocas-devolucoes":{
+        "props": {
+            "blockClass": "container-trocas-devolucoes",
+            // "fullWidth": true,
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "rich-text#titulo-trocas-devolucoes",
+            "rich-text#trocas-devolucoes"
+        ]
+    },
+    "rich-text#titulo-trocas-devolucoes":{
+        "props": {
+            "text": "## Trocas e Devoluções",
+            "blockClass": "titulo-trocas-devolucoes"
+        }
+    },
+    "rich-text#trocas-devolucoes":{
+        "props": {
+            "blockClass": "texto-trocas-devolucoes",
+            "text": "Esta solicitação deverá ser realizada diretamente com a nossa Central de Atendimento, através do e-mail sac@stermax.com.br, por atendimento telefônico e WhatsApp – 0800 721 8533 / 4199851-6332, ou com a sua rede de Assistência Técnica Autorizada mais próxima (https://stermax.com.br/assistencia-tecnica/) de posse das seguintes informações: Número da Nota Fiscal, Número de série do equipamento, Modelo do equipamento e motivo pela troca ou devolução do equipamento. \n\nEm caso de devolução ou desistência da compra dentro do prazo de 7 dias corridos, conforme previsto no Código de Defesa do Consumidor, o cliente deverá entrar em contato diretamente com a Stermax para solicitar o procedimento de devolução.\n\nSe houver qualquer defeito ou vício de fabricação dentro do prazo da garantia legal (90 dias), o cliente deverá acionar a Stermax. A equipe responsável irá realizar uma análise do caso, podendo inicialmente oferecer suporte por videochamada ou indicar uma assistência técnica autorizada mais próxima.\n\nCaso a solução não seja possível dentro do prazo legal e seja necessário realizar a troca, o produto deverá ser enviado à Stermax conforme as instruções repassadas pelo atendimento. O item passará por uma análise técnica e, caso seja confirmado o defeito de fabricação, e desde que não haja indícios de mau uso, violação do manual de instruções ou qualquer outra irregularidade que comprometa a integridade do equipamento, a troca será realizada.\n\nSe for identificada qualquer divergência em relação às condições acima, a Stermax se reserva o direito de reenviar o produto ao endereço do cliente sem efetuar a troca, sendo os custos deste reenvio de responsabilidade do consumidor.\n\nNos casos em que o envio for feito por transportadora, a coleta será realizada por uma empresa autorizada pela Stermax no endereço informado na nota fiscal (DANFE). O produto deve estar em sua embalagem original, com todos os acessórios e sem sinais de uso indevido.\n\nSe o produto solicitado para troca estiver indisponível no momento, o cliente será informado sobre o prazo de fabricação, que pode ser de até 25 (vinte e cinco) dias úteis, dependendo do modelo e da voltagem.\n\n Recomendamos que, no momento da entrega, o cliente verifique a nota fiscal e o estado da embalagem. Caso identifique qualquer avaria ou violação, recuse o recebimento, registre uma ressalva no verso da nota fiscal e entre em contato imediatamente com a nossa Central de Atendimento pelo telefone 0800 721 8533."
+        }
+    }
+}

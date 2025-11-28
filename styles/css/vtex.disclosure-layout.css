@@ -1,0 +1,105 @@
+/* QUEM SOMOS - ABAIXO */
+
+
+.content--content-disclosure-filho--visible {
+  margin: 0 !important;
+}
+
+.content--content-disclosure-filho {
+  margin: 0;
+  max-width: 1300px;
+  border-bottom: 4px solid white;
+}
+
+.content--content-disclosure-filho:last-child {
+  border-bottom: none;
+}
+
+.trigger--trigger-disclosure-filho--hidden {
+  border-bottom: 4px solid white !important;
+  cursor: pointer;
+}
+.trigger--trigger-disclosure-filho--hidden:last-child {
+  border-bottom: none!important;
+}
+.trigger--trigger-disclosure-filho:last-child {
+  border-bottom: none!important;
+}
+.trigger--trigger-disclosure:last-child {
+  border-bottom: none!important;
+}
+
+.trigger--trigger-disclosure-filho--visible {
+  border-bottom: none;
+}
+
+.trigger--trigger-disclosure-filho:hover {
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.trigger--trigger-disclosure-filho {
+  background-color: #F5F5F5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+}
+
+/* QUEM SOMOS - ACIMA */
+
+.trigger--disclosure-trigger-linha {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  border-radius: 56px;
+  background-color: #F6F6F6;
+}
+
+.content--visible {
+  margin: 40px;
+}
+
+.trigger--trigger-disclosure {
+  width: fit-content !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  justify-content: center;
+}
+
+.trigger--trigger-disclosure--visible {
+  height: unset;
+  margin-top: 11px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .content--content-disclosure-filho {
+    padding: 0 25px;
+  }
+
+  .trigger--trigger-disclosure-filho {
+    padding: 0 25px;
+  }
+
+  .trigger--disclosure-trigger-linha--hidden,
+  .trigger--disclosure-trigger-linha--visible {
+    width: 100%;
+  }
+
+  .content--visible {
+    margin: 0px;
+  }
+}

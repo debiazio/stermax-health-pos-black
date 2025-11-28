@@ -1,0 +1,817 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#slider-home-desktop",
+      "responsive-layout.mobile#slider-home-mobile",
+      // "list-context.image-list#carrossel-home-desktop",
+      "flex-layout.row#banner-stermaxHealth-personas",
+      "responsive-layout.mobile#deals-mobile",
+      "flex-layout.row#deals",
+      "modal-trigger#roleta",
+      "__fold__",
+      "flex-layout.row#banner-segundo",
+      "flex-layout.row#banner-modelos",
+      "flex-layout.row#shelf",
+      "flex-layout.row#secao-divisoria-link",
+      "flex-layout.row#ultima-section"
+    ]
+  },
+
+  // "list-context.image-list#carrossel-home-desktop": {
+  //   "children": [
+  //     "slider-layout#carrossel-home-desktop"
+  //   ],
+  //   "props": {
+  //     "fullWidth": false,
+  //     "height": 486,
+  //     "width": 1300,
+  //     "maxWidth": 1300,
+  //     "preload": true,
+  //     "images": [
+  //       {
+  //         "image": "assets/Artboard 34.webp",
+  //         "mobileImage": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
+  //       },
+  //       {
+  //         "image": "assets/Artboard 32_1.webp",
+  //         "mobileImage": "assets/home/home-black-friday/banners/vida-vertical.webp"
+  //       },
+  //       {
+  //         "image": "assets/Artboard 32.webp",
+  //         "mobileImage": "assets/mobile-Artboard 32_2.webp"
+  //       },
+  //       {
+  //         "image": "assets/banner-home-desktop-esterilizacao.webp",
+  //         "mobileImage": "assets/banner-home-mobile-esterilizacao.webp"
+  //       }
+  //     ]
+  //   }
+  // },
+  "slider-layout#carrossel-home-desktop": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 5000
+      }
+    }
+  },
+  "flex-layout.row#banner-stermaxHealth-personas": {
+    "props": {
+      "blockClass": "personas",
+      "fullWidth": false
+    },
+    "children": [
+      "image#banner-personas"
+    ]
+  },
+  "image#banner-personas": {
+    "props": {
+      "blockClass": "imagem-personas",
+      "src": "assets/home/home-black-friday/pessoas-blackfriday.webp",
+      "alt": "Público StermaxHealth",
+      "title": "Público StermaxHealth",
+      "fullWidth": true
+    }
+  },
+  // DEALS MOBILE
+  "responsive-layout.mobile#deals-mobile": {
+    "children": [
+      "flex-layout.row#deals-mobile-linha1",
+      "flex-layout.row#deals-mobile-linha2"
+    ]
+  },
+  "flex-layout.row#deals-mobile-linha1": {
+    "props": {
+      "blockClass": "deals-mobile-row"
+    },
+    "children": [
+      "flex-layout.col#linha1-coluna1",
+      "flex-layout.col#linha1-coluna2",
+      "flex-layout.col#linha1-coluna3"
+    ]
+  },
+  "flex-layout.col#linha1-coluna1": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "flex-layout.col#linha1-coluna2": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "flex-layout.col#linha1-coluna3": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  // segunda linha do deals mobile
+  "flex-layout.row#deals-mobile-linha2": {
+    "props": {
+      "blockClass": "deals-mobile-row"
+    },
+    "children": [
+      "flex-layout.col#linha2-coluna1",
+      "flex-layout.col#linha2-coluna2",
+      "flex-layout.col#linha2-coluna3"
+    ]
+  },
+  "flex-layout.col#linha2-coluna1": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "flex-layout.col#linha2-coluna2": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "flex-layout.col#linha2-coluna3": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal6",
+      "rich-text#deal6"
+    ]
+  },
+  //banner "não comprometa sua saúde..."
+  "flex-layout.row#banner-segundo": {
+    "props": {
+      "blockClass": "secao-banner-segundo",
+      "fullWidth": false
+    },
+    "children": [
+      "responsive-layout.desktop#banner-segundo",
+      "responsive-layout.mobile#banner-segundo",
+      "rich-text#titulo-banner-segundo"
+    ]
+  },
+  "responsive-layout.desktop#banner-segundo": {
+    "children": [
+      "flex-layout.row#linha-gatilho-medo"
+    ]
+  },
+  "flex-layout.row#linha-gatilho-medo": {
+    "props": {
+      "blockClass": "linha-gatilho-medo",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-gatilho-medo",
+      "rich-text#subtitulo-gatilho-medo"
+    ]
+  },
+  "rich-text#titulo-gatilho-medo": {
+    "props": {
+      "blockClass": "texto-titulo-gatilho-medo",
+      "text": "Não comprometa a saúde dos seus pacientes e o futuro da sua clínica!"
+    }
+  },
+  "rich-text#subtitulo-gatilho-medo": {
+    "props": {
+      "blockClass": "texto-subtitulo-gatilho-medo",
+      "text": "Sem a esterilização correta, o risco de contaminações e doenças aumenta. Além disso, operar fora das normas Anvisa pode levar à interdição do seu consultório ou clínica, colocando em risco seu trabalho e reputação!"
+    }
+  },
+  "responsive-layout.mobile#banner-segundo": {
+    "children": [
+      "image#banner-segundo-mobile"
+    ]
+  },
+  "image#banner-segundo-mobile": {
+    "props": {
+      "src": "assets/GATILHO MEDO - Mobile 1.webp",
+      "alt": "Banner não comprometa sua saúde",
+      "blockClass": "imagem-banner-segundo"
+    }
+  },
+  "rich-text#titulo-banner-segundo": {
+    "props": {
+      "text": "GARANTA A TRANQUILIDADE QUE SEUS PACIENTES E SUA EQUIPE MERECEM!",
+      "blockClass": "titulo-banner-secundario"
+    }
+  },
+  "flex-layout.row#banner-modelos": {
+    "props": {
+      "blockClass": "banner-terceiro",
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#banner-terceiro",
+      "responsive-layout.mobile#banner-terceiro"
+    ]
+  },
+  // DESKTOP
+  "responsive-layout.desktop#banner-terceiro": {
+    "children": [
+      "flex-layout.row#content-modelos"
+    ]
+  },
+  "flex-layout.row#content-modelos": {
+    "props": {
+      "blockClass": "content-modelos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#content-textos-modelos",
+      "flex-layout.row#content-colunas-imagens"
+    ]
+  },
+  "flex-layout.row#content-textos-modelos": {
+    "props": {
+      "blockClass": "content-textos-modelos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulomodelos",
+      "rich-text#subtitulomodelos"
+    ]
+  },
+  "rich-text#titulomodelos": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "Tecnologia, biossegurança e eficiência em cada ciclo."
+    }
+  },
+  "rich-text#subtitulomodelos": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Escolha a autoclave perfeita para sua especialidade"
+    }
+  },
+  // COLUNAS DAS IMAGENS
+  "flex-layout.row#content-colunas-imagens": {
+    "props": {
+      "blockClass": "content-colunas-imagens"
+    },
+    "children": [
+      "flex-layout.row#imagens-modelos-row1",
+      "flex-layout.row#imagens-modelos-row2",
+      "flex-layout.row#imagens-modelos-row3"
+    ]
+  },
+  // CONTEINER DAS COLUNAS
+  "flex-layout.row#imagens-modelos-row1": {
+    "props": {
+      "blockClass": [
+        "content-linhas-imagens",
+        "coluna1-modelos"
+      ]
+    },
+    "children": [
+      "flex-layout.col#coluna21litros",
+      "flex-layout.col#coluna30litros"
+    ]
+  },
+  "flex-layout.row#imagens-modelos-row2": {
+    "props": {
+      "blockClass": [
+        "content-linhas-imagens",
+        "coluna2-modelos"
+      ]
+    },
+    "children": [
+      "flex-layout.col#coluna40litros",
+      "flex-layout.col#coluna60litros"
+    ]
+  },
+  "flex-layout.row#imagens-modelos-row3": {
+    "props": {
+      "blockClass": [
+        "content-linhas-imagens",
+        "coluna3-modelos"
+      ]
+    },
+    "children": [
+      "flex-layout.col#coluna-1-75litros"
+    ]
+  },
+  // SUB COLUNAS
+  "flex-layout.col#coluna21litros": {
+    "props": {
+      "blockClass": [
+        "colunas-menores-modelos",
+        "colunas-menores-21l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-21l-colunas-menores-modelos",
+      "flex-layout.row#subtitulo-21l-colunas-menores-modelos"
+    ]
+  },
+  "flex-layout.col#coluna30litros": {
+    "props": {
+      "blockClass": [
+        "colunas-menores-modelos",
+        "coluna-menores-modelos-30l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-30l-colunas-menores-modelos",
+      "flex-layout.row#subtitulo-30l-colunas-menores-modelos"
+    ]
+  },
+  "flex-layout.col#coluna40litros": {
+    "props": {
+      "blockClass": [
+        "colunas-menores-modelos",
+        "coluna-menores-modelos-40l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-40l-colunas-menores-modelos",
+      "flex-layout.row#subtitulo-40l-colunas-menores-modelos"
+    ]
+  },
+  "flex-layout.col#coluna60litros": {
+    "props": {
+      "blockClass": [
+        "colunas-menores-modelos",
+        "coluna-menores-modelos-60l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-60l-colunas-menores-modelos",
+      "flex-layout.row#subtitulo-60l-colunas-menores-modelos"
+    ]
+  },
+  "flex-layout.col#coluna-1-75litros": {
+    "props": {
+      "blockClass": [
+        "colunas-menores-modelos",
+        "coluna-menores-modelos-75l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-75l-colunas-menores-modelos",
+      "flex-layout.row#subtitulo-75l-colunas-menores-modelos"
+    ]
+  },
+  // TITULOS COLUNAS
+  "flex-layout.row#titulo-21l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linhas-textos-titulos-modelos"
+    },
+    "children": [
+      "rich-text#titulo-21l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#titulo-21l-colunas-menores-modelos": {
+    "props": {
+      "text": "21 litros",
+      "blockClass": "titulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#titulo-30l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linhas-textos-titulos-modelos"
+    },
+    "children": [
+      "rich-text#titulo-30l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#titulo-30l-colunas-menores-modelos": {
+    "props": {
+      "text": "30 litros",
+      "blockClass": "titulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#titulo-40l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linhas-textos-titulos-modelos"
+    },
+    "children": [
+      "rich-text#titulo-40l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#titulo-40l-colunas-menores-modelos": {
+    "props": {
+      "text": "40 litros",
+      "blockClass": "titulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#titulo-60l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linhas-textos-titulos-modelos"
+    },
+    "children": [
+      "rich-text#titulo-60l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#titulo-60l-colunas-menores-modelos": {
+    "props": {
+      "text": "60 litros",
+      "blockClass": "titulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#titulo-75l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linhas-textos-titulos-modelos"
+    },
+    "children": [
+      "rich-text#titulo-75l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#titulo-75l-colunas-menores-modelos": {
+    "props": {
+      "text": "75 litros",
+      "blockClass": "titulos-textos-modelos"
+    }
+  },
+  // SUBTITULOS COLUNAS MENORES
+  "flex-layout.row#subtitulo-21l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linha-subtitulo-modelos"
+    },
+    "children": [
+      "rich-text#subtitulo-21l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#subtitulo-21l-colunas-menores-modelos": {
+    "props": {
+      "text": "Maior capacidade, perfeita para profissionais que realizam multiplos atendimentos e possuem instrumentais variados.",
+      "blockClass": "subtitulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#subtitulo-30l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linha-subtitulo-modelos"
+    },
+    "children": [
+      "rich-text#subtitulo-30l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#subtitulo-30l-colunas-menores-modelos": {
+    "props": {
+      "text": "Versátil, atende a maior demanda de instrumentos, projettada para suportar fluxos intermediários com eficiêcia.",
+      "blockClass": "subtitulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#subtitulo-40l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linha-subtitulo-modelos"
+    },
+    "children": [
+      "rich-text#subtitulo-40l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#subtitulo-40l-colunas-menores-modelos": {
+    "props": {
+      "text": "Ideal para clínicas com alta rotatividade de materiais.",
+      "blockClass": "subtitulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#subtitulo-60l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linha-subtitulo-modelos"
+    },
+    "children": [
+      "rich-text#subtitulo-60l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#subtitulo-60l-colunas-menores-modelos": {
+    "props": {
+      "text": "Robustez para hospitais e laboratórios, capacidade superior, maior espaço",
+      "blockClass": "subtitulos-textos-modelos"
+    }
+  },
+  "flex-layout.row#subtitulo-75l-colunas-menores-modelos": {
+    "props": {
+      "blockClass": "linha-subtitulo-modelos"
+    },
+    "children": [
+      "rich-text#subtitulo-75l-colunas-menores-modelos"
+    ]
+  },
+  "rich-text#subtitulo-75l-colunas-menores-modelos": {
+    "props": {
+      "text": "Nossa autoclave de maior capacidade projetada para máxima eficiência, grandes volumes e ciclos intensos.\n**Autoclave modelo vertical, exclusiva no mercado >>**",
+      "blockClass": [
+        "subtitulos-textos-modelos",
+        "subtitulos-textos-modelos-75l"
+      ]
+    }
+  },
+  // MOBILE
+  "responsive-layout.mobile#banner-terceiro": {
+    "children": [
+      "flex-layout.row#mobile-banner-modelos"
+    ]
+  },
+  "flex-layout.row#mobile-banner-modelos": {
+    "props": {
+      "blockClass": "content-mobile-banner-modelos"
+    },
+    "children": [
+      "flex-layout.row#content-textos-modelos",
+      "flex-layout.row#mobile-content-imagens-modelos"
+    ]
+  },
+  "flex-layout.row#mobile-content-imagens-modelos": {
+    "props": {
+      "blockClass": "content-mobile-imagens-modelos"
+    },
+    "children": [
+      "flex-layout.row#mobile-linha1",
+      "flex-layout.row#mobile-linha2",
+      "flex-layout.row#mobile-linha3"
+    ]
+  },
+  "flex-layout.row#mobile-linha1": {
+    "props": {
+      "blockClass": [
+        "linha-mobile-modelos",
+        "linha-mobile-modelos-linha1"
+      ]
+    },
+    "children": [
+      "flex-layout.col#coluna21litros",
+      "flex-layout.col#coluna30litros"
+    ]
+  },
+  "flex-layout.row#mobile-linha2": {
+    "props": {
+      "blockClass": [
+        "linha-mobile-modelos",
+        "linha-mobile-modelos-linha2"
+      ]
+    },
+    "children": [
+      "flex-layout.col#coluna40litros",
+      "flex-layout.col#coluna60litros"
+    ]
+  },
+  "flex-layout.row#mobile-linha3": {
+    "props": {
+      "blockClass": "linha-mobile-modelos"
+    },
+    "children": [
+      "flex-layout.col#mobile-coluna-75litros"
+    ]
+  },
+  "flex-layout.col#mobile-coluna-75litros": {
+    "props": {
+      "blockClass": "mobile-coluna-75l"
+    },
+    "children": [
+      "flex-layout.row#mobile-75l-textos",
+      "flex-layout.row#mobile-75l-imagem"
+    ]
+  },
+  "flex-layout.row#mobile-75l-textos": {
+    "props": {
+      "blockClass": "linha-textos-mobile-75l"
+    },
+    "children": [
+      "rich-text#titulo-75l-colunas-menores-modelos",
+      "rich-text#subtitulo-75l-colunas-menores-modelos"
+    ]
+  },
+  "flex-layout.row#mobile-75l-imagem": {
+    "props": {
+      "blockClass": "linha-imagem75l-mobile"
+    },
+    "children": [
+      "image#imagem-75l-mobile"
+    ]
+  },
+  "image#imagem-75l-mobile": {
+    "props": {
+      "blockClass": "imagem-75l-mobile",
+      "src": "assets/home/banner-modelos/75l+mulher.png"
+    }
+  },
+  "flex-layout.row#secao-divisoria-link": {
+    "props": {
+      "blockClass": "container-secao-divisoria-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "link#ver-mais-autoclaves"
+    ]
+  },
+  "link#ver-mais-autoclaves": {
+    "props": {
+      "blockClass": "link-ver-mais-autoclaves",
+      "href": "#",
+      "label": "VER MAIS AUTOCLAVES"
+    }
+  },
+  // SECAO FINAL
+  "flex-layout.row#ultima-section": {
+    "props": {
+      "blockClass": "content-ultima-section"
+    },
+    "children": [
+      "flex-layout.row#banner-quarto-esq",
+      "flex-layout.row#banner-quarto-dir"
+    ]
+  },
+  "flex-layout.row#banner-quarto-esq": {
+    "props": {
+      "blockClass": "coluna-banner-esquerdo--imagem",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-assistencia"
+    ]
+  },
+  "flex-layout.row#textos-assistencia": {
+    "props": {
+      "blockClass": "linha-titulo-assistencia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-subtilo-assistencia",
+      "flex-layout.row#imagem-mapa",
+      "flex-layout.row#link-especialista"
+    ]
+  },
+  "flex-layout.row#titulo-subtilo-assistencia": {
+    "props": {
+      "blockClass": "titulo-subtilo-assistencia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo",
+      "rich-text#subtitulo"
+    ]
+  },
+  // LINK ESPECIALISTA
+  "flex-layout.row#link-especialista": {
+    "props": {
+      "blockClass": "container-link-epecialista"
+    },
+    "children": [
+      "link#fale-com-especialista"
+    ]
+  },
+  "link#fale-com-especialista": {
+    "props": {
+      "href": "https://wa.me/5541999710062",
+      "label": "FALE COM UM CONSULTOR",
+      "blockClass": "link-banner-quarto"
+    }
+  },
+  // IMAGEM DO MAPA DE FUNDO
+  "flex-layout.row#imagem-mapa": {
+    "props": {
+      "blockClass": "linha-imagem-mapa",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#mapa-brasil"
+    ]
+  },
+  "image#mapa-brasil": {
+    "props": {
+      "blockClass": "mapa-brasil",
+      "src": "assets/home/home-black-friday/mapa-brasil-blackf.webp",
+      "alt": "Mapa do Brasil"
+    }
+  },
+  "rich-text#titulo": {
+    "props": {
+      "text": "Assistência e suporte \n sempre ao seu alcance",
+      "blockClass": "titulo-banner-esquerdo"
+    }
+  },
+  "rich-text#subtitulo": {
+    "props": {
+      "text": "Com a maior rede de assistência\n técnica do Brasil,garantimos que \n você estará sempre protegido!",
+      "blockClass": "subtitulo-banner-esquerdo"
+    }
+  },
+  "flex-layout.row#banner-quarto-dir": {
+    "props": {
+      "blockClass": "coluna-banner-esquerdo--imagem",
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#textos-assistencia-dir"
+    ]
+  },
+  "flex-layout.row#textos-assistencia-dir": {
+    "props": {
+      "blockClass": [
+        "linha-titulo-assistencia",
+        "lado-direito"
+      ],
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-subtilo-assistencia-dir",
+      "flex-layout.row#imagem-assistencia",
+      "flex-layout.row#link-especialista"
+    ]
+  },
+  "flex-layout.row#titulo-subtilo-assistencia-dir": {
+    "props": {
+      "blockClass": "titulo-subtilo-assistencia",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-dir",
+      "rich-text#subtitulo-dir"
+    ]
+  },
+  "flex-layout.row#imagem-assistencia": {
+    "props": {
+      "blockClass": [
+        "linha-imagem-mapa",
+        "linha-assist-img"
+      ],
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#assistencia"
+    ]
+  },
+  "image#assistencia": {
+    "props": {
+      "src": "assets/home/home-black-friday/caixas-black.webp",
+      "blockClass": [
+        "mapa-brasil",
+        "img-assist"
+      ],
+      "alt": "Assistência"
+    }
+  },
+  "rich-text#titulo-dir": {
+    "props": {
+      "text": "Estoques limitados \n em pronta entrega",
+      "blockClass": "titulo-banner-direito"
+    }
+  },
+  "rich-text#subtitulo-dir": {
+    "props": {
+      "text": "**Garanta já sua autoclave Stermax!**\nNão perca a chance de modernizar\n sua clínica com a melhor tecnologia\n do mercado. Estoques prontos para\n envio imediato, aproveite agora!",
+      "blockClass": "subtitulo-banner-esquerdo"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "never"
+    }
+  }
+}

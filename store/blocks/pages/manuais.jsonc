@@ -1,0 +1,174 @@
+{
+  "store.custom#manuais":{
+    "children": [
+      "flex-layout.row#manuais"
+    ]
+  },
+  "flex-layout.row#manuais": {
+    "props": {
+      "blockClass": "conteiner-manuais",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-manuais",
+      "flex-layout.row#conteudo-manuais"
+    ]
+  },
+  "flex-layout.row#titulo-manuais":{
+    "props": {
+      "blockClass": "titulo-manuais"
+    },
+    "children": [
+      "rich-text#titulo-manuais"
+    ]
+  },
+  "rich-text#titulo-manuais": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "## Manuais para Download"
+    }
+  },
+  "flex-layout.row#conteudo-manuais":{
+    "props": {
+      "blockClass": "conteudo-manuais"
+    },
+    "children": [
+      "flex-layout.col#vida-21l",
+      "flex-layout.col#vida-30l-75l",
+      "flex-layout.col#vida-75l-vertical",
+      "flex-layout.col#opta-12l"
+    ]
+  },
+  // VIDA 21 LITROS
+  "flex-layout.col#vida-21l": {
+    "props": {
+      "blockClass": "col-manuais"
+    },
+    "children": [
+      "image#vida-21l",
+      "rich-text#vida-21l",
+      "link#baixar-manual-vida-21l"
+    ]
+  },
+  "image#vida-21l": {
+    "props": {
+      "blockClass": "imagem-manuais",
+      "src": "assets/manual-vida-21l.svg"
+    }
+  },
+  "rich-text#vida-21l": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "Vida 21L"
+    }
+  },
+  "link#baixar-manual-vida-21l":{
+    "props": {
+      "blockClass": "link-manuais",
+      "href": "http://stermax.com.br/wp-content/uploads/2025/02/MANUAL-VIDA-21L_Rev-04.02.2025-compactado.pdf",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "label": "BAIXAR MANUAL"
+    }
+  },
+  // VIDA 30 LITROS E 75 LITROS
+  "flex-layout.col#vida-30l-75l": {
+    "props": {
+      "blockClass": "col-manuais"
+    },
+    "children": [
+      "image#vida-30l-75l",
+      "rich-text#vida-30l-75l",
+      "link#baixar-manual-vida-30l-75l"
+    ]
+  },
+  "image#vida-30l-75l": {
+    "props": {
+      "blockClass": "imagem-manuais",
+      "src": "assets/manual-vida.svg"
+    }
+  },
+  "rich-text#vida-30l-75l": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "Vida 30L a 75L"
+    }
+  },
+  "link#baixar-manual-vida-30l-75l":{
+    "props": {
+      "blockClass": "link-manuais",
+      "href": "http://stermax.com.br/wp-content/uploads/2025/02/MANUAL-VIDA-30L-42L-60L-E-75L_Rev-04.02.2025-compactado.pdf",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "label": "BAIXAR MANUAL"
+    }
+  },
+  // VIDA 75 LITROS VERTICAL
+  "flex-layout.col#vida-75l-vertical":{
+    "props": {
+      "blockClass": "col-manuais"
+    },
+    "children": [
+      "image#vida-75l-vertical",
+      "rich-text#vida-75l-vertical",
+      "link#baixar-manual-vida-75l-vertical"
+    ]
+  },
+  "image#vida-75l-vertical":{
+    "props": {
+      "blockClass": "imagem-manuais",
+      "src": "assets/manual-vida.svg"
+    }
+  },
+  "rich-text#vida-75l-vertical": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "Vida 75L Vertical"
+    }
+  },
+  "link#baixar-manual-vida-75l-vertical":{
+    "props": {
+      "blockClass": "link-manuais",
+      "href": "http://stermax.com.br/wp-content/uploads/2025/02/MANUAL-VIDA75L-VERTICAL_Rev-14.02.2025-compactado.pdf",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "label": "BAIXAR MANUAL"
+    }
+  },
+  // OPTA 12 LITROS
+  "flex-layout.col#opta-12l": {
+    "props": {
+      "blockClass": "col-manuais"
+    },
+    "children": [
+      "image#opta-12l",
+      "rich-text#opta-12l",
+      "link#baixar-manual-opta-12l"
+    ]
+  },
+  "image#opta-12l": {
+    "props": {
+      "blockClass": "imagem-manuais",
+      "src": "assets/opta.svg"
+    }
+  },
+  "rich-text#opta-12l": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "Opta 12L"
+    }
+  },
+  "link#baixar-manual-opta-12l":{
+    "props": {
+      "blockClass": "link-manuais",
+      "href": "http://stermax.com.br/wp-content/uploads/2025/02/MANUAL-OPTA-12L_Rev-04.02.2025-compactado.pdf",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "label": "BAIXAR MANUAL"
+    }
+  }
+}

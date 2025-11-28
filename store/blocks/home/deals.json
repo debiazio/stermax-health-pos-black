@@ -1,0 +1,197 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4",
+      "flex-layout.col#deals5",
+      "flex-layout.col#deals6"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "flex-layout.col#deal1": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/Artboard 9.svg",
+      "maxHeight": "40px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**Certificação Anvisa:**\nProdutos que\n atendem às normas\n mais rigorosas.",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "flex-layout.col#deal2":{
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/Artboard 9_1.svg",
+      "maxHeight": "50px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**Qualidade Internacional(ISO):**\nReconhecida no\nBrasil e no mundo.",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "flex-layout.col#deal3":{
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/Artboard 9_2.svg",
+      "maxHeight": "50px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**Experiência Comprovada:**\nMais de 250 mil\n autoclaves vendidas.",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "flex-layout.col#deal4":{
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/Artboard 9_3.svg",
+      "maxHeight": "50px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**Fabricação Própria:**\nEquipamentos 100%\n nacionais.",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals5": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "flex-layout.col#deal5":{
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal5"
+    ]
+  },
+  "image#deal5": {
+    "props": {
+      "src": "assets/Artboard 9_4.svg",
+      "maxHeight": "50px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal5": {
+    "props": {
+      "text": "**Garantia de Fábrica:**\nMaior segurança para\n o seu investimento.",
+      "blockClass": "deals"
+    }
+  },
+"flex-layout.col#deals6": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal6",
+      "rich-text#deal6"
+    ]
+  },
+  "flex-layout.col#deal6":{
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal6"
+    ]
+  },
+  "image#deal6": {
+    "props": {
+      "src": "assets/Artboard 9_5.svg",
+      "maxHeight": "50px",
+      "blockClass": "icon-deal"
+    }
+  },
+  "rich-text#deal6": {
+    "props": {
+      "text": "**Maior rede de\n assistência do Brasil:**\nSempre ao seu lado.",
+      "blockClass": "deals"
+    }
+  }
+}

@@ -1,0 +1,634 @@
+.imageElement--selo-iso-teste{
+  position: relative;
+    top: -80px;
+    right: 140px;
+    transition: all 0.9s ease;
+}
+
+
+.imageElement--flecha-direita-pronto-para {
+  position: relative;
+  margin-left: 40px;
+  top: -32px;
+}
+
+.imageElement--flecha-esquerda-pronto-para {
+  position: relative;
+  top: -75px;
+  margin-right: 30px;
+}
+
+.imageElement--img-logo-original {
+  width: 366px;
+  height: 36px;
+  margin: 0 10px;
+}
+
+.imageElement--imagem-cronograma {
+  position: relative;
+  top: -70px;
+}
+
+.imageElement--img-mobile-banner-inicial {
+  margin-left: -25px;
+}
+
+.imageElement--image-autoclave-pq-comprar {
+  margin-top: 30px;
+  transition: all 0.4s ease;
+  position: relative;
+  left: 110px;
+}
+
+
+.imageElement--image-autoclave-pq-comprar:hover {
+  transition: all 0.4s ease;
+  margin-right: 55px;
+}
+
+.imageElement--image-stx-logo-quem-somos {
+  margin: 15px 0 35px 0;
+}
+
+.imageElement--image-biosseguranca {
+  margin-bottom: -5px;
+}
+
+.imageElement--cursor-pointer {
+  cursor: pointer;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid var(--cinza-medio) !important;
+}
+
+.skuSelectorName,
+.productDescriptionText--descricao-produto,
+.shippingTableBody {
+  color: #979899 !important;
+}
+
+
+/* CSS ROLETA ABAIXO */
+.imageElement--roleta-primeira-tela {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.imageElement--imagem-link-para-roleta {
+  cursor: pointer;
+}
+
+.imageElement--tabela-primeira-tela {
+  max-width: 360px;
+  max-height: 90px;
+  margin-top: 42px;
+}
+
+/* CSS ROLETA ACIMA */
+
+/* footer desktop  */
+
+
+/* footer desktop  */
+
+/* footer */
+
+.imageElement--img-bandeiras-footer {
+  margin: 0px 0 26px 0;
+  width: 100%;
+}
+
+.imageElement--img-footer-redes {
+  margin: 28px 0 28px 0;
+}
+
+.imageElement--image-footer {
+  margin: 53px 0 40px 0;
+}
+
+/* footer */
+
+.imageElement--mapa-brasil,
+.imageElement--img-assist {
+  margin-top: -130px;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0;
+}
+
+.imageElement--imagem-manuais {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.36);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.imageElement--imagem-manuais:hover {
+  box-shadow: 0px 0px 54px 7px rgba(0, 0, 0, 0.36);
+  transform: scale(1.01);
+}
+
+.imageElement--icone-whatsapp-footer {
+  max-width: 124px;
+}
+
+.imageElement--footer-contato-icone {
+  width: 32px;
+  margin-right: 5px;
+}
+
+.productBrand--quickview {
+  text-transform: uppercase;
+  font-family: var(--fonte-secundaria);
+}
+
+.imageElement--icones-bandeiras {
+  width: 73px;
+  max-width: none;
+}
+
+.imageElement--imgs-selos {
+  width: 140px;
+  max-width: none;
+}
+
+.stretchChildrenWidth .imageElement--imagem-banner-segundo {
+  width: 100%;
+}
+
+.infoCardTextContainer--info-card-home {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 50px;
+}
+
+.searchBarIcon--search .searchIcon {
+  overflow: visible;
+  margin-top: -20px;
+  height: 0.1rem;
+  padding: 10px;
+  width: 0.04rem;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  background-color: #F6F6F6;
+  margin-right: -2px;
+}
+
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 20px;
+
+}
+
+.logoImage--logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  /* max-width: 100%; */
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+  height: 300px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 100%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #5C5A58;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.imageElement--imagem-personas {
+  top: -90px;
+  position: relative;
+}
+
+.flexRowContent--footer-mobile {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageElement--video-banner {
+  /* width: 100%; */
+  height: auto;
+  /* Mantém a proporção */
+  /* object-fit: cover; Ajusta a imagem para preencher o espaço */
+  position: relative;
+  right: -30%;
+  /* Move metade da GIF para fora do viewport */
+}
+
+.imageElement--icone-pesquisa-mobile {
+  width: 28px;
+
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+  .imageElement--icone-selos-menor {
+    max-width: 70%;
+  }
+
+  .logoContainer {
+    margin-left: -50px;
+  }
+
+  .productDescriptionContainer--descricao-produto {
+    padding: 15px;
+  }
+
+  .productNameContainer {
+    font-size: 15px;
+  }
+
+  .autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    background-color: white;
+  }
+
+  .sizeDesktop {
+    margin: 0;
+    padding: 0;
+  }
+
+  .imageElement--icon-deal {
+    background-color: white;
+    border-radius: 50px;
+    padding: 4px;
+    max-height: 30px !important;
+  }
+
+  .sizeMobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .imageElement--assistencias-img {
+    max-width: 206px !important;
+  }
+
+  .imageElement--imgs-selos {
+    width: 50px;
+    margin-left: -15px;
+  }
+
+  .searchBarContainer {
+    padding: 0;
+  }
+
+  .imageElement--imagem-75l-mobile {
+    width: 65%;
+    margin-top: -75%;
+    margin-left: 25%;
+  }
+
+  .imageElement--mapa-brasil,
+  .imageElement--img-assist {
+    margin-top: -70px;
+    width: 50%;
+  }
+}
+
+
+
+
+/* roleta abaixo  */
+@media screen and (min-width: 1000px) {
+  .imageElement--img-footer-redes {
+    margin: 0;
+    width: 127px;
+  }
+
+  .imageElement--image-footer {
+    width: 230px;
+    margin: 25px 0 40px 0 !important;
+  }
+
+  .imageElement--img-bandeiras-footer {
+    width: 310px;
+  }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .imageElement--flecha-direita-pronto-para {
+    position: relative;
+    top: -75px;
+    margin-right: 25px;
+  }
+
+  .imageElement--flecha-esquerda-pronto-para {
+    position: relative;
+    top: -75px;
+    margin-left: 25px;
+  }
+
+  .imageElement--imagem-cronograma {
+    top: -50px;
+    padding-right: 30px;
+  }
+
+  /* CSS ROLETA ABAIXO  */
+  .imageElement--roleta-primeira-tela {
+    /* margin-bottom: 100px; */
+    position: relative;
+    top: 301px;
+    width: 250px;
+    /* height: 70%; */
+    margin-top: 20px;
+  }
+
+  .imageElement--titulo-img-roleta {
+    width: 70vw;
+    margin-top: 180px;
+  }
+
+  .imageElement--roleta-logotipo-idelaine {
+    width: 120px;
+    margin-left: 0;
+  }
+
+  .imageElement--tabela-primeira-tela {
+    max-width: 70vw;
+    padding-top: 10px;
+    margin: 0;
+    top: 300px;
+    position: relative;
+  }
+
+  /* CSS ROLETA ACIMA  */
+
+  .imageElement--imagem-personas {
+    top: 0;
+    position: unset;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .imageElement--titulo-img-roleta {
+    width: 254px;
+    padding: 10px 0 10px 0;
+  }
+
+  .imageElement--roleta-primeira-tela {
+    margin-bottom: 100px;
+    position: relative;
+    top: 350px;
+    width: 60%;
+    height: auto;
+  }
+
+  .imageElement--imagem-personas {
+    /* top: -140px; */
+    position: unset;
+  }
+}
+
+@media screen and (min-width: 430px) and (max-width: 430px) and (min-height: 932px) and (max-height: 932px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone SE (1ª e 2ª geração) */
+@media screen and (min-width: 375px) and (max-width: 375px) and (min-height: 667px) and (max-height: 667px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 6 / 6s / 7 / 8 */
+@media screen and (min-width: 375px) and (max-width: 375px) and (min-height: 667px) and (max-height: 667px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 6 Plus / 7 Plus / 8 Plus */
+@media screen and (min-width: 414px) and (max-width: 414px) and (min-height: 736px) and (max-height: 736px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone X / XS / 11 Pro */
+@media screen and (min-width: 375px) and (max-width: 375px) and (min-height: 812px) and (max-height: 812px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone XR / 11 */
+@media screen and (min-width: 414px) and (max-width: 414px) and (min-height: 896px) and (max-height: 896px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone XS Max / 11 Pro Max */
+@media screen and (min-width: 414px) and (max-width: 414px) and (min-height: 896px) and (max-height: 896px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 12 Mini / 13 Mini */
+@media screen and (min-width: 375px) and (max-width: 375px) and (min-height: 812px) and (max-height: 812px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 12 / 12 Pro / 13 / 13 Pro / 14 / 14 Pro */
+@media screen and (min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 12 Pro Max / 13 Pro Max / 14 Plus */
+@media screen and (min-width: 428px) and (max-width: 428px) and (min-height: 926px) and (max-height: 926px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 14 Pro */
+@media screen and (min-width: 430px) and (max-width: 430px) and (min-height: 932px) and (max-height: 932px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 14 Pro Max */
+@media screen and (min-width: 430px) and (max-width: 430px) and (min-height: 932px) and (max-height: 932px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 15 / 15 Pro */
+@media screen and (min-width: 393px) and (max-width: 393px) and (min-height: 852px) and (max-height: 852px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}
+
+/* iPhone 15 Plus / 15 Pro Max */
+@media screen and (min-width: 430px) and (max-width: 430px) and (min-height: 932px) and (max-height: 932px) {
+  .imageElement--titulo-img-roleta {
+    margin-top: 10dvh;
+    padding: 10px 0 10px 0;
+    width: 100%;
+  }
+}

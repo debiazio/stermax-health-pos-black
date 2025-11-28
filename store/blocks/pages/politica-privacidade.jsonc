@@ -1,0 +1,30 @@
+{
+  "store.custom#politica-privacidade": {
+    "children": [
+    "flex-layout.row#container-politica-privacidade"
+    ]
+  },
+  "flex-layout.row#container-politica-privacidade": {
+    "props": {
+      "blockClass": "container-trocas-devolucoes",
+      // "fullWidth": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-politica-privacidade",
+      "rich-text#politica-privacidade"
+    ]
+  },
+  "rich-text#titulo-politica-privacidade": {
+    "props": {
+      "text": "## Política de Privacidade",
+      "blockClass": "titulo-trocas-devolucoes"
+    }
+  },
+  "rich-text#politica-privacidade": {
+    "props": {
+      "blockClass": "texto-trocas-devolucoes",
+      "text": "A Stermax respeita a sua privacidade e se compromete a proteger os seus dados pessoais. Esta Política de Privacidade descreve como coletamos, usamos, divulgamos e protegemos as suas informações quando você visita o nosso site ou utiliza os nossos serviços.\n\n**1. Coleta de Dados Pessoais**\nColetamos informações pessoais que você nos fornece voluntariamente ao se cadastrar em nosso site, fazer uma compra ou entrar em contato conosco. Essas informações podem incluir seu nome, endereço de e-mail, número de telefone, endereço de entrega e informações de pagamento.\n\n**2. Uso das Informações**\nUtilizamos suas informações pessoais para processar pedidos, fornecer suporte ao cliente, enviar atualizações sobre o status do pedido e melhorar nossos produtos e serviços. Também podemos usar suas informações para enviar comunicações promocionais, desde que você tenha concordado em recebê-las.\n\n**3. Compartilhamento de Dados**\nNão vendemos ou alugamos suas informações pessoais a terceiros. Podemos compartilhar suas informações com prestadores de serviços que nos ajudam a operar nosso site e fornecer nossos serviços, desde que esses prestadores de serviços concordem em manter suas informações confidenciais.\n\n**4. Segurança das Informações**\nAdotamos medidas de segurança adequadas para proteger suas informações pessoais contra acesso não autorizado, uso indevido ou divulgação. No entanto, nenhum método de transmissão pela Internet ou armazenamento eletrônico é 100% seguro, portanto, não podemos garantir sua segurança absoluta.\n\n**5. Seus Direitos**\nVocê tem o direito de acessar, corrigir ou excluir suas informações pessoais a qualquer momento. Se você desejar exercer esses direitos, entre em contato conosco através dos canais disponíveis em nosso site.\n\n**6. Alterações nesta Política**\nPodemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas práticas ou na legislação aplicável. Recomendamos que você revise esta política regularmente para estar ciente de como estamos protegendo suas informações.\n\nSe você tiver alguma dúvida sobre esta Política de Privacidade ou sobre como tratamos seus dados pessoais, entre em contato conosco através dos canais disponíveis em nosso site."
+    }
+  }
+}

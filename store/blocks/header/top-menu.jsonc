@@ -1,0 +1,21 @@
+{
+  // "vtex.menu@2.x:menu#websites": {
+  //   "children": [
+  //     "menu-item#shop"
+  //   ]
+  // },
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Linha Professional Experts Pure Health, Expert Care",
+        "text": "Linha Professional Experts Pure Health, Expert Care"
+      }
+    }
+  }
+}

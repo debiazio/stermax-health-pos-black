@@ -1,0 +1,568 @@
+{
+  "store.custom#por-que-comprar": {
+    "children": [
+      "responsive-layout.desktop#banner-inicial",
+      "responsive-layout.mobile#banner-inicial",
+      "responsive-layout.desktop#certificados-desktop",
+      "responsive-layout.mobile#certificados-mobile",
+      // "responsive-layout.desktop#selos-teste",
+      "flex-layout.row#cronologia",
+      "flex-layout.row#stermax-original",
+      "flex-layout.row#milhares-confiam",
+      "flex-layout.row#pronto-para"
+    ]
+  },
+  // ====================
+  // linha banner inicial
+  // ====================
+  "responsive-layout.mobile#banner-inicial": {
+    "children": [
+      "flex-layout.row#linha-mobile-banner-pq-comprar"
+    ]
+  },
+  "flex-layout.row#linha-mobile-banner-pq-comprar": {
+    "props": {
+      "blockClass": "linha-mobile-banner-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#banner-inicial-mobile"
+    ]
+  },
+  "image#banner-inicial-mobile": {
+    "props": {
+      "blockClass": "img-mobile-banner-inicial",
+      "src": "assets/por-que-comprar/mobile/mobile.webp",
+      "alt": "Por que comprar Stermax Health"
+    }
+  },
+  "responsive-layout.desktop#banner-inicial": {
+    "children": [
+      "flex-layout.row#banner-inicial"
+    ]
+  },
+  "flex-layout.row#banner-inicial": {
+    "props": {
+      "blockClass": "linha-banner-inicial",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-textos-pq-comprar",
+      "flex-layout.row#linha-imagem-texto"
+    ],
+    "title": "Linha banner inicial"
+  },
+  // LINHA DOS TEXTOS
+  "flex-layout.row#linha-textos-pq-comprar": {
+    "props": {
+      "blockClass": "linha-textos-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#intro-pq-comprar",
+      "rich-text#stermax-health-pq-comprar"
+    ],
+    "title": "Linha dos textos"
+  },
+  // TEXTO INTRO
+  "rich-text#intro-pq-comprar": {
+    "props": {
+      "blockClass": "intro-pq-comprar",
+      "text": "por que comprar na"
+    },
+    "title": "Texto introdução"
+  },
+  // TEXTO PRINCIPAL TITULO
+  "rich-text#stermax-health-pq-comprar": {
+    "props": {
+      "blockClass": "stermaxhealth-pq-comprar",
+      "text": "stermax health?"
+    },
+    "title": "Titulo"
+  },
+  // LINHA DA IMAGEM E BALÃO
+  "flex-layout.row#linha-imagem-texto": {
+    "props": {
+      "blockClass": "linha-imagem-texto-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#imagem-autoclave-pq-comprar",
+      "rich-text#balao-pq-comprar"
+    ]
+  },
+  // IMAGEM AUTOCLAVE desktop
+  "image#imagem-autoclave-pq-comprar": {
+    "props": {
+      "blockClass": "image-autoclave-pq-comprar",
+      "src": "assets/por-que-comprar/desktop/vida-75l-tampa-aberta-frontal.webp",
+      "alt": "Autoclave"
+    },
+    "title": "Imagem autoclave tampa aberta desktop"
+  },
+  // TEXTO DO BALÃO
+  "rich-text#balao-pq-comprar": {
+    "props": {
+      "blockClass": "balao-pq-comprar",
+      "text": "**Segurança, Tecnologia e Confiança:** Descubra por que a Stermax Health é a escolha certa para sua clínica!"
+    },
+    "title": "Texto balão"
+  },
+  // ==========================
+  // LINHA CERTIFICADOS
+  // ==========================
+  // mobile
+  "responsive-layout.mobile#certificados-mobile":{
+    "children": [
+      "flex-layout.row#linha-certificados-pq-comprar-mobile"
+    ]
+  },
+  "flex-layout.row#linha-certificados-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "linha-certificados-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#textos-pq-comprar-mobile"
+      // "flex-layout.col#img-pq-comprar"
+    ]
+  },
+  // COLUNA TEXTOS PQ COMPRAR
+  "flex-layout.col#textos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "coluna-textos-pq-comprar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-selos-pq-comprar-mobile",
+      "rich-text#texto-selos-pq-comprar-mobile",
+      "link#botao-consultor-pq-comprar-mobile"
+    ]
+  },
+  // TEXTOS
+  // TITULO
+  "rich-text#titulo-selos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "titulo-selos-pq-comprar",
+      "text": "Autoclaves Certificadas para\n Quem Não Pode Errar"
+    }
+  },
+  // CONTEUDO
+  "rich-text#texto-selos-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "texto-selos-pq-comprar",
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+    }
+  },
+  // LINK
+  "link#botao-consultor-pq-comprar-mobile": {
+    "props": {
+      "blockClass": "link-selos-pq-comprar",
+      "href": "https://wa.me/5541999710062",
+      "label": "FALE COM UM CONSULTOR"
+    }
+  },
+  // desktop
+  "responsive-layout.desktop#certificados-desktop":{
+    "children": [
+      "flex-layout.row#linha-certificados-pq-comprar"
+    ]
+  },
+  "flex-layout.row#linha-certificados-pq-comprar": {
+    "props": {
+      "blockClass": "linha-certificados-pq-comprar",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#textos-pq-comprar",
+      "flex-layout.col#img-pq-comprar"
+    ]
+  },
+  // COLUNA TEXTOS PQ COMPRAR
+  "flex-layout.col#textos-pq-comprar": {
+    "props": {
+      "blockClass": "coluna-textos-pq-comprar",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-selos-pq-comprar",
+      "rich-text#texto-selos-pq-comprar",
+      "link#botao-consultor-pq-comprar"
+    ]
+  },
+  // TEXTOS
+  // TITULO
+  "rich-text#titulo-selos-pq-comprar": {
+    "props": {
+      "blockClass": "titulo-selos-pq-comprar",
+      "text": "Autoclaves Certificadas para\n Quem Não Pode Errar"
+    }
+  },
+  // CONTEUDO
+  "rich-text#texto-selos-pq-comprar": {
+    "props": {
+      "blockClass": "texto-selos-pq-comprar",
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+    }
+  },
+  // LINK
+  "link#botao-consultor-pq-comprar": {
+    "props": {
+      "blockClass": "link-selos-pq-comprar",
+      "href": "https://wa.me/5541999710062",
+      "label": "FALE COM UM CONSULTOR"
+    }
+  },
+  "flex-layout.col#img-pq-comprar": {
+    "props": {
+      "blockClass": "coluna-img-pq-comprar"
+    },
+    "children": [
+      "scrolleffect",
+      "image#selo-anvisa-teste",
+      "image#selo-iso-teste"
+    ]
+  },
+  // ==============================
+  // teste scroll certificados
+  // ==========================================
+  // "responsive-layout.desktop#selos-teste": {
+  //   "children": [
+
+  //     "image#selo-anvisa-teste",
+  //     "image#selo-iso-teste"
+  //   ]
+  // },
+  "scrolleffect": {},
+  "image#selo-anvisa-teste": {
+    "props": {
+      "blockClass": "selo-anvisa-teste",
+      "src": "assets/por-que-comprar/desktop/selo-anvisa-pqstx.webp"
+    }
+  },
+  "image#selo-iso-teste": {
+    "props": {
+      "blockClass": "selo-iso-teste",
+      "src": "assets/por-que-comprar/desktop/selo-iso-pqstx.webp"
+    }
+  },
+  //  =============================
+  // linha cronologia
+  //  =============================
+  "flex-layout.row#cronologia": {
+    "props": {
+      "blockClass": "linha-cronograma",
+      "fullWidth": false
+    },
+    "children": [
+      "image#img-cronograma",
+      "flex-layout.row#linha-textos-cronograma"
+    ]
+  },
+  // IMAGEM DA CRONOLOGIA
+  "image#img-cronograma": {
+    "props": {
+      "blockClass": "imagem-cronograma",
+      "alt": "cronologia",
+      "src": "assets/por-que-comprar/desktop/cronograma-desktop.webp"
+    }
+  },
+  // LINHA TEXTOS CRONOGRAMA
+  "flex-layout.row#linha-textos-cronograma": {
+    "props": {
+      "blockClass": "linha-textos-cronograma",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-cronograma",
+      "rich-text#subtitulo-cronograma",
+      "rich-text#conteudo-cronograma"
+    ]
+  },
+  // TITULO
+  "rich-text#titulo-cronograma": {
+    "props": {
+      "blockClass": "titulo-cronograma",
+      "text": "Mais de Três Décadas"
+    }
+  },
+  // SUBTITULO
+  "rich-text#subtitulo-cronograma": {
+    "props": {
+      "blockClass": "subtitulo-cronograma",
+      "text": "Liderando o Mercado de Biossegurança"
+    }
+  },
+  // CONTEUDO
+  "rich-text#conteudo-cronograma": {
+    "props": {
+      "blockClass": "conteudo-cronograma",
+      "text": "A Stermax Health combina tradição, inovação e credibilidade. Com mais de 30 anos de experiência na fabricação de autoclaves horizontais, nossa marca é sinônimo de qualidade, confiança e suporte especializado."
+    }
+  },
+  //  =========================
+  // O QUE SÓ A STERMAX OFERECE
+  // ==========================
+  "flex-layout.row#stermax-original": {
+    "props": {
+      "blockClass": "linha-stermax-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-titulo-original",
+      "flex-layout.row#linha-imagens-botoes-original"
+    ]
+  },
+  // LINHA TITULO ORIGINAL
+  "flex-layout.row#linha-titulo-original": {
+    "props": {
+      "blockClass": "linha-titulo-original",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-parte1-original",
+      "image#logo-stermax-original",
+      "rich-text#titulo-parte2-original"
+    ]
+  },
+  // TEXTO PRÉ
+  "rich-text#titulo-parte1-original": {
+    "props": {
+      "blockClass": "titulo-original",
+      "text": "O que só a "
+    }
+  },
+  // IMAGEM LOGO
+  "image#logo-stermax-original": {
+    "props": {
+      "blockClass": "img-logo-original",
+      "alt": "Logo stermaxhealth",
+      "src": "assets/por-que-comprar/desktop/stx-original.webp"
+    }
+  },
+  // TEXTO POS
+  "rich-text#titulo-parte2-original": {
+    "props": {
+      "blockClass": "titulo-original",
+      "text": "oferece para você"
+    }
+  },
+  "flex-layout.row#linha-imagens-botoes-original": {
+    "props": {
+      "blockClass": "linha-imagens-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#autoclave-original",
+      "flex-layout.col#botoes-original"
+    ]
+  },
+  // COLUNA IMAGEM AUTOCLAVE
+  "flex-layout.col#autoclave-original": {
+    "props": {
+      "blockClass": "coluna-img-autoclave",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#img-autoclave-original"
+    ]
+  },
+  // IMAGEM AUTOCLAVE
+  "image#img-autoclave-original": {
+    "props": {
+      "blockClass": "img-autoclave-original",
+      "alt": "Autoclave",
+      "src": "assets/por-que-comprar/desktop/VIDA 60L TAMPA ABERTA.876 1.webp"
+    }
+  },
+  "flex-layout.col#botoes-original": {
+    "props": {
+      "blockClass": "coluna-botoes-original",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#iso+maior",
+      "flex-layout.row#fabrica+suporte",
+      "flex-layout.row#consultoria+atendimento"
+    ]
+  },
+  "flex-layout.row#iso+maior": {
+    "props": {
+      "blockClass": "img-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#iso",
+      "image#maior"
+    ]
+  },
+  "flex-layout.row#fabrica+suporte": {
+    "props": {
+      "blockClass": [
+        "img-botoes-original",
+        "img-botoes-original-meio"
+      ],
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#fabrica",
+      "image#suporte"
+    ]
+  },
+  "flex-layout.row#consultoria+atendimento": {
+    "props": {
+      "blockClass": "img-botoes-original",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#consultor",
+      "image#atendimento"
+    ]
+  },
+  "image#iso": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/iso.webp"
+    }
+  },
+  "image#maior": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/maior-rede.webp"
+    }
+  },
+  "image#fabrica": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/compra-direta.webp"
+    }
+  },
+  "image#suporte": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/suporte.webp"
+    }
+  },
+  "image#consultor": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/consultoria.webp"
+    }
+  },
+  "image#atendimento": {
+    "props": {
+      "blockClass": "image-botoes-original",
+      "alt": "Imagens stermax",
+      "src": "assets/por-que-comprar/desktop/atendimento.webp"
+    }
+  },
+  // =======================
+  // MILHARES CONFIAM
+  // =========================
+  "flex-layout.row#milhares-confiam": {
+    "props": {
+      "blockClass": "linha-milhares-comfiam",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-milhares-profissionais",
+      "rich-text#texto-milhares-profissionais"
+    ]
+  },
+  // TITULO MILHARES
+  "rich-text#titulo-milhares-profissionais": {
+    "props": {
+      "text": "Milhares de Clínicas e Profissionais\n já Confiam na Stermax Health",
+      "blockClass": "titulo-milhares-confiam"
+    }
+  },
+  //  TEXTO MILHARES
+  "rich-text#texto-milhares-profissionais": {
+    "props": {
+      "text": "De consultórios odontológicos a laboratórios veterinários, nossa tecnologia garante eficiência e biossegurança para quem não pode errar.",
+      "blockClass": "texto-milhares-confiam"
+    }
+  },
+  // =====================
+  // pronto para levar seguranca
+  // ========================
+  "flex-layout.row#pronto-para": {
+    "props": {
+      "blockClass": "linha-pronto-para",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-texto+botao",
+      "flex-layout.col#coluna-imagem-pronto-para"
+    ]
+  },
+  // COLUNA TEXTO E BOTAO ORCAMENTO
+  "flex-layout.col#coluna-texto+botao": {
+    "props": {
+      "blockClass": "coluna-texto-botao",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#texto-pronto-para",
+      "flex-layout.row#linha-solicitar-rocamento-pronto-para"
+    ]
+  },
+  "rich-text#texto-pronto-para": {
+    "props": {
+      "blockClass": "texto-pronto-para",
+      "text": "Pronto para Levar Segurança e\n Tecnologia para Sua Clínica?"
+    }
+  },
+  "flex-layout.row#linha-solicitar-rocamento-pronto-para": {
+    "props": {
+      "blockClass": "linha-orcamento-flechas",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#flecha-esquerda-pronto-para",
+      "link#solicitar-orcamento-pronto-para",
+      "image#flecha-direita-pronto-para"
+    ]
+  },
+  "image#flecha-esquerda-pronto-para": {
+    "props": {
+      "src": "assets/por-que-comprar/desktop/flexha-dir.webp",
+      "blockClass": "flecha-esquerda-pronto-para"
+    }
+  },
+  "link#solicitar-orcamento-pronto-para": {
+    "props": {
+      "blockClass": "link-orcamento-pronto-para",
+      "href": "https://wa.me/5541999710062",
+      "label": "solicitar orçamento agora"
+    }
+  },
+  "image#flecha-direita-pronto-para": {
+    "props": {
+      "src": "assets/por-que-comprar/desktop/flexha-esq.webp",
+      "blockClass": "flecha-direita-pronto-para"
+    }
+  },
+  // COLUNA IMAGENS
+  "flex-layout.col#coluna-imagem-pronto-para": {
+    "props": {
+      "blockClass": "img-autoclave-pronto-para"
+    },
+    "children": [
+      "image#autoclave-pronto-para"
+    ]
+  },
+  "image#autoclave-pronto-para": {
+    "props": {
+      "src": "assets/por-que-comprar/desktop/awdwadawdwadawdawdawda.webp",
+      "alt": "Autoclave",
+      "blockClass": "image-pronto-para"
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#cabecalho-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "rich-text#teste"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "topo-1-header"
+    }
+  },
+  "rich-text#teste":{
+    "props": {
+      "blockClass": "rich-text-topo",
+      "text": "Segurança, Tecnologia e Confiança: Descubra Por Que a Stermax Health é a Escolha Certa para Sua Clínica"
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      // "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#cabecalho-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#cabecalho-container-desktop"
+    ]
+  },
+  "flex-layout.row#cabecalho-container-desktop": {
+    "props": {
+      "blockClass": "cabecalho-desktop"
+    },
+    "children": [
+      "flex-layout.row#menu-superior-linha-esquerda",
+      "flex-layout.row#menu-superior-linha-central",
+      "flex-layout.row#menu-superior-linha-direita"
+    ]
+  },
+  //linha menu superior esquerda
+  "flex-layout.row#menu-superior-linha-esquerda": {
+    "props": {
+      "blockClass": "menu-superior-linha-esqueda",
+      "whidth": "45%"
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  //linha menu superior central
+  "flex-layout.row#menu-superior-linha-central": {
+    "props": {
+      "blockClass": "menu-superior-linha-central",
+      "whidth": "10%"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "coluna-logo"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "blockClass": "logo",
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/black-friday/logo-blackF.webp",
+      "width": "157",
+      "height": "48"
+    }
+  },
+  //linha menu superior Direita
+  "flex-layout.row#menu-superior-linha-direita": {
+    "props": {
+      "blockClass": "menu-supeiro-linha-direita",
+      "whidth": "45%"
+    },
+    "children": [
+      "flex-layout.col#search-bar-header",
+      "flex-layout.col#coluna-login-minicart"
+    ]
+  },
+  "flex-layout.col#search-bar-header": {
+    "props": {
+      "blockClass": "search-bar-desktop"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Pesquisar",
+      "blockClass": "barra-pesquisa"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "productLayout": "HORIZONTAL"
+    }
+  },
+  "flex-layout.col#coluna-login-minicart": {
+    "props": {
+      "blockClass": "coluna-login-minicart",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-login-minicart"
+    ]
+  },
+  "flex-layout.row#linha-login-minicart": {
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true
+    }
+  }
+
+}

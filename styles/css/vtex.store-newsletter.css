@@ -1,0 +1,242 @@
+/* CSS ROLETA ABAIXO  */
+.defaultErrorMessage--formulario-roleta {
+  color: #ffffff
+}
+
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex__icon-check),
+.confirmationCheckboxContainer--aceito-termos :global(.vtex__icon-check) {
+  color: #ffffff;
+}
+
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__box),
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__box) {
+  background-color: #2585C2;
+  border-radius: 2px;
+}
+
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label),
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
+  color: #FFFFFF;
+  font-family: "jost-regular";
+  font-weight: 500;
+  font-size: 10px;
+}
+
+
+.nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
+.emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input),
+.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input) {
+  padding: 8px 15px 8px;
+  background: transparent;
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group),
+.nameInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group),
+.emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
+  border: none;
+  height: 30px;
+}
+
+.phoneInputContainer--inputs-form-roleta,
+.nameInputContainer--inputs-form-roleta,
+.emailInputContainer--inputs-form-roleta {
+  border-radius: 100px;
+  margin-bottom: 6px;
+  z-index: 100;
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
+.nameInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder,
+.emailInputContainer--inputs-form-roleta :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #3D3D3D91 !important;
+  font-family: "jost-regular";
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__line-container),
+.confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__line-container) {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.newsletterForm--formulario-roleta {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input__label) {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.emailInputContainer--inputs-form-roleta :global(.vtex-input-prefix__group) {
+  color: black;
+}
+
+.phoneInputContainer--inputs-form-roleta,
+.emailInputContainer--inputs-form-roleta,
+.nameInputContainer--inputs-form-roleta {
+  background-color: #ffff;
+}
+
+.phoneInputContainer--inputs-form-roleta :global(.vtex-input__error),
+.nameInputContainer--inputs-form-roleta :global(.vtex-input__error),
+.emailInputContainer--inputs-form-roleta :global(.vtex-input__error) {
+  background-color: black;
+  margin: 0;
+  padding: 10px 0px 0 0;
+}
+
+.formSubmitContainer--submit-button {
+  border: none;
+  padding-top: 5px;
+}
+
+.formSubmitContainer--submit-button :global(.vtex-button__label) {
+  width: 446px;
+}
+
+.formSubmitContainer--submit-button :global(.vtex-button) {
+  border: none;
+  background-color: var(--header);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "jost-regular";
+  cursor: pointer;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.formSubmitContainer--submit-button :global(.vtex-button):hover {
+  background-color: #B4B4B43D;
+  color: #969696;
+}
+
+
+
+
+/* CSS ROLETA ACIMA  */
+
+.newsletterForm--container-newsletter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
+}
+
+.defaultSuccessMessage--formulario-roleta {
+  width: 100%;
+}
+
+.confirmationCheckboxContainer--termo-concordo-roleta {
+  width: 100%;
+}
+
+.emailInputContainer--input-email :global(.vtex-input-prefix__group) {
+  height: 100%;
+}
+
+.emailInputContainer--input-email :global(.vtex-input-prefix__group):hover {
+  border-color: transparent;
+}
+
+.emailInputContainer--input-email :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: #FFF9F4;
+  margin-right: 10px;
+  border-radius: 35px;
+  width: 180px !important;
+  height: 36px !important;
+  font-family: var(--fonte-secundaria);
+}
+
+
+.formSubmitContainer--submit :global(.vtex-button) {
+  background-color: #206498;
+  border: none;
+  color: #FFFFFF;
+  font-family: "fraunces-regular";
+  font-size: 16px;
+  height: 36px !important;
+  width: 95px !important;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .confirmationCheckboxContainer--aceito-termos :global(.vtex-checkbox__label) {
+    text-decoration: underline;
+    color: #ffff;
+    font-size: 10px;
+    margin-top: 3px;
+  }
+
+  .formSubmitContainer--submit-button {
+    border: none;
+    padding-top: 10px;
+  }
+
+  .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__line-container) {
+    margin-bottom: 5px;
+  }
+
+  .phoneInputContainer--inputs-form-roleta,
+  .emailInputContainer--inputs-form-roleta,
+  .nameInputContainer--inputs-form-roleta {
+    width: 250px;
+    margin: 5px;
+  }
+
+  .confirmationCheckboxContainer--termo-concordo-roleta :global(.vtex-checkbox__label) {
+    font-size: 10px;
+  }
+
+  .confirmationCheckboxContainer--aceito-termos,
+  .confirmationCheckboxContainer--termo-concordo-roleta {
+    width: 80% !important;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .newsletterForm--formulario-roleta {
+    flex-direction: column;
+    gap: unset;
+  }
+
+  .formSubmitContainer--submit-button :global(.vtex-button__label) {
+    width: unset;
+    padding: 0 20px;
+  }
+
+  .defaultErrorMessage--formulario-roleta {
+    width: 70vw;
+  }
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+  .newsletterForm {
+    margin-top: 150px;
+  }
+
+  .phoneInputContainer--inputs-form-roleta,
+  .emailInputContainer--inputs-form-roleta,
+  .nameInputContainer--inputs-form-roleta {
+    width: 100%;
+  }
+}

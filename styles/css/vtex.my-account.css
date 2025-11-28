@@ -1,0 +1,117 @@
+:root {
+
+  --base: #5C5C5C;
+  --header: #000000;
+  --footer: #151515;
+
+  --fontes: #FFFFFF;
+  /* --base: #34A2F8; cor não blackfriday */
+  /* --paleta: #1f80ca; */
+  --stermax-azul-claro: #9fbae1;
+  --background: #fffaf4;
+  --bege-02: #F6F6F6;
+  --mapa: #F9F4EC;
+  --fonte-primaria: "jost-regular";
+  /* --fonte-secundaria: "fraunces-regular"; */
+  --fonte-secundaria: "domine-regular";
+  --cinza-medio: #868181;
+}
+
+/* reset  */
+/* RESET */
+*,
+*:hover,
+*:focus {
+  /* transition:.5s ease all; */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* CSS ROLETA ABAIXO  */
+.emailInputContainer--inputs-form-roleta input {
+  color: #bcb2ba;
+}
+
+/* CSS ROLETA ACIMA  */
+
+:global(.vtex-render__container-id-slider-home-desktop) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+:focus {
+  outline: 0;
+}
+
+body,
+html {
+  touch-action: pan-y;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:global(.vtex-spinner_circle) {
+  color: #251203;
+}
+
+:global(input):focus-visible {
+  outline: 0;
+}
+
+/* remove background do autocomplete chrome */
+input:-webkit-autofill {
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+/* ajusta bug de zoom nos inputs do iphone */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    font-size: 16px !important;
+  }
+}
+
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* reset  */
+
+:global(.vtex-render__container-id-carrossel-home-desktop) {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* :global(.vtex-address-form-4-x-input){
+  border: 1px solid var(--cinza-medio) !important;
+} */
+
+:global(.vtex-store-components-3-x-content) p {
+  color: #1f80ca !important;
+}
+
+@media screen and (max-width: 1000px) {
+  /* :global(.vtex-render__container-id-deals-mobile) {
+    margin-top: -110px;
+  } */
+
+  :global(.vtex-button__label) {
+    padding: 0;
+  }
+}

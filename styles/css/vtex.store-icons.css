@@ -1,0 +1,11 @@
+.expandIcon {
+  color: #F6F6F6;
+}
+
+.caretIcon--baixo,
+.caretIcon--cima-pq-ecolher-stx{
+  color: #AAAAAA!important;
+  box-shadow: unset!important;
+  background-color: transparent!important;
+  margin-right: 0!important;
+}

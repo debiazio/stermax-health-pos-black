@@ -1,0 +1,39 @@
+.container :global(.vtex-login-2-x-profileIcon) {
+  width: 23px;
+  height: 23px;
+  overflow: visible;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .profileIcon{
+    width: 16px!important;
+  }
+
+  .cartIcon{
+    width: 2rem!important;
+  }
+
+  .buttonLink :global(.vtex-button__label){
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .profileIcon{
+    height: 12px!important;
+    margin-right: 10px;
+  }
+
+  .cartIcon{
+    height: 2.6px!important;
+    width: 2rem!important;
+  }
+
+  .buttonLink :global(.vtex-button__label){
+    padding: 0;
+  }
+}
