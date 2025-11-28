@@ -601,7 +601,7 @@
 }
 
 .paragraph--texto-digitando {
-  color: var(--fontes);
+  color: #4C7593;
   font-size: 24px;
   font-family: "fraunces-regular";
   margin-top: 5px;
@@ -999,6 +999,7 @@
 
   .paragraph--texto-digitando {
     font-size: 12px;
+    margin: 0;
   }
 
   .paragraph--texto-rules-roleta {

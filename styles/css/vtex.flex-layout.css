@@ -269,7 +269,7 @@
 }
 
 .flexRow--main-header-mobile {
-  background-color: var(--header);
+  background-color: #ffffff;
 }
 
 .flexRowContent--main-header-mobile {
@@ -290,7 +290,7 @@
 }
 
 .flexRow--linha-gatilho-medo {
-  background-image: url(assets/home/home-black-friday/gatilho-medo-black.webp);
+  background-image: url(assets/home/imagem-banner-GATILHO-MEDO-2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -458,7 +458,7 @@
 }
 
 .flexRow--linha-final-footer {
-  background-color: var(--header);
+  background-color: #1D76BA;
 }
 
 .flexRow--linhas-footer,
@@ -537,9 +537,9 @@
 
 .flexRow--content-ultima-section {
   /* normal  */
-  /* background: linear-gradient(to right, #D8EEFF, #D8EEFF, #F9F4EC, #F9F4EC); */
+  background: linear-gradient(to right, #D8EEFF, #D8EEFF, #F9F4EC, #F9F4EC);
   /* black friday  */
-  background: linear-gradient(to right, #3F3F3F, #3F3F3F, #305C7E, #305C7E);
+  /* background: linear-gradient(to right, #3F3F3F, #3F3F3F, #305C7E, #305C7E); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -669,7 +669,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: var(--base);
+  background-color: #34A2F8;
 }
 
 
@@ -832,8 +832,8 @@
 
 .flexRow--container-footer-digitando {
   height: 50px;
-  /* background-color: #BCD5E8; */
-  background-color: var(--header);
+  background-color: #BCD5E8;
+  /* background-color: var(--header); */
 }
 
 .flexRow--container-secao-divisoria-link {
@@ -911,9 +911,9 @@
 
 .flexRowContent--coluna-banner-esquerdo--imagem {
   /* NORMAL: */
-  /* background: linear-gradient(to right, #D8EEFF, #F9F4EC); */
+  background: linear-gradient(to right, #D8EEFF, #F9F4EC);
   /* BLACKFRIDAY:  */
-  background: linear-gradient(to right, #3F3F3F, #305C7E);
+  /* background: linear-gradient(to right, #3F3F3F, #305C7E); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 520px;
@@ -949,9 +949,9 @@
   flex-direction: column;
 }
 
-.stretchChildrenWidth .flexCol--coluna-login-minicart {
+/* .stretchChildrenWidth .flexCol--coluna-login-minicart {
   width: 33% !important;
-}
+} */
 
 .flexCol--coluna-login-minicart {
   display: flex;
@@ -1186,6 +1186,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRow--personas{
+    margin-top: -90px;
+  }
+
   .flexRowContent--linha-certificados-pq-comprar {
     background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
   }

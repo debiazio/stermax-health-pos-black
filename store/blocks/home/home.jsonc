@@ -1,13 +1,10 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop#slider-home-desktop",
-      "responsive-layout.mobile#slider-home-mobile",
-      // "list-context.image-list#carrossel-home-desktop",
+      "list-context.image-list#carrossel-home-desktop",
       "flex-layout.row#banner-stermaxHealth-personas",
       "responsive-layout.mobile#deals-mobile",
       "flex-layout.row#deals",
-      "modal-trigger#roleta",
       "__fold__",
       "flex-layout.row#banner-segundo",
       "flex-layout.row#banner-modelos",
@@ -17,36 +14,36 @@
     ]
   },
 
-  // "list-context.image-list#carrossel-home-desktop": {
-  //   "children": [
-  //     "slider-layout#carrossel-home-desktop"
-  //   ],
-  //   "props": {
-  //     "fullWidth": false,
-  //     "height": 486,
-  //     "width": 1300,
-  //     "maxWidth": 1300,
-  //     "preload": true,
-  //     "images": [
-  //       {
-  //         "image": "assets/Artboard 34.webp",
-  //         "mobileImage": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
-  //       },
-  //       {
-  //         "image": "assets/Artboard 32_1.webp",
-  //         "mobileImage": "assets/home/home-black-friday/banners/vida-vertical.webp"
-  //       },
-  //       {
-  //         "image": "assets/Artboard 32.webp",
-  //         "mobileImage": "assets/mobile-Artboard 32_2.webp"
-  //       },
-  //       {
-  //         "image": "assets/banner-home-desktop-esterilizacao.webp",
-  //         "mobileImage": "assets/banner-home-mobile-esterilizacao.webp"
-  //       }
-  //     ]
-  //   }
-  // },
+  "list-context.image-list#carrossel-home-desktop": {
+    "children": [
+      "slider-layout#carrossel-home-desktop"
+    ],
+    "props": {
+      "fullWidth": true,
+      "height": 486,
+      "width": 1300,
+      "maxWidth": 1300,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/Artboard 34.webp",
+          "mobileImage": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
+        },
+        {
+          "image": "assets/Artboard 32_1.webp",
+          "mobileImage": "assets/home/home-black-friday/banners/vida-vertical.webp"
+        },
+        {
+          "image": "assets/Artboard 32.webp",
+          "mobileImage": "assets/mobile-Artboard 32_2.webp"
+        },
+        {
+          "image": "assets/banner-home-desktop-esterilizacao.webp",
+          "mobileImage": "assets/banner-home-mobile-esterilizacao.webp"
+        }
+      ]
+    }
+  },
   "slider-layout#carrossel-home-desktop": {
     "props": {
       "itemsPerPage": {
@@ -75,7 +72,7 @@
   "image#banner-personas": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/home-black-friday/pessoas-blackfriday.webp",
+      "src": "assets/home/personas-stermaxHealth-unificado.webp",
       "alt": "Público StermaxHealth",
       "title": "Público StermaxHealth",
       "fullWidth": true
@@ -209,7 +206,7 @@
   },
   "image#banner-segundo-mobile": {
     "props": {
-      "src": "assets/GATILHO MEDO - Mobile 1.webp",
+      "src": "assets/home/imagem-banner-GATILHO-MEDO-2.webp",
       "alt": "Banner não comprometa sua saúde",
       "blockClass": "imagem-banner-segundo"
     }
@@ -702,7 +699,7 @@
   "image#mapa-brasil": {
     "props": {
       "blockClass": "mapa-brasil",
-      "src": "assets/home/home-black-friday/mapa-brasil-blackf.webp",
+      "src": "assets/home/brasil-mapa.webp",
       "alt": "Mapa do Brasil"
     }
   },
@@ -765,7 +762,7 @@
   },
   "image#assistencia": {
     "props": {
-      "src": "assets/home/home-black-friday/caixas-black.webp",
+      "src": "assets/home/Group 3.webp",
       "blockClass": [
         "mapa-brasil",
         "img-assist"

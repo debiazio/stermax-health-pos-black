@@ -1,11 +1,11 @@
 :root {
 
-  --base: #5C5C5C;
-  --header: #000000;
-  --footer: #151515;
+  /* --base: #5C5C5C; black */
+  --header: #1F7ECA;
+  --footer: #1F80CA;
 
-  --fontes: #FFFFFF;
-  /* --base: #34A2F8; cor não blackfriday */
+  --fontes: #297FC2;
+  --base: #34A2F8;
   /* --paleta: #1f80ca; */
   --stermax-azul-claro: #9fbae1;
   --background: #fffaf4;
