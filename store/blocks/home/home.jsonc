@@ -201,8 +201,8 @@
   },
   "responsive-layout.mobile#banner-segundo": {
     "children": [
-      
-      "image#banner-segundo-mobile"
+      // "image#banner-segundo-mobile",
+      "flex-layout.row#linha-gatilho-medo"
     ]
   },
   "image#banner-segundo-mobile": {

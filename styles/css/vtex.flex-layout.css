@@ -1186,6 +1186,15 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+  .flexRowContent--linha-gatilho-medo{
+    padding: 14px 10px 20px 10px;
+  }
+  
+  .flexRow--linha-gatilho-medo{
+    background-image: url(assets/home/gatilho-medo/mobile/fundo-mobile-gatilho.webp);
+  }
+
   .flexRow--personas{
     margin-top: -90px;
   }
