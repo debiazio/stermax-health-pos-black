@@ -201,6 +201,7 @@
   },
   "responsive-layout.mobile#banner-segundo": {
     "children": [
+      
       "image#banner-segundo-mobile"
     ]
   },
