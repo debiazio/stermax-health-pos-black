@@ -259,7 +259,7 @@
   font-weight: 900;
   font-size: 38px;
   text-transform: uppercase;
-  color: var(--fontes);
+  color: white;
   margin: 0;
   line-height: normal;
   padding-bottom: 20px;
@@ -270,7 +270,7 @@
 }
 
 .paragraph--texto-quem-somos {
-  color: var(--fontes);
+  color: white;
   font-family: "fraunces-regular";
   font-weight: 400;
   font-size: 20px;
