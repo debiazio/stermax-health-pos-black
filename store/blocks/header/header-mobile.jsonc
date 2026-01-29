@@ -62,7 +62,7 @@
   "image#icone-pesquisa-mobile": {
     "props": {
       "blockClass": "icone-pesquisa-mobile",
-      "src": "assets/Lupa.svg",
+      "src": "assets/header/mobile/Lupa.svg",
       "alt": "Ícone de pesquisa",
       "title": "Ícone de pesquisa mobile"
     }

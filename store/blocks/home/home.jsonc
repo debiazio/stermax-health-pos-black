@@ -26,20 +26,20 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/Artboard 34.webp",
-          "mobileImage": "assets/home/home-black-friday/banners/mobile/mobile-purehealth.webp"
+          "image": "assets/home/banner-modelos/Artboard 34.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-purehealth.webp"
         },
         {
-          "image": "assets/Artboard 32_1.webp",
-          "mobileImage": "assets/home/home-black-friday/banners/vida-vertical.webp"
+          "image": "assets/home/banner-modelos/Artboard 32_1.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/vida-vertical.webp"
         },
         {
-          "image": "assets/Artboard 32.webp",
-          "mobileImage": "assets/mobile-Artboard 32_2.webp"
+          "image": "assets/home/banner-modelos/Artboard 32.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
         },
         {
-          "image": "assets/banner-home-desktop-esterilizacao.webp",
-          "mobileImage": "assets/banner-home-mobile-esterilizacao.webp"
+          "image": "assets/home/banner-modelos/banner-home-desktop-esterilizacao.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
         }
       ]
     }
