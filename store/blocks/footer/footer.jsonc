@@ -450,7 +450,7 @@
   },
   "rich-text#linha-final-footer": {
     "props": {
-      "text": "© 2025, Stermax Health LTDA. Todos os direitos reservados",
+      "text": "Stermax Health LTDA. © 2026 - Todos os direitos reservados",
       "blockClass": "texto-final-footer"
     }
   }
