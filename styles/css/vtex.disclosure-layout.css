@@ -59,6 +59,7 @@
   border: none;
   border-radius: 56px;
   background-color: #F6F6F6;
+  cursor: pointer;
 }
 
 .content--visible {

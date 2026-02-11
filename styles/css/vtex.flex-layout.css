@@ -1,7 +1,17 @@
-.flexCol--coluna-img-pq-comprar {
-  margin-right: 70px;
+.flexRowContent--coluna-textos-pq-comprar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.flexRowContent--linha-certificados-pq-comprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 .flexRowContent--linha-pronto-para {
   display: flex;
@@ -61,7 +71,8 @@
 }
 
 .flexRow--linha-certificados-pq-comprar {
-  padding-top: 30px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 
 .flexRow--linha-textos-cronograma {
@@ -80,18 +91,11 @@
   flex-direction: column;
 }
 
-.flexCol--coluna-textos-pq-comprar {
+.flexRow--coluna-textos-pq-comprar {
   display: flex;
   justify-content: center;
 }
 
-.flexRowContent--linha-certificados-pq-comprar {
-  background-image: url(assets/por-que-comprar/desktop/fundo-selos-pqstx.webp);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 477px;
-}
 
 .flexRowContent--linha-mobile-banner-pq-comprar {
   display: flex;
@@ -1187,25 +1191,19 @@
 
 @media screen and (max-width: 1000px) {
 
-  .flexRowContent--linha-gatilho-medo{
+  .flexRowContent--linha-gatilho-medo {
     padding: 14px 10px 20px 10px;
   }
-  
-  .flexRow--linha-gatilho-medo{
+
+  .flexRow--linha-gatilho-medo {
     background-image: url(assets/home/gatilho-medo/mobile/fundo-mobile-gatilho.webp);
   }
 
-  .flexRow--personas{
+  .flexRow--personas {
     margin-top: -90px;
   }
 
-  .flexRowContent--linha-certificados-pq-comprar {
-    background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
-  }
 
-  .flexCol--coluna-img-pq-comprar {
-    margin-right: unset;
-  }
 
 
   .flexRowContent--linha-orcamento-flechas {
@@ -1261,7 +1259,7 @@
     padding: 0 25px;
   }
 
-  .flexCol--coluna-textos-pq-comprar {
+  .flexRow--coluna-textos-pq-comprar {
     padding: 25px;
   }
 

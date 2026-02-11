@@ -561,7 +561,7 @@
   "rich-text#trigger-certificacao-iso-anvisa": {
     "props": {
       "blockClass": "texto-trigger",
-      "text": "Certificação ISO e ANVISA"
+      "text": "Registro ANVISA"
     }
   },
   "rich-text#trigger-assistencia-tecnica": {
@@ -600,7 +600,7 @@
   "rich-text#content-certificacao-iso-anvisa": {
     "props": {
       "blockClass": "texto-content",
-      "text": "Certificação internacional ISO 13485 e registro na ANVISA, seguir normas rigorosas de qualidade e segurança comprova que cada produto é desenvolvido com padrões internacionais e total conformidade com as exigências sanitárias brasileiras."
+      "text": "Registro na ANVISA, seguir normas rigorosas de qualidade e segurança comprova que cada produto é desenvolvido com padrões e total conformidade com as exigências sanitárias brasileiras."
     }
   },
   "rich-text#content-assistencia-tecnica": {

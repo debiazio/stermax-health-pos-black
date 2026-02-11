@@ -112,7 +112,7 @@
   // LINHA CERTIFICADOS
   // ==========================
   // mobile
-  "responsive-layout.mobile#certificados-mobile":{
+  "responsive-layout.mobile#certificados-mobile": {
     "children": [
       "flex-layout.row#linha-certificados-pq-comprar-mobile"
     ]
@@ -124,7 +124,6 @@
     },
     "children": [
       "flex-layout.col#textos-pq-comprar-mobile"
-      // "flex-layout.col#img-pq-comprar"
     ]
   },
   // COLUNA TEXTOS PQ COMPRAR
@@ -151,7 +150,7 @@
   "rich-text#texto-selos-pq-comprar-mobile": {
     "props": {
       "blockClass": "texto-selos-pq-comprar",
-      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA**\n internacional e suporte completo para profissionais da saúde."
     }
   },
   // LINK
@@ -163,7 +162,7 @@
     }
   },
   // desktop
-  "responsive-layout.desktop#certificados-desktop":{
+  "responsive-layout.desktop#certificados-desktop": {
     "children": [
       "flex-layout.row#linha-certificados-pq-comprar"
     ]
@@ -174,15 +173,14 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#textos-pq-comprar",
-      "flex-layout.col#img-pq-comprar"
+      "flex-layout.row#textos-pq-comprar"
     ]
   },
   // COLUNA TEXTOS PQ COMPRAR
-  "flex-layout.col#textos-pq-comprar": {
+  "flex-layout.row#textos-pq-comprar": {
     "props": {
       "blockClass": "coluna-textos-pq-comprar",
-      "preventVerticalStretch": true
+      "colSizing": "auto"
     },
     "children": [
       "rich-text#titulo-selos-pq-comprar",
@@ -202,7 +200,7 @@
   "rich-text#texto-selos-pq-comprar": {
     "props": {
       "blockClass": "texto-selos-pq-comprar",
-      "text": "Mais de 30 anos de experiência, **certificação ANVISA e ISO**\n internacional e suporte completo para profissionais da saúde."
+      "text": "Mais de 30 anos de experiência, **certificação ANVISA**\n internacional e suporte completo para profissionais da saúde."
     }
   },
   // LINK
@@ -211,39 +209,6 @@
       "blockClass": "link-selos-pq-comprar",
       "href": "https://wa.me/5541999710062",
       "label": "FALE COM UM CONSULTOR"
-    }
-  },
-  "flex-layout.col#img-pq-comprar": {
-    "props": {
-      "blockClass": "coluna-img-pq-comprar"
-    },
-    "children": [
-      "scrolleffect",
-      "image#selo-anvisa-teste",
-      "image#selo-iso-teste"
-    ]
-  },
-  // ==============================
-  // teste scroll certificados
-  // ==========================================
-  // "responsive-layout.desktop#selos-teste": {
-  //   "children": [
-
-  //     "image#selo-anvisa-teste",
-  //     "image#selo-iso-teste"
-  //   ]
-  // },
-  "scrolleffect": {},
-  "image#selo-anvisa-teste": {
-    "props": {
-      "blockClass": "selo-anvisa-teste",
-      "src": "assets/por-que-comprar/desktop/selo-anvisa-pqstx.webp"
-    }
-  },
-  "image#selo-iso-teste": {
-    "props": {
-      "blockClass": "selo-iso-teste",
-      "src": "assets/por-que-comprar/desktop/selo-iso-pqstx.webp"
     }
   },
   //  =============================
@@ -383,8 +348,7 @@
     },
     "children": [
       "flex-layout.row#iso+maior",
-      "flex-layout.row#fabrica+suporte",
-      "flex-layout.row#consultoria+atendimento"
+      "flex-layout.row#fabrica+suporte"
     ]
   },
   "flex-layout.row#iso+maior": {
@@ -393,7 +357,7 @@
       "colSizing": "auto"
     },
     "children": [
-      "image#iso",
+      "image#atendimento",
       "image#maior"
     ]
   },
@@ -410,23 +374,7 @@
       "image#suporte"
     ]
   },
-  "flex-layout.row#consultoria+atendimento": {
-    "props": {
-      "blockClass": "img-botoes-original",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#consultor",
-      "image#atendimento"
-    ]
-  },
-  "image#iso": {
-    "props": {
-      "blockClass": "image-botoes-original",
-      "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/iso.webp"
-    }
-  },
+
   "image#maior": {
     "props": {
       "blockClass": "image-botoes-original",
@@ -446,13 +394,6 @@
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
       "src": "assets/por-que-comprar/desktop/suporte.webp"
-    }
-  },
-  "image#consultor": {
-    "props": {
-      "blockClass": "image-botoes-original",
-      "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/consultoria.webp"
     }
   },
   "image#atendimento": {

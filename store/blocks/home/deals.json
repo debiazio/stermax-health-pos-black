@@ -2,7 +2,6 @@
   "flex-layout.row#deals": {
     "children": [
       "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
       "flex-layout.col#deals3",
       "flex-layout.col#deals4",
       "flex-layout.col#deals5",
@@ -44,36 +43,7 @@
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals2": {
-    "props": {
-      "blockClass": "deal-col"
-    },
-    "children": [
-      "flex-layout.col#deal2",
-      "rich-text#deal2"
-    ]
-  },
-  "flex-layout.col#deal2":{
-    "props": {
-      "blockClass": "linha-deal-icon"
-    },
-    "children": [
-      "image#deal2"
-    ]
-  },
-  "image#deal2": {
-    "props": {
-      "src": "assets/deals/Artboard 9_1.svg",
-      "maxHeight": "50px",
-      "blockClass": "icon-deal"
-    }
-  },
-  "rich-text#deal2": {
-    "props": {
-      "text": "**Qualidade Internacional(ISO):**\nReconhecida no\nBrasil e no mundo.",
-      "blockClass": "deals"
-    }
-  },
+ 
   "flex-layout.col#deals3": {
     "props": {
       "blockClass": "deal-col"
