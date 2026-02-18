@@ -11,14 +11,16 @@
   "store.custom#trocas-devolucoes": {
     "path": "/trocas-devolucoes"
   },
-  "store.custom#politica-privacidade":{
+  "store.custom#politica-privacidade": {
     "path": "/politica-privacidade"
   },
-  "store.custom#manuais":{
+  "store.custom#manuais": {
     "path": "/manuais"
   },
   "store.custom#por-que-comprar": {
     "path": "/por-que-comprar"
+  },
+  "store.custom#precheckout": {
+    "path": "/precheckout"
   }
-
 }

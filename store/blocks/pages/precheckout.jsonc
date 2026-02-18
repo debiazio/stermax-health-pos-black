@@ -1,0 +1,9 @@
+{
+  "store.custom#precheckout": {
+    "blocks": [
+      "precheckout"
+    ]
+  },
+  "precheckout": {
+  }
+}
