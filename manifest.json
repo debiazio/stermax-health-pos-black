@@ -1,7 +1,7 @@
 {
   "vendor": "stermaxhealth",
   "name": "store-theme",
-  "version": "5.2.69",
+  "version": "5.2.70",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
