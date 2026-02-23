@@ -1,7 +1,8 @@
 {
   "header-layout.mobile": {
     "children": [
-      "sticky-layout#1-mobile"
+      "sticky-layout#1-mobile",
+      "whatsappstermax"
     ]
   },
   "sticky-layout#1-mobile": {
