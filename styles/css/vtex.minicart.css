@@ -11,6 +11,10 @@
   padding-bottom: 11px;
 }
 
+.opened {
+  z-index: 10000!important;
+}
+
 @media screen and (max-width: 1000px) {
   .openIconContainer {
     margin: 0;

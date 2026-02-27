@@ -1,3 +1,7 @@
+.flexRow--linha-selo-mes-consumidor{
+  display: contents;
+}
+
 .flexRowContent--coluna-textos-pq-comprar{
   display: flex;
   flex-direction: column;

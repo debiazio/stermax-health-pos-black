@@ -1,8 +1,14 @@
-.imageElement--selo-iso-teste{
+.imageElement--selo-promocao {
+  width: 80px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.imageElement--selo-iso-teste {
   position: relative;
-    top: -80px;
-    right: 140px;
-    transition: all 0.9s ease;
+  top: -80px;
+  right: 140px;
+  transition: all 0.9s ease;
 }
 
 
