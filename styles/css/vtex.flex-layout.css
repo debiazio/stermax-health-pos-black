@@ -1,8 +1,15 @@
-.flexRow--linha-selo-mes-consumidor{
+.flexColChild--filterCol {
+  background-color: #34A2F8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.flexRow--linha-selo-mes-consumidor {
   display: contents;
 }
 
-.flexRowContent--coluna-textos-pq-comprar{
+.flexRowContent--coluna-textos-pq-comprar {
   display: flex;
   flex-direction: column;
   align-items: center;

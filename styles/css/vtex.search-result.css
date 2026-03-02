@@ -1,3 +1,7 @@
+.orderByOptionsContainer {
+  z-index: 1001;
+}
+
 .galleryLayoutOptionButton {
   background-color: #F0F0F0;
   color: #3F3F40;

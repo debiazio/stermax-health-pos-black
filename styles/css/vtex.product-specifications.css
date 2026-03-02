@@ -2,3 +2,7 @@
   display: none;
 }
 
+.specificationName::after{
+  content: ": ";
+}
+

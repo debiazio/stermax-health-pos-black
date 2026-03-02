@@ -34,7 +34,8 @@
   },
   "disclosure-layout#specification": {
     "props": {
-      "blockClass": "disclosure-linha"
+      "blockClass": "disclosure-linha",
+      "initialVisibility": "visible"
     },
     "children": [
       "disclosure-trigger#titulo-specification",
@@ -144,7 +145,8 @@
   },
   "disclosure-layout#description": {
     "props": {
-      "blockClass": "disclosure-linha"
+      "blockClass": "disclosure-linha",
+      "initialVisibility": "visible"
     },
     "children": [
       "disclosure-trigger#titulo-description",
