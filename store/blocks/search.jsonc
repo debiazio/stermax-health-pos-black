@@ -141,12 +141,13 @@
   "order-by.v2": {
     "props": {
       "hiddenOptions": [
+        "",
         "OrderByReleaseDateDESC",
         "OrderByBestDiscountDESC",
         "OrderByCollection",
         "OrderByScoreDESC"
       ],
-      "showOrderTitle": false
+      "showOrderTitle": true
     }
   },
   "flex-layout.col#productCount": {
