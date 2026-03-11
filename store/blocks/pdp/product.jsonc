@@ -306,7 +306,8 @@
   "shipping-simulator": {
     "props": {
       "shouldUpdateOrderForm": true,
-      "blockClass": "simulador-frete"
+      "blockClass": "simulador-frete",
+      "pricingMode": "grouped"
     }
   },
   "flex-layout.row#product-availability": {
