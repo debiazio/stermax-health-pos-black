@@ -91,6 +91,7 @@
     },
     "children": [
       "flex-layout.col#linha1-coluna1",
+      "flex-layout.col#linha1-coluna2",
       "flex-layout.col#linha1-coluna3"
     ]
   },
@@ -101,6 +102,15 @@
     "children": [
       "image#deal1",
       "rich-text#deal1"
+    ]
+  },
+  "flex-layout.col#linha1-coluna2": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
     ]
   },
 

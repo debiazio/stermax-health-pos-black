@@ -2,7 +2,6 @@
   "store.product": {
     "children": [
       // "flex-layout.row#product-breadcrumb",
-      "removeiso",
       "condition-layout.product#availability",
       "flex-layout.row#deals",
       "flex-layout.row#description",
@@ -13,9 +12,7 @@
       "flex-layout.row#secao-divisoria-link"
     ]
   },
-  "removeiso":{
 
-  },
   "flex-layout.row#specifications-title": {
     "props": {
       "blockClass": "linha-descricao"

@@ -1,3 +1,7 @@
+.flexCol--coluna-img-pq-comprar {
+  margin-right: 70px;
+}
+
 .flexColChild--filterCol {
   background-color: #34A2F8;
   padding: 10px;
@@ -102,9 +106,17 @@
   flex-direction: column;
 }
 
-.flexRow--coluna-textos-pq-comprar {
+.flexCol--coluna-textos-pq-comprar {
   display: flex;
   justify-content: center;
+}
+
+.flexRowContent--linha-certificados-pq-comprar {
+  background-image: url(assets/por-que-comprar/desktop/fundo-selos-pqstx.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 477px;
 }
 
 
@@ -1191,8 +1203,14 @@
   flex-direction: row;
 }
 
+  .flexRowContent--linha-certificados-pq-comprar {
+    background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
+  }
 
-.flexColChild--animacao-banner-direita {
+
+
+@media screen and (max-width: 1000px) {
+  .flexColChild--animacao-banner-direita {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -1200,7 +1218,9 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 1000px) {
+ .flexCol--coluna-img-pq-comprar {
+    margin-right: unset;
+  }
 
   .flexRowContent--linha-gatilho-medo {
     padding: 14px 10px 20px 10px;
