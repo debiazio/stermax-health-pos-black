@@ -22,5 +22,14 @@
   },
   "store.custom#precheckout": {
     "path": "/precheckout"
+  },
+  "store.custom#noheaderfooter": {
+    "path": "/blog"
+  },
+  "store.custom#blog-category": {
+    "path": "/blog/c/:categoria"
+  },
+  "store.custom#blog-post": {
+    "path": "/blog/:slug"
   }
 }

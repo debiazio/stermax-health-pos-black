@@ -1,0 +1,89 @@
+{
+  "store.custom#noheaderfooter": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#noheaderfooter-content"
+    ]
+  },
+
+  "store.custom#blog-category": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#blog-category-content"
+    ]
+  },
+
+  "store.custom#blog-post": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "flex-layout.row#blog-post-content"
+    ]
+  },
+
+  "header#empty": {
+    "blocks": [
+      "header-layout.desktop#empty",
+      "header-layout.mobile#empty"
+    ]
+  },
+  "header-layout.desktop#empty": {
+    "children": []
+  },
+  "header-layout.mobile#empty": {
+    "children": []
+  },
+
+  "footer#empty": {
+    "blocks": [
+      "footer-layout.desktop#empty",
+      "footer-layout.mobile#empty"
+    ]
+  },
+  "footer-layout.desktop#empty": {
+    "children": []
+  },
+  "footer-layout.mobile#empty": {
+    "children": []
+  },
+
+  "flex-layout.row#noheaderfooter-content": {
+    "props": {
+      "blockClass": "linha-blog",
+      "fullWidth": true
+    },
+    "children": [
+      "blogstermaxhealth"
+    ]
+  },
+  "blogstermaxhealth":{},
+
+  "flex-layout.row#blog-category-content": {
+    "props": {
+      "blockClass": "linha-blog-categoria",
+      "fullWidth": true
+    },
+    "children": [
+      "blogstermaxhealth"
+    ]
+  },
+
+  "flex-layout.row#blog-post-content": {
+    "props": {
+      "blockClass": "linha-blog-post",
+      "fullWidth": true
+    },
+    "children": [
+      "blogpoststermaxhealth"
+    ]
+  }
+}
+
