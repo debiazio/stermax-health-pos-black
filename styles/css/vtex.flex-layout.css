@@ -1,3 +1,18 @@
+.flexRow--linha-dinamic-background-imagem-pdp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexRowContent--linha-dinamic-background-imagem-pdp {
+  max-width: 1300px;
+}
+
+.flexRowContent--pdp-padrao {
+  display: flex;
+  flex-direction: column;
+}
+
 .flexCol--coluna-img-pq-comprar {
   margin-right: 70px;
 }
@@ -1203,22 +1218,22 @@
   flex-direction: row;
 }
 
-  .flexRowContent--linha-certificados-pq-comprar {
-    background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
-  }
+.flexRowContent--linha-certificados-pq-comprar {
+  background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
+}
 
 
 
 @media screen and (max-width: 1000px) {
   .flexColChild--animacao-banner-direita {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-}
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
 
- .flexCol--coluna-img-pq-comprar {
+  .flexCol--coluna-img-pq-comprar {
     margin-right: unset;
   }
 

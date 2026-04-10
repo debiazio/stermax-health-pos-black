@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#fundo-dinamico-plena": {
+    "props": {
+      "blockClass": "container-pdp-fundo-dinamico",
+      "fullWidth": true
+    },
+    "children": [
+      
+      "flex-layout.row#primeira-linha-fundo"
+    ]
+  },
+  "flex-layout.row#primeira-linha-fundo":{
+    "props": {
+      "blockClass": "linha-dinamic-background-imagem-pdp"
+    },
+    "children": [
+      "flex-layout.col#coluna-direita-dinamic-background",
+      "flex-layout.col#coluna-esquerda-dinamic-background"
+    ]
+  },
+  "flex-layout.col#coluna-direita-dinamic-background":{
+    "props": {
+      "blockClass": "coluna-direita-dinamic-background",
+      "width": "60%"
+    },
+    "children": [
+      "stack-layout"
+    ]
+  },
+  "flex-layout.col#coluna-esquerda-dinamic-background":{
+    "props": {
+      "blockClass": "coluna-esquerda-dinamic-background",
+      "width": "40%"
+    },
+    "children": [
+      "rich-text#nome-exemplo"
+    ]
+  },
+  "rich-text#nome-exemplo":{
+    "props": {
+      "text": "nome exemplo"
+    }
+  }
+}

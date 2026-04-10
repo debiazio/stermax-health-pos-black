@@ -1,7 +1,32 @@
 {
   "store.product": {
     "children": [
-      // "flex-layout.row#product-breadcrumb",
+      "appalterafundo",
+      "condition-layout.product#fundo-dinamico"
+    ]
+  },
+  "condition-layout.product#fundo-dinamico": {
+    "props": {
+      "blockClass": "condicional-fundo-dinamico",
+      "conditions": [
+        {
+          "subject": "productId",
+          "arguments": {
+            "id": "2890"
+          }
+        }
+      ],
+      "matchType": "any",
+      "Then": "flex-layout.row#fundo-dinamico-plena",
+      "Else": "flex-layout.row#pdp-padrao"
+    }
+  },
+  "flex-layout.row#pdp-padrao": {
+    "props": {
+      "blockClass": "pdp-padrao",
+      "colSizing": "auto"
+    },
+    "children": [
       "condition-layout.product#availability",
       "flex-layout.row#deals",
       "flex-layout.row#description",
@@ -12,7 +37,6 @@
       "flex-layout.row#secao-divisoria-link"
     ]
   },
-
   "flex-layout.row#specifications-title": {
     "props": {
       "blockClass": "linha-descricao"
@@ -277,7 +301,7 @@
     ]
   },
   // parcelmento
-  "product-installments#parcelmento-pdp":{
+  "product-installments#parcelmento-pdp": {
     "props": {
       "blockClass": "parcelamento-pdp",
       "showInstallmentsOptions": false,
