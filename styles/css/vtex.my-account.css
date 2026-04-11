@@ -40,6 +40,10 @@
   align-items: center;
 }
 
+:global(.vtex-numeric-stepper__input){
+  background-color: white;
+}
+
 
 :focus {
   outline: 0;

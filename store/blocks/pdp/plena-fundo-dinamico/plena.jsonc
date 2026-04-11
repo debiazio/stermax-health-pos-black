@@ -5,40 +5,340 @@
       "fullWidth": true
     },
     "children": [
-      
-      "flex-layout.row#primeira-linha-fundo"
+      "flex-layout.col#pdp-plena"
     ]
   },
-  "flex-layout.row#primeira-linha-fundo":{
+  "flex-layout.col#pdp-plena": {
     "props": {
-      "blockClass": "linha-dinamic-background-imagem-pdp"
+      "blockClass": "pdp-plena-bloco"
+    },
+    "children": [
+      "flex-layout.row#primeira-linha-fundo",
+      "flex-layout.col#segunda-dobra",
+      "flex-layout.col#textos-chegou-a-nova",
+      "flex-layout.col#patenteada",
+      "flex-layout.col#frente-verso",
+      "flex-layout.col#profissionais"
+    ]
+  },
+  // =============================================
+  // primeira dobra
+  // =============================================
+  "flex-layout.row#primeira-linha-fundo": {
+    "props": {
+      "blockClass": "linha-dinamic-background-imagem-pdp",
+      "fullWidth": true
     },
     "children": [
       "flex-layout.col#coluna-direita-dinamic-background",
       "flex-layout.col#coluna-esquerda-dinamic-background"
     ]
   },
-  "flex-layout.col#coluna-direita-dinamic-background":{
+  "flex-layout.col#coluna-direita-dinamic-background": {
     "props": {
       "blockClass": "coluna-direita-dinamic-background",
       "width": "60%"
     },
     "children": [
-      "stack-layout"
+      "product-images"
     ]
   },
-  "flex-layout.col#coluna-esquerda-dinamic-background":{
+  "flex-layout.col#coluna-esquerda-dinamic-background": {
     "props": {
       "blockClass": "coluna-esquerda-dinamic-background",
       "width": "40%"
     },
     "children": [
-      "rich-text#nome-exemplo"
+      "flex-layout.row#linha-nome-pdp-dinamica",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments#parcelmento-pdp",
+      "sku-selector",
+      "product-quantity",
+      "flex-layout.row#buy-button-plena",
+      "flex-layout.col#textos-pdp-plena"
     ]
   },
-  "rich-text#nome-exemplo":{
+  "flex-layout.row#linha-nome-pdp-dinamica": {
     "props": {
-      "text": "nome exemplo"
+      "blockClass": "linha-nome-pdp-dinamica",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#product-name-pdp-dinamica"
+    ]
+  },
+  "flex-layout.row#product-name-pdp-dinamica": {
+    "props": {
+      "blockClass": "nome-do-produto-pdp-dinamica"
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "flex-layout.row#buy-button-plena": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "botao-comprar"
+    },
+    "children": [
+      "add-to-cart-button#plena-pdp"
+    ]
+  },
+  "add-to-cart-button#plena-pdp": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "evento-add-ao-carrinho",
+      "text": "COMPRAR",
+      "unavailableText": "Produto indisponível",
+      "blockClass": "botao-comprar-plena",
+      "onClickBehavior": "add-to-cart"
+    }
+  },
+  "flex-layout.col#textos-pdp-plena": {
+    "children": [
+      "rich-text#titulo-pdp-plena",
+      "rich-text#texto-pdp-plena"
+    ]
+  },
+  "rich-text#titulo-pdp-plena": {
+    "props": {
+      "blockClass": "titulo-textos-pdp-plena",
+      "text": "O que você precisa saber sobre este produto:"
+    }
+  },
+  "rich-text#texto-pdp-plena": {
+    "props": {
+      "blockClass": "textos-pdp-plena",
+      "text": "- Sistema Patenteado Downforce remoção contínua do ar residual;\n- Painel digital;\n- Controle de temperatura;\n- 27 Dispositivos de segurança avançados;\n- Câmara em aço inox AISI 304."
+    }
+  },
+  // ==========================================
+  // sedunda dobra
+  // ==========================================
+  "flex-layout.col#segunda-dobra": {
+    "props": {
+      "blockClass": "segunda-dobra-plena-pdp",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#video-plena",
+      "flex-layout.col#imagens-plena"
+    ]
+  },
+  "flex-layout.col#video-plena": {
+    "props": {
+      "blockClass": "coluna-plena-video",
+      "width": "40%"
+    },
+    "children": [
+      "image#video-plena"
+    ]
+  },
+  "image#video-plena": {
+    "props": {
+      "src": "assets/pdp-plena/video-plena.webp",
+      "alt": "video",
+      "title": "video plena"
+    }
+  },
+  "flex-layout.col#imagens-plena": {
+    "props": {
+      "blockClass": "coluna-plena-imagens",
+      "width": "60%"
+    },
+    "children": [
+      "image#down-force",
+      "image#bandejas",
+      "image#painel-digital"
+    ]
+  },
+  "image#down-force": {
+    "props": {
+      "src": "assets/pdp-plena/sown-force.webp",
+      "alt": "down force",
+      "title": "down force"
+    }
+  },
+  "image#bandejas": {
+    "props": {
+      "src": "assets/pdp-plena/bandejas.webp",
+      "alt": "bandejas",
+      "title": "bandejas"
+    }
+  },
+  "image#painel-digital": {
+    "props": {
+      "src": "assets/pdp-plena/painel-digital.webp",
+      "alt": "painel digital",
+      "title": "painel digital"
+    }
+  },
+  // ====================================================
+  // textos chegou a nova plena
+  // ====================================================
+  "flex-layout.col#textos-chegou-a-nova": {
+    "props": {
+      "blockClass": "container-chegou-a-nova",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#texto-plena-chegou-nova"
+    ]
+  },
+  "flex-layout.col#texto-plena-chegou-nova": {
+    "props": {
+      "blockClass": "coluna-plena-texto-chegou-nova"
+    },
+    "children": [
+      "rich-text#titulo-chegou-a-nova",
+      "rich-text#texto-chegou-a-nova"
+    ]
+  },
+  "rich-text#titulo-chegou-a-nova": {
+    "props": {
+      "text": "Chegou a nova Autoclave PLENA",
+      "blockClass": "titulo-plena-texto-chegou-nova"
+    }
+  },
+  "rich-text#texto-chegou-a-nova": {
+    "props": {
+      "text": "Desenvolvida pela STERMAX, referência em esterilização desde 1991, a nova PLENA reúne tecnologia avançada, sistemas patenteados e alto padrão de segurança para ambientes que exigem confiabilidade.\n\nA forma segura, eficiente e verdadeira para esterilizar os mais diversos tipos de materiais. Capaz de comprovar a esterilização a cada ciclo com indicadores biológicos. Produto consagrado e adotado em serviços médicos e hospitalares em todo o mundo.",
+      "blockClass": "texto-plena-texto-chegou-nova"
+    }
+  },
+// ======================
+// outra sessao
+// ======================
+  "flex-layout.col#patenteada": {
+    "props": {
+      "blockClass": "container-patenteada",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#patenteada"
+    ]
+  },
+  "image#patenteada": {
+    "props": {
+      "src": "assets/pdp-plena/tecnologia-patenteada.webp"
+    }
+  },
+  // =========================================
+  // frente verso
+  // =========================================
+  "flex-layout.col#frente-verso":{
+    "props": {
+      "blockClass": "container-patenteada",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "image#frente-verso"
+    ]
+  },
+  "image#frente-verso":{
+    "props": {
+      "src": "assets/pdp-plena/CLIK_INTE.webp"
+    }
+  },
+  // ========================
+  // profissionais
+  // =====================
+  "flex-layout.col#profissionais":{
+    "props": {
+      "blockClass": "container-patenteada",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#profissionais-perfeita",
+      "flex-layout.row#profissionais-cuidado"
+    ]
+  },
+  "flex-layout.row#profissionais-perfeita":{
+    "props": {
+      "blockClass": "linha-profissionais",
+      "colSizing": "equal"
+    },
+    "children": [
+      "image#profissionais-laranja",
+      "flex-layout.col#texto-profissionais-perfeita"
+    ]
+  },
+  "image#profissionais-laranja":{
+    "props": {
+      "src": "assets/pdp-plena/mulher-laranja.webp"
+    }
+  },
+  "flex-layout.col#texto-profissionais-perfeita":{
+    "props": {
+      "blockClass": "coluna-textos-profissionais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-profissionais-perfeita",
+      "rich-text#subtitulo-profissionais-perfeita",
+      "rich-text#texto-profissionais-perfeita"
+    ]
+  },
+  "rich-text#titulo-profissionais-perfeita":{
+    "props": {
+      "text": "Perfeita para Profissionais",
+      "blockClass": "titulo-profissionais"
+    }
+  },
+  "rich-text#subtitulo-profissionais-perfeita":{
+    "props": {
+      "blockClass": "subtitulo-profissionais",
+      "text": "Que levam a esterilização a sério."
+    }
+  },
+  "rich-text#texto-profissionais-perfeita":{
+    "props": {
+      "blockClass": "texto-profissionais",
+      "text": "Operação prática e fácil com controle através de um exclusivo microprocessador com painel digital que controla automaticamente todos os parâmetros do ciclo. A autoclave plena atende diversos segmentos clínicas odontológicas, médicas, veterinários, laboratórios, manicure, pedicure, podologia, dermatologia, salões de beleza, estúdios e centros de estética."
+    }
+  },
+  "flex-layout.row#profissionais-cuidado":{
+    "props": {
+      "blockClass": "linha-profissionais",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#texto-profissionais-cuidado",
+      "image#profissionais-roxo"
+    ]
+  },
+  "image#profissionais-roxo":{
+    "props": {
+      "src": "assets/pdp-plena/mulher-roxa.webp"
+    }
+  },
+  "flex-layout.col#texto-profissionais-cuidado":{
+    "props": {
+      "blockClass": "coluna-textos-profissionais",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-profissionais-cuidado",
+      "rich-text#texto-profissionais-cuidado"
+    ]
+  },
+  "rich-text#titulo-profissionais-cuidado":{
+    "props": {
+      "text": "Cuidado e segurança",
+      "blockClass": "titulo-profissionais-cuidado"
+    }
+  },
+  "rich-text#texto-profissionais-cuidado":{
+    "props": {
+      "text": "A única autoclave com aviso de ciclo completo que monitora todas as etapas do ciclo para evitar o uso de materiais incorretamente esterilizados. Totalmente isoladas para proteção do operador contra queimaduras, contatos com vapor quente ou choque elétricos. Exclusivo sistema de despressurização totalmente isolado que evita o contato acidental com o vapor quente. Com 27 dispositivos de segurança, ela reúne design exclusivo e patenteado com alta tecnologia.",
+      "blockClass": "texto-profissionais"
     }
   }
 }

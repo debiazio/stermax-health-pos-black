@@ -6,15 +6,17 @@
 }
 
 .listPrice {
-  color: #5C5A58;
+  color: #000000;
+  font-family: "rubik-regular", sans-serif;
   margin-bottom: .25rem;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .sellingPrice {
-  color: #5C5A58;
-  font-family: var(--fonte-secundaria);
-  font-size: 1.25rem;
+  color: #000000;
+  font-weight: 900;
+  font-family: "zenoldmincho-black", sans-serif;
+  font-size: 39px;
 }
 
 .sellingPriceValue {
@@ -23,19 +25,19 @@
 }
 
 .installments {
-  color: #5C5A58;
+  color: #000000;
   margin-bottom: 1rem;
-  font-family: var(--fonte-secundaria);
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-family: "zenoldmincho-medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
 
 }
 
 
 
 .savings {
-  font-weight: 500;
-  color: #79B03A;
+  font-family: "rubik-regular", sans-serif;
+  color: #4AC824;
 }
 
 .sellingPriceValue--summary {

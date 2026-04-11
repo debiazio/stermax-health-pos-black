@@ -56,32 +56,72 @@
     url(assets/fonts/Fraunces_72pt-Bold.ttf);
 }
 
-
-
 @font-face {
-  font-family: "domine-regular";
+  font-family: "zenoldmincho-black";
   font-display: swap;
-  src: url(assets/fonts/Domine-Regular.woff2),
-    url(assets/fonts/Domine-Regular.ttf);
+  src: url(assets/fonts/ZenOldMincho-Black.woff2),
+    url(assets/fonts/ZenOldMincho-Black.ttf);
 }
 
 @font-face {
-  font-family: "domine-semibold";
+  font-family: "zenoldmincho-bold";
   font-display: swap;
-  src: url(assets/fonts/Domine-SemiBold.woff2),
-    url(assets/fonts/Domine-SemiBold.ttf);
+  src: url(assets/fonts/ZenOldMincho-Bold.woff2),
+    url(assets/fonts/ZenOldMincho-Bold.ttf);
 }
 
 @font-face {
-  font-family: "domine-medium";
+  font-family: "zenoldmincho-medium";
   font-display: swap;
-  src: url(assets/fonts/Domine-Medium.woff2),
-    url(assets/fonts/Domine-Medium.ttf);
+  src: url(assets/fonts/ZenOldMincho-Medium.woff2),
+    url(assets/fonts/ZenOldMincho-Medium.ttf);
 }
 
 @font-face {
-  font-family: "domine-bold";
+  font-family: "zenoldmincho-regular";
   font-display: swap;
-  src: url(assets/fonts/Domine-Bold.woff2),
-    url(assets/fonts/Domine-Bold.ttf);
+  src: url(assets/fonts/ZenOldMincho-Regular.woff2),
+    url(assets/fonts/ZenOldMincho-Regular.ttf);
 }
+
+@font-face {
+  font-family: "zenoldmincho-semibold";
+  font-display: swap;
+  src: url(assets/fonts/ZenOldMincho-SemiBold.woff2),
+    url(assets/fonts/ZenOldMincho-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "rubik-bold";
+  font-display: swap;
+  src: url(assets/fonts/Rubik-Bold.woff2),
+    url(assets/fonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+  font-family: "rubik-extrabold";
+  font-display: swap;
+  src: url(assets/fonts/Rubik-ExtraBold.woff2),
+    url(assets/fonts/Rubik-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "rubik-medium";
+  font-display: swap;
+  src: url(assets/fonts/Rubik-Medium.woff2),
+    url(assets/fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+  font-family: "rubik-regular";
+  font-display: swap;
+  src: url(assets/fonts/Rubik-Regular.woff2);
+}
+@font-face {
+  font-family: "rubik-light";
+  font-display: swap;
+  src: url(/assets/fonts/Rubik-Light.woff2),
+  url(/assets/fonts/Rubik-Light.ttf);
+}
+
+

@@ -1,0 +1,9 @@
+.container input{
+  background-color: white!important;
+}
+
+
+.numeric-stepper__plus-button-container
+{
+  border: 1px solid black;
+}

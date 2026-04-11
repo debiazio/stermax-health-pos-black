@@ -1,11 +1,59 @@
+.flexRowContent--linha-profissionais{
+  gap: 100px;
+}
+
+
+.flexCol--coluna-textos-profissionais{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexColChild--container-patenteada{
+  max-width: 1600px;
+}
+
+.flexCol--segunda-dobra-plena-pdp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F5F5;
+}
+
+.flexCol--container-patenteada,
+.flexCol--container-chegou-a-nova{
+  background-color: #F6F5F5;
+}
+
+.flexRowContent--botao-comprar :global(.vtex-button) {
+  background-color: #FF7500;
+  border: none;
+  border-radius: 20px;
+}
+
+.flexCol--coluna-esquerda-dinamic-background {
+  background-color: #FFFFFF;
+  border-radius: 23px;
+  padding: 24px 48px;
+}
+
+.stackItem--product--first .flexRow {
+  height: 100%;
+}
+
+
 .flexRow--linha-dinamic-background-imagem-pdp {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 63px 0;
+  min-height: 80vh;
 }
 
 .flexRowContent--linha-dinamic-background-imagem-pdp {
-  max-width: 1300px;
+  max-width: 1600px;
+  gap: 18px;
 }
 
 .flexRowContent--pdp-padrao {
@@ -1224,6 +1272,12 @@
 
 
 
+@media screen and (max-width: 1650px) {
+  .flexRowContent--linha-dinamic-background-imagem-pdp {
+    padding: 0 50px;
+  }
+
+}
 @media screen and (max-width: 1000px) {
   .flexColChild--animacao-banner-direita {
     display: flex;

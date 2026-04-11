@@ -149,7 +149,7 @@
 }
 
 .emailInputContainer--input-email :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: #FFF9F4;
+  background-color: #ffffff;
   margin-right: 10px;
   border-radius: 35px;
   width: 180px !important;
