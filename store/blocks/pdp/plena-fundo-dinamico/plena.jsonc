@@ -18,7 +18,9 @@
       "flex-layout.col#textos-chegou-a-nova",
       "flex-layout.col#patenteada",
       "flex-layout.col#frente-verso",
-      "flex-layout.col#profissionais"
+      "flex-layout.col#profissionais",
+      "flex-layout.col#titulo-prateleira-acessorios",
+      "flex-layout.col#prateleira-acessorios"
     ]
   },
   // =============================================
@@ -210,9 +212,9 @@
       "blockClass": "texto-plena-texto-chegou-nova"
     }
   },
-// ======================
-// outra sessao
-// ======================
+  // ======================
+  // outra sessao
+  // ======================
   "flex-layout.col#patenteada": {
     "props": {
       "blockClass": "container-patenteada",
@@ -231,7 +233,7 @@
   // =========================================
   // frente verso
   // =========================================
-  "flex-layout.col#frente-verso":{
+  "flex-layout.col#frente-verso": {
     "props": {
       "blockClass": "container-patenteada",
       "colSizing": "auto",
@@ -241,7 +243,7 @@
       "image#frente-verso"
     ]
   },
-  "image#frente-verso":{
+  "image#frente-verso": {
     "props": {
       "src": "assets/pdp-plena/CLIK_INTE.webp"
     }
@@ -249,7 +251,7 @@
   // ========================
   // profissionais
   // =====================
-  "flex-layout.col#profissionais":{
+  "flex-layout.col#profissionais": {
     "props": {
       "blockClass": "container-patenteada",
       "colSizing": "auto",
@@ -260,7 +262,7 @@
       "flex-layout.row#profissionais-cuidado"
     ]
   },
-  "flex-layout.row#profissionais-perfeita":{
+  "flex-layout.row#profissionais-perfeita": {
     "props": {
       "blockClass": "linha-profissionais",
       "colSizing": "equal"
@@ -270,12 +272,12 @@
       "flex-layout.col#texto-profissionais-perfeita"
     ]
   },
-  "image#profissionais-laranja":{
+  "image#profissionais-laranja": {
     "props": {
       "src": "assets/pdp-plena/mulher-laranja.webp"
     }
   },
-  "flex-layout.col#texto-profissionais-perfeita":{
+  "flex-layout.col#texto-profissionais-perfeita": {
     "props": {
       "blockClass": "coluna-textos-profissionais",
       "preventVerticalStretch": true
@@ -286,25 +288,25 @@
       "rich-text#texto-profissionais-perfeita"
     ]
   },
-  "rich-text#titulo-profissionais-perfeita":{
+  "rich-text#titulo-profissionais-perfeita": {
     "props": {
       "text": "Perfeita para Profissionais",
       "blockClass": "titulo-profissionais"
     }
   },
-  "rich-text#subtitulo-profissionais-perfeita":{
+  "rich-text#subtitulo-profissionais-perfeita": {
     "props": {
       "blockClass": "subtitulo-profissionais",
       "text": "Que levam a esterilização a sério."
     }
   },
-  "rich-text#texto-profissionais-perfeita":{
+  "rich-text#texto-profissionais-perfeita": {
     "props": {
       "blockClass": "texto-profissionais",
       "text": "Operação prática e fácil com controle através de um exclusivo microprocessador com painel digital que controla automaticamente todos os parâmetros do ciclo. A autoclave plena atende diversos segmentos clínicas odontológicas, médicas, veterinários, laboratórios, manicure, pedicure, podologia, dermatologia, salões de beleza, estúdios e centros de estética."
     }
   },
-  "flex-layout.row#profissionais-cuidado":{
+  "flex-layout.row#profissionais-cuidado": {
     "props": {
       "blockClass": "linha-profissionais",
       "colSizing": "equal"
@@ -314,12 +316,12 @@
       "image#profissionais-roxo"
     ]
   },
-  "image#profissionais-roxo":{
+  "image#profissionais-roxo": {
     "props": {
       "src": "assets/pdp-plena/mulher-roxa.webp"
     }
   },
-  "flex-layout.col#texto-profissionais-cuidado":{
+  "flex-layout.col#texto-profissionais-cuidado": {
     "props": {
       "blockClass": "coluna-textos-profissionais",
       "preventVerticalStretch": true
@@ -329,16 +331,110 @@
       "rich-text#texto-profissionais-cuidado"
     ]
   },
-  "rich-text#titulo-profissionais-cuidado":{
+  "rich-text#titulo-profissionais-cuidado": {
     "props": {
       "text": "Cuidado e segurança",
       "blockClass": "titulo-profissionais-cuidado"
     }
   },
-  "rich-text#texto-profissionais-cuidado":{
+  "rich-text#texto-profissionais-cuidado": {
     "props": {
       "text": "A única autoclave com aviso de ciclo completo que monitora todas as etapas do ciclo para evitar o uso de materiais incorretamente esterilizados. Totalmente isoladas para proteção do operador contra queimaduras, contatos com vapor quente ou choque elétricos. Exclusivo sistema de despressurização totalmente isolado que evita o contato acidental com o vapor quente. Com 27 dispositivos de segurança, ela reúne design exclusivo e patenteado com alta tecnologia.",
       "blockClass": "texto-profissionais"
+    }
+  },
+  // ====================
+  // titulo prateleira
+  // =======================
+  "flex-layout.col#titulo-prateleira-acessorios":{
+    "props": {
+      "blockClass": "coluna-titulo-shelf",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#titulo-prateleira-plena"
+    ]
+  },
+  "flex-layout.row#titulo-prateleira-plena": {
+    "props": {
+      "blockClass": "linha-titulo-prateleira-plena",
+      "colSizing": "auto",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo-prateleira-plena"
+    ]
+  },
+  "rich-text#titulo-prateleira-plena": {
+    "props": {
+      "text": "Deixe seu processo de\n esterilização completo",
+      "blockClass": "titulo-prateleira"
+    }
+  },
+  // ==============================
+  // prateleira
+  // =============================
+  "flex-layout.col#prateleira-acessorios": {
+    "props": {
+      "blockClass": "conteiner-prateleira-acessorios",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "list-context.product-list#idealine-indica"
+    ]
+  },
+
+  "list-context.product-list#idealine-indica": {
+    "blocks": [
+      "product-summary.shelf#pdp-plena"
+    ],
+    "children": [
+      "slider-layout#idealine-indica"
+    ],
+    "props": {
+      "category": "28",
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+  "slider-layout#idealine-indica": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+  "product-summary.shelf#pdp-plena": {
+    "props": {
+      "blockClass": "shelfplena"
+    },
+    "children": [
+      // "condition-layout.product#selo-promocao-dia-consumidor",
+      "stack-layout#prodsum",
+      "product-summary-name#pdp-plena",
+      "add-to-cart-button#pdp-plena"
+    ]
+  },
+  "product-summary-name#pdp-plena":{
+    "props": {
+      "blockClass": "summaryListplena"
+    }
+  },
+  "add-to-cart-button#pdp-plena": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "evento-add-ao-carrinho",
+      "text": "CONFIRA",
+      "unavailableText": "Produto indisponível",
+      "blockClass": "botao-comprar-plena",
+      "onClickBehavior": "add-to-cart"
     }
   }
 }

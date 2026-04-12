@@ -1,5 +1,24 @@
+.container--titulo-prateleira {
+  max-width: 1600px;
+
+}
+
+.paragraph--titulo-prateleira {
+  font-family: "zenoldmincho-bold", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 150px;
+}
+
 .paragraph--titulo-profissionais,
-.paragraph--titulo-profissionais-cuidado{
+.paragraph--titulo-profissionais-cuidado {
   font-family: "zenoldmincho-bold", sans-serif;
   font-weight: 700;
   font-size: 80px;
@@ -9,16 +28,16 @@
   padding: 0;
 }
 
-.paragraph--titulo-profissionais{
+.paragraph--titulo-profissionais {
   text-align: left;
 }
 
-.paragraph--titulo-profissionais-cuidado{
+.paragraph--titulo-profissionais-cuidado {
   text-align: right;
 }
 
 
-.paragraph--subtitulo-profissionais{
+.paragraph--subtitulo-profissionais {
   font-family: "zenoldmincho-medium", sans-serif;
   font-weight: 500;
   font-size: 39px;
@@ -27,7 +46,7 @@
   text-align: left;
 }
 
-.paragraph--texto-profissionais{
+.paragraph--texto-profissionais {
   font-family: "rubik-light";
   font-size: 24px;
   color: #000000;

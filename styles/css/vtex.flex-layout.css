@@ -1,3 +1,27 @@
+/* .flexRow--linha-desconto-e-valor-productsummary{
+  display: none;
+} */
+
+
+.flexColChild--conteiner-prateleira-acessorios{
+  max-width: 1600px;
+}
+
+.flexCol--conteiner-prateleira-acessorios{
+  position: relative;
+  top: -180px;
+  background: linear-gradient(to bottom, transparent 0%, #F6F5F5 44%, #F6F5F5 100%);
+}
+
+.flexCol--coluna-titulo-shelf{
+  background-image: url(assets/pdp-plena/fundo-prateleira.webp);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 547px;
+  background-color: #F6F5F5;
+}
+
 .flexRowContent--linha-profissionais{
   gap: 100px;
 }
