@@ -1,5 +1,5 @@
-.paragraph--label-link-atendimento-plena{
-  font-family: "rubik-bold",sans-serif;
+.paragraph--label-link-atendimento-plena {
+  font-family: "rubik-bold", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-.paragraph--plena-fale-com-espec-titulo{
+.paragraph--plena-fale-com-espec-titulo {
   font-family: "zenoldmincho-bold", sans-serif;
   font-weight: 700;
   font-size: 54px;
@@ -19,7 +19,7 @@
   margin: 0;
 }
 
-.paragraph--plena-fale-com-espec-subtitulo{
+.paragraph--plena-fale-com-espec-subtitulo {
   font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 31px;
@@ -75,7 +75,7 @@
 }
 
 .paragraph--texto-profissionais {
-  font-family: "rubik-light",sans-serif;
+  font-family: "rubik-light", sans-serif;
   font-size: 24px;
   color: #000000;
   font-weight: 300;
@@ -940,6 +940,51 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--texto-plena-texto-chegou-nova {
+    font-size: 16px;
+  }
+
+  .paragraph--titulo-plena-texto-chegou-nova {
+    font-size: 25px;
+  }
+
+  .paragraph--label-link-atendimento-plena {
+    font-size: 18px;
+  }
+
+  .paragraph--plena-fale-com-espec-subtitulo {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .paragraph--plena-fale-com-espec-titulo {
+    font-size: 30px;
+    padding: 0 20px;
+  }
+
+  .paragraph--titulo-prateleira {
+    font-size: 40px;
+    padding: 0 40px;
+  }
+
+  .paragraph--titulo-profissionais-cuidado {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .paragraph--titulo-profissionais {
+    font-size: 40px;
+  }
+
+  .paragraph--subtitulo-profissionais {
+    font-size: 18px;
+  }
+
+
+  .paragraph--texto-profissionais {
+    font-size: 17px;
+  }
+
   .container--titulo-banner-secundario {
     display: flex;
     flex-direction: column;

@@ -1,3 +1,23 @@
+.flexCol--coluna-descricao-plena{
+  padding: 0 20px;
+}
+
+.flexCol--coluna-descricao-direita,
+.flexCol--conteiner-descricao-plena {
+  display: flex;
+  flex-direction: row;
+  white-space: wrap;
+  justify-content: center;
+}
+
+.flexColChild--conteiner-descricao-plena{
+  max-width: 50%;
+}
+
+.flexRow--primeira-linha-mobile-plena {
+  margin: 0 20px;
+}
+
 .flexCol--coluna-direita-fale-com-espec-plena {
   display: flex;
   flex-direction: column;
@@ -507,14 +527,34 @@
   gap: 5px;
 }
 
+@media screen and (max-width: 1700px) {
+  .flexCol--coluna-esquerda-dinamic-background {
+    min-height: 110vh;
+  }
+}
 
 
-
-
-/* CSS ROLETA ACIMA */
-
-/* FOOTER DESKTOP  */
 @media screen and (max-width: 1000px) {
+  .flexRowContent--nome-do-produto-pdp-dinamica {
+    padding: 20px 0;
+  }
+
+  .flexCol--coluna-grade-plena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: unset;
+    padding: 20px;
+  }
+
+  .flexCol--coluna-direita-fale-com-espec-plena {
+    align-items: center;
+  }
+
+  .flexCol--conteiner-fale-com-espec {
+    flex-direction: column;
+  }
+
 
   /* CSS ROLETA SMARTPHONE */
   .flexRowContent--row-form-roleta .stretchChildrenWidth {

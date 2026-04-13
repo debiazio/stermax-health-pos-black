@@ -13,16 +13,51 @@
       "blockClass": "pdp-plena-bloco"
     },
     "children": [
-      "flex-layout.row#primeira-linha-fundo",
+      "responsive-layout.desktop#primeira-linha-fundo",
+      "responsive-layout.mobile#primeira-linha-fundo",
       "flex-layout.col#segunda-dobra",
       "flex-layout.col#textos-chegou-a-nova",
       "flex-layout.col#patenteada",
+      "flex-layout.col#360-plena",
       "flex-layout.col#frente-verso",
       "flex-layout.col#profissionais",
       "flex-layout.col#titulo-prateleira-acessorios",
       "flex-layout.col#prateleira-acessorios",
       "flex-layout.col#falar-com-espec-plena",
-      "flex-layout.col#grade-plena"
+      "flex-layout.col#grade-plena",
+      "flex-layout.col#coluna-descricao-plena"
+    ]
+  },
+  // =============================================
+  // primeira linha desktop
+  // =============================================
+  "responsive-layout.desktop#primeira-linha-fundo": {
+    "children": [
+      "flex-layout.row#primeira-linha-fundo"
+    ]
+  },
+  // =============================================
+  // primeira linha mobile
+  // =============================================
+  "responsive-layout.mobile#primeira-linha-fundo": {
+    "children": [
+      "flex-layout.row#primeira-linha-mobile"
+    ]
+  },
+  "flex-layout.row#primeira-linha-mobile": {
+    "props": {
+      "blockClass": "primeira-linha-mobile-plena"
+    },
+    "children": [
+      "flex-layout.row#linha-nome-pdp-dinamica",
+      "flex-layout.col#stack",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments#parcelmento-pdp",
+      "sku-selector",
+      "product-quantity",
+      "flex-layout.row#buy-button-plena",
+      "flex-layout.col#textos-pdp-plena"
     ]
   },
   // =============================================
@@ -215,7 +250,7 @@
     }
   },
   // ======================
-  // outra sessao
+  // outra sessao patenteada
   // ======================
   "flex-layout.col#patenteada": {
     "props": {
@@ -232,6 +267,25 @@
       "src": "assets/pdp-plena/tecnologia-patenteada.webp"
     }
   },
+  // ==========================================
+  // 360
+  // ==========================================
+  "flex-layout.col#360-plena": {
+    "props": {
+      "blockClass": "container-360-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#360-esquerda",
+      "flex-layout.col#360-centro",
+      "flex-layout.col#360-direita"
+    ]
+  },
+  "flex-layout.col#360-esquerda": {},
+  "flex-layout.col#360-centro": {},
+  "flex-layout.col#360-direita": {},
   // =========================================
   // frente verso
   // =========================================
@@ -574,5 +628,51 @@
       "alt": "Plena grade",
       "title": "Plena grade"
     }
+  },
+  // =======================
+  // descrição
+  // ==================
+  "flex-layout.col#coluna-descricao-plena": {
+    "props": {
+      "blockClass": "conteiner-descricao-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#descricao-esquerda",
+      "flex-layout.col#descricao-direita"
+    ]
+  },
+  "flex-layout.col#descricao-esquerda": {
+    "props": {
+      "blockClass": "coluna-descricao-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "width": "50%"
+    },
+    "children": [
+      "product-description#plena-pdp"
+    ]
+  },
+  "product-description#plena-pdp": {
+    "props": {
+      "blockClass": "descricao-produto",
+      "collapseContent": false,
+      "showTitle": false
+    }
+  },
+  "flex-layout.col#descricao-direita": {
+    "props": {
+      "blockClass": "coluna-descricao-direita",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "width": "50%"
+    },
+    "children": [
+      "product-specification-group#table"
+    ]
   }
 }
