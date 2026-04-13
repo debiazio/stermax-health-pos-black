@@ -5,56 +5,6 @@
     url(assets/fonts/Jost-Regular.ttf);
 }
 
-@font-face {
-  font-family: "jost-bold";
-  font-display: swap;
-  src: url(assets/fonts/Jost-Bold.woff2),
-    url(assets/fonts/Jost-Bold.ttf);
-}
-
-@font-face {
-  font-family: "jost-medium";
-  font-display: swap;
-  src: url(assets/fonts/Jost-Medium.woff2),
-    url(assets/fonts/Jost-Medium.ttf);
-}
-
-@font-face {
-  font-family: "jost-semibold";
-  font-display: swap;
-  src:
-    url(assets/fonts/Jost-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "jost-thin";
-  font-display: swap;
-  src: url(assets/fonts/Jost-Thin.woff2),
-    url(assets/fonts/Jost-Thin.ttf);
-}
-
-@font-face {
-  font-family: "jost-light";
-  font-display: swap;
-  src:
-    url(assets/fonts/Jost-Light.ttf);
-}
-
-@font-face {
-  font-family: "fraunces-regular";
-  font-display: swap;
-  src:
-    url(assets/fonts/Fraunces_144pt-Regular.ttf),
-    url(assets/fonts/Fraunces_144pt-Regular.woff2);
-}
-
-@font-face {
-  font-family: "fraunces-bold";
-  font-display: swap;
-  src:
-    url(assets/fonts/Fraunces_72pt-Bold.woff2),
-    url(assets/fonts/Fraunces_72pt-Bold.ttf);
-}
 
 @font-face {
   font-family: "zenoldmincho-black";
@@ -77,19 +27,7 @@
     url(assets/fonts/ZenOldMincho-Medium.ttf);
 }
 
-@font-face {
-  font-family: "zenoldmincho-regular";
-  font-display: swap;
-  src: url(assets/fonts/ZenOldMincho-Regular.woff2),
-    url(assets/fonts/ZenOldMincho-Regular.ttf);
-}
 
-@font-face {
-  font-family: "zenoldmincho-semibold";
-  font-display: swap;
-  src: url(assets/fonts/ZenOldMincho-SemiBold.woff2),
-    url(assets/fonts/ZenOldMincho-SemiBold.ttf);
-}
 
 @font-face {
   font-family: "rubik-bold";
