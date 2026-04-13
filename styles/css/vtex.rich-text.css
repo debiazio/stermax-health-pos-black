@@ -1,6 +1,34 @@
+.paragraph--label-link-atendimento-plena{
+  font-family: "rubik-bold",sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph--plena-fale-com-espec-titulo{
+  font-family: "zenoldmincho-bold", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 115%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0;
+}
+
+.paragraph--plena-fale-com-espec-subtitulo{
+  font-family: "rubik-regular", sans-serif;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 100%;
+  color: #000000;
+}
+
 .container--titulo-prateleira {
   max-width: 1600px;
-
 }
 
 .paragraph--titulo-prateleira {
@@ -47,7 +75,7 @@
 }
 
 .paragraph--texto-profissionais {
-  font-family: "rubik-light";
+  font-family: "rubik-light",sans-serif;
   font-size: 24px;
   color: #000000;
   font-weight: 300;

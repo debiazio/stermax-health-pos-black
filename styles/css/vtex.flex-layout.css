@@ -1,19 +1,45 @@
-/* .flexRow--linha-desconto-e-valor-productsummary{
-  display: none;
-} */
+.flexCol--coluna-direita-fale-com-espec-plena {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
+.flexCol--grade-plena-coluna-direita {
+  display: flex;
+  justify-content: space-between;
+}
 
-.flexColChild--conteiner-prateleira-acessorios{
+.flexCol--coluna-grade-plena {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 45px;
+}
+
+.flexCol--conteiner-fale-com-espec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexColChild--container-patenteada .flexCol--coluna-textos-profissionais {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexColChild--conteiner-prateleira-acessorios {
   max-width: 1600px;
 }
 
-.flexCol--conteiner-prateleira-acessorios{
+.flexCol--conteiner-prateleira-acessorios {
   position: relative;
   top: -180px;
+  margin-bottom: -180px;
   background: linear-gradient(to bottom, transparent 0%, #F6F5F5 44%, #F6F5F5 100%);
 }
 
-.flexCol--coluna-titulo-shelf{
+.flexCol--coluna-titulo-shelf {
   background-image: url(assets/pdp-plena/fundo-prateleira.webp);
   background-position: top;
   background-size: contain;
@@ -22,18 +48,18 @@
   background-color: #F6F5F5;
 }
 
-.flexRowContent--linha-profissionais{
-  gap: 100px;
+.flexRowContent--linha-profissionais {
+  gap: 80px;
 }
 
 
-.flexCol--coluna-textos-profissionais{
+.flexCol--coluna-textos-profissionais {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.flexColChild--container-patenteada{
+.flexColChild--container-patenteada {
   max-width: 1600px;
 }
 
@@ -45,8 +71,10 @@
   background-color: #F6F5F5;
 }
 
+.flexRow--container-pdp-fundo-dinamico,
+.flexCol--conteiner-fale-com-espec,
 .flexCol--container-patenteada,
-.flexCol--container-chegou-a-nova{
+.flexCol--container-chegou-a-nova {
   background-color: #F6F5F5;
 }
 
@@ -54,6 +82,7 @@
   background-color: #FF7500;
   border: none;
   border-radius: 20px;
+  padding: 16px;
 }
 
 .flexCol--coluna-esquerda-dinamic-background {
@@ -1302,6 +1331,7 @@
   }
 
 }
+
 @media screen and (max-width: 1000px) {
   .flexColChild--animacao-banner-direita {
     display: flex;

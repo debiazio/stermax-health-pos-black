@@ -20,7 +20,9 @@
       "flex-layout.col#frente-verso",
       "flex-layout.col#profissionais",
       "flex-layout.col#titulo-prateleira-acessorios",
-      "flex-layout.col#prateleira-acessorios"
+      "flex-layout.col#prateleira-acessorios",
+      "flex-layout.col#falar-com-espec-plena",
+      "flex-layout.col#grade-plena"
     ]
   },
   // =============================================
@@ -274,7 +276,8 @@
   },
   "image#profissionais-laranja": {
     "props": {
-      "src": "assets/pdp-plena/mulher-laranja.webp"
+      "src": "assets/pdp-plena/mulher-laranja.webp",
+      "blockClass": "imagens-profissionais-plena"
     }
   },
   "flex-layout.col#texto-profissionais-perfeita": {
@@ -318,7 +321,8 @@
   },
   "image#profissionais-roxo": {
     "props": {
-      "src": "assets/pdp-plena/mulher-roxa.webp"
+      "src": "assets/pdp-plena/mulher-roxa.webp",
+      "blockClass": "imagens-profissionais-plena"
     }
   },
   "flex-layout.col#texto-profissionais-cuidado": {
@@ -346,7 +350,7 @@
   // ====================
   // titulo prateleira
   // =======================
-  "flex-layout.col#titulo-prateleira-acessorios":{
+  "flex-layout.col#titulo-prateleira-acessorios": {
     "props": {
       "blockClass": "coluna-titulo-shelf",
       "colSizing": "auto",
@@ -385,7 +389,6 @@
       "list-context.product-list#idealine-indica"
     ]
   },
-
   "list-context.product-list#idealine-indica": {
     "blocks": [
       "product-summary.shelf#pdp-plena"
@@ -422,7 +425,7 @@
       "add-to-cart-button#pdp-plena"
     ]
   },
-  "product-summary-name#pdp-plena":{
+  "product-summary-name#pdp-plena": {
     "props": {
       "blockClass": "summaryListplena"
     }
@@ -435,6 +438,141 @@
       "unavailableText": "Produto indisponível",
       "blockClass": "botao-comprar-plena",
       "onClickBehavior": "add-to-cart"
+    }
+  },
+  // ==================================
+  // fale com especialista
+  // =================================
+  "flex-layout.col#falar-com-espec-plena": {
+    "props": {
+      "blockClass": "conteiner-fale-com-espec",
+      "colSizing": "equal",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#imagem-esquerda-fale-com-espec-plena",
+      "flex-layout.col#imagem-direita-fale-com-espec-plena"
+    ]
+  },
+  "flex-layout.col#imagem-esquerda-fale-com-espec-plena": {
+    "props": {
+      "blockClass": "coluna-esquerda-fale-com-espec-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "width": "50%"
+    },
+    "children": [
+      "image#plena-img-fale-com-espec"
+    ]
+  },
+  "image#plena-img-fale-com-espec": {
+    "props": {
+      "blockClass": "plena-img-fale-com-espec",
+      "src": "assets/pdp-plena/plena-42-perpectiva-esquerda.webp",
+      "alt": "Imagem Plena 42 litros",
+      "title": "Imagem Plena 42 litros"
+    }
+  },
+  "flex-layout.col#imagem-direita-fale-com-espec-plena": {
+    "props": {
+      "blockClass": "coluna-direita-fale-com-espec-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "width": "50%"
+    },
+    "children": [
+      "rich-text#titulo-plena-fale-com-espec",
+      "rich-text#subtitulo-plena-fale-com-espec",
+      "link#link-plena-fale-com-espec"
+    ]
+  },
+  "rich-text#titulo-plena-fale-com-espec": {
+    "props": {
+      "blockClass": "plena-fale-com-espec-titulo",
+      "text": "Suporte total através de Serviço\n de Atendimento ao Cliente\n com especialistas dedicados"
+    }
+  },
+  "rich-text#subtitulo-plena-fale-com-espec": {
+    "props": {
+      "blockClass": "plena-fale-com-espec-subtitulo",
+      "text": "Assistência Técnica com ampla rede em todo o país."
+    }
+  },
+  "link#link-plena-fale-com-espec": {
+    "props": {
+      "blockClass": "plena-fale-com-espec",
+      "href": "https://wa.me/5541999710062"
+    },
+    "children": [
+      "image#icon-atendimento-plena",
+      "rich-text#label-link-atendimento"
+    ]
+  },
+  "image#icon-atendimento-plena": {
+    "props": {
+      "src": "assets/pdp-plena/atendimento-plena-icon.webp",
+      "blockClass": "icon-atendimento-plena"
+    }
+  },
+  "rich-text#label-link-atendimento": {
+    "props": {
+      "blockClass": "label-link-atendimento-plena",
+      "text": "Conversar com especialista"
+    }
+  },
+  // =============================
+  // grade plena
+  // =============================
+  "flex-layout.col#grade-plena": {
+    "props": {
+      "blockClass": "coluna-grade-plena",
+      "colSizing": "equal",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#grade-plena-esquerda",
+      "flex-layout.col#grade-plena-direita"
+    ]
+  },
+  "flex-layout.col#grade-plena-esquerda": {
+    "props": {
+      "blockClass": "grade-plena-coluna-esquerda"
+    },
+    "children": [
+      "image#img-plena-esquerda-grade"
+    ]
+  },
+  "image#img-plena-esquerda-grade": {
+    "props": {
+      "src": "assets/pdp-plena/plena-autoclave-maior.webp",
+      "blockClass": "img-plena-esquerda-grade"
+    }
+  },
+  "flex-layout.col#grade-plena-direita": {
+    "props": {
+      "blockClass": "grade-plena-coluna-direita",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#img-plena-direita-superior-grade",
+      "image#img-plena-direita-inferior-grade"
+    ]
+  },
+  "image#img-plena-direita-superior-grade": {
+    "props": {
+      "blockClass": "img-plena-direita-superior-grade",
+      "src": "assets/pdp-plena/tampa.webp",
+      "alt": "Plena grade",
+      "title": "Plena grade"
+    }
+  },
+  "image#img-plena-direita-inferior-grade": {
+    "props": {
+      "blockClass": "img-plena-direita-inferior-grade",
+      "src": "assets/pdp-plena/plena-lab.webp",
+      "alt": "Plena grade",
+      "title": "Plena grade"
     }
   }
 }

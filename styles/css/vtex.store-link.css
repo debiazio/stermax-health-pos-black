@@ -1,16 +1,27 @@
-/* teste aneis do botão  */
+.link--plena-fale-com-espec {
+  text-decoration: none;
+}
 
-/* teste aneis do botão  */
+.childrenContainer--plena-fale-com-espec {
+  background-image: linear-gradient(to right, #A30D87, #8435DE);
+}
 
+.childrenContainer--plena-fale-com-espec {
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 40px;
+  border-radius: 20px;
+}
 
-
-.link--link-orcamento-pronto-para{
+.link--link-orcamento-pronto-para {
   text-transform: uppercase;
   box-shadow:
-  0 0 0 5px #1F7ECA1A,
-  0 0 0 10px #1F7ECA1A,
-  0 0 0 17px #ffffff,
-  0 0 0 20px #D2E5F480;
+    0 0 0 5px #1F7ECA1A,
+    0 0 0 10px #1F7ECA1A,
+    0 0 0 17px #ffffff,
+    0 0 0 20px #D2E5F480;
 
 }
 
@@ -80,7 +91,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .link--link-orcamento-pronto-para{
+  .link--link-orcamento-pronto-para {
     font-size: 14px;
     text-align: center;
     white-space: nowrap;

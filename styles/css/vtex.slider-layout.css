@@ -1,3 +1,8 @@
+.sliderLayoutContainer--shelf{
+  padding: 20px 0;
+}
+
+
 .sliderTrackContainer--slider-mobile-home,
 .sliderTrackContainer--slider-desktop-home{
   margin-top: -2px;
