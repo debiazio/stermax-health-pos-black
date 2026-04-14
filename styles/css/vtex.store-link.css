@@ -33,7 +33,7 @@
   padding: 12px 30px;
   border-radius: 100px;
   margin: 10px 0;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 24px;
   font-weight: 600;
 }
@@ -43,7 +43,7 @@
   text-decoration: none;
   color: #fff;
   margin-top: 18px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-transform: capitalize;
@@ -67,7 +67,7 @@
 
 .link--link-banner-quarto {
   text-decoration: none;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 20px;
   color: #717171;
   border-radius: 85px;
@@ -81,7 +81,7 @@
 }
 
 .label--link-ver-mais-autoclaves {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 21px;
   color: #717171;
   border-radius: 85px;

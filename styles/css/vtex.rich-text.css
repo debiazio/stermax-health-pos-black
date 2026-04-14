@@ -195,7 +195,7 @@
 }
 
 .paragraph--texto-pronto-para {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: #000000;
@@ -206,7 +206,7 @@
 
 .paragraph--titulo-milhares-confiam {
   font-size: 36px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   color: #000000;
   text-align: center;
@@ -232,7 +232,7 @@
 }
 
 .paragraph--titulo-original {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 36px;
   color: #505050;
   margin: 0;
@@ -249,7 +249,7 @@
 
 .paragraph--titulo-cronograma {
   color: #574D41;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 45px;
   font-weight: 700;
   text-align: right;
@@ -258,7 +258,7 @@
 
 .paragraph--subtitulo-cronograma {
   color: #574D41;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 27px;
   font-weight: 700;
   text-align: right;
@@ -273,7 +273,7 @@
 }
 
 .paragraph--titulo-selos-pq-comprar {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 40px;
   font-weight: 600;
   color: #574D41;
@@ -308,7 +308,7 @@
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: 30px 30px 30px 0;
   padding: 10px 40px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 20px;
   font-weight: 500;
   color: #777777;
@@ -331,7 +331,7 @@
 
 .paragraph--intro-pq-comprar {
   margin: 0;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 300;
   font-size: 40px;
   text-transform: uppercase;
@@ -363,7 +363,7 @@
 
 .paragraph--titulo-texto-seja-bemvindo {
   color: #1F80CA;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 40px;
   text-align: center;
@@ -372,7 +372,7 @@
 
 .paragraph--subtitulo-texto-seja-bemvindo {
   color: #1F80CA;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 40px;
   text-align: center;
@@ -402,7 +402,7 @@
 }
 
 .paragraph--titulo-pq-escolher {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 500;
   font-size: 40px;
   margin: 0;
@@ -416,7 +416,7 @@
 .paragraph--titulo-biosseguranca {
   font-size: 30px;
   font-weight: 700;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   margin: 0 50px 0 50px;
 }
 
@@ -437,7 +437,7 @@
 }
 
 .paragraph--titulo-nosso-proposito {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 600;
   font-size: 40px;
   color: #4C4A48;
@@ -445,7 +445,7 @@
 }
 
 .paragraph--texto-nosso-proposito {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   margin: 0;
   font-weight: 500;
   font-size: 20px;
@@ -455,7 +455,7 @@
 }
 
 .paragraph--titulo-quem-somos {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 900;
   font-size: 38px;
   text-transform: uppercase;
@@ -471,7 +471,7 @@
 
 .paragraph--texto-quem-somos {
   color: white;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 20px;
   margin: 0;
@@ -498,13 +498,13 @@
 
 .paragraph--texto-titulo-gatilho-medo {
   font-size: 45px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
 }
 
 .paragraph--texto-subtitulo-gatilho-medo {
   font-size: 18px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
 }
 
@@ -524,7 +524,7 @@
 
 .paragraph--titulo-nova-roleta {
   color: #FFFFFF;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
@@ -572,7 +572,7 @@
   color: white;
   font-size: 40px;
   font-weight: bold;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   display: none;
 }
 
@@ -618,13 +618,13 @@
 .paragraph--texto-final-footer {
   text-align: center;
   color: #FFFFFF;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 12px;
 }
 
 .link--textos-contatos {
   text-decoration: none;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   font-size: 14px;
@@ -637,7 +637,7 @@
 
 .paragraph--textos-horarios,
 .paragraph--textos-contatos {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   color: #FFFFFF;
   font-size: 14px;
@@ -648,7 +648,7 @@
 .paragraph--titulo-footer-bandeiras,
 .paragraph--titulo-textos-horarios,
 .paragraph--titulo-fale-com {
-  font-family: "domine-semibold";
+  font-family: "rubik-regular";
   color: #FFFFFF;
   font-weight: 600;
   font-size: 18px;
@@ -664,7 +664,7 @@
 .paragraph--endereco-footer {
   text-align: center;
   color: #FFFFFF;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -679,7 +679,7 @@
 }
 
 .paragraph--titulos-textos-modelos {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #000000;
@@ -694,7 +694,7 @@
 }
 
 .paragraph--titulo-modelos {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   color: #4C4A48;
   font-size: 40px;
@@ -713,7 +713,7 @@
   margin: 0;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -803,7 +803,7 @@
 .paragraph--texto-digitando {
   color: #4C7593;
   font-size: 24px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   margin-top: 5px;
 }
 
@@ -843,7 +843,7 @@
 
 .paragraph--titulo-banner-direito,
 .paragraph--titulo-banner-esquerdo {
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 36px;
   margin-top: 40px;
   line-height: normal;
@@ -863,7 +863,7 @@
   border-radius: 166px;
   color: white;
   font-size: 19px;
-  font-family: "fraunces-regular";
+  font-family: "rubik-regular", sans-serif;
   margin-right: 50px;
 }
 
@@ -1042,7 +1042,7 @@
 
   .paragraph--texto-titulo-gatilho-medo {
     font-size: 17px;
-    font-family: "fraunces-regular";
+    font-family: "rubik-regular", sans-serif;
     font-weight: 400;
     margin: 0;
   }

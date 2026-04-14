@@ -35,7 +35,7 @@
 
 
 .skuSelectorItemTextValue {
-  font-family: "rubik-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 24px;
   font-weight: 400;
   padding: 0 38px;
@@ -122,7 +122,7 @@
 .productDescriptionText--descricao-produto,
 .shippingTableBody {
   color: #000000 !important;
-  font-family: "rubik-regular";
+  font-family: "rubik-regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -299,7 +299,7 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
+  background-color: #F6F6F6;
   color: #fff;
   border: none;
 }
