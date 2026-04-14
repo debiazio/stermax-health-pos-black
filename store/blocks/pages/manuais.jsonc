@@ -33,11 +33,45 @@
       "blockClass": "conteudo-manuais"
     },
     "children": [
+      "flex-layout.col#plena42litros-manual",
       "flex-layout.col#vida-21l",
       "flex-layout.col#vida-30l-75l",
       "flex-layout.col#vida-75l-vertical",
       "flex-layout.col#opta-12l"
     ]
+  },
+  // plena 42 LITROS
+  "flex-layout.col#plena42litros-manual": {
+    "props": {
+      "blockClass": "col-manuais"
+    },
+    "children": [
+      "image#plena42litros-manual",
+      "rich-text#plena42litros-manual",
+      "link#baixar-manual-plena42litros-manual"
+    ]
+  },
+  "image#plena42litros-manual": {
+    "props": {
+      "blockClass": "imagem-manuais",
+      "src": "assets/manuais/plena-thumb.webp"
+    }
+  },
+  "rich-text#plena42litros-manual": {
+    "props": {
+      "blockClass": "titulo-manuais",
+      "text": "Plena 42L"
+    }
+  },
+  "link#baixar-manual-plena42litros-manual":{
+    "props": {
+      "blockClass": "link-manuais",
+      "href": "https://stermax.com.br/images_idealine/manuais/MANUAL%20PLENA%2042.pdf",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "download": true,
+      "label": "BAIXAR MANUAL"
+    }
   },
   // VIDA 21 LITROS
   "flex-layout.col#vida-21l": {
@@ -152,7 +186,7 @@
   "image#opta-12l": {
     "props": {
       "blockClass": "imagem-manuais",
-      "src": "/assets/manuais/opta.svg"
+      "src": "assets/manuais/opta.svg"
     }
   },
   "rich-text#opta-12l": {
