@@ -6,6 +6,9 @@
     ]
   },
   "footer-layout.desktop": {
+    // "props": {
+    //   "blockClass": "container-footer"
+    // },
     "children": [
       "flex-layout.row#footer-texto-digitando",
       "flex-layout.row#footer-linha-desktop",

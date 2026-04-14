@@ -1,6 +1,7 @@
 {
   "store.product": {
     "children": [
+      "productthemecontroller",
       "appalterafundo",
       "condition-layout.product#fundo-dinamico"
     ]

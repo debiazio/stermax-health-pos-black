@@ -96,6 +96,9 @@ input:-webkit-autofill {
 
 /* reset  */
 
+
+
+
 :global(.vtex-render__container-id-carrossel-home-desktop) {
   justify-content: center;
   display: flex;
