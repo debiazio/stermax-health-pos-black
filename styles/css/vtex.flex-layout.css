@@ -1,4 +1,80 @@
-.flexCol--coluna-descricao-plena{
+.flexRow--linha-360 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexRowContent--linha-360 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 1600px;
+}
+
+.flexRowContent--linha-titulo-360plena {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--linha-360 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+
+.flexCol--colunaDireita-painelDigital360-pdpPlena,
+.flexCol--colunaEsquerda-painelDigital360-pdpPlena {
+  padding: 28px;
+}
+
+
+.flexColChild--colunaDireita-painelDigital360-pdpPlena,
+.flexColChild--colunaEsquerda-painelDigital360-pdpPlena {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(to right,
+      rgba(153, 148, 144, 0.15) 0%,
+      rgba(153, 148, 144, 1) 50%,
+      rgba(153, 148, 144, 0.15) 100%) 1;
+}
+
+.flexColChild--colunaDireita-painelDigital360-pdpPlena:last-child,
+.flexColChild--colunaEsquerda-painelDigital360-pdpPlena:last-child {
+  border-bottom: none;
+}
+
+.flexColChild--colunaDireita-painelDigital360-pdpPlena {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 2px solid #999490
+}
+
+
+.flexRowContent--linha360plena-textos360-pdpPlena-linhasDireita,
+.flexRowContent--linha360plena-textos360-pdpPlena-linhasEsquerda {
+  display: flex;
+  align-items: center;
+}
+
+.flexColChild--container-360-plena {
+  max-width: 700px;
+}
+
+.flexCol--container-360-plena {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexCol--coluna-descricao-plena {
   padding: 0 20px;
 }
 
@@ -10,7 +86,7 @@
   justify-content: center;
 }
 
-.flexColChild--conteiner-descricao-plena{
+.flexColChild--conteiner-descricao-plena {
   max-width: 50%;
 }
 
@@ -1374,6 +1450,15 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRow--linha-360 {
+    padding: 20px;
+  }
+
+  .flexCol--colunaDireita-painelDigital360-pdpPlena,
+  .flexCol--colunaEsquerda-painelDigital360-pdpPlena {
+    display: none;
+  }
+
   .flexColChild--animacao-banner-direita {
     display: flex;
     height: 100%;

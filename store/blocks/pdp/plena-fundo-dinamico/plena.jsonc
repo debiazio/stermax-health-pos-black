@@ -18,7 +18,8 @@
       "flex-layout.col#segunda-dobra",
       "flex-layout.col#textos-chegou-a-nova",
       "flex-layout.col#patenteada",
-      "flex-layout.col#360-plena",
+      "flex-layout.row#conteiner-360",
+
       "flex-layout.col#frente-verso",
       "flex-layout.col#profissionais",
       "flex-layout.col#titulo-prateleira-acessorios",
@@ -270,12 +271,45 @@
   // ==========================================
   // 360
   // ==========================================
+  "flex-layout.row#conteiner-360":{
+    "props": {
+      "blockClass": "linha-360",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#titulo-360",
+      "flex-layout.col#360-plena",
+      "flex-layout.row#icone360"
+    ]
+  },
+  "flex-layout.row#titulo-360":{
+    "props": {
+      "blockClass": "linha-titulo-360plena",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-360plena",
+      "rich-text#subtitulo-360plena"
+    ]
+  },
+  "rich-text#titulo-360plena":{
+    "props": {
+      "blockClass": "titulo360plena",
+      "text": "Tecnologia que não se vê por aí..."
+    }
+  },
+  "rich-text#subtitulo-360plena":{
+    "props": {
+      "blockClass": "subtitulo360plena",
+      "text": "A Autoclave PLENA conta com sistemas patenteados Stermax, desenvolvidos para garantir mais segurança e eficiência no processo de esterilização."
+    }
+  },
   "flex-layout.col#360-plena": {
     "props": {
       "blockClass": "container-360-plena",
-      "colSizing": "equal",
-      "horizontalAlign": "center",
-      "preventVerticalStretch": true
+      "colSizing": "auto",
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#360-esquerda",
@@ -283,9 +317,192 @@
       "flex-layout.col#360-direita"
     ]
   },
-  "flex-layout.col#360-esquerda": {},
-  "flex-layout.col#360-centro": {},
-  "flex-layout.col#360-direita": {},
+  // coluna da esquerda 360
+  "flex-layout.col#360-esquerda": {
+    "props": {
+      "blockClass": "colunaEsquerda-painelDigital360-pdpPlena"
+    },
+    "children": [
+      "flex-layout.row#linha360plena-painel-digital",
+      "flex-layout.row#linha360plena-controleTemperatura-digital",
+      "flex-layout.row#linha360plena-sistemaDownforce-digital"
+    ]
+  },
+  // linha panel digital
+  "flex-layout.row#linha360plena-painel-digital": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasEsquerda",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#360plena-iconPainelDigital-pdpPlena",
+      "rich-text#textoPlena360-painelDigital-pdpPlena"
+    ]
+  },
+  // filhos
+  // imagem
+  "image#360plena-iconPainelDigital-pdpPlena": {
+    "props": {
+      "src": "assets/pdp-plena/ico-painel-digital-icon.webp",
+      "blockClass": "360plena-icon-pdpPlena",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-painelDigital-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "left"],
+      "text": "Painel digital"
+    }
+  },
+  // linha controle de temp 360
+  "flex-layout.row#linha360plena-controleTemperatura-digital": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasEsquerda",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#360plena-iconControleTemp-pdpPlena",
+      "rich-text#textoPlena360-controleTemperatura-pdpPlena"
+    ]
+  },
+  // imagem
+  "image#360plena-iconControleTemp-pdpPlena": {
+    "props": {
+      "blockClass": "360plena-icon-pdpPlena",
+      "src": "assets/pdp-plena/ico-temperatura.webp",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-controleTemperatura-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "left"],
+      "text": "Controle de\n temperatura"
+    }
+  },
+  // linha sistema downforce
+  "flex-layout.row#linha360plena-sistemaDownforce-digital": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasEsquerda",
+      "colSizing": "auto"
+    },
+    "children": [
+      "image#360plena-iconSistemaDownForce-pdpPlena",
+      "rich-text#textoPlena360-sistemaDownforce-pdpPlena"
+    ]
+  },
+  // imagem
+  "image#360plena-iconSistemaDownForce-pdpPlena": {
+    "props": {
+      "blockClass": "360plena-icon-pdpPlena",
+      "src": "assets/pdp-plena/ico-forcaprabaixo.webp",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-sistemaDownforce-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "left"],
+      "text": "Sistema\n Downforce"
+    }
+  },
+  "flex-layout.col#360-centro": {
+    "children": [
+      "plenavr"
+    ]
+  },
+  "flex-layout.col#360-direita": {
+    "props": {
+      "blockClass": "colunaDireita-painelDigital360-pdpPlena"
+    },
+    "children": [
+      "flex-layout.row#linha360plena-dispSeguranca",
+      "flex-layout.row#linha360plena-camaraAcoInox-digital",
+      "flex-layout.row#linha360plena-registroAnvisa-digital"
+    ]
+  },
+  "flex-layout.row#linha360plena-dispSeguranca": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasDireita",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#textoPlena360-dispSeguranca-pdpPlena",
+      "image#imagemPlena360-dispSeguranca-pdpPlena"
+    ]
+  },
+  // imagem
+  "image#imagemPlena360-dispSeguranca-pdpPlena": {
+    "props": {
+      "src": "assets/pdp-plena/ico-seguranca.webp",
+      "blockClass": "360plena-icon-pdpPlena",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-dispSeguranca-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "right"],
+      "text": "27 Dispositivos\n de Segurança"
+    }
+  },
+  "flex-layout.row#linha360plena-camaraAcoInox-digital": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasDireita",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#textoPlena360-camaraAcoInox-pdpPlena",
+      "image#imagemPlena360-camaraAcoInox-pdpPlena"
+    ]
+  },
+  // imagem
+  "image#imagemPlena360-camaraAcoInox-pdpPlena": {
+    "props": {
+      "src": "assets/pdp-plena/ico-tubo.webp",
+      "blockClass": "360plena-icon-pdpPlena",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-camaraAcoInox-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "right"],
+      "text": "Câmara em aço\n inox AISI 304"
+    }
+  },
+  "flex-layout.row#linha360plena-registroAnvisa-digital": {
+    "props": {
+      "blockClass": "linha360plena-textos360-pdpPlena-linhasDireita",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#textoPlena360-registroAnvisa-pdpPlena",
+      "image#imagemPlena360-registroAnvisa-pdpPlena"
+    ]
+  },
+  // imagem
+  "image#imagemPlena360-registroAnvisa-pdpPlena": {
+    "props": {
+      "src": "assets/pdp-plena/ico-anvisa.webp",
+      "blockClass": "360plena-icon-pdpPlena",
+      "alt": "Ícone sessao 360",
+      "title": "Ícone sessao 360"
+    }
+  },
+  // texto
+  "rich-text#textoPlena360-registroAnvisa-pdpPlena": {
+    "props": {
+      "blockClass": ["textoPlena360-textos-pdpPlena", "right"],
+      "text": "Registro da\n ANVISA"
+    }
+  },
   // =========================================
   // frente verso
   // =========================================
@@ -302,6 +519,16 @@
   "image#frente-verso": {
     "props": {
       "src": "assets/pdp-plena/CLIK_INTE.webp"
+    }
+  },
+  "flex-layout.row#icone360":{
+    "children": [
+      "image#icone360"
+    ]
+  },
+  "image#icone360":{
+    "props": {
+      "src": "assets/pdp-plena/360icon.webp"
     }
   },
   // ========================

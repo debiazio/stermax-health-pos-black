@@ -136,7 +136,7 @@
   "image#logo-footer": {
     "props": {
       "blockClass": "image-footer",
-      "src": "assets/footer/mobile/stermaxh&h-logo-footer-mobile.webp"
+      "src": "assets/footer/mobile/logo-footer-mobile.webp"
     }
   },
   // ENDERECO FOOTER

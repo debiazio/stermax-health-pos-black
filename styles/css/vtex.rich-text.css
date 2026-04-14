@@ -1,3 +1,44 @@
+.paragraph--titulo360plena{
+  font-family: "zenoldmincho-black";
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #3C3B3B;
+  font-size: 50px;
+  color: #3C3B3B;
+  padding: 0 20px;
+}
+
+.container--subtitulo360plena{
+  max-width: 1600px;
+}
+
+.paragraph--subtitulo360plena{
+  font-family: "rubik-light", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 100%;
+  color: #696969;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.paragraph--textoPlena360-textos-pdpPlena{
+  font-family: "rubik-regular", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #696969;
+  line-height: 100%;
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+.paragraph--lef{
+  text-align: left;
+}
+.paragraph--right{
+  text-align: right;
+}
+
 .paragraph--label-link-atendimento-plena {
   font-family: "rubik-bold", sans-serif;
   font-weight: 700;
@@ -940,6 +981,14 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--titulo360plena{
+    font-size: 25px;
+  }
+
+  .paragraph--subtitulo360plena{
+    font-size: 18px;
+  }
+
   .paragraph--texto-plena-texto-chegou-nova {
     font-size: 16px;
   }

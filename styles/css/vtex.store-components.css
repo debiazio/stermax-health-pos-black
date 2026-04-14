@@ -1,4 +1,8 @@
 
+.imageElement--360plena-icon-pdpPlena{
+  max-width: 80px;
+}
+
 .imageElement--icon-atendimento-plena{
   height: 100%;
   padding: 0 10px;
