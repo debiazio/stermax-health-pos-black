@@ -18,6 +18,14 @@
 }
 
 
+
+
+@media screen and (max-width: 1200px) {
+  .styledLinkContent {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .menuContainer {
     display: flex;

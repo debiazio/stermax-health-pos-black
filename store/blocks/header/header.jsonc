@@ -62,7 +62,8 @@
   },
   "flex-layout.row#cabecalho-container-desktop": {
     "props": {
-      "blockClass": "cabecalho-desktop"
+      "blockClass": "cabecalho-desktop",
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.row#menu-superior-linha-esquerda",
