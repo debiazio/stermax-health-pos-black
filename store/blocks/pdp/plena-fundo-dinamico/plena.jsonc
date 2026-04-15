@@ -687,7 +687,7 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 3,
-        "phone": 2
+        "phone": 1
       },
       "infinite": true,
       "fullWidth": true,
@@ -771,7 +771,7 @@
   "rich-text#titulo-plena-fale-com-espec": {
     "props": {
       "blockClass": "plena-fale-com-espec-titulo",
-      "text": "Suporte total através de Serviço\n de Atendimento ao Cliente\n com especialistas dedicados"
+      "text": "Suporte total:\n Serviço de atendimento ao cliente com especialistas dedicados"
     }
   },
   "rich-text#subtitulo-plena-fale-com-espec": {
