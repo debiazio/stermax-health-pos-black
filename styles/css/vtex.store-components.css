@@ -1,22 +1,24 @@
 
-.imageElement--360plena-icon-pdpPlena{
+
+
+.imageElement--360plena-icon-pdpPlena {
   max-width: 80px;
 }
 
-.imageElement--icon-atendimento-plena{
+.imageElement--icon-atendimento-plena {
   height: 100%;
   padding: 0 10px;
 }
 
-.imageElement--imagens-profissionais-plena{
+.imageElement--imagens-profissionais-plena {
   max-height: fit-content;
 }
 
-.skuSelectorOptionsList{
+.skuSelectorOptionsList {
   margin: 0;
 }
 
-.skuSelectorItem{
+.skuSelectorItem {
   border-color: transparent;
   border-radius: 9px;
   background: linear-gradient(to right, #A30D87, #2C2FA0);
@@ -118,8 +120,16 @@
   border: 1px solid var(--cinza-medio) !important;
 }
 
+.productDescriptionText--descricao-produto {
+  color: #696969 !important;
+  text-align: justify;
+  font-family: "rubik-regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40px;
+}
+
 .skuSelectorName,
-.productDescriptionText--descricao-produto,
 .shippingTableBody {
   color: #000000 !important;
   font-family: "rubik-regular", sans-serif;
@@ -260,7 +270,7 @@
   padding-bottom: 20px;
 }
 
-.searchBarContainer :global(.vtex-styleguide-9-x-input){
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
   background-color: #F6F6F6;
 }
 
@@ -420,10 +430,6 @@
     margin-left: -50px;
   }
 
-  .productDescriptionContainer--descricao-produto {
-    padding: 15px;
-  }
-
   .productNameContainer {
     font-size: 15px;
   }
@@ -499,6 +505,10 @@
 
 
 @media screen and (max-width: 1024px) {
+  .productDescriptionText--descricao-produto{
+    padding-right: unset;
+  }
+
   .imageElement--flecha-direita-pronto-para {
     position: relative;
     top: -75px;
