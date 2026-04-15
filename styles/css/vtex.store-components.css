@@ -253,12 +253,15 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
   border: none;
   border-radius: 20px;
-
 }
 
 .logoImage--logo {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  background-color: #F6F6F6;
 }
 
 .notificationBarContainer {

@@ -307,7 +307,7 @@
       "blockClass": "parcelamento-pdp",
       "showInstallmentsOptions": false,
       "showTotalPrice": true,
-      "message": "Ou até {installmentsNumber}x de {installmentValue} com juros no cartão"
+      "message": "Ou até {installmentsNumber}x de {installmentValue} sem juros no cartão"
     }
   },
   "sku-selector": {

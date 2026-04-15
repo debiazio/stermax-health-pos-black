@@ -648,7 +648,7 @@
 .paragraph--titulo-footer-bandeiras,
 .paragraph--titulo-textos-horarios,
 .paragraph--titulo-fale-com {
-  font-family: "rubik-regular";
+  font-family: "rubik-regular", sans-serif;
   color: #FFFFFF;
   font-weight: 600;
   font-size: 18px;
