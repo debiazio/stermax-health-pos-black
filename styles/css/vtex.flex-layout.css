@@ -1,3 +1,8 @@
+.flexRow--linhaicone360 {
+  position: relative;
+  top: -80px;
+}
+
 .flexRowContent--linha-especificacao-values {
   display: flex;
   justify-content: space-between;
@@ -1485,8 +1490,6 @@
   background-image: url(assets/por-que-comprar/mobile/selos-anvisa-iso.webp);
 }
 
-
-
 @media screen and (max-width: 1650px) {
   .flexRowContent--linha-dinamic-background-imagem-pdp {
     padding: 0 50px;
@@ -1495,6 +1498,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-profissionais{
+    padding: 20px;
+  }
   .flexCol--container-frenteVerso {
     background-position: bottom;
   }

@@ -9,6 +9,7 @@
 .element--shelfplena :global(.vtex-button) {
   border: none;
   background: none;
+  background-color: unset!important;
 }
 
 

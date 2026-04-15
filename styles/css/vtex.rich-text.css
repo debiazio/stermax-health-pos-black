@@ -2,9 +2,8 @@
   font-family: "zenoldmincho-black";
   text-transform: uppercase;
   font-weight: 900;
-  color: #3C3B3B;
+  color: #FF7500;
   font-size: 50px;
-  color: #3C3B3B;
   padding: 0 20px;
 }
 
@@ -87,12 +86,19 @@
   margin-top: 150px;
 }
 
+.paragraph--titulo-profissionais {
+  color: #FF7500;
+}
+
+.paragraph--titulo-profissionais-cuidado {
+  color: #8435DE;
+}
+
 .paragraph--titulo-profissionais,
 .paragraph--titulo-profissionais-cuidado {
   font-family: "zenoldmincho-bold", sans-serif;
   font-weight: 700;
   font-size: 80px;
-  color: #000000;
   line-height: 98%;
   margin: 0;
   padding: 0;

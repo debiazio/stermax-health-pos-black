@@ -1,4 +1,8 @@
-
+.imageElement--mulher-laranja {
+  border-radius: 20px;
+  margin: 20px;
+  margin-left: 60px;
+}
 
 
 .imageElement--360plena-icon-pdpPlena {
@@ -505,7 +509,12 @@
 
 
 @media screen and (max-width: 1024px) {
-  .productDescriptionText--descricao-produto{
+  .imageElement--mulher-laranja{
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .productDescriptionText--descricao-produto {
     padding-right: unset;
   }
 

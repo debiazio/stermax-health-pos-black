@@ -151,7 +151,7 @@
   "rich-text#texto-pdp-plena": {
     "props": {
       "blockClass": "textos-pdp-plena",
-      "text": "- Sistema Patenteado Downforce remoção contínua do ar residual;\n- Painel digital;\n- Controle de temperatura;\n- 27 Dispositivos de segurança avançados;\n- Câmara em aço inox AISI 304."
+      "text": "- Sistema Patenteado Downforce remoção contínua do ar residual\n- Painel digital\n- Controle de temperatura\n- 27 Dispositivos de segurança avançados\n- Câmara em aço inox AISI 304"
     }
   },
   // ==========================================
@@ -280,7 +280,8 @@
     "children": [
       "flex-layout.row#titulo-360",
       "flex-layout.col#360-plena",
-      "flex-layout.row#icone360"
+      "flex-layout.row#icone360",
+      "flex-layout.row#texto-orientacao360-plena"
     ]
   },
   "flex-layout.row#titulo-360":{
@@ -514,15 +515,13 @@
     },
     "children": [
       "plenahotspots"
-      // "image#frente-verso"
     ]
   },
-  "image#frente-verso": {
-    "props": {
-      "src": "assets/pdp-plena/CLIK_INTE.webp"
-    }
-  },
+
   "flex-layout.row#icone360":{
+    "props": {
+      "blockClass": "linhaicone360"
+    },
     "children": [
       "image#icone360"
     ]
@@ -530,6 +529,21 @@
   "image#icone360":{
     "props": {
       "src": "assets/pdp-plena/360icon.webp"
+    }
+  },
+  "flex-layout.row#texto-orientacao360-plena":{
+    "props": {
+      "blockClass": "linha-texto-orientacao360-plenapdp"
+    },
+    "children": [
+      "rich-text#orientacao360plena"
+    ]
+  },
+  "rich-text#orientacao360plena":{
+    "props": {
+      "textAlignment": "CENTER",
+      "blockClass": "orientacao360plena-texto",
+      "text": "Clique e arraste\n **Explore a plenitude em cada ângulo**"
     }
   },
   // ========================
@@ -558,8 +572,8 @@
   },
   "image#profissionais-laranja": {
     "props": {
-      "src": "assets/pdp-plena/mulher-laranja.webp",
-      "blockClass": "imagens-profissionais-plena"
+      "src": "assets/pdp-plena/edit-laranjaaa.webp",
+      "blockClass": ["imagens-profissionais-plena", "mulher-laranja"]
     }
   },
   "flex-layout.col#texto-profissionais-perfeita": {
