@@ -508,12 +508,13 @@
   // =========================================
   "flex-layout.col#frente-verso": {
     "props": {
-      "blockClass": "container-patenteada",
+      "blockClass": "container-frenteVerso",
       "colSizing": "auto",
       "horizontalAlign": "center"
     },
     "children": [
-      "image#frente-verso"
+      "plenahotspots"
+      // "image#frente-verso"
     ]
   },
   "image#frente-verso": {

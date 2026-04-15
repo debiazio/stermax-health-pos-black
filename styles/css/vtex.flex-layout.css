@@ -207,6 +207,13 @@
   background-color: #F6F5F5;
 }
 
+.flexCol--container-frenteVerso {
+  height: 100%;
+  background-image: url(assets/pdp-plena/fundo-plena-frente-verso.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .flexRow--container-pdp-fundo-dinamico,
 .flexCol--conteiner-fale-com-espec,
 .flexCol--container-patenteada,
@@ -1488,12 +1495,16 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .flexCol--grade-plena-coluna-direita{
+  .flexCol--container-frenteVerso {
+    background-position: bottom;
+  }
+
+  .flexCol--grade-plena-coluna-direita {
     gap: 20px;
   }
 
 
-  .flexCol--conteiner-descricao-plena{
+  .flexCol--conteiner-descricao-plena {
     margin-top: unset;
     margin-bottom: unset;
   }
