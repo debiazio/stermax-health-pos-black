@@ -1,4 +1,4 @@
-.paragraph--titulo360plena{
+.paragraph--titulo360plena {
   font-family: "zenoldmincho-black";
   text-transform: uppercase;
   font-weight: 900;
@@ -8,11 +8,11 @@
   padding: 0 20px;
 }
 
-.container--subtitulo360plena{
+.container--subtitulo360plena {
   max-width: 1600px;
 }
 
-.paragraph--subtitulo360plena{
+.paragraph--subtitulo360plena {
   font-family: "rubik-light", sans-serif;
   font-size: 28px;
   font-weight: 300;
@@ -22,7 +22,7 @@
   padding: 0 20px;
 }
 
-.paragraph--textoPlena360-textos-pdpPlena{
+.paragraph--textoPlena360-textos-pdpPlena {
   font-family: "rubik-regular", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -32,10 +32,11 @@
   padding: 0 20px;
 }
 
-.paragraph--lef{
+.paragraph--lef {
   text-align: left;
 }
-.paragraph--right{
+
+.paragraph--right {
   text-align: right;
 }
 
@@ -653,7 +654,6 @@
   font-weight: 600;
   font-size: 18px;
   text-align: start;
-  text-transform: capitalize;
 
 }
 
@@ -714,8 +714,8 @@
   color: #FFFFFF;
   text-transform: uppercase;
   font-family: "rubik-regular", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .container--rich-text-topo {
@@ -981,11 +981,11 @@
 
 
 @media only screen and (max-width: 1000px) {
-  .paragraph--titulo360plena{
+  .paragraph--titulo360plena {
     font-size: 25px;
   }
 
-  .paragraph--subtitulo360plena{
+  .paragraph--subtitulo360plena {
     font-size: 18px;
   }
 

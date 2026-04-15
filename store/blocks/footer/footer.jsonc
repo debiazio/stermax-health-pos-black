@@ -323,14 +323,14 @@
   "rich-text#contatos-text-footer-telefone": {
     "props": {
       "blockClass": "textos-contatos",
-      "text": "41 3668 2144"
+      "text": "(41) 3668-2144"
     }
   },
   // WHATSAPP
   "rich-text#contatos-text-footer-whats": {
     "props": {
       "blockClass": "textos-contatos",
-      "text": "41 9 9971 0062"
+      "text": "(41) 99971-0062"
     }
   },
   // EMAIL
@@ -350,7 +350,7 @@
   "rich-text#horarios-footer-seg-quinta": {
     "props": {
       "blockClass": "textos-horarios",
-      "text": "Segunda a Quinta - 08:00 às 18:00"
+      "text": "Segunda a quinta - 08:00 às 18:00"
     }
   },
   "rich-text#horarios-footer-sexta": {
@@ -397,21 +397,21 @@
     "props": {
       "blockClass": "link-footer",
       "href": "https://stermax.store",
-      "label": "Suporte Técnico"
+      "label": "Suporte técnico"
     }
   },
   "link#footer-politica-privacidade": {
     "props": {
       "blockClass": "link-footer",
       "href": "/politica-privacidade",
-      "label": "política de privacidade"
+      "label": "Política de privacidade"
     }
   },
   "link#footer-trocas-devolucoes": {
     "props": {
       "blockClass": "link-footer",
       "href": "/trocas-devolucoes",
-      "label": "trocas e devoluções"
+      "label": "Trocas e devoluções"
     }
   },
   // FINAL LINKS
@@ -429,7 +429,7 @@
   // TITULO BANDEIRAS
   "rich-text#titulo-bandeiras": {
     "props": {
-      "text": "compre com segurança",
+      "text": "Compre com segurança",
       "blockClass": "titulo-footer-bandeiras"
     }
   },

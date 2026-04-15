@@ -63,7 +63,7 @@
   },
   "rich-text#texto-horarios":{
     "props": {
-      "text": "Segunda a Quinta - 08:00 às 18:00\nSexta - 08:00 às 17:00",
+      "text": "Segunda a quinta - 08:00 às 18:00\nSexta - 08:00 às 17:00",
       "blockClass": "texto-horarios"
     }
   },
