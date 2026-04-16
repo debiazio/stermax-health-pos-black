@@ -279,9 +279,9 @@
     },
     "children": [
       "flex-layout.row#titulo-360",
-      "flex-layout.col#360-plena",
-      "flex-layout.row#icone360",
-      "flex-layout.row#texto-orientacao360-plena"
+      // "flex-layout.row#texto-orientacao360-plena",
+      "flex-layout.col#360-plena"
+      // "flex-layout.row#icone360"
     ]
   },
   "flex-layout.row#titulo-360":{
@@ -543,7 +543,7 @@
     "props": {
       "textAlignment": "CENTER",
       "blockClass": "orientacao360plena-texto",
-      "text": "Clique e arraste\n **Explore a plenitude em cada ângulo**"
+      "text": "Clique e arraste:\n **Explore a plenitude em cada ângulo**"
     }
   },
   // ========================

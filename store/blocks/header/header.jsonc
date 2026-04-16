@@ -31,7 +31,7 @@
   "rich-text#teste":{
     "props": {
       "blockClass": "rich-text-topo",
-      "text": "Segurança, Tecnologia e Confiança: Descubra Por Que a Stermax Health é a Escolha Certa para Sua Clínica"
+      "text": "Segurança, Tecnologia e Confiança: Descubra Por Que a Stermax Health é a Escolha certa para profissionais da saúde"
     }
   },
   "flex-layout.row#3-desktop": {
