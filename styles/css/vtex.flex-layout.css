@@ -227,7 +227,7 @@
 }
 
 .flexRowContent--botao-comprar :global(.vtex-button) {
-  background-color: #FF7500;
+  background-image: linear-gradient(to right, rgb(132, 53, 222), rgb(163, 13, 135));
   border: none;
   border-radius: 20px;
   padding: 16px;

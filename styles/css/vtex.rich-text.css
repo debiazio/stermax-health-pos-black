@@ -91,7 +91,11 @@
 }
 
 .paragraph--titulo-profissionais-cuidado {
-  color: #8435DE;
+  background: linear-gradient(to right, rgb(132, 53, 222), rgb(163, 13, 135));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .paragraph--titulo-profissionais,
@@ -99,7 +103,6 @@
   font-family: "zenoldmincho-bold", sans-serif;
   font-weight: 700;
   font-size: 80px;
-  line-height: 98%;
   margin: 0;
   padding: 0;
 }
