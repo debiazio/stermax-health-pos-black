@@ -33,7 +33,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/deals/Artboard 9.svg",
+      "src": "assets/deals/icon-deal-anvisa.webp",
       "maxHeight": "40px",
       "blockClass": "icon-deal"
     }
@@ -63,8 +63,8 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/deals/Artboard 9_1.svg",
-      "maxHeight": "50px",
+      "src": "assets/deals/icon-deal-iso.webp",
+      "maxHeight": "60px",
       "blockClass": "icon-deal"
     }
   },
@@ -94,8 +94,8 @@
   },
   "image#deal3": {
     "props": {
-      "src": "assets/deals/Artboard 9_2.svg",
-      "maxHeight": "50px",
+      "src": "assets/deals/icon-deal-experiencia.webp",
+      "maxHeight": "60px",
       "blockClass": "icon-deal"
     }
   },
@@ -124,8 +124,8 @@
   },
   "image#deal4": {
     "props": {
-      "src": "assets/deals/Artboard 9_3.svg",
-      "maxHeight": "50px",
+      "src": "assets/deals/icon-deal-fabrica.webp",
+      "maxHeight": "40px",
       "blockClass": "icon-deal"
     }
   },
@@ -154,7 +154,7 @@
   },
   "image#deal5": {
     "props": {
-      "src": "assets/deals/Artboard 9_4.svg",
+      "src": "assets/deals/icon-deal-garantia.webp",
       "maxHeight": "50px",
       "blockClass": "icon-deal"
     }
@@ -184,8 +184,8 @@
   },
   "image#deal6": {
     "props": {
-      "src": "assets/deals/Artboard 9_5.svg",
-      "maxHeight": "50px",
+      "src": "assets/deals/icon-deal-rede.webp",
+      "maxHeight": "40px",
       "blockClass": "icon-deal"
     }
   },

@@ -103,6 +103,7 @@ input:-webkit-autofill {
   justify-content: center;
   display: flex;
   align-items: center;
+  background-color: #f6f5f5;
 }
 
 /* :global(.vtex-address-form-4-x-input){

@@ -3,17 +3,18 @@
     "blocks": [
       "list-context.image-list#carrossel-home-desktop",
       "flex-layout.row#banner-stermaxHealth-personas",
+      "flex-layout.row#linha-line",
       "responsive-layout.mobile#deals-mobile",
-      "flex-layout.row#deals",
       "__fold__",
-      "flex-layout.row#banner-segundo",
-      "flex-layout.row#banner-modelos",
       "flex-layout.row#shelf",
-      "flex-layout.row#secao-divisoria-link",
+      "flex-layout.row#deals",
+      "flex-layout.row#banner-nao-comprometa-saude",
+      "flex-layout.row#tipos-autoclaves-home",
+      "flex-layout.row#linha-line",
+      "flex-layout.row#shelf-acessorios",
       "flex-layout.row#ultima-section"
     ]
   },
-
   "list-context.image-list#carrossel-home-desktop": {
     "children": [
       "slider-layout#carrossel-home-desktop"
@@ -72,10 +73,26 @@
   "image#banner-personas": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/personas-stermaxHealth-unificado.webp",
+      "src": "assets/home/categorias-stx-desktop.webp",
       "alt": "Público StermaxHealth",
       "title": "Público StermaxHealth",
       "fullWidth": true
+    }
+  },
+  "flex-layout.row#linha-line": {
+    "props": {
+      "blockClass": "linha-line",
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#line"
+    ]
+  },
+  // LINHA SEPARADORA COM EFEITO
+  "rich-text#line": {
+    "props": {
+      "text": "",
+      "blockClass": "line"
     }
   },
   // DEALS MOBILE
@@ -113,7 +130,6 @@
       "rich-text#deal2"
     ]
   },
-
   "flex-layout.col#linha1-coluna3": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -162,30 +178,43 @@
     ]
   },
   //banner "não comprometa sua saúde..."
-  "flex-layout.row#banner-segundo": {
+  "flex-layout.row#banner-nao-comprometa-saude": {
     "props": {
-      "blockClass": "secao-banner-segundo",
-      "fullWidth": false
-    },
-    "children": [
-      "responsive-layout.desktop#banner-segundo",
-      "responsive-layout.mobile#banner-segundo",
-      "rich-text#titulo-banner-segundo"
-    ]
-  },
-  "responsive-layout.desktop#banner-segundo": {
-    "children": [
-      "flex-layout.row#linha-gatilho-medo"
-    ]
-  },
-  "flex-layout.row#linha-gatilho-medo": {
-    "props": {
-      "blockClass": "linha-gatilho-medo",
+      "blockClass": "linha-nao-comprometa-saude",
       "colSizing": "auto"
     },
     "children": [
+      "flex-layout.col#coluna-naocomprometa-coluna1",
+      "flex-layout.col#coluna-naocomprometa-coluna2"
+    ]
+  },
+  "flex-layout.col#coluna-naocomprometa-coluna1": {
+    "props": {
+      "blockClass": "coluna-naocomprometa-coluna1",
+      "width": "50%"
+    },
+    "children": [
+      "image#banner-nao-comprometa-imagem"
+    ]
+  },
+  "image#banner-nao-comprometa-imagem": {
+    "props": {
+      "blockClass": "banner-nao-comprometa-imagem",
+      "src": "assets/home/banner-modelos/img-nao-comprometa.webp",
+      "alt": "Imagem usando autoclave",
+      "title": "Imagem usando autoclave"
+    }
+  },
+  "flex-layout.col#coluna-naocomprometa-coluna2": {
+    "props": {
+      "blockClass": "coluna-naocomprometa-coluna2",
+      "preventVerticalStretch": true,
+      "width": "50%"
+    },
+    "children": [
       "rich-text#titulo-gatilho-medo",
-      "rich-text#subtitulo-gatilho-medo"
+      "rich-text#subtitulo-gatilho-medo",
+      "rich-text#titulo-banner-segundo"
     ]
   },
   "rich-text#titulo-gatilho-medo": {
@@ -200,431 +229,326 @@
       "text": "Sem a esterilização correta, o risco de contaminações e doenças aumenta. Além disso, operar fora das normas Anvisa pode levar à interdição do seu consultório ou clínica, colocando em risco seu trabalho e reputação!"
     }
   },
-  "responsive-layout.mobile#banner-segundo": {
-    "children": [
-      // "image#banner-segundo-mobile",
-      "flex-layout.row#linha-gatilho-medo"
-    ]
-  },
-  "image#banner-segundo-mobile": {
-    "props": {
-      "src": "assets/home/imagem-banner-GATILHO-MEDO-2.webp",
-      "alt": "Banner não comprometa sua saúde",
-      "blockClass": "imagem-banner-segundo"
-    }
-  },
   "rich-text#titulo-banner-segundo": {
     "props": {
       "text": "GARANTA A TRANQUILIDADE QUE SEUS PACIENTES E SUA EQUIPE MERECEM!",
       "blockClass": "titulo-banner-secundario"
     }
   },
-  "flex-layout.row#banner-modelos": {
+  // ==================================
+  //  inicio - sessao tipos autoclaves
+  // ==================================
+  "flex-layout.row#tipos-autoclaves-home": {
     "props": {
-      "blockClass": "banner-terceiro",
+      "blockClass": "linha-tipos-autoclaves-home",
       "colSizing": "auto"
     },
     "children": [
-      "responsive-layout.desktop#banner-terceiro",
-      "responsive-layout.mobile#banner-terceiro"
+      "flex-layout.row#titulo-tipo-home",
+      "flex-layout.row#modelos-tipo-home"
     ]
   },
-  // DESKTOP
-  "responsive-layout.desktop#banner-terceiro": {
-    "children": [
-      "flex-layout.row#content-modelos"
-    ]
-  },
-  "flex-layout.row#content-modelos": {
+  "flex-layout.row#titulo-tipo-home": {
     "props": {
-      "blockClass": "content-modelos",
+      "blockClass": "linha-titulo-tipo-home",
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.row#content-textos-modelos",
-      "flex-layout.row#content-colunas-imagens"
+      "rich-text#titulo-tipos-home",
+      "rich-text#subtitulo-tipos-home"
     ]
   },
-  "flex-layout.row#content-textos-modelos": {
+  "rich-text#titulo-tipos-home": {
     "props": {
-      "blockClass": "content-textos-modelos",
-      "colSizing": "auto"
-    },
-    "children": [
-      "rich-text#titulomodelos",
-      "rich-text#subtitulomodelos"
-    ]
-  },
-  "rich-text#titulomodelos": {
-    "props": {
-      "blockClass": "titulo-modelos",
+      "blockClass": "titulo-tipos-home",
       "text": "Tecnologia, biossegurança e eficiência em cada ciclo."
     }
   },
-  "rich-text#subtitulomodelos": {
+  "rich-text#subtitulo-tipos-home": {
+    "props": {
+      "blockClass": "subtitulo-tipos-home",
+      "text": "Escolha a autoclave perfeita para sua especialidade."
+    }
+  },
+  "flex-layout.row#modelos-tipo-home": {
+    "children": [
+      "link#coluna-21-litros",
+      "link#coluna-30-litros",
+      "link#coluna-42-litros",
+      "link#coluna-60-litros",
+      "link#coluna-75-litros",
+      "link#coluna-75vertical-litros"
+    ]
+  },
+  "link#coluna-21-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/21l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-21-litros"
+    ]
+  },
+  "link#coluna-30-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/30l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-30-litros"
+    ]
+  },
+  "link#coluna-42-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/42l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-42-litros"
+    ]
+  },
+  "link#coluna-60-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/60l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-60-litros"
+    ]
+  },
+  "link#coluna-75-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/75l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-75-litros"
+    ]
+  },
+  "link#coluna-75vertical-litros": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/Vertical/"
+    },
+    "children": [
+      "flex-layout.col#coluna-75vertical-litros"
+    ]
+  },
+  "flex-layout.col#coluna-21-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-21l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo21litros",
+      "rich-text#subtitulo21litros"
+    ]
+  },
+  "flex-layout.col#coluna-30-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-30l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo30litros",
+      "rich-text#subtitulo30litros"
+    ]
+  },
+  "flex-layout.col#coluna-42-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-42l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo42litros",
+      "rich-text#subtitulo42litros"
+    ]
+  },
+  "flex-layout.col#coluna-60-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-60l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo60litros",
+      "rich-text#subtitulo60litros"
+    ]
+  },
+  "flex-layout.col#coluna-75-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-75l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo75litros",
+      "rich-text#subtitulo75litros"
+    ]
+  },
+  "flex-layout.col#coluna-75vertical-litros": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-75verticall"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo75verticallitros",
+      "rich-text#subtitulo75verticallitros"
+    ]
+  },
+  // ==================================
+  //  textos titulos tipos autoclaves
+  // ==================================
+  "rich-text#titulo21litros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "21 litros"
+    }
+  },
+  "rich-text#titulo30litros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "30 litros"
+    }
+  },
+  "rich-text#titulo42litros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "42 litros"
+    }
+  },
+  "rich-text#titulo60litros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "60 litros"
+    }
+  },
+  "rich-text#titulo75litros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "75 litros"
+    }
+  },
+  "rich-text#titulo75verticallitros": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "75 litros vertical"
+    }
+  },
+  // ==================================
+  //  subitulo tipos autoclaves
+  // ==================================
+  "rich-text#subtitulo21litros": {
     "props": {
       "blockClass": "subtitulo-modelos",
-      "text": "Escolha a autoclave perfeita para sua especialidade"
+      "text": "Maior capacidade, perfeita para profissionais que realizam multiplos atendimentos e possuem instrumentais variados."
     }
   },
-  // COLUNAS DAS IMAGENS
-  "flex-layout.row#content-colunas-imagens": {
+  "rich-text#subtitulo30litros": {
     "props": {
-      "blockClass": "content-colunas-imagens"
-    },
-    "children": [
-      "flex-layout.row#imagens-modelos-row1",
-      "flex-layout.row#imagens-modelos-row2",
-      "flex-layout.row#imagens-modelos-row3"
-    ]
-  },
-  // CONTEINER DAS COLUNAS
-  "flex-layout.row#imagens-modelos-row1": {
-    "props": {
-      "blockClass": [
-        "content-linhas-imagens",
-        "coluna1-modelos"
-      ]
-    },
-    "children": [
-      "flex-layout.col#coluna21litros",
-      "flex-layout.col#coluna30litros"
-    ]
-  },
-  "flex-layout.row#imagens-modelos-row2": {
-    "props": {
-      "blockClass": [
-        "content-linhas-imagens",
-        "coluna2-modelos"
-      ]
-    },
-    "children": [
-      "flex-layout.col#coluna40litros",
-      "flex-layout.col#coluna60litros"
-    ]
-  },
-  "flex-layout.row#imagens-modelos-row3": {
-    "props": {
-      "blockClass": [
-        "content-linhas-imagens",
-        "coluna3-modelos"
-      ]
-    },
-    "children": [
-      "flex-layout.col#coluna-1-75litros"
-    ]
-  },
-  // SUB COLUNAS
-  "flex-layout.col#coluna21litros": {
-    "props": {
-      "blockClass": [
-        "colunas-menores-modelos",
-        "colunas-menores-21l"
-      ],
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-21l-colunas-menores-modelos",
-      "flex-layout.row#subtitulo-21l-colunas-menores-modelos"
-    ]
-  },
-  "flex-layout.col#coluna30litros": {
-    "props": {
-      "blockClass": [
-        "colunas-menores-modelos",
-        "coluna-menores-modelos-30l"
-      ],
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-30l-colunas-menores-modelos",
-      "flex-layout.row#subtitulo-30l-colunas-menores-modelos"
-    ]
-  },
-  "flex-layout.col#coluna40litros": {
-    "props": {
-      "blockClass": [
-        "colunas-menores-modelos",
-        "coluna-menores-modelos-40l"
-      ],
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-40l-colunas-menores-modelos",
-      "flex-layout.row#subtitulo-40l-colunas-menores-modelos"
-    ]
-  },
-  "flex-layout.col#coluna60litros": {
-    "props": {
-      "blockClass": [
-        "colunas-menores-modelos",
-        "coluna-menores-modelos-60l"
-      ],
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-60l-colunas-menores-modelos",
-      "flex-layout.row#subtitulo-60l-colunas-menores-modelos"
-    ]
-  },
-  "flex-layout.col#coluna-1-75litros": {
-    "props": {
-      "blockClass": [
-        "colunas-menores-modelos",
-        "coluna-menores-modelos-75l"
-      ],
-      "preventVerticalStretch": true
-    },
-    "children": [
-      "flex-layout.row#titulo-75l-colunas-menores-modelos",
-      "flex-layout.row#subtitulo-75l-colunas-menores-modelos"
-    ]
-  },
-  // TITULOS COLUNAS
-  "flex-layout.row#titulo-21l-colunas-menores-modelos": {
-    "props": {
-      "blockClass": "linhas-textos-titulos-modelos"
-    },
-    "children": [
-      "rich-text#titulo-21l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#titulo-21l-colunas-menores-modelos": {
-    "props": {
-      "text": "21 litros",
-      "blockClass": "titulos-textos-modelos"
+      "blockClass": "subtitulo-modelos",
+      "text": "Versátil, atende a maior demanda de instrumentos, projetada para suportar fluxos intermediários com eficiência."
     }
   },
-  "flex-layout.row#titulo-30l-colunas-menores-modelos": {
+  "rich-text#subtitulo42litros": {
     "props": {
-      "blockClass": "linhas-textos-titulos-modelos"
-    },
-    "children": [
-      "rich-text#titulo-30l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#titulo-30l-colunas-menores-modelos": {
-    "props": {
-      "text": "30 litros",
-      "blockClass": "titulos-textos-modelos"
+      "blockClass": "subtitulo-modelos",
+      "text": "Ideal para clínicas com alta rotatividade de materiais."
     }
   },
-  "flex-layout.row#titulo-40l-colunas-menores-modelos": {
+  "rich-text#subtitulo60litros": {
     "props": {
-      "blockClass": "linhas-textos-titulos-modelos"
-    },
-    "children": [
-      "rich-text#titulo-40l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#titulo-40l-colunas-menores-modelos": {
-    "props": {
-      "text": "40 litros",
-      "blockClass": "titulos-textos-modelos"
+      "blockClass": "subtitulo-modelos",
+      "text": "Robustez para hospitais e laboratórios, capacidade superior, maior espaço."
     }
   },
-  "flex-layout.row#titulo-60l-colunas-menores-modelos": {
+  "rich-text#subtitulo75litros": {
     "props": {
-      "blockClass": "linhas-textos-titulos-modelos"
-    },
-    "children": [
-      "rich-text#titulo-60l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#titulo-60l-colunas-menores-modelos": {
-    "props": {
-      "text": "60 litros",
-      "blockClass": "titulos-textos-modelos"
+      "blockClass": "subtitulo-modelos",
+      "text": "Nossa autoclave de maior capacidade projetada para máxima eficiência, grandes volumes e ciclos intensos."
     }
   },
-  "flex-layout.row#titulo-75l-colunas-menores-modelos": {
+  "rich-text#subtitulo75verticallitros": {
     "props": {
-      "blockClass": "linhas-textos-titulos-modelos"
-    },
-    "children": [
-      "rich-text#titulo-75l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#titulo-75l-colunas-menores-modelos": {
-    "props": {
-      "text": "75 litros",
-      "blockClass": "titulos-textos-modelos"
+      "blockClass": "subtitulo-modelos",
+      "text": "Autoclave modelo vertical, exclusiva no mercado."
     }
   },
-  // SUBTITULOS COLUNAS MENORES
-  "flex-layout.row#subtitulo-21l-colunas-menores-modelos": {
+  // ==================================
+  //  fim  - sessao tipos autoclaves
+  // ==================================
+  // ==================================
+  //  inicio prateleira acessorios
+  // ==================================
+  "flex-layout.row#shelf-acessorios": {
     "props": {
-      "blockClass": "linha-subtitulo-modelos"
+      "blockClass": "linha-shelf-home",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
     },
     "children": [
-      "rich-text#subtitulo-21l-colunas-menores-modelos"
+      "rich-text#titulo-acessorios-home",
+      "link#ver-tudo-home-acessorios",
+      "list-context.product-list#acessorios-home"
     ]
   },
-  "rich-text#subtitulo-21l-colunas-menores-modelos": {
+  "rich-text#titulo-acessorios-home": {
     "props": {
-      "text": "Maior capacidade, perfeita para profissionais que realizam multiplos atendimentos e possuem instrumentais variados.",
-      "blockClass": "subtitulos-textos-modelos"
+      "blockClass": "texto-titulo-shelf",
+      "text": "Acessórios para Esterilização"
     }
   },
-  "flex-layout.row#subtitulo-30l-colunas-menores-modelos": {
+  "link#ver-tudo-home-acessorios": {
     "props": {
-      "blockClass": "linha-subtitulo-modelos"
-    },
-    "children": [
-      "rich-text#subtitulo-30l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#subtitulo-30l-colunas-menores-modelos": {
-    "props": {
-      "text": "Versátil, atende a maior demanda de instrumentos, projetada para suportar fluxos intermediários com eficiência.",
-      "blockClass": "subtitulos-textos-modelos"
+      "blockClass": "link-ver-tudo-shelf",
+      "href": "/acessorios",
+      "label": "Ver tudo"
     }
   },
-  "flex-layout.row#subtitulo-40l-colunas-menores-modelos": {
-    "props": {
-      "blockClass": "linha-subtitulo-modelos"
-    },
+  "list-context.product-list#acessorios-home": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
     "children": [
-      "rich-text#subtitulo-40l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#subtitulo-40l-colunas-menores-modelos": {
+      "slider-layout#acessorios-home"
+    ],
     "props": {
-      "text": "Ideal para clínicas com alta rotatividade de materiais.",
-      "blockClass": "subtitulos-textos-modelos"
+      "collection": "228",
+      "orderBy": "OrderByPriceDESC"
     }
   },
-  "flex-layout.row#subtitulo-60l-colunas-menores-modelos": {
+  "slider-layout#acessorios-home": {
     "props": {
-      "blockClass": "linha-subtitulo-modelos"
-    },
-    "children": [
-      "rich-text#subtitulo-60l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#subtitulo-60l-colunas-menores-modelos": {
-    "props": {
-      "text": "Robustez para hospitais e laboratórios, capacidade superior, maior espaço",
-      "blockClass": "subtitulos-textos-modelos"
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "always"
     }
   },
-  "flex-layout.row#subtitulo-75l-colunas-menores-modelos": {
-    "props": {
-      "blockClass": "linha-subtitulo-modelos"
-    },
-    "children": [
-      "rich-text#subtitulo-75l-colunas-menores-modelos"
-    ]
-  },
-  "rich-text#subtitulo-75l-colunas-menores-modelos": {
-    "props": {
-      "text": "Nossa autoclave de maior capacidade projetada para máxima eficiência, grandes volumes e ciclos intensos.\n**Autoclave modelo vertical, exclusiva no mercado >>**",
-      "blockClass": [
-        "subtitulos-textos-modelos",
-        "subtitulos-textos-modelos-75l"
-      ]
-    }
-  },
-  // MOBILE
-  "responsive-layout.mobile#banner-terceiro": {
-    "children": [
-      "flex-layout.row#mobile-banner-modelos"
-    ]
-  },
-  "flex-layout.row#mobile-banner-modelos": {
-    "props": {
-      "blockClass": "content-mobile-banner-modelos"
-    },
-    "children": [
-      "flex-layout.row#content-textos-modelos",
-      "flex-layout.row#mobile-content-imagens-modelos"
-    ]
-  },
-  "flex-layout.row#mobile-content-imagens-modelos": {
-    "props": {
-      "blockClass": "content-mobile-imagens-modelos"
-    },
-    "children": [
-      "flex-layout.row#mobile-linha1",
-      "flex-layout.row#mobile-linha2",
-      "flex-layout.row#mobile-linha3"
-    ]
-  },
-  "flex-layout.row#mobile-linha1": {
-    "props": {
-      "blockClass": [
-        "linha-mobile-modelos",
-        "linha-mobile-modelos-linha1"
-      ]
-    },
-    "children": [
-      "flex-layout.col#coluna21litros",
-      "flex-layout.col#coluna30litros"
-    ]
-  },
-  "flex-layout.row#mobile-linha2": {
-    "props": {
-      "blockClass": [
-        "linha-mobile-modelos",
-        "linha-mobile-modelos-linha2"
-      ]
-    },
-    "children": [
-      "flex-layout.col#coluna40litros",
-      "flex-layout.col#coluna60litros"
-    ]
-  },
-  "flex-layout.row#mobile-linha3": {
-    "props": {
-      "blockClass": "linha-mobile-modelos"
-    },
-    "children": [
-      "flex-layout.col#mobile-coluna-75litros"
-    ]
-  },
-  "flex-layout.col#mobile-coluna-75litros": {
-    "props": {
-      "blockClass": "mobile-coluna-75l"
-    },
-    "children": [
-      "flex-layout.row#mobile-75l-textos",
-      "flex-layout.row#mobile-75l-imagem"
-    ]
-  },
-  "flex-layout.row#mobile-75l-textos": {
-    "props": {
-      "blockClass": "linha-textos-mobile-75l"
-    },
-    "children": [
-      "rich-text#titulo-75l-colunas-menores-modelos",
-      "rich-text#subtitulo-75l-colunas-menores-modelos"
-    ]
-  },
-  "flex-layout.row#mobile-75l-imagem": {
-    "props": {
-      "blockClass": "linha-imagem75l-mobile"
-    },
-    "children": [
-      "image#imagem-75l-mobile"
-    ]
-  },
-  "image#imagem-75l-mobile": {
-    "props": {
-      "blockClass": "imagem-75l-mobile",
-      "src": "assets/home/banner-modelos/75l+mulher.png"
-    }
-  },
-  "flex-layout.row#secao-divisoria-link": {
-    "props": {
-      "blockClass": "container-secao-divisoria-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "fullWidth": false
-    },
-    "children": [
-      "link#ver-mais-autoclaves"
-    ]
-  },
+  // ==================================
+  //  fim prateleira acessorios
+  // ==================================
   "link#ver-mais-autoclaves": {
     "props": {
       "blockClass": "link-ver-mais-autoclaves",
@@ -785,9 +709,29 @@
     }
   },
   "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "linha-shelf-home",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
     "children": [
+      "rich-text#titulo-shelf-home",
+      "link#vertudo-home",
       "list-context.product-list#demo1"
     ]
+  },
+  "rich-text#titulo-shelf-home": {
+    "props": {
+      "blockClass": "texto-titulo-shelf",
+      "text": "Principais Produtos"
+    }
+  },
+  "link#vertudo-home": {
+    "props": {
+      "blockClass": "link-ver-tudo-shelf",
+      "href": "/autoclave",
+      "label": "Ver tudo"
+    }
   },
   "list-context.product-list#demo1": {
     "blocks": [
@@ -810,7 +754,7 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf",
-      "showPaginationDots": "never"
+      "showPaginationDots": "always"
     }
   }
 }

@@ -29,8 +29,8 @@
 .sliderLayoutContainer--carousel {
   background-color: transparent;
   min-height: 450px;
-  padding-bottom: 50px;
   max-width: 1300px;
+  margin: 60px
 }
 
 .sliderTrackContainer {

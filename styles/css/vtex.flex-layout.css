@@ -1,3 +1,105 @@
+.flexRow--linha-tipos-autoclaves-home,
+.flexRow--linha-nao-comprometa-saude,
+.flexRow--deals,
+.flexRow--linha-line,
+.flexRow--linha-shelf-home {
+  background-color: #f6f5f5;
+}
+
+.flexRow--linha-nao-comprometa-saude{
+  padding-bottom: 50px;
+}
+
+.flexCol--coluna-imagem-21l {
+  padding: 200px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-21l.webp);
+}
+
+.flexCol--coluna-imagem-30l {
+  padding: 170px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-30l.webp);
+}
+
+.flexCol--coluna-imagem-42l {
+  padding: 140px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-42l.webp);
+}
+
+.flexCol--coluna-imagem-60l {
+  padding: 110px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-60l.webp);
+}
+
+.flexCol--coluna-imagem-75l {
+  padding: 90px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-75l.webp);
+}
+
+.flexCol--coluna-imagem-75verticall {
+  padding: 10px 30px 0;
+  background-image: url(assets/home/banner-modelos/banner-home-75lvertical.webp);
+}
+
+.flexColChild--colunas-tipos-autoclaves {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--colunas-tipos-autoclaves {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.flexCol--colunas-tipos-autoclaves {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+  cursor: pointer;
+}
+
+.flexCol--colunas-tipos-autoclaves:hover {
+  transform: scale(1.029);
+}
+
+.flexRow--linha-tipos-autoclaves-home {
+  background-image: url(assets/home/fundo-home-tipos.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.flexRowContent--linha-tipos-autoclaves-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--linha-titulo-tipo-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexCol--coluna-naocomprometa-coluna2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.flexRowContent--linha-nao-comprometa-saude {
+  display: flex;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.flexRowContent--linha-shelf-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flexRow--linhaicone360 {
   position: relative;
   top: -80px;
@@ -980,7 +1082,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #34A2F8;
+  background-image: linear-gradient(to right, #8435DE, #A30D87);
 }
 
 
@@ -1058,7 +1160,7 @@
 }
 
 .flexRow--deals {
-  margin: -60px 60px 60px 60px;
+  padding: 60px;
 }
 
 .flexRowContent--linha-disclosure .stretchChildrenWidth {
@@ -1146,15 +1248,7 @@
   /* background-color: var(--header); */
 }
 
-.flexRow--container-secao-divisoria-link {
-  height: 150px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-top: 1px solid #000000;
-  max-width: 1400px;
-  margin: 70px auto 0;
-}
+
 
 
 .flexRow--secao-banner-quarto {
@@ -1239,13 +1333,6 @@
   flex-direction: column;
 }
 
-.flexRowContent--secao-banner-segundo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: 100% !important;
-}
-
-.container--titulo-banner-secundario :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: 100% !important;
-}
 
 
 
@@ -1254,14 +1341,15 @@
   flex-direction: row;
 }
 
+.flexRow--personas {
+  background-color: #f6f5f5;
+}
+
 .flexRowContent--personas {
   display: flex;
   flex-direction: column;
 }
 
-/* .stretchChildrenWidth .flexCol--coluna-login-minicart {
-  width: 33% !important;
-} */
 
 .flexCol--coluna-login-minicart {
   display: flex;
@@ -1400,12 +1488,9 @@
 }
 
 .flexRowContent--deals {
-  background-color: #EDE6DC;
-  /* margin: 40px 10px; */
+  background: linear-gradient(to right, #FF7500, #FF941A);
   padding: 14px;
   border-radius: 166px;
-  /* max-width: 1528px; */
-  /* margin: -90px auto 50px; */
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -1498,9 +1583,10 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .flexRowContent--linha-profissionais{
+  .flexRowContent--linha-profissionais {
     padding: 20px;
   }
+
   .flexCol--container-frenteVerso {
     background-position: bottom;
   }
@@ -1708,11 +1794,6 @@
   .flexColChild--productRating,
   .flexCol--productRating {
     display: none;
-  }
-
-  .flexRow--container-secao-divisoria-link {
-    margin: 0px auto 0;
-    max-width: max-content;
   }
 
   .flexRow--secao-banner-quarto {

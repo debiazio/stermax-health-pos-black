@@ -1,3 +1,18 @@
+.link--link-tipos-autoclave {
+  text-decoration: none;
+}
+
+.childrenContainer--link-tipos-autoclave {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  aspect-ratio: 1 / 3;
+}
+
+.link--link-ver-tudo-shelf {
+  color: #FF7500;
+}
+
 .link--plena-fale-com-espec {
   text-decoration: none;
 }

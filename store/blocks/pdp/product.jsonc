@@ -35,7 +35,7 @@
       "shelf.relatedProducts",
       "product-questions-and-answers",
       "flex-layout.row#relatedProducts",
-      "flex-layout.row#secao-divisoria-link"
+      "flex-layout.row#linha-line"
     ]
   },
   "flex-layout.row#specifications-title": {
