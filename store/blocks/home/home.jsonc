@@ -577,7 +577,7 @@
   },
   "flex-layout.row#textos-assistencia": {
     "props": {
-      "blockClass": "linha-titulo-assistencia",
+      "blockClass": ["linha-titulo-assistencia", "lado-esquerdo"],
       "colSizing": "auto"
     },
     "children": [
@@ -625,7 +625,7 @@
   "image#mapa-brasil": {
     "props": {
       "blockClass": "mapa-brasil",
-      "src": "assets/home/brasil-mapa.webp",
+      "src": "assets/home/brasil-mapa2.webp",
       "alt": "Mapa do Brasil"
     }
   },
@@ -688,7 +688,7 @@
   },
   "image#assistencia": {
     "props": {
-      "src": "assets/home/Group 3.webp",
+      "src": "assets/home/caixas-assist.webp",
       "blockClass": [
         "mapa-brasil",
         "img-assist"
