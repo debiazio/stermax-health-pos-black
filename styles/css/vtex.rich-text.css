@@ -1,3 +1,24 @@
+.paragraph--titulo-ultimasection{
+  font-family: "zenoldmincho-black", sans-serif;
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 100%;
+  font-size: 48px;
+  margin: 0;
+}
+
+.paragraph--subtitulo-ultimasection{
+  font-family: "rubik-light", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.paragraph--subtitulo-assistencias{
+  margin-top: 90px;
+}
+
 .paragraph--titulo-modelos {
   font-family: "zenoldmincho-black", sans-serif;
   font-weight: 900;
@@ -858,10 +879,10 @@
 }
 
 .paragraph--texto-digitando {
-  color: #4C7593;
+  color: #FFFFFF;
   font-size: 24px;
   font-family: "rubik-regular", sans-serif;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .container--texto-digitando {
@@ -891,8 +912,8 @@
 }
 
 .paragraph--subtitulo-banner-esquerdo {
-  font-size: 16px;
-  font-family: "jost-regular";
+  font-size: 18px;
+  font-family: "rubik-medium",sans-serif;
   font-weight: 400;
   color: #ffffff;
   margin-top: 20px;
@@ -900,9 +921,9 @@
 
 .paragraph--titulo-banner-direito,
 .paragraph--titulo-banner-esquerdo {
-  font-family: "rubik-regular", sans-serif;
-  font-size: 36px;
-  line-height: normal;
+  font-family: "zenoldmincho-medium", sans-serif;
+  font-size: 52px;
+  line-height: 98%;
   font-weight: 400;
   color: #ffffff;
 }

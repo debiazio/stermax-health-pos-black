@@ -6,6 +6,47 @@
   background-color: #f6f5f5;
 }
 
+.flexRow--linha-footer-desktop{
+  padding: 50px 0;
+}
+
+.flexColChild--col-subtitulo-botao-estoques,
+.flexColChild--col-subtitulo-botao-assistencias{
+  margin-bottom: 20px;
+}
+
+.flexCol--col-subtitulo-botao-estoques,
+.flexCol--col-subtitulo-botao-assistencias{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexCol--ultimasection-col-esquerda,
+.flexCol--ultimasection-col-direita{
+  border-radius: 20px;
+  padding: 28px;
+}
+
+.flexCol--ultimasection-col-direita{
+  background: linear-gradient(to bottom, #A30D87, #8435DE);
+
+}
+.flexCol--ultimasection-col-esquerda{
+  background: linear-gradient(to bottom, #FF941A, #FF7500);
+}
+
+.flexRow--ultima-section{
+  background-image: url(assets/home/fundo-home-tipos.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.flexRowContent--ultima-section{
+  gap: 40px;
+}
+
 .flexRow--linha-nao-comprometa-saude {
   padding-bottom: 50px;
 }
@@ -856,9 +897,6 @@
   align-items: flex-start;
 }
 
-.flexRow--linha-footer-desktop {
-  margin: 50px 200px;
-}
 
 /* FOOTER DESKTOP  */
 /* footer */
@@ -871,7 +909,7 @@
 }
 
 .flexRow--linha-final-footer {
-  background-color: #1D76BA;
+  background: linear-gradient(to right, #8435DE, #A30D87);
 }
 
 .flexRow--linhas-footer,
@@ -916,9 +954,9 @@
 
 /* footer */
 
-.flexRow--container-link-epecialista {
+/* .flexRow--container-link-epecialista {
   margin-top: -10%;
-}
+} */
 
 
 .flexRowContent--linha-imagem-mapa {
@@ -934,17 +972,7 @@
   justify-content: flex-start;
 }
 
-.flexRowContent--content-ultima-section{
-  gap: 40px;
-}
 
-
-.flexRowContent--lado-direito{
-  background: linear-gradient(to bottom, #A30D87, #8435DE);
-}
-.flexRowContent--lado-esquerdo {
-  background: linear-gradient(to bottom, #FF941A, #FF7500);
-}
 
 
 
@@ -1250,8 +1278,7 @@
 
 .flexRow--container-footer-digitando {
   height: 50px;
-  background-color: #BCD5E8;
-  /* background-color: var(--header); */
+  background-color: #FF7500;
 }
 
 
@@ -1932,9 +1959,6 @@
     margin-left: 0px;
   }
 
-  .flexRow--container-link-epecialista {
-    margin-bottom: -20px;
-  }
 
   .flexRow--coluna-banner-esquerdo--imagem {
     margin-bottom: 40px;

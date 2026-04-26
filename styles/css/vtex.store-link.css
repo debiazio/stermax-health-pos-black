@@ -1,3 +1,42 @@
+.link--fale-comConsultor-assistencias {
+  background: linear-gradient(to right, #A30D87, #8435DE);
+}
+
+.link--fale-comConsultor-estoques {
+  background: linear-gradient(to right, #FF941A, #FF7500);
+}
+
+.link--fale-comConsultor-estoques,
+.link--fale-comConsultor-assistencias {
+  display: inline-block;
+  text-decoration: none;
+  padding: 16px 25px;
+  border-radius: 20px;
+  transition: transform 0.3s ease; /* mantenha só aqui */
+}
+
+.link--fale-comConsultor-estoques:hover,
+.link--fale-comConsultor-assistencias:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.37);
+}
+
+/* Fallback para touch (sem hover) */
+@media (hover: none) and (pointer: coarse) {
+  .link--fale-comConsultor-estoques:active,
+  .link--fale-comConsultor-assistencias:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+
+
+.label--fale-comConsultor-assistencias,
+.label--fale-comConsultor-estoques {
+  color: #ffffff;
+}
+
 .link--link-tipos-autoclave {
   text-decoration: none;
 }

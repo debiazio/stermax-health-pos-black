@@ -1,5 +1,5 @@
 
 .footerLayout{
-  background-color: var(--footer);
+  background: linear-gradient(to right,#8435DE, #A30D87 );
 }
 

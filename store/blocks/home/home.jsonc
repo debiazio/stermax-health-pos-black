@@ -549,165 +549,7 @@
   // ==================================
   //  fim prateleira acessorios
   // ==================================
-  "link#ver-mais-autoclaves": {
-    "props": {
-      "blockClass": "link-ver-mais-autoclaves",
-      "href": "#",
-      "label": "VER MAIS AUTOCLAVES"
-    }
-  },
-  // SECAO FINAL
-  "flex-layout.row#ultima-section": {
-    "props": {
-      "blockClass": "content-ultima-section"
-    },
-    "children": [
-      "flex-layout.row#banner-quarto-esq",
-      "flex-layout.row#banner-quarto-dir"
-    ]
-  },
-  "flex-layout.row#banner-quarto-esq": {
-    "props": {
-      "blockClass": "coluna-banner-esquerdo--imagem",
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.row#textos-assistencia"
-    ]
-  },
-  "flex-layout.row#textos-assistencia": {
-    "props": {
-      "blockClass": ["linha-titulo-assistencia", "lado-esquerdo"],
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#titulo-subtilo-assistencia",
-      "flex-layout.row#imagem-mapa",
-      "flex-layout.row#link-especialista"
-    ]
-  },
-  "flex-layout.row#titulo-subtilo-assistencia": {
-    "props": {
-      "blockClass": "titulo-subtilo-assistencia",
-      "colSizing": "auto"
-    },
-    "children": [
-      "rich-text#titulo",
-      "rich-text#subtitulo"
-    ]
-  },
-  // LINK ESPECIALISTA
-  "flex-layout.row#link-especialista": {
-    "props": {
-      "blockClass": "container-link-epecialista"
-    },
-    "children": [
-      "link#fale-com-especialista"
-    ]
-  },
-  "link#fale-com-especialista": {
-    "props": {
-      "href": "https://wa.me/5541999710062",
-      "label": "FALE COM UM CONSULTOR",
-      "blockClass": "link-banner-quarto"
-    }
-  },
-  // IMAGEM DO MAPA DE FUNDO
-  "flex-layout.row#imagem-mapa": {
-    "props": {
-      "blockClass": "linha-imagem-mapa",
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#mapa-brasil"
-    ]
-  },
-  "image#mapa-brasil": {
-    "props": {
-      "blockClass": "mapa-brasil",
-      "src": "assets/home/brasil-mapa2.webp",
-      "alt": "Mapa do Brasil"
-    }
-  },
-  "rich-text#titulo": {
-    "props": {
-      "text": "Assistência e suporte \n sempre ao seu alcance",
-      "blockClass": "titulo-banner-esquerdo"
-    }
-  },
-  "rich-text#subtitulo": {
-    "props": {
-      "text": "Com a maior rede de assistência\n técnica do Brasil,garantimos que \n você estará sempre protegido!",
-      "blockClass": "subtitulo-banner-esquerdo"
-    }
-  },
-  "flex-layout.row#banner-quarto-dir": {
-    "props": {
-      "blockClass": "coluna-banner-esquerdo--imagem",
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.row#textos-assistencia-dir"
-    ]
-  },
-  "flex-layout.row#textos-assistencia-dir": {
-    "props": {
-      "blockClass": [
-        "linha-titulo-assistencia",
-        "lado-direito"
-      ],
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#titulo-subtilo-assistencia-dir",
-      "flex-layout.row#imagem-assistencia",
-      "flex-layout.row#link-especialista"
-    ]
-  },
-  "flex-layout.row#titulo-subtilo-assistencia-dir": {
-    "props": {
-      "blockClass": "titulo-subtilo-assistencia",
-      "colSizing": "auto"
-    },
-    "children": [
-      "rich-text#titulo-dir",
-      "rich-text#subtitulo-dir"
-    ]
-  },
-  "flex-layout.row#imagem-assistencia": {
-    "props": {
-      "blockClass": [
-        "linha-imagem-mapa",
-        "linha-assist-img"
-      ],
-      "colSizing": "auto"
-    },
-    "children": [
-      "image#assistencia"
-    ]
-  },
-  "image#assistencia": {
-    "props": {
-      "src": "assets/home/caixas-assist.webp",
-      "blockClass": [
-        "mapa-brasil",
-        "img-assist"
-      ],
-      "alt": "Assistência"
-    }
-  },
-  "rich-text#titulo-dir": {
-    "props": {
-      "text": "Estoques limitados \n em pronta entrega",
-      "blockClass": "titulo-banner-direito"
-    }
-  },
-  "rich-text#subtitulo-dir": {
-    "props": {
-      "text": "**Garanta já sua autoclave Stermax!**\nNão perca a chance de modernizar\n sua clínica com a melhor tecnologia\n do mercado. Estoques prontos para\n envio imediato, aproveite agora!",
-      "blockClass": "subtitulo-banner-esquerdo"
-    }
-  },
+
   "flex-layout.row#shelf": {
     "props": {
       "blockClass": "linha-shelf-home",
@@ -756,5 +598,150 @@
       "blockClass": "shelf",
       "showPaginationDots": "always"
     }
+  },
+  // ==========================
+  // sessao final
+  // ====================
+  "flex-layout.row#ultima-section":{
+    "props": {
+      "blockClass": "ultima-section",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#ultimasection-col-esquerda",
+      "flex-layout.col#ultimasection-col-direita"
+    ]
+  },
+  // COLUNA LADO ESQUERDO -ASSISTENCIAS
+  "flex-layout.col#ultimasection-col-esquerda":{
+    "props": {
+      "blockClass": "ultimasection-col-esquerda"
+    },
+    "children": [
+      "rich-text#titulo-ultima-section-assistencias",
+      "flex-layout.row#linhasubtituloimagemebotao-assistencias"
+    ]
+  },
+  "rich-text#titulo-ultima-section-assistencias":{
+    "props": {
+      "blockClass": "titulo-ultimasection",
+      "text": "Assistência e suporte sempre ao seu alcance"
+    }
+  },
+  "flex-layout.row#linhasubtituloimagemebotao-assistencias":{
+    "props": {
+      "blockClass": "linhasubtituloimagemebotao-assistencias",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#subtitulo-botao-assistencias",
+      "flex-layout.col#imagem-assistencias"
+    ]
+  },
+  "flex-layout.col#subtitulo-botao-assistencias":{
+    "props": {
+      "blockClass": "col-subtitulo-botao-assistencias",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#subtitulo-assistencias",
+      "link#falecomconsultor"
+    ]
+  },
+  "rich-text#subtitulo-assistencias":{
+    "props": {
+      "blockClass": ["subtitulo-ultimasection", "subtitulo-assistencias"],
+      "text": "Com a maior rede de assistência técnica do Brasil,garantimos que você estará sempre protegido!"
+    }
+  },
+  "link#falecomconsultor": {
+    "props": {
+      "label": "FALE COM UM CONSULTOR",
+      "href": "https://wa.me/5541999710062",
+      "blockClass": "fale-comConsultor-assistencias",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  },
+  "flex-layout.col#imagem-assistencias":{
+    "props": {
+      "blockClass": "col-imagem-assistencias"
+    },
+    "children": [
+      "image#img-assistencias"
+    ]
+  },
+  "image#img-assistencias":{
+    "props": {
+      "blockClass": "img-assistencias",
+      "src": "assets/home/brasil-mapa2.webp",
+      "alt": "Mapa brasil",
+      "title": "Mapa brasil"
+    }
+  },
+// coluna lado direito
+  "flex-layout.col#ultimasection-col-direita":{
+    "props": {
+      "blockClass": "ultimasection-col-direita"
+    },
+    "children": [
+      "rich-text#titulo-ultima-section-estoques",
+      "flex-layout.row#linhasubtituloimagemebotao-estoques"
+    ]
+  },
+  "rich-text#titulo-ultima-section-estoques":{
+    "props": {
+      "blockClass": "titulo-ultimasection",
+      "text": "Estoques limitados em pronta entrega"
+    }
+  },
+  "flex-layout.row#linhasubtituloimagemebotao-estoques":{
+    "props": {
+      "blockClass": "linhasubtituloimagemebotao-estoques",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#subtitulo-botao-estoques",
+      "flex-layout.col#imagem-estoques"
+    ]
+  },
+  "flex-layout.col#subtitulo-botao-estoques":{
+    "props": {
+      "blockClass": "col-subtitulo-botao-estoques",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#subtitulo-estoques",
+      "link#falecomconsultor-estoque"
+    ]
+  },
+  "rich-text#subtitulo-estoques":{
+    "props": {
+      "blockClass": "subtitulo-ultimasection",
+      "text": "**Garanta já sua autoclave Stermax!** \n Não perca a chance de modernizar sua clínica com a melhor tecnologia do mercado. Estoques prontos para envio imediato, aproveite agora!"
+    }
+  },
+  "link#falecomconsultor-estoque": {
+    "props": {
+      "label": "FALE COM UM CONSULTOR",
+      "href": "https://wa.me/5541999710062",
+      "blockClass": "fale-comConsultor-estoques",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  },
+  "flex-layout.col#imagem-estoques":{
+    "props": {
+      "blockClass": "col-imagem-estoques"
+    },
+    "children": [
+      "image#img-estoques"
+    ]
+  },
+  "image#img-estoques":{
+    "props": {
+      "src": "assets/home/caixas-assist.webp"
+    }
   }
+
 }
