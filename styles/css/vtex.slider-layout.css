@@ -1,10 +1,10 @@
-.sliderLayoutContainer--shelf{
+.sliderLayoutContainer--shelf {
   padding: 20px 0;
 }
 
 
 .sliderTrackContainer--slider-mobile-home,
-.sliderTrackContainer--slider-desktop-home{
+.sliderTrackContainer--slider-desktop-home {
   margin-top: -2px;
 }
 
@@ -57,8 +57,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+
   .sliderLayoutContainer--carousel {
-    margin-top: -50px;
+    margin: unset;
+    min-height: unset;
   }
 
   .sliderLayoutContainer--shelf {

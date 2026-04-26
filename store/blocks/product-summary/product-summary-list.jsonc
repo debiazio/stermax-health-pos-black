@@ -104,6 +104,12 @@
       "add-to-cart-button#pdp"
     ]
   },
+  "add-to-cart-button#pdp":{
+    "props": {
+      "blockClass": "butao-comprar",
+      "text": "COMPRAR"
+    }
+  },
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
       "product-selling-price#summary",

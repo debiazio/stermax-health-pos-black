@@ -57,9 +57,9 @@
         "background": {
           "base": "#ffffff",
           "base--inverted": "#03044e",
-          "action-primary": "#1f80ca",
+          "action-primary": "#8435DE",
           "action-secondary": "#eef3f7",
-          "emphasis": "#1f80ca",
+          "emphasis": "#FF7500",
           "disabled": "#f2f4f5",
           "success": "#8bc34a",
           "success--faded": "#eafce3",

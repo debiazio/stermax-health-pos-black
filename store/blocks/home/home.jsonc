@@ -2,11 +2,12 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#carrossel-home-desktop",
-      "flex-layout.row#banner-stermaxHealth-personas",
+      "responsive-layout.desktop#banner-personas",
+      "responsive-layout.mobile#banner-personas",
       "flex-layout.row#linha-line",
-      "responsive-layout.mobile#deals-mobile",
       "__fold__",
       "flex-layout.row#shelf",
+      "responsive-layout.mobile#deals-mobile",
       "flex-layout.row#deals",
       "flex-layout.row#banner-nao-comprometa-saude",
       "flex-layout.row#tipos-autoclaves-home",
@@ -53,13 +54,19 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": "carousel",
       "autoplay": {
         "timeout": 5000
       }
     }
+  },
+  // desktop imagem personas
+  "responsive-layout.desktop#banner-personas": {
+    "children": [
+      "flex-layout.row#banner-stermaxHealth-personas"
+    ]
   },
   "flex-layout.row#banner-stermaxHealth-personas": {
     "props": {
@@ -79,6 +86,31 @@
       "fullWidth": true
     }
   },
+  // mobile imagem personas
+  "responsive-layout.mobile#banner-personas": {
+    "children": [
+      "flex-layout.row#banner-stermaxHealth-personas-mobile"
+    ]
+  },
+  "flex-layout.row#banner-stermaxHealth-personas-mobile": {
+    "props": {
+      "blockClass": "personas",
+      "fullWidth": false
+    },
+    "children": [
+      "image#banner-personas-mobile"
+    ]
+  },
+  "image#banner-personas-mobile": {
+    "props": {
+      "blockClass": "imagem-personas",
+      "src": "assets/home/banner-modelos/mobile/categorias-mobile.webp",
+      "alt": "Público StermaxHealth",
+      "title": "Público StermaxHealth",
+      "fullWidth": true
+    }
+  },
+  // separador
   "flex-layout.row#linha-line": {
     "props": {
       "blockClass": "linha-line",
@@ -549,7 +581,6 @@
   // ==================================
   //  fim prateleira acessorios
   // ==================================
-
   "flex-layout.row#shelf": {
     "props": {
       "blockClass": "linha-shelf-home",
@@ -602,7 +633,7 @@
   // ==========================
   // sessao final
   // ====================
-  "flex-layout.row#ultima-section":{
+  "flex-layout.row#ultima-section": {
     "props": {
       "blockClass": "ultima-section",
       "colSizing": "equal"
@@ -613,7 +644,7 @@
     ]
   },
   // COLUNA LADO ESQUERDO -ASSISTENCIAS
-  "flex-layout.col#ultimasection-col-esquerda":{
+  "flex-layout.col#ultimasection-col-esquerda": {
     "props": {
       "blockClass": "ultimasection-col-esquerda"
     },
@@ -622,13 +653,13 @@
       "flex-layout.row#linhasubtituloimagemebotao-assistencias"
     ]
   },
-  "rich-text#titulo-ultima-section-assistencias":{
+  "rich-text#titulo-ultima-section-assistencias": {
     "props": {
       "blockClass": "titulo-ultimasection",
       "text": "Assistência e suporte sempre ao seu alcance"
     }
   },
-  "flex-layout.row#linhasubtituloimagemebotao-assistencias":{
+  "flex-layout.row#linhasubtituloimagemebotao-assistencias": {
     "props": {
       "blockClass": "linhasubtituloimagemebotao-assistencias",
       "colSizing": "equal"
@@ -638,7 +669,7 @@
       "flex-layout.col#imagem-assistencias"
     ]
   },
-  "flex-layout.col#subtitulo-botao-assistencias":{
+  "flex-layout.col#subtitulo-botao-assistencias": {
     "props": {
       "blockClass": "col-subtitulo-botao-assistencias",
       "preventVerticalStretch": true
@@ -648,9 +679,12 @@
       "link#falecomconsultor"
     ]
   },
-  "rich-text#subtitulo-assistencias":{
+  "rich-text#subtitulo-assistencias": {
     "props": {
-      "blockClass": ["subtitulo-ultimasection", "subtitulo-assistencias"],
+      "blockClass": [
+        "subtitulo-ultimasection",
+        "subtitulo-assistencias"
+      ],
       "text": "Com a maior rede de assistência técnica do Brasil,garantimos que você estará sempre protegido!"
     }
   },
@@ -663,7 +697,7 @@
       "rel": "noopener noreferrer"
     }
   },
-  "flex-layout.col#imagem-assistencias":{
+  "flex-layout.col#imagem-assistencias": {
     "props": {
       "blockClass": "col-imagem-assistencias"
     },
@@ -671,7 +705,7 @@
       "image#img-assistencias"
     ]
   },
-  "image#img-assistencias":{
+  "image#img-assistencias": {
     "props": {
       "blockClass": "img-assistencias",
       "src": "assets/home/brasil-mapa2.webp",
@@ -679,8 +713,8 @@
       "title": "Mapa brasil"
     }
   },
-// coluna lado direito
-  "flex-layout.col#ultimasection-col-direita":{
+  // coluna lado direito
+  "flex-layout.col#ultimasection-col-direita": {
     "props": {
       "blockClass": "ultimasection-col-direita"
     },
@@ -689,13 +723,13 @@
       "flex-layout.row#linhasubtituloimagemebotao-estoques"
     ]
   },
-  "rich-text#titulo-ultima-section-estoques":{
+  "rich-text#titulo-ultima-section-estoques": {
     "props": {
       "blockClass": "titulo-ultimasection",
       "text": "Estoques limitados em pronta entrega"
     }
   },
-  "flex-layout.row#linhasubtituloimagemebotao-estoques":{
+  "flex-layout.row#linhasubtituloimagemebotao-estoques": {
     "props": {
       "blockClass": "linhasubtituloimagemebotao-estoques",
       "colSizing": "equal"
@@ -705,7 +739,7 @@
       "flex-layout.col#imagem-estoques"
     ]
   },
-  "flex-layout.col#subtitulo-botao-estoques":{
+  "flex-layout.col#subtitulo-botao-estoques": {
     "props": {
       "blockClass": "col-subtitulo-botao-estoques",
       "preventVerticalStretch": true
@@ -715,7 +749,7 @@
       "link#falecomconsultor-estoque"
     ]
   },
-  "rich-text#subtitulo-estoques":{
+  "rich-text#subtitulo-estoques": {
     "props": {
       "blockClass": "subtitulo-ultimasection",
       "text": "**Garanta já sua autoclave Stermax!** \n Não perca a chance de modernizar sua clínica com a melhor tecnologia do mercado. Estoques prontos para envio imediato, aproveite agora!"
@@ -730,7 +764,7 @@
       "rel": "noopener noreferrer"
     }
   },
-  "flex-layout.col#imagem-estoques":{
+  "flex-layout.col#imagem-estoques": {
     "props": {
       "blockClass": "col-imagem-estoques"
     },
@@ -738,10 +772,9 @@
       "image#img-estoques"
     ]
   },
-  "image#img-estoques":{
+  "image#img-estoques": {
     "props": {
       "src": "assets/home/caixas-assist.webp"
     }
   }
-
 }

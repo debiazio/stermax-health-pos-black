@@ -1049,6 +1049,29 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .strong--deals {
+    font-family: "rubik-bold", sans-serif;
+    font-weight: 800;
+    font-size: 6px;
+    line-height: 115%;
+  }
+
+  .container--texto-titulo-shelf{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container--line{
+    margin: 28px 0;
+  }
+
+  .paragraph--texto-titulo-shelf {
+    font-size: 32px;
+  }
+
   .paragraph--titulo360plena {
     font-size: 25px;
   }

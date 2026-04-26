@@ -12,7 +12,8 @@
   text-decoration: none;
   padding: 16px 25px;
   border-radius: 20px;
-  transition: transform 0.3s ease; /* mantenha só aqui */
+  transition: transform 0.3s ease;
+  /* mantenha só aqui */
 }
 
 .link--fale-comConsultor-estoques:hover,
@@ -23,6 +24,7 @@
 
 /* Fallback para touch (sem hover) */
 @media (hover: none) and (pointer: coarse) {
+
   .link--fale-comConsultor-estoques:active,
   .link--fale-comConsultor-assistencias:active {
     transform: scale(0.98);
@@ -144,6 +146,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .link--link-ver-tudo-shelf {
+    width: 100%;
+    text-align: center;
+  }
+
   .link--link-orcamento-pronto-para {
     font-size: 14px;
     text-align: center;

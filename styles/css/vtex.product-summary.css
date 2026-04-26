@@ -30,15 +30,18 @@
 
 .element {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .brandName {
   color: #5C5A58;
-  font-family: var(--fonte-secundaria);
-  text-align: center;
+  font-family: "zenoldmincho-bold",sans-serif;
+  font-weight: 700;
+  color: #000000;
+  line-height: 100%;
+  text-align: left;
   display: flex;
+  font-size: 22px;
 }
 
 .nameContainer {
@@ -74,11 +77,6 @@
   padding-bottom: 1rem;
 }
 
-.brandName {
-  font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
-}
 
 .container {
   text-align: start;
@@ -93,6 +91,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .brandName {
+    font-size: 18px;
+  }
+  
   .spacer {
     display: none;
   }
