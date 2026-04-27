@@ -1,4 +1,4 @@
-.paragraph--titulo-ultimasection{
+.paragraph--titulo-ultimasection {
   font-family: "zenoldmincho-black", sans-serif;
   font-weight: 900;
   color: #FFFFFF;
@@ -7,7 +7,7 @@
   margin: 0;
 }
 
-.paragraph--subtitulo-ultimasection{
+.paragraph--subtitulo-ultimasection {
   font-family: "rubik-light", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -15,7 +15,7 @@
   color: #FFFFFF;
 }
 
-.paragraph--subtitulo-assistencias{
+.paragraph--subtitulo-assistencias {
   margin-top: 90px;
 }
 
@@ -913,7 +913,7 @@
 
 .paragraph--subtitulo-banner-esquerdo {
   font-size: 18px;
-  font-family: "rubik-medium",sans-serif;
+  font-family: "rubik-medium", sans-serif;
   font-weight: 400;
   color: #ffffff;
   margin-top: 20px;
@@ -1018,6 +1018,16 @@
   font-weight: 700;
 }
 
+@media screen and (max-width: 1400px) {
+  .paragraph--texto-subtitulo-gatilho-medo {
+    font-size: 16px;
+  }
+
+  .paragraph--titulo-banner-secundario {
+    white-space: unset;
+  }
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -1049,6 +1059,56 @@
 
 
 @media only screen and (max-width: 1000px) {
+  /* .wrapper--subtitulo-ultimasection{
+    margin-top: 20px;
+  } */
+
+  .paragraph--subtitulo-assistencias {
+    margin-top: unset;
+  }
+
+  .paragraph--subtitulo-ultimasection,
+  .paragraph--subtitulo-estoques,
+  .paragraph--subtitulo-assistencias {
+    font-size: 12px;
+  }
+
+  .paragraph--titulo-ultimasection {
+    font-size: 28px;
+  }
+
+  .paragraph--titulo-modelos {
+    font-size: 10px;
+  }
+
+  .paragraph--subtitulo-modelos {
+    font-size: 10px;
+  }
+
+  .paragraph--titulo-tipos-home {
+    font-size: 28px;
+    padding: 0 20px;
+  }
+
+  .paragraph--subtitulo-tipos-home {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .paragraph--titulo-banner-secundario {
+    font-size: 8px;
+  }
+
+  .paragraph--texto-titulo-gatilho-medo {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .paragraph--texto-subtitulo-gatilho-medo {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
   .strong--deals {
     font-family: "rubik-bold", sans-serif;
     font-weight: 800;
@@ -1056,7 +1116,7 @@
     line-height: 115%;
   }
 
-  .container--texto-titulo-shelf{
+  .container--texto-titulo-shelf {
     width: 100%;
     text-align: center;
     display: flex;
@@ -1064,7 +1124,7 @@
     align-items: center;
   }
 
-  .container--line{
+  .container--line {
     margin: 28px 0;
   }
 

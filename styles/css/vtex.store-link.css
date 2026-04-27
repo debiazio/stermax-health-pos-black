@@ -146,6 +146,17 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .link--fale-comConsultor-estoques,
+  .link--fale-comConsultor-assistencias{
+    font-size: 12px;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .link--link-tipos-autoclave{
+    margin-bottom: 15px;
+  }
+
   .link--link-ver-tudo-shelf {
     width: 100%;
     text-align: center;

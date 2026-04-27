@@ -34,6 +34,14 @@
 
 /* CSS ROLETA ACIMA  */
 
+:global(.vtex-render__container-id-deals-mobile){
+  background-color: #f6f5f5;
+  padding: 0 20px;
+}
+
+:global(.vtex-render__container-id-ultima-section){
+  background-color: #f6f5f5;
+}
 
 :global(.vtex-product-summary-2-x-containerNormal) :global(.vtex-button){
   position: relative;

@@ -303,6 +303,9 @@
     }
   },
   "flex-layout.row#modelos-tipo-home": {
+    "props": {
+      "blockClass": "linha-modelos-tipo-home"
+    },
     "children": [
       "link#coluna-21-litros",
       "link#coluna-30-litros",

@@ -6,6 +6,11 @@
   background-color: #f6f5f5;
 }
 
+.flexRowContent--linha-modelos-tipo-home{
+  display: flex;
+  justify-content: center;
+}
+
 .flexRow--linha-footer-desktop {
   padding: 50px 0;
 }
@@ -806,6 +811,41 @@
 
 
 @media screen and (max-width: 1000px) {
+  .flexRow--ultima-section {
+    padding: 40px 0;
+  }
+
+  .flexCol--col-subtitulo-botao-estoques,
+  .flexCol--col-subtitulo-botao-assistencias {
+    justify-content: space-around;
+  }
+
+
+  .flexRowContent--linhasubtituloimagemebotao-estoques,
+  .flexRowContent--linhasubtituloimagemebotao-assistencias {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexRowContent--ultima-section {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexRow--linha-modelos-tipo-home {
+    margin: 0 24px;
+  }
+
+  .flexRowContent--linha-nao-comprometa-saude {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    padding-bottom: 18px;
+  }
+
   .flexRowContent--nome-do-produto-pdp-dinamica {
     padding: 20px 0;
   }
@@ -877,7 +917,36 @@
   .flexRowContent--linha-footer-bandeiras {
     margin-top: 0 !important;
   }
+
 }
+
+@media screen and (max-width: 450px) {
+
+  .flexCol--coluna-imagem-21l {
+    padding: 120px 15px 0;
+  }
+
+  .flexCol--coluna-imagem-30l {
+    padding: 100px 15px 0;
+  }
+
+  .flexCol--coluna-imagem-42l {
+    padding: 90px 15px 0;
+  }
+
+  .flexCol--coluna-imagem-60l {
+    padding: 70px 15px 0;
+  }
+
+  .flexCol--coluna-imagem-75l {
+    padding: 50px 15px 0;
+  }
+
+  .flexCol--coluna-imagem-75verticall {
+    padding: 25px 15px 0;
+  }
+}
+
 
 .flexRowContent--linha-horarios-footer,
 .flexRowContent--linha-footer-bandeiras,
@@ -1608,14 +1677,96 @@
     padding: 0 50px;
   }
 
+  @media screen and (max-width: 1400px) {
+    .flexRowContent--linha-nao-comprometa-saude{
+      padding: 20px;
+    }
+  }
+
+
+}
+@media screen and (max-width: 1200px) {
+  .flexCol--coluna-imagem-21l {
+    padding: 140px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-30l {
+    padding: 120px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-42l {
+    padding: 110px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-60l {
+    padding: 80px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-75l {
+    padding: 50px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-75verticall {
+    padding: 20px 20px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .flexRowContent--linha-modelos-tipo-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .flexCol--coluna-imagem-21l {
+    padding: 140px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-30l {
+    padding: 120px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-42l {
+    padding: 110px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-60l {
+    padding: 80px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-75l {
+    padding: 50px 20px 0;
+  }
+
+  .flexCol--coluna-imagem-75verticall {
+    padding: 20px 20px 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-nao-comprometa-saude{
+    display: flex;
+    align-items: center;
+  }
+
+  .flexRow--ultima-section {
+    background-color: #f6f5f5;
+  }
+
+
+
+  .flexRow--linha-nao-comprometa-saude {
+    padding-bottom: 25px;
+  }
+
+  .flexRowContent--deals-mobile-row {
+    padding: 0 15px;
+  }
+
   .flexRowContent--linha-shelf-home {
     display: unset;
   }
 
-  .flexRow--personas{
+  .flexRow--personas {
     padding: 27px 0 0;
   }
 
