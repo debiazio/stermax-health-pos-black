@@ -52,6 +52,8 @@
 
 .link--link-ver-tudo-shelf {
   color: #FF7500;
+  width: 100%;
+  text-align: center;
 }
 
 .link--plena-fale-com-espec {
@@ -147,16 +149,17 @@
 
 @media screen and (max-width: 1000px) {
   .childrenContainer--plena-fale-com-espec {
-  margin: 20px;
-}
+    margin: 20px;
+  }
+
   .link--fale-comConsultor-estoques,
-  .link--fale-comConsultor-assistencias{
+  .link--fale-comConsultor-assistencias {
     font-size: 12px;
     font-weight: 800;
     white-space: nowrap;
   }
 
-  .link--link-tipos-autoclave{
+  .link--link-tipos-autoclave {
     margin-bottom: 15px;
   }
 

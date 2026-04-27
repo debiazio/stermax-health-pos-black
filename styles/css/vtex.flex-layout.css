@@ -150,8 +150,7 @@
 }
 
 .flexRowContent--linha-shelf-home {
-  display: flex;
-  flex-direction: column;
+  display: block;
   align-items: center;
 }
 
