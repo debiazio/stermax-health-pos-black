@@ -4,10 +4,25 @@
   border: none;
 }
 
+.videoContainer--video-plena {
+  padding: 22px;
+}
+
+.videoElement--video-plena {
+  border-radius: 20px;
+  max-height: 1258px;
+}
+
 /*
 .videoElement--video-banner{
   margin-left: -100px;
 } */
+
+@media only screen and (min-width: 1000px) {
+  .videoContainer--video-plena {
+    padding: 10px;
+  }
+}
 
 @media only screen and (min-width: 640px) {
   .videoContainer--video-banner {

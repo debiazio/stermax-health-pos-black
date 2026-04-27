@@ -174,14 +174,18 @@
       "width": "40%"
     },
     "children": [
-      "image#video-plena"
+      "video#video-plena"
     ]
   },
-  "image#video-plena": {
+  "video#video-plena": {
     "props": {
-      "src": "assets/pdp-plena/video-plena.webp",
-      "alt": "video",
-      "title": "video plena"
+      "src": "https://stermax.com.br/images_idealine/plena42-lancamento.mp4",
+      "autoPlay": true,
+      "loop": true,
+      "muted": false,
+      "blockClass": "video-plena",
+      "title": "video plena",
+      "controlsType": "native"
     }
   },
   "flex-layout.col#imagens-plena": {

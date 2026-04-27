@@ -1743,6 +1743,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+ .flexCol--segunda-dobra-plena-pdp {
+  flex-direction: column;
+}
+
+
   .flexRowContent--linha-nao-comprometa-saude{
     display: flex;
     align-items: center;
