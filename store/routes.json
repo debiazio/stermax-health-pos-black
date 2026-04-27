@@ -31,5 +31,8 @@
   },
   "store.custom#blog-post": {
     "path": "/blog/:slug"
+  },
+  "store.custom#home-ingles": {
+    "path": "/eng"
   }
 }

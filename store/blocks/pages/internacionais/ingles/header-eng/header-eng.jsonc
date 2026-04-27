@@ -1,0 +1,180 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop#eng",
+      "header-layout.mobile#eng"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop#eng",
+      "header-layout.mobile#eng"
+    ]
+  },
+  "header-layout.desktop#eng": {
+    "children": [
+      "flex-layout.row#1-desktop-eng",
+      "flex-layout.row#3-desktop-eng",
+      "sticky-layout#cabecalho-desktop-eng",
+      "whatsappstermax"
+    ]
+  },
+  "flex-layout.row#1-desktop-eng": {
+    "children": [
+      "rich-text#teste-eng"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "topo-1-header"
+    }
+  },
+  "rich-text#teste-eng": {
+    "props": {
+      "blockClass": "rich-text-topo",
+      "text": "Security, Technology and Trust: Discover Why Stermax Health Is the Right Choice for Healthcare Professionals"
+    }
+  },
+  "flex-layout.row#3-desktop-eng": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#spacer-eng"
+    ]
+  },
+  "flex-layout.col#spacer-eng": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#cabecalho-desktop-eng": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#cabecalho-container-desktop-eng"
+    ]
+  },
+  "flex-layout.row#cabecalho-container-desktop-eng": {
+    "props": {
+      "blockClass": "cabecalho-desktop",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#menu-superior-linha-esquerda-eng",
+      "flex-layout.row#menu-superior-linha-central-eng",
+      "flex-layout.row#menu-superior-linha-direita-eng"
+    ]
+  },
+  "flex-layout.row#menu-superior-linha-esquerda-eng": {
+    "props": {
+      "blockClass": "menu-superior-linha-esqueda",
+      "whidth": "45%"
+    },
+    "children": [
+      "flex-layout.col#category-menu-eng"
+    ]
+  },
+  "flex-layout.col#category-menu-eng": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu-eng"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-menu-eng": {},
+  "flex-layout.row#menu-superior-linha-central-eng": {
+    "props": {
+      "blockClass": "menu-superior-linha-central",
+      "whidth": "10%"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop-eng"
+    ]
+  },
+  "flex-layout.col#logo-desktop-eng": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "coluna-logo"
+    },
+    "children": [
+      "logo#desktop-eng"
+    ]
+  },
+  "logo#desktop-eng": {
+    "props": {
+      "blockClass": "logo",
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/novo-logo-stxh.png",
+      "width": "157",
+      "height": "48"
+    }
+  },
+  "flex-layout.row#menu-superior-linha-direita-eng": {
+    "props": {
+      "blockClass": "menu-supeiro-linha-direita",
+      "whidth": "45%"
+    },
+    "children": [
+      "flex-layout.col#search-bar-header-eng",
+      "flex-layout.col#coluna-login-minicart-eng"
+    ]
+  },
+  "flex-layout.col#search-bar-header-eng": {
+    "props": {
+      "blockClass": "search-bar-desktop"
+    },
+    "children": [
+      "search-bar#eng"
+    ]
+  },
+  "search-bar#eng": {
+    "blocks": [
+      "autocomplete-result-list.v2#eng"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Search",
+      "blockClass": "barra-pesquisa"
+    }
+  },
+  "autocomplete-result-list.v2#eng": {
+    "blocks": [
+      "product-summary#eng"
+    ],
+    "props": {
+      "productLayout": "HORIZONTAL"
+    }
+  },
+  "product-summary#eng": {},
+  "flex-layout.col#coluna-login-minicart-eng": {
+    "props": {
+      "blockClass": "coluna-login-minicart",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-login-minicart-eng"
+    ]
+  },
+  "flex-layout.row#linha-login-minicart-eng": {
+    "children": [
+      "login#eng",
+      "minicart.v2#eng"
+    ]
+  },
+  "login#eng": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "blockClass": "login-header"
+    }
+  },
+  "minicart.v2#eng": {},
+  "header-layout.mobile#eng": {}
+}

@@ -1,0 +1,758 @@
+{
+  "store.custom#home-ingles": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "blocks": [
+      "header",
+      "list-context.image-list#carrossel-home-desktop-eng",
+      "responsive-layout.desktop#banner-personas-eng",
+      "responsive-layout.mobile#banner-personas-eng",
+      "flex-layout.row#linha-line-eng",
+      "__fold__",
+      "flex-layout.row#shelf-eng",
+      "responsive-layout.mobile#deals-mobile-eng",
+      "flex-layout.row#deals",
+      "flex-layout.row#banner-nao-comprometa-saude-eng",
+      "flex-layout.row#tipos-autoclaves-home-eng",
+      "flex-layout.row#linha-line-eng",
+      "flex-layout.row#shelf-acessorios-eng",
+      "flex-layout.row#ultima-section-eng"
+    ]
+  },
+  "list-context.image-list#carrossel-home-desktop-eng": {
+    "children": [
+      "slider-layout#carrossel-home-desktop-eng"
+    ],
+    "props": {
+      "fullWidth": true,
+      "height": 486,
+      "width": 1300,
+      "maxWidth": 1300,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/home/banner-modelos/Artboard 34.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-purehealth.webp"
+        },
+        {
+          "image": "assets/home/banner-modelos/Artboard 32_1.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/vida-vertical.webp"
+        },
+        {
+          "image": "assets/home/banner-modelos/Artboard 32.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
+        },
+        {
+          "image": "assets/home/banner-modelos/banner-home-desktop-esterilizacao.webp",
+          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
+        }
+      ]
+    }
+  },
+  "slider-layout#carrossel-home-desktop-eng": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 5000
+      }
+    }
+  },
+  "responsive-layout.desktop#banner-personas-eng": {
+    "children": [
+      "flex-layout.row#banner-stermaxHealth-personas-eng"
+    ]
+  },
+  "flex-layout.row#banner-stermaxHealth-personas-eng": {
+    "props": {
+      "blockClass": "personas",
+      "fullWidth": false
+    },
+    "children": [
+      "image#banner-personas-eng"
+    ]
+  },
+  "image#banner-personas-eng": {
+    "props": {
+      "blockClass": "imagem-personas",
+      "src": "assets/home/categorias-stx-desktop.webp",
+      "alt": "StermaxHealth Audience",
+      "title": "StermaxHealth Audience",
+      "fullWidth": true
+    }
+  },
+  "responsive-layout.mobile#banner-personas-eng": {
+    "children": [
+      "flex-layout.row#banner-stermaxHealth-personas-mobile-eng"
+    ]
+  },
+  "flex-layout.row#banner-stermaxHealth-personas-mobile-eng": {
+    "props": {
+      "blockClass": "personas",
+      "fullWidth": false
+    },
+    "children": [
+      "image#banner-personas-mobile-eng"
+    ]
+  },
+  "image#banner-personas-mobile-eng": {
+    "props": {
+      "blockClass": "imagem-personas",
+      "src": "assets/home/banner-modelos/mobile/categorias-mobile.webp",
+      "alt": "StermaxHealth Audience",
+      "title": "StermaxHealth Audience",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#linha-line-eng": {
+    "props": {
+      "blockClass": "linha-line",
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#line-eng"
+    ]
+  },
+  "rich-text#line-eng": {
+    "props": {
+      "text": "",
+      "blockClass": "line"
+    }
+  },
+  "responsive-layout.mobile#deals-mobile-eng": {
+    "children": [
+      "flex-layout.row#deals-mobile-linha1-eng",
+      "flex-layout.row#deals-mobile-linha2-eng"
+    ]
+  },
+  "flex-layout.row#deals-mobile-linha1-eng": {
+    "props": {
+      "blockClass": "deals-mobile-row"
+    },
+    "children": [
+      "flex-layout.col#linha1-coluna1-eng",
+      "flex-layout.col#linha1-coluna2-eng",
+      "flex-layout.col#linha1-coluna3-eng"
+    ]
+  },
+  "flex-layout.col#linha1-coluna1-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "flex-layout.col#linha1-coluna2-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "flex-layout.col#linha1-coluna3-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "flex-layout.row#deals-mobile-linha2-eng": {
+    "props": {
+      "blockClass": "deals-mobile-row"
+    },
+    "children": [
+      "flex-layout.col#linha2-coluna1-eng",
+      "flex-layout.col#linha2-coluna2-eng",
+      "flex-layout.col#linha2-coluna3-eng"
+    ]
+  },
+  "flex-layout.col#linha2-coluna1-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "flex-layout.col#linha2-coluna2-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal5",
+      "rich-text#deal5"
+    ]
+  },
+  "flex-layout.col#linha2-coluna3-eng": {
+    "props": {
+      "blockClass": "deals-mobile-coluna"
+    },
+    "children": [
+      "image#deal6",
+      "rich-text#deal6"
+    ]
+  },
+  "flex-layout.row#banner-nao-comprometa-saude-eng": {
+    "props": {
+      "blockClass": "linha-nao-comprometa-saude",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-naocomprometa-coluna1-eng",
+      "flex-layout.col#coluna-naocomprometa-coluna2-eng"
+    ]
+  },
+  "flex-layout.col#coluna-naocomprometa-coluna1-eng": {
+    "props": {
+      "blockClass": "coluna-naocomprometa-coluna1",
+      "width": "50%"
+    },
+    "children": [
+      "image#banner-nao-comprometa-imagem-eng"
+    ]
+  },
+  "image#banner-nao-comprometa-imagem-eng": {
+    "props": {
+      "blockClass": "banner-nao-comprometa-imagem",
+      "src": "assets/home/banner-modelos/img-nao-comprometa.webp",
+      "alt": "Image using autoclave",
+      "title": "Image using autoclave"
+    }
+  },
+  "flex-layout.col#coluna-naocomprometa-coluna2-eng": {
+    "props": {
+      "blockClass": "coluna-naocomprometa-coluna2",
+      "preventVerticalStretch": true,
+      "width": "50%"
+    },
+    "children": [
+      "rich-text#titulo-gatilho-medo-eng",
+      "rich-text#subtitulo-gatilho-medo-eng",
+      "rich-text#titulo-banner-segundo-eng"
+    ]
+  },
+  "rich-text#titulo-gatilho-medo-eng": {
+    "props": {
+      "blockClass": "texto-titulo-gatilho-medo",
+      "text": "Do not compromise the health of your patients and the future of your clinic!"
+    }
+  },
+  "rich-text#subtitulo-gatilho-medo-eng": {
+    "props": {
+      "blockClass": "texto-subtitulo-gatilho-medo",
+      "text": "Without proper sterilization, the risk of contamination and disease increases. Moreover, operating outside ANVISA regulations can lead to the closure of your office or clinic, jeopardizing your work and reputation!"
+    }
+  },
+  "rich-text#titulo-banner-segundo-eng": {
+    "props": {
+      "text": "ENSURE THE PEACE OF MIND THAT YOUR PATIENTS AND TEAM DESERVE!",
+      "blockClass": "titulo-banner-secundario"
+    }
+  },
+  "flex-layout.row#tipos-autoclaves-home-eng": {
+    "props": {
+      "blockClass": "linha-tipos-autoclaves-home",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#titulo-tipo-home-eng",
+      "flex-layout.row#modelos-tipo-home-eng"
+    ]
+  },
+  "flex-layout.row#titulo-tipo-home-eng": {
+    "props": {
+      "blockClass": "linha-titulo-tipo-home",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-tipos-home-eng",
+      "rich-text#subtitulo-tipos-home-eng"
+    ]
+  },
+  "rich-text#titulo-tipos-home-eng": {
+    "props": {
+      "blockClass": "titulo-tipos-home",
+      "text": "Technology, biosafety, and efficiency in every cycle."
+    }
+  },
+  "rich-text#subtitulo-tipos-home-eng": {
+    "props": {
+      "blockClass": "subtitulo-tipos-home",
+      "text": "Choose the perfect autoclave for your specialty."
+    }
+  },
+  "flex-layout.row#modelos-tipo-home-eng": {
+    "props": {
+      "blockClass": "linha-modelos-tipo-home"
+    },
+    "children": [
+      "link#coluna-21-litros-eng",
+      "link#coluna-30-litros-eng",
+      "link#coluna-42-litros-eng",
+      "link#coluna-60-litros-eng",
+      "link#coluna-75-litros-eng",
+      "link#coluna-75vertical-litros-eng"
+    ]
+  },
+  "link#coluna-21-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/21l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-21-litros-eng"
+    ]
+  },
+  "link#coluna-30-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/30l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-30-litros-eng"
+    ]
+  },
+  "link#coluna-42-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/42l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-42-litros-eng"
+    ]
+  },
+  "link#coluna-60-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/60l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-60-litros-eng"
+    ]
+  },
+  "link#coluna-75-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/75l/"
+    },
+    "children": [
+      "flex-layout.col#coluna-75-litros-eng"
+    ]
+  },
+  "link#coluna-75vertical-litros-eng": {
+    "props": {
+      "blockClass": "link-tipos-autoclave",
+      "href": "/Vertical/"
+    },
+    "children": [
+      "flex-layout.col#coluna-75vertical-litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-21-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-21l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo21litros-eng",
+      "rich-text#subtitulo21litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-30-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-30l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo30litros-eng",
+      "rich-text#subtitulo30litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-42-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-42l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo42litros-eng",
+      "rich-text#subtitulo42litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-60-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-60l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo60litros-eng",
+      "rich-text#subtitulo60litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-75-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-75l"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo75litros-eng",
+      "rich-text#subtitulo75litros-eng"
+    ]
+  },
+  "flex-layout.col#coluna-75vertical-litros-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-tipos-autoclaves",
+        "coluna-imagem-75verticall"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#titulo75verticallitros-eng",
+      "rich-text#subtitulo75verticallitros-eng"
+    ]
+  },
+  "rich-text#titulo21litros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "21 liters"
+    }
+  },
+  "rich-text#titulo30litros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "30 liters"
+    }
+  },
+  "rich-text#titulo42litros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "42 liters"
+    }
+  },
+  "rich-text#titulo60litros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "60 liters"
+    }
+  },
+  "rich-text#titulo75litros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "75 liters"
+    }
+  },
+  "rich-text#titulo75verticallitros-eng": {
+    "props": {
+      "blockClass": "titulo-modelos",
+      "text": "75 liters vertical"
+    }
+  },
+  "rich-text#subtitulo21litros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Higher capacity, perfect for professionals who handle multiple appointments and have varied instruments."
+    }
+  },
+  "rich-text#subtitulo30litros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Versatile, meets high instrument demand, designed to handle intermediate loads efficiently."
+    }
+  },
+  "rich-text#subtitulo42litros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Ideal for clinics with high material turnover."
+    }
+  },
+  "rich-text#subtitulo60litros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Robustness for hospitals and laboratories, superior capacity, larger space."
+    }
+  },
+  "rich-text#subtitulo75litros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Our highest-capacity autoclave designed for maximum efficiency, large volumes, and intensive cycles."
+    }
+  },
+  "rich-text#subtitulo75verticallitros-eng": {
+    "props": {
+      "blockClass": "subtitulo-modelos",
+      "text": "Vertical autoclave model, exclusive in the market."
+    }
+  },
+  "flex-layout.row#shelf-acessorios-eng": {
+    "props": {
+      "blockClass": "linha-shelf-home",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-acessorios-home-eng",
+      "link#ver-tudo-home-acessorios-eng",
+      "list-context.product-list#acessorios-home-eng"
+    ]
+  },
+  "rich-text#titulo-acessorios-home-eng": {
+    "props": {
+      "blockClass": "texto-titulo-shelf",
+      "text": "Sterilization Accessories"
+    }
+  },
+  "link#ver-tudo-home-acessorios-eng": {
+    "props": {
+      "blockClass": "link-ver-tudo-shelf",
+      "href": "/acessorios",
+      "label": "View All"
+    }
+  },
+  "list-context.product-list#acessorios-home-eng": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#acessorios-home-eng"
+    ],
+    "props": {
+      "collection": "228",
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+  "slider-layout#acessorios-home-eng": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "always"
+    }
+  },
+  "flex-layout.row#shelf-eng": {
+    "props": {
+      "blockClass": "linha-shelf-home",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-shelf-home-eng",
+      "link#vertudo-home-eng",
+      "list-context.product-list#demo1-eng"
+    ]
+  },
+  "rich-text#titulo-shelf-home-eng": {
+    "props": {
+      "blockClass": "texto-titulo-shelf",
+      "text": "Featured Products"
+    }
+  },
+  "link#vertudo-home-eng": {
+    "props": {
+      "blockClass": "link-ver-tudo-shelf",
+      "href": "/autoclave",
+      "label": "View All"
+    }
+  },
+  "list-context.product-list#demo1-eng": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products-eng"
+    ],
+    "props": {
+      "orderBy": "OrderByPriceDESC"
+    }
+  },
+  "slider-layout#demo-products-eng": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots": "always"
+    }
+  },
+  "flex-layout.row#ultima-section-eng": {
+    "props": {
+      "blockClass": "ultima-section",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#ultimasection-col-esquerda-eng",
+      "flex-layout.col#ultimasection-col-direita-eng"
+    ]
+  },
+  "flex-layout.col#ultimasection-col-esquerda-eng": {
+    "props": {
+      "blockClass": "ultimasection-col-esquerda"
+    },
+    "children": [
+      "rich-text#titulo-ultima-section-assistencias-eng",
+      "flex-layout.row#linhasubtituloimagemebotao-assistencias-eng"
+    ]
+  },
+  "rich-text#titulo-ultima-section-assistencias-eng": {
+    "props": {
+      "blockClass": "titulo-ultimasection",
+      "text": "Assistance and support always within reach"
+    }
+  },
+  "flex-layout.row#linhasubtituloimagemebotao-assistencias-eng": {
+    "props": {
+      "blockClass": "linhasubtituloimagemebotao-assistencias",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#subtitulo-botao-assistencias-eng",
+      "flex-layout.col#imagem-assistencias-eng"
+    ]
+  },
+  "flex-layout.col#subtitulo-botao-assistencias-eng": {
+    "props": {
+      "blockClass": "col-subtitulo-botao-assistencias",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#subtitulo-assistencias-eng",
+      "link#falecomconsultor-eng"
+    ]
+  },
+  "rich-text#subtitulo-assistencias-eng": {
+    "props": {
+      "blockClass": [
+        "subtitulo-ultimasection",
+        "subtitulo-assistencias"
+      ],
+      "text": "With the largest technical assistance network in Brazil, we guarantee you are always protected!"
+    }
+  },
+  "link#falecomconsultor-eng": {
+    "props": {
+      "label": "CONTACT A CONSULTANT",
+      "href": "https://wa.me/5541999710062",
+      "blockClass": "fale-comConsultor-assistencias",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  },
+  "flex-layout.col#imagem-assistencias-eng": {
+    "props": {
+      "blockClass": "col-imagem-assistencias"
+    },
+    "children": [
+      "image#img-assistencias-eng"
+    ]
+  },
+  "image#img-assistencias-eng": {
+    "props": {
+      "blockClass": "img-assistencias",
+      "src": "assets/home/brasil-mapa2.webp",
+      "alt": "Brazil map",
+      "title": "Brazil map"
+    }
+  },
+  "flex-layout.col#ultimasection-col-direita-eng": {
+    "props": {
+      "blockClass": "ultimasection-col-direita"
+    },
+    "children": [
+      "rich-text#titulo-ultima-section-estoques-eng",
+      "flex-layout.row#linhasubtituloimagemebotao-estoques-eng"
+    ]
+  },
+  "rich-text#titulo-ultima-section-estoques-eng": {
+    "props": {
+      "blockClass": "titulo-ultimasection",
+      "text": "Limited stock ready for immediate delivery"
+    }
+  },
+  "flex-layout.row#linhasubtituloimagemebotao-estoques-eng": {
+    "props": {
+      "blockClass": "linhasubtituloimagemebotao-estoques",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#subtitulo-botao-estoques-eng",
+      "flex-layout.col#imagem-estoques-eng"
+    ]
+  },
+  "flex-layout.col#subtitulo-botao-estoques-eng": {
+    "props": {
+      "blockClass": "col-subtitulo-botao-estoques",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#subtitulo-estoques-eng",
+      "link#falecomconsultor-estoque-eng"
+    ]
+  },
+  "rich-text#subtitulo-estoques-eng": {
+    "props": {
+      "blockClass": "subtitulo-ultimasection",
+      "text": "**Secure your Stermax autoclave now!**\nDon't miss the chance to modernize your clinic with the best technology on the market. Stock ready for immediate shipment, take advantage now!"
+    }
+  },
+  "link#falecomconsultor-estoque-eng": {
+    "props": {
+      "label": "CONTACT A CONSULTANT",
+      "href": "https://wa.me/5541999710062",
+      "blockClass": "fale-comConsultor-estoques",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    }
+  },
+  "flex-layout.col#imagem-estoques-eng": {
+    "props": {
+      "blockClass": "col-imagem-estoques"
+    },
+    "children": [
+      "image#img-estoques-eng"
+    ]
+  },
+  "image#img-estoques-eng": {
+    "props": {
+      "src": "assets/home/caixas-assist.webp"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "header-layout.mobile#eng": {
+    "children": [
+      "sticky-layout#1-mobile-eng",
+      "whatsappstermax"
+    ]
+  },
+  "sticky-layout#1-mobile-eng": {
+    "children": [
+      "flex-layout.row#1-mobile-eng",
+      "flex-layout.row#2-mobile-eng"
+    ]
+  },
+  "flex-layout.row#1-mobile-eng": {
+    "props": {
+      "blockClass": "main-header-mobile",
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-esquerda-mobile-eng",
+      "flex-layout.col#coluna-meio-mobile-eng",
+      "flex-layout.col#coluna-direita-mobile-eng"
+    ]
+  },
+  "flex-layout.col#coluna-esquerda-mobile-eng": {
+    "props": {
+      "blockClass": "coluna-esquerda-mobile-header"
+    },
+    "children": [
+      "drawer#eng"
+    ]
+  },
+  "flex-layout.col#coluna-meio-mobile-eng": {
+    "props": {
+      "blockClass": "coluna-meio-mobile-header"
+    },
+    "children": [
+      "logo#mobile-eng"
+    ]
+  },
+  "flex-layout.col#coluna-direita-mobile-eng": {
+    "props": {
+      "blockClass": "coluna-direita-mobile-header"
+    },
+    "children": [
+      "login#eng",
+      "minicart.v2#eng"
+    ]
+  },
+  "flex-layout.row#2-mobile-eng": {
+    "props": {
+      "blockClass": "linha-disclosure-mobile-pesquisa"
+    },
+    "children": [
+      "disclosure-layout#pesquisa-mobile-eng"
+    ]
+  },
+  "drawer#eng": {
+    "children": [
+      "menu#drawer-eng"
+    ]
+  },
+  "menu#drawer-eng": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu-eng"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile-eng": {
+    "props": {
+      "blockClass": "logo-mobile",
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/header/novo-logo-stxh.png"
+    }
+  },
+  "image#icone-pesquisa-mobile-eng": {
+    "props": {
+      "blockClass": "icone-pesquisa-mobile",
+      "src": "assets/header/mobile/Lupa.svg",
+      "alt": "Search icon",
+      "title": "Mobile search icon"
+    }
+  },
+  "disclosure-layout#pesquisa-mobile-eng": {
+    "props": {
+      "blockClass": "container-disclosure"
+    },
+    "children": [
+      "disclosure-trigger#clica-lupa-eng",
+      "disclosure-content#pesquisa-mobile-eng"
+    ]
+  },
+  "disclosure-trigger#clica-lupa-eng": {
+    "props": {
+      "blockClass": "trigger-disclosure"
+    },
+    "children": [
+      "image#icone-pesquisa-mobile-eng"
+    ]
+  },
+  "disclosure-content#pesquisa-mobile-eng": {
+    "props": {
+      "blockClass": "pesquisa-disclosure"
+    },
+    "children": [
+      "flex-layout.col#search-bar-header-eng"
+    ]
+  }
+}

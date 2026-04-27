@@ -1,0 +1,139 @@
+{
+  "vtex.menu@2.x:menu#category-menu-eng": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#about-us-eng",
+      "menu-item#store-eng",
+      "menu-item#contact-eng",
+      "menu-item#blog-new-eng",
+      "menu-item#why-buy-eng"
+    ]
+  },
+  "menu-item#store-eng": {
+    "props": {
+      "id": "menu-item-store",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/autoclave",
+        "noFollow": false,
+        "tagTitle": "Store",
+        "text": "STORE"
+      }
+    }
+  },
+  "menu-item#about-us-eng": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "About Us",
+        "text": "ABOUT US"
+      }
+    }
+  },
+  "menu-item#contact-eng": {
+    "props": {
+      "id": "menu-item-contact",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact",
+        "noFollow": true,
+        "tagTitle": "Contact",
+        "text": "CONTACT"
+      }
+    }
+  },
+  "menu-item#why-buy-eng": {
+    "props": {
+      "id": "menu-item-why-buy",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/why-buy",
+        "noFollow": true,
+        "tagTitle": "Why Buy",
+        "text": "WHY BUY"
+      }
+    }
+  },
+  "menu-item#blog-new-eng": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog/",
+        "noFollow": true,
+        "tagTitle": "Blog",
+        "text": "BLOG"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#more-eng": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more-eng"
+    ]
+  },
+  "flex-layout.row#menu-more-eng": {
+    "children": [
+      "flex-layout.col#menu-more-1-eng"
+    ]
+  },
+  "flex-layout.col#menu-more-1-eng": {
+    "children": [
+      "vtex.menu@2.x:menu#more-eng"
+    ]
+  },
+  "vtex.menu@2.x:menu#more-eng": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us-more-eng",
+      "menu-item#faq-eng"
+    ]
+  },
+  "menu-item#about-us-more-eng": {
+    "props": {
+      "id": "menu-item-about-us-more",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About Us",
+        "text": "About Us"
+      }
+    }
+  },
+  "menu-item#faq-eng": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  }
+}
