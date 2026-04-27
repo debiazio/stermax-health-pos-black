@@ -12,24 +12,47 @@
     ]
   },
   "flex-layout.row#1-mobile": {
-    "children": [
-      "drawer",
-
-      "logo#mobile",
-      "login",
-      "minicart.v2"
-    ],
     "props": {
       "blockClass": "main-header-mobile",
-      "colSizing": "auto"
-    }
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#coluna-esquerda-mobile",
+      "flex-layout.col#coluna-meio-mobile",
+      "flex-layout.col#coluna-direita-mobile"
+      // "drawer",
+      // "logo#mobile",
+      // "login",
+      // "minicart.v2"
+    ]
   },
-  "flex-layout.col#spacer-mobile": {
+  "flex-layout.col#coluna-esquerda-mobile": {
     "props": {
-      "width": "grow",
-      "blockClass": "spacer"
-    }
+      "blockClass": "coluna-esquerda-mobile-header"
+    },
+    "children": [
+      "drawer"
+    ]
   },
+    "flex-layout.col#coluna-meio-mobile": {
+    "props": {
+      "blockClass": "coluna-meio-mobile-header"
+    },
+    "children": [
+      "logo#mobile"
+    ]
+  },
+    "flex-layout.col#coluna-direita-mobile": {
+    "props": {
+      "blockClass": "coluna-direita-mobile-header"
+    },
+    "children": [
+      "login",
+      "minicart.v2"
+    ]
+  },
+
+
   "flex-layout.row#2-mobile": {
     "props": {
       "blockClass": "linha-disclosure-mobile-pesquisa"
@@ -53,11 +76,12 @@
   },
   "logo#mobile": {
     "props": {
+      "blockClass": "logo-mobile",
       "title": "Logo",
       "href": "/",
-      "url": "assets/header/novo-logo-stxh.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "assets/header/novo-logo-stxh.png"
+      // "width": "77.5",
+      // "height": "27.5"
     }
   },
   "image#icone-pesquisa-mobile": {

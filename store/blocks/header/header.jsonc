@@ -173,7 +173,8 @@
   "login": {
     "props": {
       "hideIconLabel": true,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "blockClass": "login-header"
     }
   }
 

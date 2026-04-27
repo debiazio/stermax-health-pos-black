@@ -450,8 +450,9 @@
   .imageElement--icon-deal {
     background: white;
     border-radius: 15px;
-    padding: 7px;
-    max-height: 20px !important;
+    padding: 8px;
+    max-height: 32px !important;
+    min-width: 32px;
   }
 
   .sizeMobile {

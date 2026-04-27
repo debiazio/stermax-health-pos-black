@@ -146,6 +146,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .childrenContainer--plena-fale-com-espec {
+  margin: 20px;
+}
   .link--fale-comConsultor-estoques,
   .link--fale-comConsultor-assistencias{
     font-size: 12px;

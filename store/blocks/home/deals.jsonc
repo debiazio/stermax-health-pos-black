@@ -10,6 +10,7 @@
     ],
     "props": {
       "blockClass": "deals",
+      "colSizing": "auto",
       "fullWidth": false
     }
   },
@@ -40,7 +41,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "**Certificação Anvisa:**\nProdutos que\n atendem às normas\n mais rigorosas.",
+      "text": "**Certificação Anvisa:**\nProdutos que atendem às normas mais rigorosas.",
       "blockClass": "deals"
     }
   },
@@ -70,7 +71,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "**Qualidade Internacional(ISO):**\nReconhecida no\nBrasil e no mundo.",
+      "text": "**Qualidade Internacional (ISO):**\nReconhecida no Brasil e no mundo.",
       "blockClass": "deals"
     }
   },
@@ -95,13 +96,13 @@
   "image#deal3": {
     "props": {
       "src": "assets/deals/icon-deal-experiencia.webp",
-      // "maxHeight": "60px",
+      "maxHeight": "50px",
       "blockClass": "icon-deal"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**Experiência Comprovada:**\nMais de 250 mil\n autoclaves vendidas.",
+      "text": "**Experiência Comprovada:**\nMais de 250 mil autoclaves vendidas.",
       "blockClass": "deals"
     }
   },
@@ -131,7 +132,7 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "**Fabricação Própria:**\nEquipamentos 100%\n nacionais.",
+      "text": "**Fabricação Própria:**\nEquipamentos 100% nacionais.",
       "blockClass": "deals"
     }
   },
@@ -161,7 +162,7 @@
   },
   "rich-text#deal5": {
     "props": {
-      "text": "**Garantia de Fábrica:**\nMaior segurança para\n o seu investimento.",
+      "text": "**Garantia de Fábrica:**\nMaior segurança para o seu investimento.",
       "blockClass": "deals"
     }
   },
@@ -191,7 +192,7 @@
   },
   "rich-text#deal6": {
     "props": {
-      "text": "**Maior rede de\n assistência do Brasil:**\nSempre ao seu lado.",
+      "text": "**Maior rede de assistência do Brasil:**Sempre ao seu lado.",
       "blockClass": "deals"
     }
   }

@@ -41,6 +41,8 @@
   padding-bottom: 0;
 }
 
+
+
 /* if supported add some translucency to the desktop/mobile header background */
 @supports (backdrop-filter: blur(5px)) {
   :global(.vtex-sticky-layout-0-x-wrapper--stuck)
@@ -70,6 +72,8 @@
   :global(.vtex-store-components-3-x-logoLink){
   transform: scale(0.85);
 }
+
+
 
 @media (prefers-reduced-motion: reduce) {
   :global(.vtex-sticky-layout-0-x-container)

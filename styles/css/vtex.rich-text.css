@@ -1097,7 +1097,7 @@
   }
 
   .paragraph--titulo-banner-secundario {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .paragraph--texto-titulo-gatilho-medo {
@@ -1166,6 +1166,8 @@
   .paragraph--titulo-prateleira {
     font-size: 40px;
     padding: 0 40px;
+    z-index: 1;
+    margin-top: unset;
   }
 
   .paragraph--titulo-profissionais-cuidado {
@@ -1331,7 +1333,7 @@
   }
 
   .paragraph--deals {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 2px;
   }
 
   .paragraph--titulo-banner-direito,

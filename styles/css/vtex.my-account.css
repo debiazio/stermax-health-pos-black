@@ -36,7 +36,7 @@
 
 :global(.vtex-render__container-id-deals-mobile){
   background-color: #f6f5f5;
-  padding: 0 20px;
+  
 }
 
 :global(.vtex-render__container-id-ultima-section){
@@ -120,6 +120,8 @@ input:-webkit-autofill {
   -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
   -webkit-transition-delay: 9999s;
 }
+
+
 
 /* ajusta bug de zoom nos inputs do iphone */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
