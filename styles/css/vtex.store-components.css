@@ -1,3 +1,9 @@
+.imageElement--image-switcher-icon{
+  max-height: 50px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
 .imageElement--icon-deal{
   width: 100px;
 }

@@ -122,10 +122,11 @@
   "flex-layout.row#menu-superior-linha-direita": {
     "props": {
       "blockClass": "menu-supeiro-linha-direita",
-      "whidth": "45%"
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#search-bar-header",
+      // "flex-layout.col#coluna-languages",
       "flex-layout.col#coluna-login-minicart"
     ]
   },
@@ -153,6 +154,59 @@
     ],
     "props": {
       "productLayout": "HORIZONTAL"
+    }
+  },
+  "flex-layout.col#coluna-languages":{
+    "props": {
+      "blockClass": "coluna-overlay-languagens",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "overlay-trigger#languages"
+    ]
+  },
+  "overlay-trigger#languages":{
+    "children": [
+      "image#lang-switcher-icon",
+      "overlay-layout"
+    ]
+  },
+  "image#lang-switcher-icon":{
+    "props": {
+      "src": "assets/header/icon-lang-switcher.webp",
+      "title": "Language switcher icon",
+      "alt": "Language switcher icon",
+      "blockClass": "image-switcher-icon"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "overlay"
+    },
+    "children": [
+      "rich-text#ttiulo-language-switcher",
+      "link#acesso-english-page",
+      "link#acesso-espanhol-page"
+    ]
+  },
+  "rich-text#ttiulo-language-switcher":{
+    "props": {
+      "text": "Idioma/Language"
+    }
+  },
+  "link#acesso-english-page":{
+    "props": {
+      "blockClass": "link-acesso-language-alterator",
+      "label": "English",
+      "href": "/eng/"
+    }
+  },
+  "link#acesso-espanhol-page":{
+    "props": {
+      "blockClass": "link-acesso-language-alterator",
+      "label": "Español",
+      "href": "/esp/"
     }
   },
   "flex-layout.col#coluna-login-minicart": {

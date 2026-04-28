@@ -14,15 +14,18 @@
       "blockClass": "linha-header-eng"
     },
     "children": [
-      "flex-layout.col#colunaEsquerda-header",
-      "flex-layout.col#colunaCentral-header",
-      "flex-layout.col#colunaDireira-header"
+      "flex-layout.col#colunaesquerda-header-eng",
+      "flex-layout.col#colunacentral-header-eng",
+      "flex-layout.col#colunadireita-header-eng"
     ]
   },
   "flex-layout.row#linhasuperior-home-eng": {
     "props": {
       "fullWidth": true,
-      "blockClass": ["topo-1-header", "topo-1-header-eng"]
+      "blockClass": [
+        "topo-1-header",
+        "topo-1-header-eng"
+      ]
     },
     "children": [
       "rich-text#textosuperior-home-eng"
@@ -34,20 +37,20 @@
       "text": "Security, Technology and Trust: Discover Why Stermax Health Is the Right Choice for Healthcare Professionals"
     }
   },
-  "flex-layout.col#colunaEsquerda-header": {
+  "flex-layout.col#colunaesquerda-header-eng": {
     "props": {
       "blockClass": "colunas-header"
     },
     "children": [
-      // "link#quem-somos"
+      "link#quem-somos"
     ]
   },
-  // "link#quem-somos": {
-  //   "props": {
-  //     "label": "About Us"
-  //   }
-  // },
-  "flex-layout.col#colunaCentral-header": {
+  "link#quem-somos": {
+    "props": {
+      "label": "About Us"
+    }
+  },
+  "flex-layout.col#colunacentral-header-eng": {
     "props": {
       "blockClass": "colunas-header"
     },
@@ -65,9 +68,29 @@
       "height": "48"
     }
   },
-  "flex-layout.col#colunaDireira-header": {
+  "flex-layout.col#colunadireita-header-eng": {
     "props": {
       "blockClass": "colunas-header"
-    }
+    },
+    "children": [
+      "overlay-trigger#languages-eng"
+    ]
+  },
+  "overlay-trigger#languages-eng":{
+    "children": [
+      "image#lang-switcher-icon",
+      "overlay-layout#eng"
+    ]
+  },
+  "overlay-layout#eng": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "overlay"
+    },
+    "children": [
+      "rich-text#ttiulo-language-switcher",
+      "link#acesso-portugues-page",
+      "link#acesso-espanhol-page"
+    ]
   }
 }

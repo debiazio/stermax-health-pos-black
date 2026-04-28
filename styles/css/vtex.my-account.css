@@ -153,7 +153,9 @@ input:-webkit-autofill {
 
 /* reset  */
 
-
+:global(.vtex-button__label) {
+  padding-right: 0;
+}
 
 
 :global(.vtex-render__container-id-carrossel-home-desktop-esp),

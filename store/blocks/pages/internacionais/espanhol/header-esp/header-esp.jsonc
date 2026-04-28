@@ -15,9 +15,9 @@
       "blockClass": "linha-header-eng"
     },
     "children": [
-      "flex-layout.col#colunaEsquerda-header",
-      "flex-layout.col#colunaCentral-header-esp",
-      "flex-layout.col#colunaDireira-header"
+      "flex-layout.col#colunaesquerda-header-esp",
+      "flex-layout.col#colunacentral-header-esp",
+      "flex-layout.col#colunadireira-header-esp"
     ]
   },
 
@@ -38,7 +38,7 @@
     }
   },
 
-  "flex-layout.col#colunaEsquerda-header": {
+  "flex-layout.col#colunaesquerda-header-esp": {
     "props": {
       "blockClass": "colunas-header"
     },
@@ -53,7 +53,7 @@
   //   }
   // },
 
-  "flex-layout.col#colunaCentral-header-esp": {
+  "flex-layout.col#colunacentral-header-esp": {
     "props": {
       "blockClass": "colunas-header"
     },
@@ -73,9 +73,36 @@
     }
   },
 
-  "flex-layout.col#colunaDireira-header": {
+  "flex-layout.col#colunadireira-header-esp": {
     "props": {
       "blockClass": "colunas-header"
+    },
+    "children": [
+      "overlay-trigger#languages-esp"
+    ]
+  },
+  "overlay-trigger#languages-esp":{
+    "children": [
+      "image#lang-switcher-icon",
+      "overlay-layout#esp"
+    ]
+  },
+  "overlay-layout#esp": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "overlay"
+    },
+    "children": [
+      "rich-text#ttiulo-language-switcher",
+      "link#acesso-english-page",
+      "link#acesso-portugues-page"
+    ]
+  },
+  "link#acesso-portugues-page":{
+    "props": {
+      "blockClass": "link-acesso-language-alterator",
+      "label": "Português",
+      "href": "/"
     }
   }
 }

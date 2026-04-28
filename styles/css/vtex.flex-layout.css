@@ -1,3 +1,17 @@
+.flexCol--coluna-esquerda-mobile-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.flexCol--coluna-overlay-languagens {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
 .flexCol--coluna-direita-mobile-header {
   display: flex;
   align-items: center;
@@ -824,7 +838,7 @@
     display: flex;
   }
 
-  .flexColChild--coluna-titulo-shelf{
+  .flexColChild--coluna-titulo-shelf {
     z-index: 1;
   }
 
