@@ -34,5 +34,8 @@
   },
   "store.custom#home-ingles": {
     "path": "/eng/"
+  },
+  "store.custom#home-espanhol":{
+    "path": "/esp/"
   }
 }

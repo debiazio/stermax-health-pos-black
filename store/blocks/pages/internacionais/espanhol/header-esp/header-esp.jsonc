@@ -1,39 +1,43 @@
 {
-  "sticky-layout#header-eng": {
+  "sticky-layout#header-esp": {
     "props": {
       "position": "TOP",
       "blockClass": "sticky-header-internacional"
     },
     "children": [
-      "flex-layout.row#linhasuperior-home-eng",
-      "flex-layout.row#linha-header-eng"
+      "flex-layout.row#linhasuperior-home-esp",
+      "flex-layout.row#linha-header-esp"
     ]
   },
-  "flex-layout.row#linha-header-eng": {
+
+  "flex-layout.row#linha-header-esp": {
     "props": {
       "blockClass": "linha-header-eng"
     },
     "children": [
       "flex-layout.col#colunaEsquerda-header",
-      "flex-layout.col#colunaCentral-header",
+      "flex-layout.col#colunaCentral-header-esp",
       "flex-layout.col#colunaDireira-header"
     ]
   },
-  "flex-layout.row#linhasuperior-home-eng": {
+
+  "flex-layout.row#linhasuperior-home-esp": {
     "props": {
       "fullWidth": true,
-      "blockClass": ["topo-1-header", "topo-1-header-eng"]
+      "blockClass": ["topo-1-header", "topo-1-header-esp"]
     },
     "children": [
-      "rich-text#textosuperior-home-eng"
+      "rich-text#textosuperior-home-esp"
     ]
   },
-  "rich-text#textosuperior-home-eng": {
+
+  "rich-text#textosuperior-home-esp": {
     "props": {
       "blockClass": "rich-text-topo",
-      "text": "Security, Technology and Trust: Discover Why Stermax Health Is the Right Choice for Healthcare Professionals"
+      "text": "Seguridad, tecnología y confianza: descubre por qué Stermax Health es la elección correcta para los profesionales de la salud"
     }
   },
+
   "flex-layout.col#colunaEsquerda-header": {
     "props": {
       "blockClass": "colunas-header"
@@ -42,29 +46,33 @@
       // "link#quem-somos"
     ]
   },
+
   // "link#quem-somos": {
   //   "props": {
-  //     "label": "About Us"
+  //     "label": "Quiénes somos"
   //   }
   // },
-  "flex-layout.col#colunaCentral-header": {
+
+  "flex-layout.col#colunaCentral-header-esp": {
     "props": {
       "blockClass": "colunas-header"
     },
     "children": [
-      "logo#desktop-eng"
+      "logo#desktop-esp"
     ]
   },
-  "logo#desktop-eng": {
+
+  "logo#desktop-esp": {
     "props": {
       "blockClass": "logo",
       "title": "Logo",
-      "href": "/eng/",
+      "href": "/esp/",
       "url": "assets/header/novo-logo-stxh.png",
       "width": "157",
       "height": "48"
     }
   },
+
   "flex-layout.col#colunaDireira-header": {
     "props": {
       "blockClass": "colunas-header"

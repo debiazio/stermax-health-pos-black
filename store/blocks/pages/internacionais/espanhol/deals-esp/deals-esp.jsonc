@@ -1,0 +1,161 @@
+{
+  "flex-layout.row#deals-esp": {
+    "children": [
+      "flex-layout.col#deals1-esp",
+      "flex-layout.col#deals2-esp",
+      "flex-layout.col#deals3-esp",
+      "flex-layout.col#deals4-esp",
+      "flex-layout.col#deals5-esp",
+      "flex-layout.col#deals6-esp"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "colSizing": "auto",
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.col#deals1-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal1-esp",
+      "rich-text#deal1-esp"
+    ]
+  },
+  "flex-layout.col#deal1-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "rich-text#deal1-esp": {
+    "props": {
+      "text": "**Certificación ANVISA:**\nProductos que cumplen con los estándares más exigentes.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals2-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal2-esp",
+      "rich-text#deal2-esp"
+    ]
+  },
+  "flex-layout.col#deal2-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "rich-text#deal2-esp": {
+    "props": {
+      "text": "**Calidad internacional (ISO):**\nReconocida en Brasil y en todo el mundo.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals3-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal3-esp",
+      "rich-text#deal3-esp"
+    ]
+  },
+  "flex-layout.col#deal3-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal3"
+    ]
+  },
+  "rich-text#deal3-esp": {
+    "props": {
+      "text": "**Experiencia comprobada:**\nMás de 250.000 autoclaves vendidas.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals4-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal4-esp",
+      "rich-text#deal4-esp"
+    ]
+  },
+  "flex-layout.col#deal4-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal4"
+    ]
+  },
+  "rich-text#deal4-esp": {
+    "props": {
+      "text": "**Fabricación propia:**\nEquipos 100% fabricados en Brasil.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals5-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal5-esp",
+      "rich-text#deal5-esp"
+    ]
+  },
+  "flex-layout.col#deal5-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal5"
+    ]
+  },
+  "rich-text#deal5-esp": {
+    "props": {
+      "text": "**Garantía de fábrica:**\nMás tranquilidad para tu inversión.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals6-esp": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal6-esp",
+      "rich-text#deal6-esp"
+    ]
+  },
+  "flex-layout.col#deal6-esp": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal6"
+    ]
+  },
+  "rich-text#deal6-esp": {
+    "props": {
+      "text": "**La mayor red de asistencia técnica de Brasil:**\nSiempre a tu lado.",
+      "blockClass": "deals"
+    }
+  }
+}
