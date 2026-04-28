@@ -33,6 +33,6 @@
     "path": "/blog/:slug"
   },
   "store.custom#home-ingles": {
-    "path": "/eng"
+    "path": "/eng/"
   }
 }

@@ -19,7 +19,9 @@
       "flex-layout.row#tipos-autoclaves-home-eng",
       "flex-layout.row#linha-line-eng",
       // "flex-layout.row#shelf-acessorios-eng",
-      "flex-layout.row#ultima-section-eng"
+      "flex-layout.row#ultima-section-eng",
+      "responsive-layout.desktop#footer-eng",
+      "responsive-layout.mobile#footer-eng"
     ]
   },
   "list-context.image-list#carrossel-home-desktop-eng": {
@@ -75,17 +77,25 @@
   },
   "flex-layout.row#banner-stermaxHealth-personas-eng": {
     "props": {
-      "blockClass": "personas",
+      "blockClass": ["personas", "personas-inter"],
+      "preventHorizontalStretch": true,
       "fullWidth": false
     },
     "children": [
+      "rich-text#titulo-profi-eng",
       "image#banner-personas-eng"
     ]
+  },
+  "rich-text#titulo-profi-eng":{
+    "props": {
+      "text": "Pure\n health\n expert\n care.",
+      "blockClass": "texto-titulo-profi"
+    }
   },
   "image#banner-personas-eng": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/categorias-stx-desktop.webp",
+      "src": "assets/home/profi-eng.webp",
       "alt": "StermaxHealth Audience",
       "title": "StermaxHealth Audience",
       "fullWidth": true
@@ -102,13 +112,20 @@
       "fullWidth": false
     },
     "children": [
+      "rich-text#titulo-profi-eng-mobile",
       "image#banner-personas-mobile-eng"
     ]
+  },
+  "rich-text#titulo-profi-eng-mobile":{
+    "props": {
+      "text": "Pure health expert care.",
+      "blockClass": "texto-titulo-profi-mobile"
+    }
   },
   "image#banner-personas-mobile-eng": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/banner-modelos/mobile/categorias-mobile.webp",
+      "src": "assets/home/profi-eng.webp",
       "alt": "StermaxHealth Audience",
       "title": "StermaxHealth Audience",
       "fullWidth": true
@@ -257,7 +274,7 @@
   "rich-text#subtitulo-gatilho-medo-eng": {
     "props": {
       "blockClass": "texto-subtitulo-gatilho-medo",
-      "text": "Without proper sterilization, the risk of contamination and disease increases. Moreover, operating outside ANVISA regulations can lead to the closure of your office or clinic, jeopardizing your work and reputation!"
+      "text": "Without proper sterilization, the risk of contamination and disease increases. In addition, failing to comply with ANVISA regulations can result in your office or clinic being shut down, putting your career and reputation at risk!"
     }
   },
   "rich-text#titulo-banner-segundo-eng": {
@@ -513,105 +530,6 @@
     "props": {
       "blockClass": "subtitulo-modelos",
       "text": "Vertical autoclave model, exclusive in the market."
-    }
-  },
-  "flex-layout.row#shelf-acessorios-eng": {
-    "props": {
-      "blockClass": "linha-shelf-home",
-      "colSizing": "auto",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "rich-text#titulo-acessorios-home-eng",
-      "link#ver-tudo-home-acessorios-eng",
-      "list-context.product-list#acessorios-home-eng"
-    ]
-  },
-  "rich-text#titulo-acessorios-home-eng": {
-    "props": {
-      "blockClass": "texto-titulo-shelf",
-      "text": "Sterilization Accessories"
-    }
-  },
-  "link#ver-tudo-home-acessorios-eng": {
-    "props": {
-      "blockClass": "link-ver-tudo-shelf",
-      "href": "/acessorios",
-      "label": "View All"
-    }
-  },
-  "list-context.product-list#acessorios-home-eng": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#acessorios-home-eng"
-    ],
-    "props": {
-      "collection": "228",
-      "orderBy": "OrderByPriceDESC"
-    }
-  },
-  "slider-layout#acessorios-home-eng": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf",
-      "showPaginationDots": "always"
-    }
-  },
-  "flex-layout.row#shelf-eng": {
-    "props": {
-      "blockClass": "linha-shelf-home",
-      "colSizing": "auto",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "rich-text#titulo-shelf-home-eng",
-      "link#vertudo-home-eng",
-      "list-context.product-list#demo1-eng"
-    ]
-  },
-  "rich-text#titulo-shelf-home-eng": {
-    "props": {
-      "blockClass": "texto-titulo-shelf",
-      "text": "Featured Products"
-    }
-  },
-  "link#vertudo-home-eng": {
-    "props": {
-      "blockClass": "link-ver-tudo-shelf",
-      "href": "/autoclave",
-      "label": "View All"
-    }
-  },
-  "list-context.product-list#demo1-eng": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
-    "children": [
-      "slider-layout#demo-products-eng"
-    ],
-    "props": {
-      "orderBy": "OrderByPriceDESC"
-    }
-  },
-  "slider-layout#demo-products-eng": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf",
-      "showPaginationDots": "always"
     }
   },
   "flex-layout.row#ultima-section-eng": {

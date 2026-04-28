@@ -1,0 +1,424 @@
+{
+  "responsive-layout.desktop#footer-eng": {
+    "children": [
+      "flex-layout.row#footer-linha-desktop-eng"
+    ]
+  },
+  "responsive-layout.mobile#footer-eng": {
+    "children": [
+      "flex-layout.row#footer-eng"
+    ]
+  },
+  "flex-layout.row#footer-eng": {
+    "children": [
+      "flex-layout.row#footer-texto-digitando-eng",
+      "flex-layout.row#footer-linha1-logo-endereço-form-eng",
+      "flex-layout.row#footer-linha2-cotato-horário-eng",
+      "flex-layout.row#footer-linha3-links-bandeiras-eng",
+      "flex-layout.row#footer-linha-final-eng"
+    ]
+  },
+  // BANNER TEXTO ACIMA DO FOOTER
+  "flex-layout.row#footer-texto-digitando-eng": {
+    "props": {
+      "blockClass": "container-footer-digitando"
+    },
+    "children": [
+      "rich-text#digitando-eng"
+    ]
+  },
+  "rich-text#digitando-eng": {
+    "props": {
+      "text": "Stermax Health: Pure Health, Expert Care.",
+      "blockClass": "texto-digitando"
+    }
+  },
+  // LINHA DO FOOTER -DESKTOP
+  "flex-layout.row#footer-linha-desktop-eng": {
+    "props": {
+      "blockClass": "linha-footer-desktop",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#footer-coluna1-logo-eng",
+      "flex-layout.col#footer-coluna2-logo-eng",
+      "flex-layout.col#footer-coluna3-logo-eng"
+    ]
+  },
+  // COLUNA 1 - LOGO/ENDERECO/FORM/REDES
+  "flex-layout.col#footer-coluna1-logo-eng": {
+    "props": {
+      "blockClass": "colunas-footer-desktop"
+    },
+    "children": [
+      "flex-layout.row#image-logo-footer-eng",
+      "flex-layout.row#linha-endereco-eng",
+      "flex-layout.row#form-footer-eng",
+      "flex-layout.row#linha-redes-footer-eng"
+    ]
+  },
+  // COLUNA 2 - CONTATOS/HORÁRIOS
+  "flex-layout.col#footer-coluna2-logo-eng": {
+    "props": {
+      "blockClass": "colunas-footer-desktop"
+    },
+    "children": [
+      "flex-layout.row#linha-falecomstxh-eng",
+      "flex-layout.row#desktop-linha-contatos-footer-eng",
+      "flex-layout.row#linha-horarios-footer-eng"
+    ]
+  },
+  // COLUNA 3 - LINKS/BANDEIRAS
+  "flex-layout.col#footer-coluna3-logo-eng": {
+    "props": {
+      "blockClass": [
+        "colunas-footer-desktop",
+        "colunas-footer-desktop-ultima"
+      ],
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "link#footer-produtos-eng",
+      "link#footer-manuais-eng",
+      "link#footer-suporte-tecnico-eng",
+      "link#footer-politica-privacidade-eng",
+      "link#footer-trocas-devolucoes-eng",
+      "flex-layout.row#linha-footer-bandeiras-eng"
+    ]
+  },
+  // MOBILE - LINHA 1
+  "flex-layout.row#footer-linha1-logo-endereço-form-eng": {
+    "props": {
+      "blockClass": "linhas-footer",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#image-logo-footer-eng",
+      "flex-layout.row#linha-endereco-eng",
+      "flex-layout.row#form-footer-eng",
+      "flex-layout.row#linha-redes-footer-eng"
+    ]
+  },
+  "flex-layout.row#image-logo-footer-eng": {
+    "props": {
+      "blockClass": "linha-image-logo-footer"
+    },
+    "children": [
+      "image#logo-footer"
+    ]
+  },
+  "flex-layout.row#linha-endereco-eng": {
+    "props": {
+      "blockClass": "linha-endereco-footer"
+    },
+    "children": [
+      "rich-text#endereco-footer-eng"
+    ]
+  },
+  "flex-layout.row#form-footer-eng": {
+    "props": {
+      "blockClass": "linha-form-footer"
+    },
+    "children": [
+      "newsletter-form#footer-eng"
+    ]
+  },
+  // IMAGE components unchanged
+  "image#logo-footer": {
+    "props": {
+      "blockClass": "image-footer",
+      "src": "assets/footer/mobile/logo-footer-mobile.webp"
+    }
+  },
+  "rich-text#endereco-footer-eng": {
+    "props": {
+      "blockClass": "endereco-footer",
+      "text": "R. Emma Rohrsetzer, 1011 - Emiliano Perneta, Pinhais - PR, 83324-190"
+    }
+  },
+  "newsletter-form#footer-eng": {
+    "props": {
+      "blockClass": "container-newsletter"
+    },
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "input-email",
+      "placeholderText": "Email"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "blockClass": "submit",
+      "submitButtonLabel": "Submit"
+    }
+  },
+  "flex-layout.row#linha-redes-footer-eng": {
+    "props": {
+      "blockClass": "linha-redes-footer"
+    },
+    "children": [
+      "image#redes-footer"
+    ]
+  },
+  "image#redes-footer": {
+    "props": {
+      "blockClass": "img-footer-redes",
+      "alt": "Social media",
+      "src": "assets/footer/larnaja.webp"
+    }
+  },
+  // LINHA 2 - CONTATOS/HORÁRIOS
+  "flex-layout.row#footer-linha2-cotato-horário-eng": {
+    "props": {
+      "blockClass": "linhas-footer-contatos",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.row#linha-falecomstxh-eng",
+      "flex-layout.row#linha-contatos-footer-eng",
+      "flex-layout.row#linha-horarios-footer-eng"
+    ]
+  },
+  "flex-layout.row#linha-falecomstxh-eng": {
+    "props": {
+      "blockClass": "linha-fale-com-stxh"
+    },
+    "children": [
+      "rich-text#titulo-fale-com-footer-eng"
+    ]
+  },
+  "flex-layout.row#desktop-linha-contatos-footer-eng": {
+    "props": {
+      "blockClass": "linha-contatos-footer"
+    },
+    "children": [
+      "flex-layout.row#sublinha-contatos-footer-0800-eng",
+      "flex-layout.row#sublinha-contatos-footer-telefone-eng",
+      "flex-layout.row#sublinha-contatos-footer-whats-eng",
+      "flex-layout.row#sublinha-contatos-footer-email-eng"
+    ]
+  },
+  "flex-layout.row#linha-contatos-footer-eng": {
+    "props": {
+      "blockClass": "linha-contatos-footer",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.row#sublinha-contatos-footer-0800-eng",
+      "flex-layout.row#sublinha-contatos-footer-telefone-eng",
+      "flex-layout.row#sublinha-contatos-footer-whats-eng",
+      "flex-layout.row#sublinha-contatos-footer-email-eng"
+    ]
+  },
+  "flex-layout.row#linha-horarios-footer-eng": {
+    "props": {
+      "blockClass": "linha-horarios-footer"
+    },
+    "children": [
+      "rich-text#horarios-footer-titulo-eng",
+      "rich-text#horarios-footer-mon-thu-eng",
+      "rich-text#horarios-footer-fri-eng"
+    ]
+  },
+  "rich-text#titulo-fale-com-footer-eng": {
+    "props": {
+      "blockClass": "titulo-fale-com",
+      "text": "Contact Stermax Health"
+    }
+  },
+  "flex-layout.row#sublinha-contatos-footer-0800-eng": {
+    "props": {
+      "blockClass": "sublinhas-contatos"
+    },
+    "children": [
+      "image#icone-0800",
+      "rich-text#contatos-text-footer-0800-eng"
+    ]
+  },
+  "flex-layout.row#sublinha-contatos-footer-telefone-eng": {
+    "props": {
+      "blockClass": "sublinhas-contatos"
+    },
+    "children": [
+      "image#icone-0800",
+      "rich-text#contatos-text-footer-telefone-eng"
+    ]
+  },
+  "flex-layout.row#sublinha-contatos-footer-whats-eng": {
+    "props": {
+      "blockClass": "sublinhas-contatos"
+    },
+    "children": [
+      "image#icone-whatsapp",
+      "rich-text#contatos-text-footer-whats-eng"
+    ]
+  },
+  "flex-layout.row#sublinha-contatos-footer-email-eng": {
+    "props": {
+      "blockClass": "sublinhas-contatos"
+    },
+    "children": [
+      "image#icone-email",
+      "rich-text#contatos-text-footer-email-eng"
+    ]
+  },
+  // ICONS (image) unchanged
+  "image#icone-0800": {
+    "props": {
+      "blockClass": "icones-footer",
+      "src": "assets/footer/mobile/icone-telefone-footer.webp"
+    }
+  },
+  "image#icone-whatsapp": {
+    "props": {
+      "blockClass": "icones-footer",
+      "src": "assets/footer/mobile/icone-whatsapp-footer.webp"
+    }
+  },
+  "image#icone-email": {
+    "props": {
+      "blockClass": "icones-footer",
+      "src": "assets/footer/mobile/icone-email-footer.webp"
+    }
+  },
+  // CONTACT TEXTS (phone formatting fixed for international dialing)
+  "rich-text#contatos-text-footer-0800-eng": {
+    "props": {
+      "blockClass": "textos-contatos",
+      "text": "0800 721 8533 (Brazil only)"
+    }
+  },
+  "rich-text#contatos-text-footer-telefone-eng": {
+    "props": {
+      "blockClass": "textos-contatos",
+      "text": "+55 41 3668-2144"
+    }
+  },
+  "rich-text#contatos-text-footer-whats-eng": {
+    "props": {
+      "blockClass": "textos-contatos",
+      "text": "+55 41 99971-0062"
+    }
+  },
+  "rich-text#contatos-text-footer-email-eng": {
+    "props": {
+      "blockClass": "textos-contatos",
+      "text": "stermax@stermax.com.br"
+    }
+  },
+  // BUSINESS HOURS
+  "rich-text#horarios-footer-titulo-eng": {
+    "props": {
+      "blockClass": "titulo-textos-horarios",
+      "text": "Business hours (Brasília time, UTC-3)"
+    }
+  },
+  "rich-text#horarios-footer-mon-thu-eng": {
+    "props": {
+      "blockClass": "textos-horarios",
+      "text": "Monday to Thursday - 08:00 to 18:00"
+    }
+  },
+  "rich-text#horarios-footer-fri-eng": {
+    "props": {
+      "blockClass": "textos-horarios",
+      "text": "Friday - 08:00 to 17:00"
+    }
+  },
+  // LINHA 3 - LINKS/BANDEIRAS
+  "flex-layout.row#footer-linha3-links-bandeiras-eng": {
+    "props": {
+      "blockClass": [
+        "linhas-footer-contatos",
+        "bandeiras-row"
+      ],
+      "colSizing": "auto"
+    },
+    "children": [
+      "link#footer-produtos-eng",
+      "link#footer-manuais-eng",
+      "link#footer-suporte-tecnico-eng",
+      "link#footer-politica-privacidade-eng",
+      "link#footer-trocas-devolucoes-eng",
+      "flex-layout.row#linha-footer-bandeiras-eng"
+    ]
+  },
+  "link#footer-produtos-eng": {
+    "props": {
+      "blockClass": "link-footer",
+      "href": "STERMAX H&H",
+      "label": "Products"
+    }
+  },
+  "link#footer-manuais-eng": {
+    "props": {
+      "blockClass": "link-footer",
+      "href": "/manuais",
+      "label": "Manuals"
+    }
+  },
+  "link#footer-suporte-tecnico-eng": {
+    "props": {
+      "blockClass": "link-footer",
+      "href": "https://stermax.store",
+      "label": "Technical support"
+    }
+  },
+  "link#footer-politica-privacidade-eng": {
+    "props": {
+      "blockClass": "link-footer",
+      "href": "/politica-privacidade",
+      "label": "Privacy policy"
+    }
+  },
+  "link#footer-trocas-devolucoes-eng": {
+    "props": {
+      "blockClass": "link-footer",
+      "href": "/trocas-devolucoes",
+      "label": "Returns & exchanges"
+    }
+  },
+  "flex-layout.row#linha-footer-bandeiras-eng": {
+    "props": {
+      "blockClass": "linha-footer-bandeiras",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "rich-text#titulo-bandeiras-eng",
+      "image#footer-bandeiras"
+    ]
+  },
+  "rich-text#titulo-bandeiras-eng": {
+    "props": {
+      "text": "Shop safely",
+      "blockClass": "titulo-footer-bandeiras"
+    }
+  },
+  "image#footer-bandeiras": {
+    "props": {
+      "blockClass": "img-bandeiras-footer",
+      "src": "assets/footer/mobile/bandeiras-mobile.webp",
+      "alt": "Card brands"
+    }
+  },
+  "flex-layout.row#footer-linha-final-eng": {
+    "props": {
+      "blockClass": "linha-final-footer",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#linha-final-footer-eng"
+    ]
+  },
+  "rich-text#linha-final-footer-eng": {
+    "props": {
+      "text": "Stermax Health LTDA. © 2026 - All rights reserved",
+      "blockClass": "texto-final-footer"
+    }
+  }
+}

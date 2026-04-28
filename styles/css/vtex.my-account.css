@@ -39,6 +39,10 @@
 
 }
 
+:global(.vtex-render__container-id-footer-eng){
+  background: linear-gradient(90deg, #8435de, #a30d87);
+}
+
 :global(.vtex-render__container-id-ultima-section-eng),
 :global(.vtex-render__container-id-ultima-section){
   background-color: #f6f5f5;

@@ -22,7 +22,7 @@
   "flex-layout.row#linhasuperior-home-eng": {
     "props": {
       "fullWidth": true,
-      "blockClass": "topo-1-header"
+      "blockClass": ["topo-1-header", "topo-1-header-eng"]
     },
     "children": [
       "rich-text#textosuperior-home-eng"
@@ -39,7 +39,7 @@
       "blockClass": "colunas-header"
     },
     "children": [
-      "link#quem-somos"
+      // "link#quem-somos"
     ]
   },
   "link#quem-somos": {
@@ -59,7 +59,7 @@
     "props": {
       "blockClass": "logo",
       "title": "Logo",
-      "href": "/eng",
+      "href": "/eng/",
       "url": "assets/header/novo-logo-stxh.png",
       "width": "157",
       "height": "48"

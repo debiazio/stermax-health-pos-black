@@ -3,3 +3,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.flexRowContent--personas-inter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .flexRow--topo-1-header {
+    display: none;
+  }
+}

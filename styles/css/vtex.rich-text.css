@@ -1,5 +1,4 @@
-
-.paragraph--deals{
+.paragraph--deals {
   padding: 0 10px;
   font-size: 12px;
 }
@@ -1044,6 +1043,8 @@
 }
 
 @media only screen and (min-width: 640px) {
+
+
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;
@@ -1077,7 +1078,10 @@
   /* .wrapper--subtitulo-ultimasection{
     margin-top: 20px;
   } */
-
+  .paragraph--deals {
+    padding: 0 2px;
+    font-size: 6px;
+  }
 
   .paragraph--subtitulo-assistencias {
     margin-top: 20px;
