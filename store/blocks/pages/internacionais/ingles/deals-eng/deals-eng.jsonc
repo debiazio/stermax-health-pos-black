@@ -1,0 +1,162 @@
+{
+  "flex-layout.row#deals-eng": {
+    "children": [
+      "flex-layout.col#deals1-eng",
+      "flex-layout.col#deals2-eng",
+      "flex-layout.col#deals3-eng",
+      "flex-layout.col#deals4-eng",
+      "flex-layout.col#deals5-eng",
+      "flex-layout.col#deals6-eng"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "colSizing": "auto",
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.col#deals1-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal1-eng",
+      "rich-text#deal1-eng"
+    ]
+  },
+  "flex-layout.col#deal1-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "rich-text#deal1-eng": {
+    "props": {
+      "text": "**ANVISA Certification:**\nProducts that meet the strictest standards.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals2-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal2-eng",
+      "rich-text#deal2-eng"
+    ]
+  },
+  "flex-layout.col#deal2-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "rich-text#deal2-eng": {
+    "props": {
+      "text": "**International Quality (ISO):**\nRecognized in Brazil and worldwide.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals3-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal3-eng",
+      "rich-text#deal3-eng"
+    ]
+  },
+  "flex-layout.col#deal3-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal3"
+    ]
+  },
+
+  "rich-text#deal3-eng": {
+    "props": {
+      "text": "**Proven Experience:**\nOver 250,000 autoclaves sold.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals4-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal4-eng",
+      "rich-text#deal4-eng"
+    ]
+  },
+  "flex-layout.col#deal4-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal4"
+    ]
+  },
+  "rich-text#deal4-eng": {
+    "props": {
+      "text": "**In-House Manufacturing:**\n100% Brazilian-made equipment.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals5-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal5-eng",
+      "rich-text#deal5-eng"
+    ]
+  },
+  "flex-layout.col#deal5-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal5"
+    ]
+  },
+  "rich-text#deal5-eng": {
+    "props": {
+      "text": "**Factory Warranty:**\nGreater peace of mind for your investment.",
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals6-eng": {
+    "props": {
+      "blockClass": "deal-col"
+    },
+    "children": [
+      "flex-layout.col#deal6-eng",
+      "rich-text#deal6-eng"
+    ]
+  },
+  "flex-layout.col#deal6-eng": {
+    "props": {
+      "blockClass": "linha-deal-icon"
+    },
+    "children": [
+      "image#deal6"
+    ]
+  },
+  "rich-text#deal6-eng": {
+    "props": {
+      "text": "**Brazil’s largest service network:**\nAlways by your side.",
+      "blockClass": "deals"
+    }
+  }
+}

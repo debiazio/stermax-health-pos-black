@@ -5,19 +5,20 @@
       "footer": "footer#empty"
     },
     "blocks": [
-      "header",
+
+      "sticky-layout#header-eng",
       "list-context.image-list#carrossel-home-desktop-eng",
       "responsive-layout.desktop#banner-personas-eng",
       "responsive-layout.mobile#banner-personas-eng",
       "flex-layout.row#linha-line-eng",
       "__fold__",
-      "flex-layout.row#shelf-eng",
+      // "flex-layout.row#shelf-eng",
       "responsive-layout.mobile#deals-mobile-eng",
-      "flex-layout.row#deals",
+      "flex-layout.row#deals-eng",
       "flex-layout.row#banner-nao-comprometa-saude-eng",
       "flex-layout.row#tipos-autoclaves-home-eng",
       "flex-layout.row#linha-line-eng",
-      "flex-layout.row#shelf-acessorios-eng",
+      // "flex-layout.row#shelf-acessorios-eng",
       "flex-layout.row#ultima-section-eng"
     ]
   },
@@ -150,7 +151,7 @@
     },
     "children": [
       "image#deal1",
-      "rich-text#deal1"
+      "rich-text#deal1-eng"
     ]
   },
   "flex-layout.col#linha1-coluna2-eng": {
@@ -159,7 +160,7 @@
     },
     "children": [
       "image#deal2",
-      "rich-text#deal2"
+      "rich-text#deal2-eng"
     ]
   },
   "flex-layout.col#linha1-coluna3-eng": {
@@ -168,7 +169,7 @@
     },
     "children": [
       "image#deal3",
-      "rich-text#deal3"
+      "rich-text#deal3-eng"
     ]
   },
   "flex-layout.row#deals-mobile-linha2-eng": {
@@ -187,7 +188,7 @@
     },
     "children": [
       "image#deal4",
-      "rich-text#deal4"
+      "rich-text#deal4-eng"
     ]
   },
   "flex-layout.col#linha2-coluna2-eng": {
@@ -196,7 +197,7 @@
     },
     "children": [
       "image#deal5",
-      "rich-text#deal5"
+      "rich-text#deal5-eng"
     ]
   },
   "flex-layout.col#linha2-coluna3-eng": {
@@ -205,7 +206,7 @@
     },
     "children": [
       "image#deal6",
-      "rich-text#deal6"
+      "rich-text#deal6-eng"
     ]
   },
   "flex-layout.row#banner-nao-comprometa-saude-eng": {
@@ -752,7 +753,7 @@
   },
   "image#img-estoques-eng": {
     "props": {
-      "src": "assets/home/caixas-assist.webp"
+      "src": "assets/home/caixas-eng.webp"
     }
   }
 }

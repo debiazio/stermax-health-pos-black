@@ -39,6 +39,7 @@
 
 }
 
+:global(.vtex-render__container-id-ultima-section-eng),
 :global(.vtex-render__container-id-ultima-section){
   background-color: #f6f5f5;
 }

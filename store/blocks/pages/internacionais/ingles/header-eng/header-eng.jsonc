@@ -1,106 +1,55 @@
 {
-  "header": {
-    "blocks": [
-      "header-layout.desktop#eng",
-      "header-layout.mobile#eng"
-    ]
-  },
-  "header.full": {
-    "blocks": [
-      "header-layout.desktop#eng",
-      "header-layout.mobile#eng"
-    ]
-  },
-  "header-layout.desktop#eng": {
+  "sticky-layout#header-eng": {
+    "props": {
+      "position": "TOP",
+      "blockClass": "sticky-header-internacional"
+    },
     "children": [
-      "flex-layout.row#1-desktop-eng",
-      "flex-layout.row#3-desktop-eng",
-      "sticky-layout#cabecalho-desktop-eng",
-      "whatsappstermax"
+      "flex-layout.row#linhasuperior-home-eng",
+      "flex-layout.row#linha-header-eng"
     ]
   },
-  "flex-layout.row#1-desktop-eng": {
+  "flex-layout.row#linha-header-eng": {
+    "props": {
+      "blockClass": "linha-header-eng"
+    },
     "children": [
-      "rich-text#teste-eng"
-    ],
+      "flex-layout.col#colunaEsquerda-header",
+      "flex-layout.col#colunaCentral-header",
+      "flex-layout.col#colunaDireira-header"
+    ]
+  },
+  "flex-layout.row#linhasuperior-home-eng": {
     "props": {
       "fullWidth": true,
       "blockClass": "topo-1-header"
-    }
+    },
+    "children": [
+      "rich-text#textosuperior-home-eng"
+    ]
   },
-  "rich-text#teste-eng": {
+  "rich-text#textosuperior-home-eng": {
     "props": {
       "blockClass": "rich-text-topo",
       "text": "Security, Technology and Trust: Discover Why Stermax Health Is the Right Choice for Healthcare Professionals"
     }
   },
-  "flex-layout.row#3-desktop-eng": {
+  "flex-layout.col#colunaEsquerda-header": {
     "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "blockClass": "colunas-header"
     },
     "children": [
-      "flex-layout.col#spacer-eng"
+      "link#quem-somos"
     ]
   },
-  "flex-layout.col#spacer-eng": {
+  "link#quem-somos": {
     "props": {
-      "width": "grow"
+      "label": "About Us"
     }
   },
-  "sticky-layout#cabecalho-desktop-eng": {
+  "flex-layout.col#colunaCentral-header": {
     "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": [
-      "flex-layout.row#cabecalho-container-desktop-eng"
-    ]
-  },
-  "flex-layout.row#cabecalho-container-desktop-eng": {
-    "props": {
-      "blockClass": "cabecalho-desktop",
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.row#menu-superior-linha-esquerda-eng",
-      "flex-layout.row#menu-superior-linha-central-eng",
-      "flex-layout.row#menu-superior-linha-direita-eng"
-    ]
-  },
-  "flex-layout.row#menu-superior-linha-esquerda-eng": {
-    "props": {
-      "blockClass": "menu-superior-linha-esqueda",
-      "whidth": "45%"
-    },
-    "children": [
-      "flex-layout.col#category-menu-eng"
-    ]
-  },
-  "flex-layout.col#category-menu-eng": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-menu-eng"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-menu-eng": {},
-  "flex-layout.row#menu-superior-linha-central-eng": {
-    "props": {
-      "blockClass": "menu-superior-linha-central",
-      "whidth": "10%"
-    },
-    "children": [
-      "flex-layout.col#logo-desktop-eng"
-    ]
-  },
-  "flex-layout.col#logo-desktop-eng": {
-    "props": {
-      "verticalAlign": "middle",
-      "blockClass": "coluna-logo"
+      "blockClass": "colunas-header"
     },
     "children": [
       "logo#desktop-eng"
@@ -110,71 +59,15 @@
     "props": {
       "blockClass": "logo",
       "title": "Logo",
-      "href": "/",
+      "href": "/eng",
       "url": "assets/header/novo-logo-stxh.png",
       "width": "157",
       "height": "48"
     }
   },
-  "flex-layout.row#menu-superior-linha-direita-eng": {
+  "flex-layout.col#colunaDireira-header": {
     "props": {
-      "blockClass": "menu-supeiro-linha-direita",
-      "whidth": "45%"
-    },
-    "children": [
-      "flex-layout.col#search-bar-header-eng",
-      "flex-layout.col#coluna-login-minicart-eng"
-    ]
-  },
-  "flex-layout.col#search-bar-header-eng": {
-    "props": {
-      "blockClass": "search-bar-desktop"
-    },
-    "children": [
-      "search-bar#eng"
-    ]
-  },
-  "search-bar#eng": {
-    "blocks": [
-      "autocomplete-result-list.v2#eng"
-    ],
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "placeholder": "Search",
-      "blockClass": "barra-pesquisa"
+      "blockClass": "colunas-header"
     }
-  },
-  "autocomplete-result-list.v2#eng": {
-    "blocks": [
-      "product-summary#eng"
-    ],
-    "props": {
-      "productLayout": "HORIZONTAL"
-    }
-  },
-  "product-summary#eng": {},
-  "flex-layout.col#coluna-login-minicart-eng": {
-    "props": {
-      "blockClass": "coluna-login-minicart",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.row#linha-login-minicart-eng"
-    ]
-  },
-  "flex-layout.row#linha-login-minicart-eng": {
-    "children": [
-      "login#eng",
-      "minicart.v2#eng"
-    ]
-  },
-  "login#eng": {
-    "props": {
-      "hideIconLabel": true,
-      "showIconProfile": true,
-      "blockClass": "login-header"
-    }
-  },
-  "minicart.v2#eng": {},
-  "header-layout.mobile#eng": {}
+  }
 }

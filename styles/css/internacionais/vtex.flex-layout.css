@@ -1,0 +1,5 @@
+.flexRowContent--linha-header-eng {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

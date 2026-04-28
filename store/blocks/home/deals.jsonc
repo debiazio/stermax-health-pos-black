@@ -192,7 +192,7 @@
   },
   "rich-text#deal6": {
     "props": {
-      "text": "**Maior rede de assistência do Brasil:**Sempre ao seu lado.",
+      "text": "**Maior rede de assistência do Brasil:**\n Sempre ao seu lado.",
       "blockClass": "deals"
     }
   }
