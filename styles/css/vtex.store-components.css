@@ -362,10 +362,7 @@
 }
 
 @media only screen and (min-width: 640px) {
-  .logoImage--logo {
-    height: 100%;
-    width: 100%;
-  }
+
 
   .newsletter .container {
     padding: 140px;
@@ -441,6 +438,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .logoImage--logo {
+    height: 100%;
+    width: 100%;
+  }
 
   .imageElement--icone-selos-menor {
     max-width: 70%;
