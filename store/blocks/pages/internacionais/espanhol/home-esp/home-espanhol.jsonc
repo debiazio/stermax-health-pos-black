@@ -23,7 +23,6 @@
       "responsive-layout.mobile#footer-esp"
     ]
   },
-
   "list-context.image-list#carrossel-home-desktop-esp": {
     "children": [
       "slider-layout#carrossel-home-desktop-esp"
@@ -36,25 +35,12 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/home/banner-modelos/Artboard 34.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-purehealth.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/Artboard 32_1.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/vida-vertical.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/Artboard 32.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/banner-home-desktop-esterilizacao.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
+          "image": "assets/home/espanhol.webp",
+          "mobileImage": "assets/home/espanhol-mobile.webp"
         }
       ]
     }
   },
-
   "slider-layout#carrossel-home-desktop-esp": {
     "props": {
       "itemsPerPage": {
@@ -71,16 +57,17 @@
       }
     }
   },
-
   "responsive-layout.desktop#banner-personas-esp": {
     "children": [
       "flex-layout.row#banner-stermaxHealth-personas-esp"
     ]
   },
-
   "flex-layout.row#banner-stermaxHealth-personas-esp": {
     "props": {
-      "blockClass": ["personas", "personas-inter"],
+      "blockClass": [
+        "personas",
+        "personas-inter"
+      ],
       "preventHorizontalStretch": true,
       "fullWidth": false
     },
@@ -89,14 +76,12 @@
       "image#banner-personas-esp"
     ]
   },
-
   "rich-text#titulo-profi-esp": {
     "props": {
       "text": "Pure\n health\n expert\n care.",
       "blockClass": "texto-titulo-profi"
     }
   },
-
   "image#banner-personas-esp": {
     "props": {
       "blockClass": "imagem-personas",
@@ -106,13 +91,11 @@
       "fullWidth": true
     }
   },
-
   "responsive-layout.mobile#banner-personas-esp": {
     "children": [
       "flex-layout.row#banner-stermaxHealth-personas-mobile-esp"
     ]
   },
-
   "flex-layout.row#banner-stermaxHealth-personas-mobile-esp": {
     "props": {
       "blockClass": "personas",
@@ -123,14 +106,12 @@
       "image#banner-personas-mobile-esp"
     ]
   },
-
   "rich-text#titulo-profi-esp-mobile": {
     "props": {
       "text": "Pure health expert care.",
       "blockClass": "texto-titulo-profi-mobile"
     }
   },
-
   "image#banner-personas-mobile-esp": {
     "props": {
       "blockClass": "imagem-personas",
@@ -140,7 +121,6 @@
       "fullWidth": true
     }
   },
-
   "flex-layout.row#linha-line-esp": {
     "props": {
       "blockClass": "linha-line",
@@ -150,21 +130,18 @@
       "rich-text#line-esp"
     ]
   },
-
   "rich-text#line-esp": {
     "props": {
       "text": "",
       "blockClass": "line"
     }
   },
-
   "responsive-layout.mobile#deals-mobile-esp": {
     "children": [
       "flex-layout.row#deals-mobile-linha1-esp",
       "flex-layout.row#deals-mobile-linha2-esp"
     ]
   },
-
   "flex-layout.row#deals-mobile-linha1-esp": {
     "props": {
       "blockClass": "deals-mobile-row"
@@ -175,7 +152,6 @@
       "flex-layout.col#linha1-coluna3-esp"
     ]
   },
-
   "flex-layout.col#linha1-coluna1-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -185,7 +161,6 @@
       "rich-text#deal1-esp"
     ]
   },
-
   "flex-layout.col#linha1-coluna2-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -195,7 +170,6 @@
       "rich-text#deal2-esp"
     ]
   },
-
   "flex-layout.col#linha1-coluna3-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -205,7 +179,6 @@
       "rich-text#deal3-esp"
     ]
   },
-
   "flex-layout.row#deals-mobile-linha2-esp": {
     "props": {
       "blockClass": "deals-mobile-row"
@@ -216,7 +189,6 @@
       "flex-layout.col#linha2-coluna3-esp"
     ]
   },
-
   "flex-layout.col#linha2-coluna1-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -226,7 +198,6 @@
       "rich-text#deal4-esp"
     ]
   },
-
   "flex-layout.col#linha2-coluna2-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -236,7 +207,6 @@
       "rich-text#deal5-esp"
     ]
   },
-
   "flex-layout.col#linha2-coluna3-esp": {
     "props": {
       "blockClass": "deals-mobile-coluna"
@@ -246,7 +216,6 @@
       "rich-text#deal6-esp"
     ]
   },
-
   "flex-layout.row#banner-nao-comprometa-saude-esp": {
     "props": {
       "blockClass": "linha-nao-comprometa-saude",
@@ -257,7 +226,6 @@
       "flex-layout.col#coluna-naocomprometa-coluna2-esp"
     ]
   },
-
   "flex-layout.col#coluna-naocomprometa-coluna1-esp": {
     "props": {
       "blockClass": "coluna-naocomprometa-coluna1",
@@ -267,7 +235,6 @@
       "image#banner-nao-comprometa-imagem-esp"
     ]
   },
-
   "image#banner-nao-comprometa-imagem-esp": {
     "props": {
       "blockClass": "banner-nao-comprometa-imagem",
@@ -276,7 +243,6 @@
       "title": "Imagen usando autoclave"
     }
   },
-
   "flex-layout.col#coluna-naocomprometa-coluna2-esp": {
     "props": {
       "blockClass": "coluna-naocomprometa-coluna2",
@@ -286,31 +252,38 @@
     "children": [
       "rich-text#titulo-gatilho-medo-esp",
       "rich-text#subtitulo-gatilho-medo-esp",
-      "rich-text#titulo-banner-segundo-esp"
+      "link#garanta-tranquilidade-esp"
     ]
   },
-
   "rich-text#titulo-gatilho-medo-esp": {
     "props": {
       "blockClass": "texto-titulo-gatilho-medo",
       "text": "¡No comprometas la salud de tus pacientes y el futuro de tu clínica!"
     }
   },
-
   "rich-text#subtitulo-gatilho-medo-esp": {
     "props": {
       "blockClass": "texto-subtitulo-gatilho-medo",
       "text": "Sin una esterilización adecuada, aumenta el riesgo de contaminación y enfermedades. Además, no cumplir con las normas de ANVISA puede provocar el cierre de tu consultorio o clínica, poniendo en riesgo tu carrera y tu reputación."
     }
   },
-
+  "link#garanta-tranquilidade-esp": {
+    "props": {
+      "blockClass": "link-garanta-tranquilidade-internacional",
+      "href": "mailto:silmara.mafra@grupomfm.com.br?subject=Consulta%20desde%20el%20sitio%20web&body=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20disponibles%20en%20el%20sitio.",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "children": [
+      "rich-text#titulo-banner-segundo-esp"
+    ]
+  },
   "rich-text#titulo-banner-segundo-esp": {
     "props": {
       "text": "¡GARANTIZA LA TRANQUILIDAD QUE TUS PACIENTES Y TU EQUIPO MERECEN!",
       "blockClass": "titulo-banner-secundario"
     }
   },
-
   "flex-layout.row#tipos-autoclaves-home-esp": {
     "props": {
       "blockClass": "linha-tipos-autoclaves-home",
@@ -321,7 +294,6 @@
       "flex-layout.row#modelos-tipo-home-esp"
     ]
   },
-
   "flex-layout.row#titulo-tipo-home-esp": {
     "props": {
       "blockClass": "linha-titulo-tipo-home",
@@ -332,21 +304,18 @@
       "rich-text#subtitulo-tipos-home-esp"
     ]
   },
-
   "rich-text#titulo-tipos-home-esp": {
     "props": {
       "blockClass": "titulo-tipos-home",
       "text": "Tecnología, bioseguridad y eficiencia en cada ciclo."
     }
   },
-
   "rich-text#subtitulo-tipos-home-esp": {
     "props": {
       "blockClass": "subtitulo-tipos-home",
       "text": "Elige la autoclave perfecta para tu especialidad."
     }
   },
-
   "flex-layout.row#modelos-tipo-home-esp": {
     "props": {
       "blockClass": "linha-modelos-tipo-home"
@@ -360,7 +329,6 @@
       "link#coluna-75vertical-litros-esp"
     ]
   },
-
   "link#coluna-21-litros-esp": {
     "props": {
       "blockClass": "link-tipos-autoclave",
@@ -415,7 +383,6 @@
       "flex-layout.col#coluna-75vertical-litros-esp"
     ]
   },
-
   "flex-layout.col#coluna-21-litros-esp": {
     "props": {
       "blockClass": [
@@ -494,7 +461,6 @@
       "rich-text#subtitulo75verticallitros-esp"
     ]
   },
-
   "rich-text#titulo21litros-esp": {
     "props": {
       "blockClass": "titulo-modelos",
@@ -531,7 +497,6 @@
       "text": "75 litros vertical"
     }
   },
-
   "rich-text#subtitulo21litros-esp": {
     "props": {
       "blockClass": "subtitulo-modelos",
@@ -568,7 +533,6 @@
       "text": "Modelo de autoclave vertical, exclusivo en el mercado."
     }
   },
-
   "flex-layout.row#ultima-section-esp": {
     "props": {
       "blockClass": "ultima-section",
@@ -579,7 +543,6 @@
       "flex-layout.col#ultimasection-col-direita-esp"
     ]
   },
-
   "flex-layout.col#ultimasection-col-esquerda-esp": {
     "props": {
       "blockClass": "ultimasection-col-esquerda"
@@ -589,14 +552,12 @@
       "flex-layout.row#linhasubtituloimagemebotao-assistencias-esp"
     ]
   },
-
   "rich-text#titulo-ultima-section-assistencias-esp": {
     "props": {
       "blockClass": "titulo-ultimasection",
       "text": "Asistencia y soporte siempre a tu alcance"
     }
   },
-
   "flex-layout.row#linhasubtituloimagemebotao-assistencias-esp": {
     "props": {
       "blockClass": "linhasubtituloimagemebotao-assistencias",
@@ -607,7 +568,6 @@
       "flex-layout.col#imagem-assistencias-esp"
     ]
   },
-
   "flex-layout.col#subtitulo-botao-assistencias-esp": {
     "props": {
       "blockClass": "col-subtitulo-botao-assistencias",
@@ -618,7 +578,6 @@
       "link#falecomconsultor-esp"
     ]
   },
-
   "rich-text#subtitulo-assistencias-esp": {
     "props": {
       "blockClass": [
@@ -628,17 +587,15 @@
       "text": "Con la mayor red de asistencia técnica de Brasil, ¡garantizamos que siempre estés protegido!"
     }
   },
-
   "link#falecomconsultor-esp": {
     "props": {
       "label": "CONTACTAR A UN CONSULTOR",
-      "href": "https://wa.me/5541999710062",
+      "href": "mailto:silmara.mafra@grupomfm.com.br?subject=Consulta%20desde%20el%20sitio%20web&body=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20disponibles%20en%20el%20sitio.",
       "blockClass": "fale-comConsultor-assistencias",
       "target": "_blank",
       "rel": "noopener noreferrer"
     }
   },
-
   "flex-layout.col#imagem-assistencias-esp": {
     "props": {
       "blockClass": "col-imagem-assistencias"
@@ -647,7 +604,6 @@
       "image#img-assistencias-esp"
     ]
   },
-
   "image#img-assistencias-esp": {
     "props": {
       "blockClass": "img-assistencias",
@@ -656,7 +612,6 @@
       "title": "Mapa de Brasil"
     }
   },
-
   "flex-layout.col#ultimasection-col-direita-esp": {
     "props": {
       "blockClass": "ultimasection-col-direita"
@@ -666,14 +621,12 @@
       "flex-layout.row#linhasubtituloimagemebotao-estoques-esp"
     ]
   },
-
   "rich-text#titulo-ultima-section-estoques-esp": {
     "props": {
       "blockClass": "titulo-ultimasection",
       "text": "Stock limitado listo para entrega inmediata"
     }
   },
-
   "flex-layout.row#linhasubtituloimagemebotao-estoques-esp": {
     "props": {
       "blockClass": "linhasubtituloimagemebotao-estoques",
@@ -684,7 +637,6 @@
       "flex-layout.col#imagem-estoques-esp"
     ]
   },
-
   "flex-layout.col#subtitulo-botao-estoques-esp": {
     "props": {
       "blockClass": "col-subtitulo-botao-estoques",
@@ -695,24 +647,21 @@
       "link#falecomconsultor-estoque-esp"
     ]
   },
-
   "rich-text#subtitulo-estoques-esp": {
     "props": {
       "blockClass": "subtitulo-ultimasection",
       "text": "**¡Asegura tu autoclave Stermax ahora!**\nNo pierdas la oportunidad de modernizar tu clínica con la mejor tecnología del mercado. Stock listo para envío inmediato, ¡aprovéchalo ahora!"
     }
   },
-
   "link#falecomconsultor-estoque-esp": {
     "props": {
       "label": "CONTACTAR A UN CONSULTOR",
-      "href": "https://wa.me/5541999710062",
+      "href": "mailto:silmara.mafra@grupomfm.com.br?subject=Consulta%20desde%20el%20sitio%20web&body=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20disponibles%20en%20el%20sitio.",
       "blockClass": "fale-comConsultor-estoques",
       "target": "_blank",
       "rel": "noopener noreferrer"
     }
   },
-
   "flex-layout.col#imagem-estoques-esp": {
     "props": {
       "blockClass": "col-imagem-estoques"
@@ -721,7 +670,6 @@
       "image#img-estoques-esp"
     ]
   },
-
   "image#img-estoques-esp": {
     "props": {
       "src": "assets/home/caixas-esp.webp"

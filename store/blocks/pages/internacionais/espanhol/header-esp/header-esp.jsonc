@@ -12,7 +12,8 @@
 
   "flex-layout.row#linha-header-esp": {
     "props": {
-      "blockClass": "linha-header-eng"
+      "blockClass": "linha-header-eng",
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#colunaesquerda-header-esp",

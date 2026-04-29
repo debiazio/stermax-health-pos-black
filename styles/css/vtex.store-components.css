@@ -1,10 +1,10 @@
-.imageElement--image-switcher-icon{
+.imageElement--image-switcher-icon {
   max-height: 50px;
   margin-top: 7px;
   margin-left: 10px;
 }
 
-.imageElement--icon-deal{
+.imageElement--icon-deal {
   width: 100px;
 }
 
@@ -283,10 +283,6 @@
   border-radius: 20px;
 }
 
-.logoImage--logo {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   background-color: #F6F6F6;
@@ -360,7 +356,17 @@
   margin: 1rem 0;
 }
 
+.logoImage--logo {
+  height: unset !important;
+  width: unset !important;
+}
+
 @media only screen and (min-width: 640px) {
+  .logoImage--logo {
+    height: 100%;
+    width: 100%;
+  }
+
   .newsletter .container {
     padding: 140px;
   }

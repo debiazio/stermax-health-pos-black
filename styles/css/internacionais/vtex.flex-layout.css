@@ -1,11 +1,9 @@
+
+
 .flexRowContent--linha-selos-quem-somos-inter {
   display: none;
 }
 
-.flexColChild--coluna-esquerda-header-esp,
-.flexColChild--coluna-esquerda-header-eng {
-  margin-top: 22px;
-}
 
 .flexColChild--coluna-direita-header-esp,
 .flexColChild--coluna-direita-header-eng {
@@ -24,7 +22,6 @@
 .flexRowContent--linha-header-eng {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .flexRowContent--personas-inter {
@@ -34,6 +31,8 @@
 }
 
 @media screen and (max-width: 1000px) {
+
+
   .flexRow--topo-1-header {
     display: none;
   }

@@ -95,7 +95,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
-  color: #670DA3;
+
   text-align: center;
   white-space: nowrap;
 
@@ -107,6 +107,17 @@
   border: 3px solid #670DA3;
   width: 100%;
   border-radius: 20px;
+  color: #670DA3;
+}
+
+.container--titulo-banner-secundario:hover {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #670DA3;
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #8435DE, #A30D87);
+  color: white;
 }
 
 .paragraph--texto-titulo-shelf {

@@ -11,7 +11,8 @@
   },
   "flex-layout.row#linha-header-eng": {
     "props": {
-      "blockClass": "linha-header-eng"
+      "blockClass": "linha-header-eng",
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#colunaesquerda-header-eng",

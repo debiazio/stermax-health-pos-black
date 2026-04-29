@@ -5,7 +5,6 @@
       "footer": "footer#empty"
     },
     "blocks": [
-
       "sticky-layout#header-eng",
       "list-context.image-list#carrossel-home-desktop-eng",
       "responsive-layout.desktop#banner-personas-eng",
@@ -36,20 +35,8 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/home/banner-modelos/Artboard 34.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-purehealth.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/Artboard 32_1.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/vida-vertical.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/Artboard 32.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
-        },
-        {
-          "image": "assets/home/banner-modelos/banner-home-desktop-esterilizacao.webp",
-          "mobileImage": "assets/home/banner-modelos/mobile/mobile-Artboard 32_2.webp"
+          "image": "assets/home/ingles-stx.webp",
+          "mobileImage": "assets/home/ingles-mobile.webp"
         }
       ]
     }
@@ -77,7 +64,10 @@
   },
   "flex-layout.row#banner-stermaxHealth-personas-eng": {
     "props": {
-      "blockClass": ["personas", "personas-inter"],
+      "blockClass": [
+        "personas",
+        "personas-inter"
+      ],
       "preventHorizontalStretch": true,
       "fullWidth": false
     },
@@ -86,7 +76,7 @@
       "image#banner-personas-eng"
     ]
   },
-  "rich-text#titulo-profi-eng":{
+  "rich-text#titulo-profi-eng": {
     "props": {
       "text": "Pure\n health\n expert\n care.",
       "blockClass": "texto-titulo-profi"
@@ -116,7 +106,7 @@
       "image#banner-personas-mobile-eng"
     ]
   },
-  "rich-text#titulo-profi-eng-mobile":{
+  "rich-text#titulo-profi-eng-mobile": {
     "props": {
       "text": "Pure health expert care.",
       "blockClass": "texto-titulo-profi-mobile"
@@ -262,7 +252,7 @@
     "children": [
       "rich-text#titulo-gatilho-medo-eng",
       "rich-text#subtitulo-gatilho-medo-eng",
-      "rich-text#titulo-banner-segundo-eng"
+      "link#garanta-tranquilidade-eng"
     ]
   },
   "rich-text#titulo-gatilho-medo-eng": {
@@ -276,6 +266,17 @@
       "blockClass": "texto-subtitulo-gatilho-medo",
       "text": "Without proper sterilization, the risk of contamination and disease increases. In addition, failing to comply with ANVISA regulations can result in your office or clinic being shut down, putting your career and reputation at risk!"
     }
+  },
+  "link#garanta-tranquilidade-eng": {
+    "props": {
+      "blockClass": "link-garanta-tranquilidade-internacional",
+      "href": "mailto:silmara.mafra@grupomfm.com.br?subject=Inquiry%20from%20the%20website&body=Hello,%0A%0AI%20would%20like%20to%20receive%20more%20information%20about%20the%20products%20available%20on%20the%20website.%0A%0AThank%20you.",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "children": [
+      "rich-text#titulo-banner-segundo-eng"
+    ]
   },
   "rich-text#titulo-banner-segundo-eng": {
     "props": {
