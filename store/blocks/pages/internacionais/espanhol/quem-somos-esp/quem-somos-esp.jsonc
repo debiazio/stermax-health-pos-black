@@ -1,0 +1,629 @@
+{
+  "store.custom#quem-somos-espanhol": {
+    "parent": {
+      "header": "header#empty",
+      "footer": "footer#empty"
+    },
+    "children": [
+      "sticky-layout#header-esp",
+      "flex-layout.row#linha-quem-somos-esp",
+      "flex-layout.row#linha-selos-quem-somos-esp",
+      "flex-layout.row#linha-nosso-proposito-esp",
+      "responsive-layout.desktop#colunas-biosseguranca-esp",
+      "responsive-layout.mobile#colunas-biosseguranca-esp",
+      "flex-layout.row#titulo-pq-ecolher-esp",
+      "flex-layout.row#disclosure-layout-quem-somos-esp",
+      "flex-layout.row#seja-bem-vindo-esp",
+      "responsive-layout.desktop#footer-esp",
+      "responsive-layout.mobile#footer-esp"
+    ]
+  },
+  "flex-layout.row#linha-quem-somos-esp": {
+    "props": {
+      "blockClass": "linha-quem-somos",
+      "colSizing": "auto",
+      "fullWidth": false
+    },
+    "children": [
+      "rich-text#titulo-quem-somos-esp",
+      "rich-text#texto-quem-somos-esp"
+    ],
+    "title": "Banner sobre nosotros"
+  },
+  "rich-text#titulo-quem-somos-esp": {
+    "props": {
+      "text": "Sobre Nosotros",
+      "blockClass": "titulo-quem-somos"
+    },
+    "title": "Título sobre nosotros"
+  },
+  "rich-text#texto-quem-somos-esp": {
+    "props": {
+      "text": "Con sede en Pinhais, Paraná, y presencia en todo el país, ofrecemos una experiencia de compra directa de fábrica, combinando calidad, seguridad y confianza para clínicas, consultorios, hospitales y laboratorios. A lo largo de su trayectoria, Stermax se ha consolidado como una referencia en el sector, invirtiendo continuamente en innovación y excelencia para transformar la rutina de esterilización.",
+      "blockClass": "texto-quem-somos",
+      "textAlignment": "CENTER"
+    },
+    "title": "Texto sobre nosotros"
+  },
+  "flex-layout.row#linha-selos-quem-somos-esp": {
+    "props": {
+      "blockClass": ["linha-selos-quem-somos", "linha-selos-quem-somos-inter"],
+      "colSizing": "auto"
+    },
+    "children": [
+      "responsive-layout.desktop#banner-quem-somos-esp",
+      "responsive-layout.mobile#banner-quem-somos-esp"
+    ]
+  },
+  "responsive-layout.desktop#banner-quem-somos-esp": {
+    "children": [
+      "flex-layout.col#coluna-selos-desde-quem-somos-esp",
+      "flex-layout.col#coluna-selos-300mil-quem-somos-esp",
+      "flex-layout.col#coluna-selos-lider-quem-somos-esp",
+      "flex-layout.col#coluna-selos-nacional-quem-somos-esp"
+    ]
+  },
+  "flex-layout.col#coluna-selos-desde-quem-somos-esp": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-desde",
+      "image#img-texto-desde"
+    ]
+  },
+  "flex-layout.col#coluna-selos-300mil-quem-somos-esp": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-300mil",
+      "image#img-texto-300mil"
+    ]
+  },
+  "flex-layout.col#coluna-selos-lider-quem-somos-esp": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-lider",
+      "image#img-texto-lider"
+    ]
+  },
+  "flex-layout.col#coluna-selos-nacional-quem-somos-esp": {
+    "props": {
+      "blockClass": "coluna-selos"
+    },
+    "children": [
+      "image#icone-nacional",
+      "image#img-texto-nacional"
+    ]
+  },
+  "image#icone-desde": {
+    "props": {
+      "src": "assets/quem-somos/desde-91.webp",
+      "alt": "Imagen de sello",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-desde": {
+    "props": {
+      "src": "assets/quem-somos/desde-91-texto.webp",
+      "alt": "Imagen de sello",
+      "blockClass": [
+        "icone-selos",
+        "icone-selos-menor"
+      ]
+    }
+  },
+  "image#icone-300mil": {
+    "props": {
+      "src": "assets/quem-somos/vendidas.webp",
+      "alt": "Imagen de sello",
+      "blockClass": [
+        "icone-selos"
+      ]
+    }
+  },
+  "image#img-texto-300mil": {
+    "props": {
+      "src": "assets/quem-somos/300mil-texto.webp",
+      "alt": "Imagen de sello",
+      "blockClass": [
+        "icone-selos"
+      ]
+    }
+  },
+  "image#icone-lider": {
+    "props": {
+      "src": "assets/quem-somos/lider.webp",
+      "alt": "Imagen de sello",
+      "blockClass": [
+        "icone-selos",
+        "icone-selos-menor"
+      ]
+    }
+  },
+  "image#img-texto-lider": {
+    "props": {
+      "src": "assets/quem-somos/lider-texto.webp",
+      "alt": "Imagen de sello",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#icone-nacional": {
+    "props": {
+      "src": "assets/quem-somos/fab-nacional.webp",
+      "alt": "Imagen de sello",
+      "blockClass": "icone-selos"
+    }
+  },
+  "image#img-texto-nacional": {
+    "props": {
+      "src": "assets/quem-somos/fab-nacional-texto.webp",
+      "alt": "Imagen de sello",
+      "blockClass": "icone-selos"
+    }
+  },
+  "responsive-layout.mobile#banner-quem-somos-esp": {
+    "children": [
+      "flex-layout.row#linha1-selos-mobile-esp",
+      "flex-layout.row#linha2-selos-mobile-esp"
+    ]
+  },
+  "flex-layout.row#linha1-selos-mobile-esp": {
+    "props": {
+      "blockClass": "linha-selos-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-selos-desde-quem-somos-esp",
+      "flex-layout.col#coluna-selos-lider-quem-somos-esp"
+    ]
+  },
+  "flex-layout.row#linha2-selos-mobile-esp": {
+    "props": {
+      "blockClass": "linha-selos-mobile",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#coluna-selos-300mil-quem-somos-esp",
+      "flex-layout.col#coluna-selos-nacional-quem-somos-esp"
+    ]
+  },
+  "flex-layout.row#linha-nosso-proposito-esp": {
+    "props": {
+      "blockClass": "linha-nosso-proposito",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-nosso-proposito-esp",
+      "rich-text#texto-nosso-proposito-esp"
+    ]
+  },
+  "rich-text#titulo-nosso-proposito-esp": {
+    "props": {
+      "blockClass": "titulo-nosso-proposito",
+      "text": "Nuestro propósito"
+    }
+  },
+  "rich-text#texto-nosso-proposito-esp": {
+    "props": {
+      "blockClass": "texto-nosso-proposito",
+      "text": "Nuestra misión es facilitar el acceso a las soluciones de Stermax con la máxima conveniencia y credibilidad. Aquí encontrarás todas las líneas de autoclaves horizontales, con soporte técnico dedicado, manual de operación, compra segura y garantía de fábrica. Stermax Health es la tienda oficial de Stermax, una marca líder en equipos de esterilización desde hace más de 30 años en el mercado. Fuimos creados para atender con excelencia a los profesionales de la salud que exigen el más alto estándar en bioseguridad, ofreciendo autoclaves horizontales y otros equipos certificados, fabricados en Brasil con calidad internacional de producción."
+    }
+  },
+  "responsive-layout.desktop#colunas-biosseguranca-esp": {
+    "children": [
+      "flex-layout.row#compromisso-biosseguranca-esp"
+    ]
+  },
+  "flex-layout.row#compromisso-biosseguranca-esp": {
+    "props": {
+      "blockClass": "linha-compromisso-bioss"
+    },
+    "children": [
+      "flex-layout.col#coluna-textos-biosseguranca-esp",
+      "flex-layout.col#coluna-imagem-biosseguranca-esp"
+    ]
+  },
+  "flex-layout.col#coluna-textos-biosseguranca-esp": {
+    "props": {
+      "blockClass": "biosseguranca-colunas-textos",
+      "preventVerticalStretch": true,
+      "width": "60%"
+    },
+    "children": [
+      "rich-text#titulo-biosseguranca-esp",
+      "rich-text#texto-biosseguranca-esp"
+    ]
+  },
+  "rich-text#titulo-biosseguranca-esp": {
+    "props": {
+      "blockClass": "titulo-biosseguranca",
+      "text": "Nuestro compromiso con la **Bioseguridad**"
+    }
+  },
+  "rich-text#texto-biosseguranca-esp": {
+    "props": {
+      "blockClass": "texto-biosseguranca",
+      "text": "Stermax fue creada por profesionales que entienden la complejidad y la importancia de la bioseguridad en la rutina de la salud. Cada equipo se desarrolla para proporcionar esterilización confiable, durabilidad y eficiencia, protegiendo a profesionales y pacientes."
+    }
+  },
+  "flex-layout.col#coluna-imagem-biosseguranca-esp": {
+    "props": {
+      "blockClass": "coluna-imagem-bioss",
+      "width": "40%"
+    },
+    "children": [
+      "image#img-biosseguranca"
+    ]
+  },
+  "image#img-biosseguranca": {
+    "props": {
+      "blockClass": "image-biosseguranca",
+      "alt": "Mujer bioseguridad",
+      "src": "assets/quem-somos/desktop/bioseguranca-desktop.webp"
+    }
+  },
+  "responsive-layout.mobile#colunas-biosseguranca-esp": {
+    "children": [
+      "flex-layout.row#compromisso-biosseguranca-mobile-esp"
+    ]
+  },
+  "flex-layout.row#compromisso-biosseguranca-mobile-esp": {
+    "props": {
+      "blockClass": "linha-compromisso-biosseguranca-mobile"
+    },
+    "children": [
+      "rich-text#titulo-biosseguranca-mobile-esp",
+      "rich-text#texto-biosseguranca-esp",
+      "image#img-biosseguranca-mobile"
+    ]
+  },
+  "image#img-biosseguranca-mobile": {
+    "props": {
+      "src": "assets/quem-somos/mobile/bioseguranca-mobile.webp",
+      "alt": "Mujer bioseguridad",
+      "blockClass": "image-biosseguranca-mobile"
+    }
+  },
+  "rich-text#titulo-biosseguranca-mobile-esp": {
+    "props": {
+      "blockClass": "titulo-biosseguranca",
+      "text": "Nuestro compromiso con la **Bioseguridad**"
+    }
+  },
+  "flex-layout.row#titulo-pq-ecolher-esp": {
+    "props": {
+      "blockClass": "linha-pq-escolher",
+      "colSizing": "auto"
+    },
+    "children": [
+      "rich-text#titulo-pq-escolher-esp",
+      "responsive-layout.desktop#image-logo-stx-esp",
+      "responsive-layout.mobile#image-logo-stx-esp"
+    ]
+  },
+  "rich-text#titulo-pq-escolher-esp": {
+    "props": {
+      "blockClass": "titulo-pq-escolher",
+      "text": "Por qué elegir"
+    }
+  },
+  "responsive-layout.desktop#image-logo-stx-esp": {
+    "children": [
+      "image#logo-stx-quem-somos"
+    ]
+  },
+  "responsive-layout.mobile#image-logo-stx-esp": {
+    "children": [
+      "image#logo-stx-quem-somos-mobile"
+    ]
+  },
+  "image#logo-stx-quem-somos": {
+    "props": {
+      "blockClass": "image-stx-logo-quem-somos",
+      "src": "assets/quem-somos/desktop/stermax-health-desktop-quem-somos.webp"
+    }
+  },
+  "image#logo-stx-quem-somos-mobile": {
+    "props": {
+      "blockClass": "image-stx-logo-quem-somos",
+      "src": "assets/quem-somos/mobile/stermax-health-mobile-quem-somos.webp"
+    }
+  },
+  "flex-layout.row#disclosure-layout-quem-somos-esp": {
+    "props": {
+      "blockClass": "linha-disclosute-quem-somos",
+      "fullWidth": true
+    },
+    "children": [
+      "disclosure-layout-group#grupo-disclosure-quem-somos-esp"
+    ]
+  },
+  "disclosure-layout-group#grupo-disclosure-quem-somos-esp": {
+    "props": {
+      "blockClass": "group-disclosure-quem-somos"
+    },
+    "children": [
+      "disclosure-layout#maisde30anosdeexperiencia-esp",
+      "disclosure-layout#certicacaoisoeanvisa-esp",
+      "disclosure-layout#assistencia-tecnica-esp",
+      "disclosure-layout#loja-oficial-esp",
+      "disclosure-layout#equipe-de-consultoria-esp",
+      "disclosure-layout#infra-completa-esp"
+    ]
+  },
+  "disclosure-state-indicator#pq-ecolher-stx-esp": {
+    "props": {
+      "Show": "icon-caret#down-pq-ecolher-stx-esp",
+      "Hide": "icon-caret#up-pq-ecolher-stx-esp"
+    }
+  },
+  "icon-caret#down-pq-ecolher-stx-esp": {
+    "props": {
+      "blockClass": "baixo",
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up-pq-ecolher-stx-esp": {
+    "props": {
+      "blockClass": "cima-pq-ecolher-stx",
+      "orientation": "up"
+    }
+  },
+  "disclosure-layout#maisde30anosdeexperiencia-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#maisde30anos-esp",
+      "disclosure-content#maisde30anos-esp"
+    ]
+  },
+  "disclosure-layout#certicacaoisoeanvisa-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#certificacao-iso-anvisa-esp",
+      "disclosure-content#certificacao-iso-anvisa-esp"
+    ]
+  },
+  "disclosure-layout#assistencia-tecnica-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#assistencia-tecnica-esp",
+      "disclosure-content#assistencia-tecnica-esp"
+    ]
+  },
+  "disclosure-layout#loja-oficial-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#loja-oficial-esp",
+      "disclosure-content#loja-oficial-esp"
+    ]
+  },
+  "disclosure-layout#equipe-de-consultoria-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#equipe-de-consultoria-esp",
+      "disclosure-content#equipe-de-consultoria-esp"
+    ]
+  },
+  "disclosure-layout#infra-completa-esp": {
+    "props": {
+      "blockClass": "disclosute-filho"
+    },
+    "children": [
+      "disclosure-trigger#infra-completa-esp",
+      "disclosure-content#infra-completa-esp"
+    ]
+  },
+  "disclosure-trigger#maisde30anos-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-maisde30anos-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-trigger#certificacao-iso-anvisa-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-certificacao-iso-anvisa-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-trigger#assistencia-tecnica-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-assistencia-tecnica-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-trigger#loja-oficial-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-loja-oficial-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-trigger#equipe-de-consultoria-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-equipe-de-consultoria-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-trigger#infra-completa-esp": {
+    "props": {
+      "blockClass": "trigger-disclosure-filho"
+    },
+    "children": [
+      "rich-text#trigger-infra-completa-esp",
+      "disclosure-state-indicator#pq-ecolher-stx-esp"
+    ]
+  },
+  "disclosure-content#maisde30anos-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-maisde30anos-esp"
+    ]
+  },
+  "disclosure-content#certificacao-iso-anvisa-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-certificacao-iso-anvisa-esp"
+    ]
+  },
+  "disclosure-content#assistencia-tecnica-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-assistencia-tecnica-esp"
+    ]
+  },
+  "disclosure-content#loja-oficial-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-loja-oficial-esp"
+    ]
+  },
+  "disclosure-content#equipe-de-consultoria-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-equipe-de-consultoria-esp"
+    ]
+  },
+  "disclosure-content#infra-completa-esp": {
+    "props": {
+      "blockClass": "content-disclosure-filho"
+    },
+    "children": [
+      "rich-text#content-infra-completa-esp"
+    ]
+  },
+  "rich-text#trigger-maisde30anos-esp": {
+    "props": {
+      "blockClass": [
+        "texto-trigger",
+        "texto-trigger-30anos"
+      ],
+      "text": "30 años de experiencia"
+    }
+  },
+  "rich-text#trigger-certificacao-iso-anvisa-esp": {
+    "props": {
+      "blockClass": "texto-trigger",
+      "text": "Certificación ISO y ANVISA"
+    }
+  },
+  "rich-text#trigger-assistencia-tecnica-esp": {
+    "props": {
+      "blockClass": "texto-trigger",
+      "text": "Asistencia técnica"
+    }
+  },
+  "rich-text#trigger-loja-oficial-esp": {
+    "props": {
+      "blockClass": "texto-trigger",
+      "text": "Tienda oficial"
+    }
+  },
+  "rich-text#trigger-equipe-de-consultoria-esp": {
+    "props": {
+      "blockClass": "texto-trigger",
+      "text": "Equipo de consultoría"
+    }
+  },
+  "rich-text#trigger-infra-completa-esp": {
+    "props": {
+      "blockClass": "texto-trigger",
+      "text": "Infraestructura completa"
+    }
+  },
+  "rich-text#content-maisde30anos-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "Más de 30 años de experiencia en la fabricación de autoclaves. Tres décadas en el mercado garantizan un dominio total de los procesos de esterilización, dando como resultado equipos confiables, modernos y diseñados para la rutina profesional."
+    }
+  },
+  "rich-text#content-certificacao-iso-anvisa-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "Certificación internacional ISO 13485 y registro en ANVISA. Seguir rigurosos estándares de calidad y seguridad demuestra que cada producto se desarrolla conforme a normas internacionales y en pleno cumplimiento de los requisitos sanitarios brasileños."
+    }
+  },
+  "rich-text#content-assistencia-tecnica-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "La mayor red de asistencia técnica del país, con profesionales capacitados distribuidos en varias regiones. Stermax ofrece soporte rápido, mantenimiento ágil y disponibilidad de piezas originales, reduciendo tiempos de inactividad y garantizando la longevidad de los equipos."
+    }
+  },
+  "rich-text#content-loja-oficial-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "Tienda oficial, directa de fábrica: precio justo y atención especializada. Al comprar directamente al fabricante, tienes la seguridad de adquirir un equipo nuevo, original y en condiciones más ventajosas, además de recibir orientación personalizada desde la elección hasta la posventa."
+    }
+  },
+  "rich-text#content-equipe-de-consultoria-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "Equipo de consultoría técnica dedicada, especialistas listos para orientarte sobre el uso correcto, el mantenimiento preventivo y las mejores prácticas de esterilización, ayudándote a obtener el máximo rendimiento y seguridad en tu rutina diaria."
+    }
+  },
+  "rich-text#content-infra-completa-esp": {
+    "props": {
+      "blockClass": "texto-content",
+      "text": "Infraestructura completa de atención y soporte. Stermax reúne en un solo ecosistema: consultoría técnica, atención al cliente, posventa calificada y una sólida red de asistencia técnica, todo estructurado para garantizar una experiencia completa y sin complicaciones."
+    }
+  },
+  "flex-layout.row#seja-bem-vindo-esp": {
+    "props": {
+      "blockClass": "linha-seja-bemvindo",
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#titulo-seja-bemvindo-esp",
+      "rich-text#subtitulo-seja-bemvindo-esp"
+    ]
+  },
+  "rich-text#titulo-seja-bemvindo-esp": {
+    "props": {
+      "blockClass": "titulo-texto-seja-bemvindo",
+      "text": "Bienvenido a **Stermax Health**"
+    }
+  },
+  "rich-text#subtitulo-seja-bemvindo-esp": {
+    "props": {
+      "blockClass": "subtitulo-texto-seja-bemvindo",
+      "text": "La Stermax que ya conoces, ahora enfocada en el sector de la salud"
+    }
+  }
+}

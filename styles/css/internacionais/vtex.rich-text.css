@@ -13,6 +13,12 @@
   justify-content: center;
 }
 
+.container--texto-titulo-profi-mobile{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .paragraph--texto-titulo-profi-mobile{
   color: #670DA3;
   font-family: "zenoldmincho-bold",sans-serif;

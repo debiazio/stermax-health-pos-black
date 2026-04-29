@@ -43,15 +43,17 @@
       "blockClass": ["colunas-header", "coluna-esquerda-header-esp"]
     },
     "children": [
-      // "link#quem-somos"
+      "link#quem-somos-esp"
     ]
   },
 
-  // "link#quem-somos": {
-  //   "props": {
-  //     "label": "Quiénes somos"
-  //   }
-  // },
+  "link#quem-somos-esp": {
+    "props": {
+      "blockClass": "link-quemsomos-internacional",
+      "label": "Quiénes somos",
+      "href": "/esp/quienes-somos"
+    }
+  },
 
   "flex-layout.col#colunacentral-header-esp": {
     "props": {

@@ -126,7 +126,7 @@
     },
     "children": [
       "flex-layout.col#search-bar-header",
-      // "flex-layout.col#coluna-languages",
+      "flex-layout.col#coluna-languages",
       "flex-layout.col#coluna-login-minicart"
     ]
   },
@@ -156,6 +156,7 @@
       "productLayout": "HORIZONTAL"
     }
   },
+
   "flex-layout.col#coluna-languages":{
     "props": {
       "blockClass": "coluna-overlay-languagens",

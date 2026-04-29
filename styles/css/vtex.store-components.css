@@ -440,9 +440,9 @@
     max-width: 70%;
   }
 
-  .logoContainer {
+  /* .logoContainer {
     margin-left: -50px;
-  }
+  } */
 
   .productNameContainer {
     font-size: 15px;
@@ -468,7 +468,7 @@
   .sizeMobile {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .imageElement--assistencias-img {

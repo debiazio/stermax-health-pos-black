@@ -1,0 +1,15 @@
+.link--link-quemsomos-internacional {
+  text-decoration: none;
+  font-family: rubik-regular, sans-serif;
+  color: #ff7500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .link--link-quemsomos-internacional {
+    font-size: 10px;
+    margin: 10px;
+  }
+}

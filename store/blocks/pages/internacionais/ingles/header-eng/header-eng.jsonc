@@ -47,7 +47,9 @@
   },
   "link#quem-somos": {
     "props": {
-      "label": "About Us"
+      "blockClass": "link-quemsomos-internacional",
+      "label": "About Us",
+      "href": "/eng/about-us"
     }
   },
   "flex-layout.col#colunacentral-header-eng": {

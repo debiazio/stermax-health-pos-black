@@ -31,9 +31,33 @@
       "blockClass": "coluna-esquerda-mobile-header"
     },
     "children": [
-      "drawer"
-      // "flex-layout.col#coluna-languages"
+      "drawer",
+      "flex-layout.col#coluna-languages-header-pt"
     ]
+  },
+    // header da pagina principal em portugues mobile
+  "flex-layout.col#coluna-languages-header-pt":{
+    "props": {
+      "blockClass": "coluna-overlay-languagens-pt",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "overlay-trigger#languages-mobile-pt"
+    ]
+  },
+    "overlay-trigger#languages-mobile-pt":{
+    "children": [
+      "image#lang-switcher-icon-mobile-pt",
+      "overlay-layout"
+    ]
+  },
+    "image#lang-switcher-icon-mobile-pt":{
+    "props": {
+      "src": "assets/header/icon-lang-switcher.webp",
+      "title": "Language switcher icon",
+      "alt": "Language switcher icon",
+      "blockClass": "image-switcher-icon-mobile-pt"
+    }
   },
     "flex-layout.col#coluna-meio-mobile": {
     "props": {

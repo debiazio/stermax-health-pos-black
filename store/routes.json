@@ -35,7 +35,13 @@
   "store.custom#home-ingles": {
     "path": "/eng"
   },
-  "store.custom#home-espanhol":{
+  "store.custom#home-espanhol": {
     "path": "/esp"
+  },
+  "store.custom#quem-somos-ingles": {
+    "path": "/eng/about-us"
+  },
+  "store.custom#quem-somos-espanhol": {
+    "path": "/esp/quienes-somos"
   }
 }
