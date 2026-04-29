@@ -1,3 +1,17 @@
+.flexColChild--coluna-direita-header-esp,
+.flexColChild--coluna-direita-header-eng {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.flexColChild--coluna-central-header-esp,
+.flexColChild--coluna-central-header-eng {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flexRowContent--linha-header-eng {
   display: flex;
   align-items: center;

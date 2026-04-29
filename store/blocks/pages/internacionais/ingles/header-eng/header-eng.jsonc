@@ -39,7 +39,7 @@
   },
   "flex-layout.col#colunaesquerda-header-eng": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": ["colunas-header", "coluna-esquerda-header-eng"]
     },
     "children": [
       "link#quem-somos"
@@ -52,7 +52,7 @@
   },
   "flex-layout.col#colunacentral-header-eng": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": [ "colunas-header", "coluna-central-header-eng" ]
     },
     "children": [
       "logo#desktop-eng"
@@ -70,7 +70,7 @@
   },
   "flex-layout.col#colunadireita-header-eng": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": ["colunas-header", "coluna-direita-header-eng"]
     },
     "children": [
       "overlay-trigger#languages-eng"

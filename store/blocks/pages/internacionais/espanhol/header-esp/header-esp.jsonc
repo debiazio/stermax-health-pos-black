@@ -17,7 +17,7 @@
     "children": [
       "flex-layout.col#colunaesquerda-header-esp",
       "flex-layout.col#colunacentral-header-esp",
-      "flex-layout.col#colunadireira-header-esp"
+      "flex-layout.col#colunadireita-header-esp"
     ]
   },
 
@@ -40,7 +40,7 @@
 
   "flex-layout.col#colunaesquerda-header-esp": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": ["colunas-header", "coluna-esquerda-header-esp"]
     },
     "children": [
       // "link#quem-somos"
@@ -55,7 +55,7 @@
 
   "flex-layout.col#colunacentral-header-esp": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": ["colunas-header", "coluna-central-header-esp"]
     },
     "children": [
       "logo#desktop-esp"
@@ -73,9 +73,9 @@
     }
   },
 
-  "flex-layout.col#colunadireira-header-esp": {
+  "flex-layout.col#colunadireita-header-esp": {
     "props": {
-      "blockClass": "colunas-header"
+      "blockClass": ["colunas-header", "coluna-direita-header-esp"]
     },
     "children": [
       "overlay-trigger#languages-esp"
