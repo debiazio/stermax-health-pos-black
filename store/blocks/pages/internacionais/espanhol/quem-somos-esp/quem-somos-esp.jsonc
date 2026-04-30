@@ -541,7 +541,7 @@
   "rich-text#trigger-certificacao-iso-anvisa-esp": {
     "props": {
       "blockClass": "texto-trigger",
-      "text": "Certificación ISO y ANVISA"
+      "text": "Certificación ISO"
     }
   },
   "rich-text#trigger-assistencia-tecnica-esp": {
@@ -577,7 +577,7 @@
   "rich-text#content-certificacao-iso-anvisa-esp": {
     "props": {
       "blockClass": "texto-content",
-      "text": "Certificación internacional ISO 13485 y registro en ANVISA. Seguir rigurosos estándares de calidad y seguridad demuestra que cada producto se desarrolla conforme a normas internacionales y en pleno cumplimiento de los requisitos sanitarios brasileños."
+      "text": "Certificación internacional ISO 13485. Seguir rigurosos estándares de calidad y seguridad demuestra que cada producto se desarrolla conforme a normas internacionales y en pleno cumplimiento de los requisitos sanitarios brasileños."
     }
   },
   "rich-text#content-assistencia-tecnica-esp": {

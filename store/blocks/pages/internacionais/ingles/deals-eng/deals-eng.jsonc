@@ -34,7 +34,7 @@
   },
   "rich-text#deal1-eng": {
     "props": {
-      "text": "**ANVISA Certification:**\nProducts that meet the strictest standards.",
+      "text": "**National Certification:**\nProducts that meet the strictest standards.",
       "blockClass": "deals"
     }
   },

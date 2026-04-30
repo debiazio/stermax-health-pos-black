@@ -375,7 +375,8 @@
   },
   "disclosure-layout#maisde30anosdeexperiencia-eng": {
     "props": {
-      "blockClass": "disclosute-filho"
+      "blockClass": "disclosute-filho",
+      "open": "true"
     },
     "children": [
       "disclosure-trigger#maisde30anos-eng",
@@ -541,7 +542,7 @@
   "rich-text#trigger-certificacao-iso-anvisa-eng": {
     "props": {
       "blockClass": "texto-trigger",
-      "text": "ISO and ANVISA certification"
+      "text": "ISO certification"
     }
   },
   "rich-text#trigger-assistencia-tecnica-eng": {
@@ -577,7 +578,7 @@
   "rich-text#content-certificacao-iso-anvisa-eng": {
     "props": {
       "blockClass": "texto-content",
-      "text": "International ISO 13485 certification and ANVISA registration. Following rigorous quality and safety standards proves that each product is developed according to international standards and in full compliance with Brazilian health requirements."
+      "text": "International ISO 13485 certification. Following rigorous quality and safety standards proves that each product is developed according to international standards and in full compliance with Brazilian health requirements."
     }
   },
   "rich-text#content-assistencia-tecnica-eng": {

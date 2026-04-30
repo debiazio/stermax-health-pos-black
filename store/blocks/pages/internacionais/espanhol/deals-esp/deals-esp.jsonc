@@ -34,7 +34,7 @@
   },
   "rich-text#deal1-esp": {
     "props": {
-      "text": "**Certificación ANVISA:**\nProductos que cumplen con los estándares más exigentes.",
+      "text": "**Certificación Nacional:**\nProductos que cumplen con los estándares más exigentes.",
       "blockClass": "deals"
     }
   },
