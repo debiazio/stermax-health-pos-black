@@ -324,13 +324,13 @@
   "image#logo-stx-quem-somos": {
     "props": {
       "blockClass": "image-stx-logo-quem-somos",
-      "src": "assets/quem-somos/desktop/stermax-health-desktop-quem-somos.webp"
+      "src": "assets/header/novo-logo-stxh.png"
     }
   },
   "image#logo-stx-quem-somos-mobile": {
     "props": {
       "blockClass": "image-stx-logo-quem-somos",
-      "src": "assets/quem-somos/mobile/stermax-health-mobile-quem-somos.webp"
+      "src": "assets/header/novo-logo-stxh.png"
     }
   },
   "flex-layout.row#disclosure-layout-quem-somos-eng": {

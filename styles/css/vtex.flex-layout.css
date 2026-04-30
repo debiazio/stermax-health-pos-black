@@ -711,10 +711,7 @@
 }
 
 .flexRow--linha-quem-somos {
-  background-image: url(assets/quem-somos/desktop/background-desktop.webp);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(to right, #8435DE, #A30D87);
   padding-bottom: 90px;
 }
 
@@ -1973,10 +1970,7 @@
 
 
   .flexRow--linha-quem-somos {
-    background-image: url(assets/quem-somos/mobile/background-mobile.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, #8435DE, #A30D87);
   }
 
 

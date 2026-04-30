@@ -1086,6 +1086,10 @@
 
 
 @media only screen and (max-width: 1000px) {
+  .paragraph--titulo-quem-somos{
+    text-align: center;
+  }
+
   /* .wrapper--subtitulo-ultimasection{
     margin-top: 20px;
   } */
