@@ -1,4 +1,8 @@
 
+.imageElement--imag-catalog{
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 1000px) {
 .imageElement--image-switcher-icon {
   max-width: 28px;
@@ -9,4 +13,5 @@
   max-width: 28px;
   margin: 5px 10px 0;
 }
+
 }

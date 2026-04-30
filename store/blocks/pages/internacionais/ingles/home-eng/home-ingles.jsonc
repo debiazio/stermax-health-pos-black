@@ -13,6 +13,7 @@
       "__fold__",
       // "flex-layout.row#shelf-eng",
       "responsive-layout.mobile#deals-mobile-eng",
+      "flex-layout.row#texto-direciona-eng",
       "flex-layout.row#deals-eng",
       "flex-layout.row#banner-nao-comprometa-saude-eng",
       "flex-layout.row#tipos-autoclaves-home-eng",
@@ -22,6 +23,44 @@
       "responsive-layout.desktop#footer-eng",
       "responsive-layout.mobile#footer-eng"
     ]
+  },
+  "flex-layout.row#texto-direciona-eng": {
+    "props": {
+      "blockClass": "linha-texto-direciona-eng"
+    },
+    "children": [
+      "responsive-layout.desktop#banner-catolog-eng",
+      "responsive-layout.mobile#banner-catolog-eng"
+
+    ]
+  },
+  "responsive-layout.desktop#banner-catolog-eng":{
+    "children": [
+      "image#catalogo-eng"
+    ]
+  },
+  "responsive-layout.mobile#banner-catolog-eng":{
+    "children": [
+      "image#catalogo-eng-mobile"
+    ]
+  },
+  "image#catalogo-eng": {
+    "props": {
+      "blockClass": "imag-catalog",
+      "src": "assets/home/ingles/catalogo-eng.webp",
+      "link": {
+        "url": "https://wa.me/5541999710062"
+      }
+    }
+  },
+  "image#catalogo-eng-mobile": {
+    "props": {
+      "blockClass": "imag-catalog",
+      "src": "assets/home/ingles/catalo-eng-mobile.png",
+      "link": {
+        "url": "https://wa.me/5541999710062"
+      }
+    }
   },
   "list-context.image-list#carrossel-home-desktop-eng": {
     "children": [
@@ -335,8 +374,7 @@
   },
   "link#coluna-21-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/21l/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-21-litros-eng"
@@ -344,8 +382,7 @@
   },
   "link#coluna-30-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/30l/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-30-litros-eng"
@@ -353,8 +390,7 @@
   },
   "link#coluna-42-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/42l/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-42-litros-eng"
@@ -362,8 +398,7 @@
   },
   "link#coluna-60-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/60l/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-60-litros-eng"
@@ -371,8 +406,7 @@
   },
   "link#coluna-75-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/75l/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-75-litros-eng"
@@ -380,8 +414,7 @@
   },
   "link#coluna-75vertical-litros-eng": {
     "props": {
-      "blockClass": "link-tipos-autoclave",
-      "href": "/Vertical/"
+      "blockClass": "link-tipos-autoclave"
     },
     "children": [
       "flex-layout.col#coluna-75vertical-litros-eng"
