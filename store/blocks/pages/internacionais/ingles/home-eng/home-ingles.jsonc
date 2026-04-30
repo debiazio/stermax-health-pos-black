@@ -12,8 +12,8 @@
       "flex-layout.row#linha-line-eng",
       "__fold__",
       // "flex-layout.row#shelf-eng",
-      "responsive-layout.mobile#deals-mobile-eng",
       "flex-layout.row#texto-direciona-eng",
+      "responsive-layout.mobile#deals-mobile-eng",
       "flex-layout.row#deals-eng",
       "flex-layout.row#banner-nao-comprometa-saude-eng",
       "flex-layout.row#tipos-autoclaves-home-eng",
@@ -26,7 +26,8 @@
   },
   "flex-layout.row#texto-direciona-eng": {
     "props": {
-      "blockClass": "linha-texto-direciona-eng"
+      "blockClass": "linha-texto-direciona-eng",
+      "preventHorizontalStretch": true
     },
     "children": [
       "responsive-layout.desktop#banner-catolog-eng",

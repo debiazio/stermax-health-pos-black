@@ -12,8 +12,8 @@
       "flex-layout.row#linha-line-esp",
       "__fold__",
       // "flex-layout.row#shelf-esp",
+      "flex-layout.row#texto-direciona-esp",
       "responsive-layout.mobile#deals-mobile-esp",
-      "flex-layout.row#texto-direciona-eng",
       "flex-layout.row#deals-esp",
       "flex-layout.row#banner-nao-comprometa-saude-esp",
       "flex-layout.row#tipos-autoclaves-home-esp",
@@ -26,7 +26,8 @@
   },
   "flex-layout.row#texto-direciona-esp": {
     "props": {
-      "blockClass": "linha-texto-direciona-esp"
+      "blockClass": "linha-texto-direciona-esp",
+      "preventHorizontalStretch": true
     },
     "children": [
       "responsive-layout.desktop#banner-catolog-esp",
@@ -75,7 +76,7 @@
       "images": [
         {
           "image": "assets/home/espanhol/STHX - BANNER DESK PLENA 42 - ES.webp",
-          "mobileImage": "assets/home/espanhol/catgalogo-mobile-esp.webp"
+          "mobileImage": "assets/home/espanhol/STHX - BANNER MOBILE PLENA 42 - ES.webp"
         },
         {
           "image": "assets/home/espanhol/STHX - BANNER DESK espanhol.webp",
