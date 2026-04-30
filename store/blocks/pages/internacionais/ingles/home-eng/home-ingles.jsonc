@@ -35,8 +35,12 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/home/ingles-stx.webp",
-          "mobileImage": "assets/home/ingles-mobile.webp"
+          "image": "assets/home/espanhol/STHX - BANNER DESK PLENA 42.webp",
+          "mobileImage": "assets/home/espanhol/STHX - BANNER MOBILE PLENA 42.webp"
+        },
+        {
+          "image": "assets/home/ingles/STHX - BANNER DESK ingles.webp",
+          "mobileImage": "assets/home/ingles/STHX - BANNER MOBILE ingles.webp"
         }
       ]
     }

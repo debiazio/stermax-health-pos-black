@@ -617,7 +617,7 @@
       "slider-layout#demo-products"
     ],
     "props": {
-      "orderBy": "OrderByPriceDESC"
+      "orderBy": "OrderByReleaseDateDESC"
     }
   },
   "slider-layout#demo-products": {
