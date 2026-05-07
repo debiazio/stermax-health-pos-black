@@ -442,7 +442,7 @@
 }
 
 .flexColChild--filterCol {
-  background-color: #34A2F8;
+  background-image: linear-gradient(to right, rgb(132, 53, 222), rgb(163, 13, 135));
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -1258,7 +1258,7 @@
 .flexRow--contato,
 .flexRow--container-trocas-devolucoes {
   padding: 20px 150px;
-  background-color: #5e9dd0;
+  background-image: linear-gradient(to right, #8435DE, #A30D87);
 }
 
 .flexRowContent--banner-terceiro {

@@ -1,3 +1,11 @@
+:global(.vtex-checkbox__label),
+.filter__container--title,
+.filterTitleSpan{
+  color: #FFFFFF;
+}
+
+
+
 .orderByOptionsContainer {
   z-index: 1001;
 }
