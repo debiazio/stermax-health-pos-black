@@ -7,6 +7,7 @@
     "blocks": [
       "sticky-layout#header-eng",
       "list-context.image-list#carrossel-home-desktop-eng",
+      "flex-layout.row#video-institucional-ingles",
       "responsive-layout.desktop#banner-personas-eng",
       "responsive-layout.mobile#banner-personas-eng",
       "flex-layout.row#linha-line-eng",
@@ -20,6 +21,8 @@
       "flex-layout.row#linha-line-eng",
       // "flex-layout.row#shelf-acessorios-eng",
       "flex-layout.row#ultima-section-eng",
+      "flex-layout.row#linha-line-eng",
+      "flex-layout.row#catalogo-internacional",
       "responsive-layout.desktop#footer-eng",
       "responsive-layout.mobile#footer-eng"
     ]
@@ -99,6 +102,28 @@
       "autoplay": {
         "timeout": 5000
       }
+    }
+  },
+  // video
+  "flex-layout.row#video-institucional-ingles":{
+    "props": {
+      "blockClass": "video-institucional-internacional",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "video#institucional-eng-internacional"
+    ]
+  },
+  "video#institucional-eng-internacional": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/stermaxhealth-eng/video-institucional-eng.mp4",
+      "autoPlay": true,
+      "loop": true,
+      "muted": false,
+      "blockClass": "video-institucional",
+      "title": "institucional",
+      "controlsType": "native"
     }
   },
   "responsive-layout.desktop#banner-personas-eng": {
@@ -711,6 +736,22 @@
   "image#img-estoques-eng": {
     "props": {
       "src": "assets/home/caixas-eng.webp"
+    }
+  },
+  // catalogo
+  "flex-layout.row#catalogo-internacional":{
+    "props": {
+      "blockClass": "catalogo-internacional"
+    },
+    "children": [
+      "iframe#catalogo-eng"
+    ]
+  },
+  "iframe#catalogo-eng": {
+    "props": {
+      "src": "https://online.fliphtml5.com/busks/zhwm/",
+      "width": "100%",
+      "height": "800px"
     }
   }
 }

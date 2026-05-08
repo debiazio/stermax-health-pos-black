@@ -7,6 +7,7 @@
     "blocks": [
       "sticky-layout#header-esp",
       "list-context.image-list#carrossel-home-desktop-esp",
+      "flex-layout.row#video-institucional-espanhol",
       "responsive-layout.desktop#banner-personas-esp",
       "responsive-layout.mobile#banner-personas-esp",
       "flex-layout.row#linha-line-esp",
@@ -20,6 +21,8 @@
       "flex-layout.row#linha-line-esp",
       // "flex-layout.row#shelf-acessorios-esp",
       "flex-layout.row#ultima-section-esp",
+      "flex-layout.row#linha-line-esp",
+      "flex-layout.row#catalogo-internacional-esp",
       "responsive-layout.desktop#footer-esp",
       "responsive-layout.mobile#footer-esp"
     ]
@@ -106,6 +109,34 @@
       "flex-layout.row#banner-stermaxHealth-personas-esp"
     ]
   },
+  // video
+  "flex-layout.row#video-institucional-espanhol":{
+    "props": {
+      "blockClass": "video-institucional-internacional",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "video#institucional-esp-internacional"
+    ]
+  },
+  "video#institucional-esp-internacional": {
+    "props": {
+      "src": "https://stermax.com.br/images_idealine/stermaxhealth-esp/video-institucional-esp.mp4",
+      "autoPlay": true,
+      "loop": true,
+      "muted": false,
+      "blockClass": "video-institucional",
+      "title": "institucional",
+      "controlsType": "native"
+    }
+  },
+  "responsive-layout.desktop#banner-personas-eng": {
+    "children": [
+      "flex-layout.row#banner-stermaxHealth-personas-eng"
+    ]
+  },
+
   "flex-layout.row#banner-stermaxHealth-personas-esp": {
     "props": {
       "blockClass": [
@@ -717,6 +748,22 @@
   "image#img-estoques-esp": {
     "props": {
       "src": "assets/home/caixas-esp.webp"
+    }
+  },
+  // catalogo
+  "flex-layout.row#catalogo-internacional-esp":{
+    "props": {
+      "blockClass": "catalogo-internacional"
+    },
+    "children": [
+      "iframe#catalogo-esp"
+    ]
+  },
+  "iframe#catalogo-esp": {
+    "props": {
+      "src": "https://online.fliphtml5.com/busks/hxcx/",
+      "width": "100%",
+      "height": "800px"
     }
   }
 }

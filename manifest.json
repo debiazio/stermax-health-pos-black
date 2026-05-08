@@ -70,7 +70,8 @@
     "stermaxhealth.precheckout": "0.x",
     "stermaxhealth.blogstermaxhealth": "0.x",
     "stermaxhealth.appalterafundo": "0.x",
-    "vtex.overlay-layout": "0.x"
+    "vtex.overlay-layout": "0.x",
+    "vtex.iframe": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"

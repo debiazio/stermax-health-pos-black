@@ -1,7 +1,11 @@
 
+.flexRow--catalogo-internacional,
+.flexRow--video-institucional-internacional {
+  background-color: #f6f5f5;
+  padding: 20px 0;
+}
 
-
-.flexRow--linha-header-eng{
+.flexRow--linha-header-eng {
   padding: 10px 0;
 }
 
@@ -40,5 +44,10 @@
 
   .flexRow--topo-1-header {
     display: none;
+  }
+
+  .flexRow--catalogo-internacional,
+  .flexRow--video-institucional-internacional {
+    padding: 20px;
   }
 }
