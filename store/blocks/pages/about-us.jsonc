@@ -352,7 +352,8 @@
   // =============================
   "disclosure-layout-group#grupo-disclosure-quem-somos": {
     "props": {
-      "blockClass": "group-disclosure-quem-somos"
+      "blockClass": "group-disclosure-quem-somos",
+      "maxVisible": "many"
     },
     "children": [
       "disclosure-layout#maisde30anosdeexperiencia",
@@ -449,8 +450,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-maisde30anos",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-maisde30anos"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   "disclosure-trigger#certificacao-iso-anvisa": {
@@ -458,8 +459,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-certificacao-iso-anvisa",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-certificacao-iso-anvisa"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   "disclosure-trigger#assistencia-tecnica": {
@@ -467,8 +468,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-assistencia-tecnica",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-assistencia-tecnica"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   "disclosure-trigger#loja-oficial": {
@@ -476,8 +477,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-loja-oficial",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-loja-oficial"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   "disclosure-trigger#equipe-de-consultoria": {
@@ -485,8 +486,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-equipe-de-consultoria",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-equipe-de-consultoria"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   "disclosure-trigger#infra-completa": {
@@ -494,8 +495,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-infra-completa",
-      "disclosure-state-indicator#pq-ecolher-stx"
+      "rich-text#trigger-infra-completa"
+      // "disclosure-state-indicator#pq-ecolher-stx"
     ]
   },
   // =============================

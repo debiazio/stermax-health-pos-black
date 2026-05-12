@@ -432,8 +432,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-maisde30anos-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-maisde30anos-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-trigger#certificacao-iso-anvisa-esp": {
@@ -441,8 +441,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-certificacao-iso-anvisa-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-certificacao-iso-anvisa-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-trigger#assistencia-tecnica-esp": {
@@ -450,8 +450,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-assistencia-tecnica-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-assistencia-tecnica-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-trigger#loja-oficial-esp": {
@@ -459,8 +459,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-loja-oficial-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-loja-oficial-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-trigger#equipe-de-consultoria-esp": {
@@ -468,8 +468,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-equipe-de-consultoria-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-equipe-de-consultoria-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-trigger#infra-completa-esp": {
@@ -477,8 +477,8 @@
       "blockClass": "trigger-disclosure-filho"
     },
     "children": [
-      "rich-text#trigger-infra-completa-esp",
-      "disclosure-state-indicator#pq-ecolher-stx-esp"
+      "rich-text#trigger-infra-completa-esp"
+      // "disclosure-state-indicator#pq-ecolher-stx-esp"
     ]
   },
   "disclosure-content#maisde30anos-esp": {

@@ -509,7 +509,7 @@
 }
 
 .paragraph--titulo-texto-seja-bemvindo {
-  color: #1F80CA;
+  color: rgb(132, 53, 222);
   font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -518,7 +518,7 @@
 }
 
 .paragraph--subtitulo-texto-seja-bemvindo {
-  color: #1F80CA;
+  color: rgb(132, 53, 222);
   font-family: "rubik-regular", sans-serif;
   font-weight: 400;
   font-size: 40px;

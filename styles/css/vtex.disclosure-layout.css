@@ -1,5 +1,7 @@
 /* QUEM SOMOS - ABAIXO */
-
+.content--content-disclosure-filho{
+  display: block!important;
+}
 
 .content--content-disclosure-filho--visible {
   margin: 0 !important;
