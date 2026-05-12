@@ -1,3 +1,28 @@
+.backToTopButtonActive {
+  bottom: 5.5rem;
+  right: 1.8rem;
+  border-radius: 10px;
+}
+
+.backToTopButtonActive :global(.vtex-button) {
+  background-color: #8435de;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.3;
+}
+
+.backToTopButtonActive:hover {
+  background-color: #8435de;
+  border-radius: 10px;
+
+}
+
+.backToTopButtonActive :global(.vtex-button__label) {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 .imageElement--image-switcher-icon {
   max-height: 50px;
   margin-top: 7px;

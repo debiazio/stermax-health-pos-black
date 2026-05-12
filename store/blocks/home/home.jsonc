@@ -12,9 +12,17 @@
       "flex-layout.row#banner-nao-comprometa-saude",
       "flex-layout.row#tipos-autoclaves-home",
       "flex-layout.row#linha-line",
+      "back-to-top-button",
       "flex-layout.row#shelf-acessorios",
       "flex-layout.row#ultima-section"
     ]
+  },
+  // voltar para o topo
+  "back-to-top-button":{
+    "props": {
+      "display": "caret-icon",
+      "displayThreshold": 900
+    }
   },
   "list-context.image-list#carrossel-home-desktop": {
     "children": [
