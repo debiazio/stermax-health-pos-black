@@ -1,3 +1,28 @@
+
+
+
+.imageElement--image-botoes-original{
+  height: 80%;
+  width: auto;
+}
+
+.imageElement--imagem-selos-quem-somos-novacor {
+  width: auto;
+  height: 100px;
+}
+
+.productImagesGallerySlide {
+  width: 100% !important;
+}
+
+.productImageTag--main {
+  border-radius: 20px;
+}
+
+.thumbImg {
+  border-radius: 20px;
+}
+
 .backToTopButtonActive {
   bottom: 5.5rem;
   right: 1.8rem;
@@ -59,6 +84,7 @@
 
 .skuSelectorOptionsList {
   margin: 0;
+  gap: 10px;
 }
 
 .skuSelectorItem {
@@ -120,8 +146,6 @@
 }
 
 .imageElement--img-logo-original {
-  width: 366px;
-  height: 36px;
   margin: 0 10px;
 }
 
@@ -527,13 +551,17 @@
     margin-top: -70px;
     width: 50%;
   }
+
+  .imageElement--imagem-selos-quem-somos-novacor {
+    height: unset !important;
+  }
 }
 
 
 
-
-/* roleta abaixo  */
 @media screen and (min-width: 1000px) {
+
+
   .imageElement--img-footer-redes {
     margin: 0;
     width: 127px;

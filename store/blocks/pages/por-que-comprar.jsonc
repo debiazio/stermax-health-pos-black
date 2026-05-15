@@ -76,7 +76,7 @@
   "rich-text#stermax-health-pq-comprar": {
     "props": {
       "blockClass": "stermaxhealth-pq-comprar",
-      "text": "stermax health?"
+      "text": "**stermax** health?"
     },
     "title": "Titulo"
   },
@@ -336,7 +336,7 @@
     "props": {
       "blockClass": "img-logo-original",
       "alt": "Logo stermaxhealth",
-      "src": "assets/por-que-comprar/desktop/stx-original.webp"
+      "src": "assets/header/novo-logo-stxh.png"
     }
   },
   // TEXTO POS
@@ -422,42 +422,42 @@
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/iso.webp"
+      "src": "assets/quem-somos/selos-portugues/iso-pt.webp"
     }
   },
   "image#maior": {
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/maior-rede.webp"
+      "src": "assets/quem-somos/selos-portugues/compra-direta-pt.webp"
     }
   },
   "image#fabrica": {
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/compra-direta.webp"
+      "src": "assets/quem-somos/selos-portugues/consulta-tec-pt.webp"
     }
   },
   "image#suporte": {
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/suporte.webp"
+      "src": "assets/quem-somos/selos-portugues/maior-rede-pt.webp"
     }
   },
    "image#consultor": {
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/consultoria.webp"
+      "src": "assets/quem-somos/selos-portugues/suporte-posvenda-pt.webp"
     }
   },
   "image#atendimento": {
     "props": {
       "blockClass": "image-botoes-original",
       "alt": "Imagens stermax",
-      "src": "assets/por-que-comprar/desktop/atendimento.webp"
+      "src": "assets/quem-somos/selos-portugues/atendimento-esp-pt.webp"
     }
   },
   // =======================

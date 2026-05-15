@@ -491,7 +491,7 @@
   font-weight: 300;
   font-size: 40px;
   text-transform: uppercase;
-  color: #736969;
+  color: #ffffff;
   margin-top: 35px;
 }
 
@@ -501,8 +501,12 @@
   font-weight: 800;
   font-size: 70px;
   text-transform: uppercase;
-  color: #1F7ECA;
+  color: #b40f96;
   line-height: 70%;
+}
+
+.strong--stermaxhealth-pq-comprar{
+  color: #FF7500;
 }
 
 
@@ -589,7 +593,7 @@
 .paragraph--titulo-biosseguranca,
 .paragraph--texto-biosseguranca {
 
-  color: #574D41;
+  color: #FFFFFF;
 }
 
 .paragraph--titulo-nosso-proposito {

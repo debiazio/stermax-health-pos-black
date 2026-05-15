@@ -1,4 +1,12 @@
+.flexRowContent--img-botoes-original .stretchChildrenWidth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.flexRow--pdp-padrao {
+  background-color: #f6f5f5;
+}
 
 .flexCol--coluna-esquerda-mobile-header {
   display: flex;
@@ -16,10 +24,10 @@
 
 .flexCol--coluna-direita-mobile-header {
   display: flex;
-    align-items: center;
-    flex-direction: row;
-    /* margin-right: 22px; */
-    justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* margin-right: 22px; */
+  justify-content: center;
 }
 
 .flexRow--linha-texto-direciona-esp,
@@ -589,13 +597,11 @@
 .flexRowContent--linha-banner-inicial {
   margin-top: 50px;
   border-radius: 50px;
-  background-position: right;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-
   background-image:
-    url(assets/por-que-comprar/desktop/Fundo-transparente.webp),
-    linear-gradient(to right, rgba(223, 212, 196, 1), rgba(181, 207, 226, 1));
+    url(assets/quem-somos/desktop/background-quemsomos-desktop.webp);
 
 }
 
@@ -629,7 +635,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 128px;
+  padding-top: 60px;
 }
 
 .flexRow--linha-compromisso-biosseguranca-mobile {
@@ -637,10 +643,11 @@
 }
 
 .flexRowContent--linha-compromisso-biosseguranca-mobile {
-  background-image: url(assets/quem-somos/mobile/background-mobile-bioseguranca.webp);
+  background-image: url(assets/quem-somos/mobile/fundo-quemsomos-mobile.webp);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: inherit;
+  border-radius: 35px;
 }
 
 .flexCol--biosseguranca-colunas-textos {
@@ -656,15 +663,17 @@
 }
 
 .flexRowContent--linha-compromisso-bioss {
-  background-image: url(assets/quem-somos/desktop/background-desktop-bioseguranca-edit2.webp);
+  background-image: url(assets/quem-somos/desktop/background-quemsomos-desktop.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 7px;
 }
 
 .flexRowContent--linha-nosso-proposito {
   display: flex;
   flex-direction: column;
+  padding: 0 25px;
 }
 
 .flexRow--linha-selos-quem-somos {
@@ -1776,6 +1785,14 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .flexRowContent--linha-selos-quem-somos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 0 45px;
+  }
+
   .flexCol--segunda-dobra-plena-pdp {
     flex-direction: column;
   }
@@ -1963,8 +1980,8 @@
   }
 
   .flexRowContent--linha-quem-somos {
-    padding-top: 84px;
-    padding-bottom: 120px;
+    padding-top: 40px;
+    padding-bottom: 80px;
   }
 
 

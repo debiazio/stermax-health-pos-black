@@ -45,150 +45,50 @@
   "flex-layout.row#linha-selos-quem-somos": {
     "props": {
       "blockClass": "linha-selos-quem-somos",
-      "colSizing": "auto"
+      "colSizing": "equal"
     },
     "children": [
-      "responsive-layout.desktop#banner-quem-somos",
-      "responsive-layout.mobile#banner-quem-somos"
+      "image#desde",
+      "image#300mil",
+      "image#lider",
+      "image#fabricacao"
     ]
   },
-  "responsive-layout.desktop#banner-quem-somos": {
-    "children": [
-      "flex-layout.col#coluna-selos-desde-quem-somos",
-      "flex-layout.col#coluna-selos-300mil-quem-somos",
-      "flex-layout.col#coluna-selos-lider-quem-somos",
-      "flex-layout.col#coluna-selos-nacional-quem-somos"
-    ]
-  },
-  // colunas desktop dos selos
-  "flex-layout.col#coluna-selos-desde-quem-somos": {
+  "image#desde": {
     "props": {
-      "blockClass": "coluna-selos"
-    },
-    "children": [
-      "image#icone-desde",
-      "image#img-texto-desde"
-    ]
-  },
-  "flex-layout.col#coluna-selos-300mil-quem-somos": {
-    "props": {
-      "blockClass": "coluna-selos"
-    },
-    "children": [
-      "image#icone-300mil",
-      "image#img-texto-300mil"
-    ]
-  },
-  "flex-layout.col#coluna-selos-lider-quem-somos": {
-    "props": {
-      "blockClass": "coluna-selos"
-    },
-    "children": [
-      "image#icone-lider",
-      "image#img-texto-lider"
-    ]
-  },
-  "flex-layout.col#coluna-selos-nacional-quem-somos": {
-    "props": {
-      "blockClass": "coluna-selos"
-    },
-    "children": [
-      "image#icone-nacional",
-      "image#img-texto-nacional"
-    ]
-  },
-  "image#icone-desde": {
-    "props": {
-      "src": "assets/quem-somos/desde-91.webp",
-      "alt": "Img selos",
-      "blockClass": "icone-selos"
+      "blockClass": "imagem-selos-quem-somos-novacor",
+      "alt": "Imagem selos",
+      "title": "Imagem selos",
+      "src": "assets/quem-somos/selos-portugues/desde-pt.webp"
     }
   },
-  "image#img-texto-desde": {
+  "image#300mil": {
     "props": {
-      "src": "assets/quem-somos/desde-91-texto.webp",
-      "alt": "Img selos",
-      "blockClass": [
-        "icone-selos",
-        "icone-selos-menor"
-      ]
+      "blockClass": "imagem-selos-quem-somos-novacor",
+      "alt": "Imagem selos",
+      "title": "Imagem selos",
+      "src": "assets/quem-somos/selos-portugues/mais-350-pt.webp"
     }
   },
-  "image#icone-300mil": {
+  "image#lider": {
     "props": {
-      "src": "assets/quem-somos/vendidas.webp",
-      "alt": "Img selos",
-      "blockClass": [
-        "icone-selos"
-      ]
+      "blockClass": "imagem-selos-quem-somos-novacor",
+      "alt": "Imagem selos",
+      "title": "Imagem selos",
+      "src": "assets/quem-somos/selos-portugues/lider-mercado-pt.webp"
     }
   },
-  "image#img-texto-300mil": {
+  "image#fabricacao": {
     "props": {
-      "src": "assets/quem-somos/300mil-texto.webp",
-      "alt": "Img selos",
-      "blockClass": [
-        "icone-selos"
-      ]
+      "blockClass": "imagem-selos-quem-somos-novacor",
+      "alt": "Imagem selos",
+      "title": "Imagem selos",
+      "src": "assets/quem-somos/selos-portugues/fabricacao-pt.webp"
     }
   },
-  "image#icone-lider": {
-    "props": {
-      "src": "assets/quem-somos/lider.webp",
-      "alt": "Img selos",
-      "blockClass": [
-        "icone-selos",
-        "icone-selos-menor"
-      ]
-    }
-  },
-  "image#img-texto-lider": {
-    "props": {
-      "src": "assets/quem-somos/lider-texto.webp",
-      "alt": "Img selos",
-      "blockClass": "icone-selos"
-    }
-  },
-  "image#icone-nacional": {
-    "props": {
-      "src": "assets/quem-somos/fab-nacional.webp",
-      "alt": "Img selos",
-      "blockClass": "icone-selos"
-    }
-  },
-  "image#img-texto-nacional": {
-    "props": {
-      "src": "assets/quem-somos/fab-nacional-texto.webp",
-      "alt": "Img selos",
-      "blockClass": "icone-selos"
-    }
-  },
-  "responsive-layout.mobile#banner-quem-somos": {
-    "children": [
-      "flex-layout.row#linha1-selos-mobile",
-      "flex-layout.row#linha2-selos-mobile"
-    ]
-  },
-  "flex-layout.row#linha1-selos-mobile": {
-    "props": {
-      "blockClass": "linha-selos-mobile",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#coluna-selos-desde-quem-somos",
-      "flex-layout.col#coluna-selos-lider-quem-somos"
-    ]
-  },
-  "flex-layout.row#linha2-selos-mobile": {
-    "props": {
-      "blockClass": "linha-selos-mobile",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#coluna-selos-300mil-quem-somos",
-      "flex-layout.col#coluna-selos-nacional-quem-somos"
-    ]
-  },
+
+
+  
   // LINHA NOSSO PROPOSITO
   "flex-layout.row#linha-nosso-proposito": {
     "props": {
@@ -555,7 +455,10 @@
   // =============================
   "rich-text#trigger-maisde30anos": {
     "props": {
-      "blockClass": ["texto-trigger", "texto-trigger-30anos"],
+      "blockClass": [
+        "texto-trigger",
+        "texto-trigger-30anos"
+      ],
       "text": "30 anos de experiência"
     }
   },
@@ -601,7 +504,7 @@
   "rich-text#content-certificacao-iso-anvisa": {
     "props": {
       "blockClass": "texto-content",
-       "text": "Certificação internacional ISO 13485 e registro na ANVISA, seguir normas rigorosas de qualidade e segurança comprova que cada produto é desenvolvido com padrões internacionais e total conformidade com as exigências sanitárias brasileiras."
+      "text": "Certificação internacional ISO 13485 e registro na ANVISA, seguir normas rigorosas de qualidade e segurança comprova que cada produto é desenvolvido com padrões internacionais e total conformidade com as exigências sanitárias brasileiras."
     }
   },
   "rich-text#content-assistencia-tecnica": {
@@ -631,7 +534,7 @@
   // ==============================
   // LINHA SEJA BEM VINDO
   // ==============================
-  "flex-layout.row#seja-bem-vindo":{
+  "flex-layout.row#seja-bem-vindo": {
     "props": {
       "blockClass": "linha-seja-bemvindo",
       "fullWidth": true
@@ -642,14 +545,14 @@
     ]
   },
   // texto seja bem vindo
-  "rich-text#titulo-seja-bemvindo":{
+  "rich-text#titulo-seja-bemvindo": {
     "props": {
       "blockClass": "titulo-texto-seja-bemvindo",
       "text": "Seja bem-vindo à **Stermax Health**"
     }
   },
   // subtitulo seja bem vindo
-  "rich-text#subtitulo-seja-bemvindo":{
+  "rich-text#subtitulo-seja-bemvindo": {
     "props": {
       "blockClass": "subtitulo-texto-seja-bemvindo",
       "text": "Stermax que você já conhece, agora focada na área da saúde"

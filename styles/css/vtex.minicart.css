@@ -1,4 +1,4 @@
-.minicartQuantityBadge{
+.minicartQuantityBadge {
   right: -.4rem;
 }
 
@@ -17,10 +17,19 @@
 }
 
 .opened {
-  z-index: 10000!important;
+  z-index: 10000 !important;
 }
 
+.minicartQuantityBadge {
+  right: -3px;
+}
+
+
 @media screen and (max-width: 1000px) {
+  .minicartQuantityBadge {
+    right: 4px;
+  }
+
   .openIconContainer {
     margin: 0;
     padding: 0;
