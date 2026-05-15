@@ -227,6 +227,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
+  margin: 40px
 }
 
 
@@ -340,7 +341,7 @@
 
 .flexColChild--container-patenteada .flexCol--coluna-textos-profissionais {
   padding-left: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
 .flexColChild--conteiner-prateleira-acessorios {
@@ -364,7 +365,7 @@
 }
 
 .flexRowContent--linha-profissionais {
-  gap: 80px;
+  gap: 50px;
 }
 
 
