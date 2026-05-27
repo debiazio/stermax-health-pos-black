@@ -34,6 +34,7 @@
       "width": 1300,
       "maxWidth": 1300,
       "preload": true,
+      "fetchPriority": "high",
       "images": [
         {
           "image": "assets/home/banner-modelos/Artboard 34.webp",
