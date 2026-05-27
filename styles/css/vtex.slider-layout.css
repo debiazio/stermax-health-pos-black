@@ -57,6 +57,15 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .paginationDotsContainer{
+    bottom: -6px;
+  }
+
+  .paginationDot{
+    width: 20px!important;
+    height: 20px!important;
+  }
+
 
   .sliderLayoutContainer--carousel {
     margin: unset;

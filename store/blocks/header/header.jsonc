@@ -229,7 +229,10 @@
     "props": {
       "hideIconLabel": true,
       "showIconProfile": true,
-      "blockClass": "login-header"
+      "blockClass": "login-header",
+      "optionsTitle": "Minha Conta",
+      "labelClasses": "login-label"
+
     }
   }
 

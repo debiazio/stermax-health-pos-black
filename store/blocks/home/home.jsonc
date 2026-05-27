@@ -124,7 +124,8 @@
   "flex-layout.row#linha-line": {
     "props": {
       "blockClass": "linha-line",
-      "fullWidth": false
+      "fullWidth": false,
+      "arialabel": "Linha separadora com efeito"
     },
     "children": [
       "rich-text#line"
