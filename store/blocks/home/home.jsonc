@@ -125,7 +125,7 @@
     "props": {
       "blockClass": "linha-line",
       "fullWidth": false,
-      "arialabel": "Linha separadora com efeito"
+      "arialabel": "hidden"
     },
     "children": [
       "rich-text#line"
