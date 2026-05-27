@@ -124,8 +124,7 @@
   "flex-layout.row#linha-line": {
     "props": {
       "blockClass": "linha-line",
-      "fullWidth": false,
-      "arialabel": "hidden"
+      "fullWidth": false
     },
     "children": [
       "rich-text#line"

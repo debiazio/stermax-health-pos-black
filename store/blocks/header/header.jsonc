@@ -220,6 +220,9 @@
     ]
   },
   "flex-layout.row#linha-login-minicart": {
+    "props":{
+      "arialabel": "linha botões"
+    },
     "children": [
       "login",
       "minicart.v2"
