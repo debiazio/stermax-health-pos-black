@@ -112,10 +112,11 @@
   "image#banner-personas-mobile": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/banner-modelos/mobile/categorias-mobile.webp",
+      "src": "https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/e1783177-721c-4960-8825-d1bcfdc7f9af___1fed9742c1ddb538f4810f08f904fdc3.webp",
       "alt": "Público StermaxHealth",
       "title": "Público StermaxHealth",
-      "fullWidth": true
+      "fullWidth": true,
+      "sizes": "100%"
     }
   },
   // separador

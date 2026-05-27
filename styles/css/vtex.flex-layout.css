@@ -825,14 +825,6 @@
   background-color: black;
 }
 
-.flexRowContent--conteiner-confirmacao {
-  display: flex;
-  flex-direction: column;
-  width: 444px;
-  margin: 10px 0 10px 0;
-  padding-left: 0;
-  gap: 5px;
-}
 
 @media screen and (max-width: 1700px) {
   .flexCol--coluna-esquerda-dinamic-background {
@@ -1987,14 +1979,6 @@
 
   .flexRow--linha-quem-somos {
     background: linear-gradient(to right, #8435DE, #A30D87);
-  }
-
-
-  .flexRowContent--conteiner-confirmacao {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 10px 0 10px 0;
   }
 
 
