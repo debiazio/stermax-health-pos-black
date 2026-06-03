@@ -58,13 +58,13 @@
 
 @media only screen and (max-width: 1000px) {
   .paginationDotsContainer{
-    bottom: -6px;
-    gap: 12px;
+    bottom: -10px;
+    gap: 20px;
   }
 
   .paginationDot{
-    width: 20px!important;
-    height: 20px!important;
+    width: 24px!important;
+    height: 24px!important;
   }
 
 
