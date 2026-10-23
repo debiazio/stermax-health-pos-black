@@ -58,7 +58,8 @@
       "sku-selector",
       "product-quantity",
       "flex-layout.row#buy-button-plena",
-      "flex-layout.col#textos-pdp-plena"
+      "flex-layout.col#textos-pdp-plena",
+      "shipping-simulator"
     ]
   },
   // =============================================
