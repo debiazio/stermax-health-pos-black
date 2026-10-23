@@ -1,7 +1,15 @@
+.shippingContainer :global(.vtex-address-form__postalCode) {
+  padding-bottom: 5px;
+}
 
+.shippingContainer :global(.vtex-button) {
+  background-image: linear-gradient(to right, rgb(132, 53, 222), rgb(163, 13, 135));
+  border: none;
+  border-radius: 20px;
+  padding: 6px;
+}
 
-
-.imageElement--image-botoes-original{
+.imageElement--image-botoes-original {
   height: 80%;
   width: auto;
 }
