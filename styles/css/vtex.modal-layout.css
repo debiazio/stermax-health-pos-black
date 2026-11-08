@@ -1,4 +1,8 @@
 /* CSS ROLETA  */
+.modal--form-roleta{
+  z-index: 130000!important;
+}
+
 .closeIcon--roleta-header{
   width: 20px;
 }
@@ -23,7 +27,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  background-image: url(assets/roleta/background-roleta-stermaxh.webp);
+  background-image: url(https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/657fff20-1256-414e-894c-0ac2bf75c94d___8b74ae67cf74f9a206a6021c172b9b10.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

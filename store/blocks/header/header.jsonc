@@ -13,6 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
+      "modal-trigger#roleta",
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#cabecalho-desktop",
