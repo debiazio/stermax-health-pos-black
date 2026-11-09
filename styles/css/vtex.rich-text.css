@@ -57,7 +57,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
-  color: #000000;
+  color: #FFFFFF;
   margin: 0;
   text-align: center;
 }
@@ -67,7 +67,7 @@
   font-weight: 700;
   font-size: 28px;
   line-height: 100%;
-  color: #696969;
+  color: #FFFFFF;
   text-align: center;
 
 }
@@ -77,7 +77,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
-  color: #000000;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -88,6 +88,7 @@
   line-height: 100%;
   text-align: justify;
   margin: 0;
+  color: #ffffff;
 }
 
 .paragraph--titulo-banner-secundario {
@@ -104,10 +105,12 @@
 .container--titulo-banner-secundario {
   display: flex;
   justify-content: center;
-  border: 3px solid #670DA3;
+  /* border: 3px solid #670DA3; */
+  border: 3px solid #FF7500;
   width: 100%;
   border-radius: 20px;
-  color: #670DA3;
+  /* color: #670DA3; */
+  color: #FF7500;
 }
 
 .container--titulo-banner-secundario:hover {
@@ -125,7 +128,7 @@
   font-size: 60px;
   font-weight: 900;
   line-height: 100%;
-  color: #000000;
+  color: #FFFFFF;
   margin: 20px;
 }
 
@@ -856,7 +859,7 @@
 }
 
 .paragraph--rich-text-produtos-relacionados {
-  color: #5C5A58;
+  color: #FFFFFF;
   font-family: var(--fonte-secundaria);
   font-size: 60px;
 }

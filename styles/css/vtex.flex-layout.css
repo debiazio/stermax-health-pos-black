@@ -5,7 +5,7 @@
 }
 
 .flexRow--pdp-padrao {
-  background-color: #f6f5f5;
+  background-color: #1A1A1A;
 }
 
 .flexCol--coluna-esquerda-mobile-header {
@@ -37,7 +37,7 @@
 .flexRow--deals,
 .flexRow--linha-line,
 .flexRow--linha-shelf-home {
-  background-color: #f6f5f5;
+  background-color: #1A1A1A;
 }
 
 .flexRowContent--linha-modelos-tipo-home {
@@ -360,7 +360,7 @@
   position: relative;
   top: -180px;
   margin-bottom: -180px;
-  background: linear-gradient(to bottom, transparent 0%, #F6F5F5 44%, #F6F5F5 100%);
+  background: linear-gradient(to bottom, transparent 0%, #1A1A1A 44%, #1A1A1A 100%);
 }
 
 .flexCol--coluna-titulo-shelf {
@@ -369,7 +369,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 547px;
-  background-color: #F6F5F5;
+  background-color: #1A1A1A;
 }
 
 .flexRowContent--linha-profissionais {
@@ -392,7 +392,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #F6F5F5;
+  background-color: #1A1A1A;
 }
 
 .flexCol--container-frenteVerso {
@@ -406,7 +406,7 @@
 .flexCol--conteiner-fale-com-espec,
 .flexCol--container-patenteada,
 .flexCol--container-chegou-a-nova {
-  background-color: #F6F5F5;
+  background-color: #1A1A1A;
 }
 
 
@@ -1089,7 +1089,7 @@
 }
 
 .flexRow--content-ultima-section {
-  background-color: #f6f5f5;
+  background-color: #1A1A1A;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1472,7 +1472,7 @@
 }
 
 .flexRow--personas {
-  background-color: #f6f5f5;
+  background-color: #1A1A1A;
 }
 
 .flexRowContent--personas {
@@ -1796,7 +1796,7 @@
   }
 
   .flexRow--ultima-section {
-    background-color: #f6f5f5;
+    background-color: #1A1A1A;
   }
 
 

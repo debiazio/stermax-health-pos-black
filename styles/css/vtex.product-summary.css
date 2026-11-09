@@ -23,9 +23,11 @@
   margin: 0;
 }
 
+.mainImageHovered,
+.imageStackContainer,
 .imageNormal {
-  background-color: #ffff;
-  border-radius: 20px;
+  /* background-color: #ffff; */
+  border-radius: 10px;
 }
 
 .element {
@@ -37,7 +39,7 @@
   color: #5C5A58;
   font-family: "zenoldmincho-bold",sans-serif;
   font-weight: 700;
-  color: #000000;
+  color: #FFFFFF;
   line-height: 100%;
   text-align: left;
   display: flex;
@@ -94,7 +96,7 @@
   .brandName {
     font-size: 18px;
   }
-  
+
   .spacer {
     display: none;
   }

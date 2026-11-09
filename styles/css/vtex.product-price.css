@@ -6,14 +6,14 @@
 }
 
 .listPrice {
-  color: #000000;
+  color: #FFFFFF;
   font-family: "rubik-regular", sans-serif;
   margin-bottom: .25rem;
   font-size: 16px;
 }
 
 .sellingPrice {
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 900;
   font-family: "zenoldmincho-black", sans-serif;
   font-size: 39px;
@@ -25,7 +25,7 @@
 }
 
 .installments {
-  color: #000000;
+  color: #FFFFFF;
   margin-bottom: 1rem;
   font-family: "zenoldmincho-medium", sans-serif;
   font-size: 22px;
@@ -44,7 +44,7 @@
   font-family: "zenoldmincho-bold", sans-serif;
   font-weight: 700;
   font-size: 34px;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .savings--summary {

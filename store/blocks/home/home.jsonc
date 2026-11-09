@@ -89,7 +89,7 @@
   "image#banner-personas": {
     "props": {
       "blockClass": "imagem-personas",
-      "src": "assets/home/categorias-stx-desktop.webp",
+      "src": "https://stermaxhealth.vtexassets.com/assets/vtex.file-manager-graphql/images/1be7641d-0380-46dc-a8b4-7da60fd337d2___d3f83c45a097d3c63edaeacb8b6a598d.webp",
       "alt": "Público StermaxHealth",
       "title": "Público StermaxHealth",
       "fullWidth": true

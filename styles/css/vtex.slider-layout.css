@@ -1,3 +1,20 @@
+.slide--pdp-slider-relacinado,
+.slide--shelf{
+  background: linear-gradient(
+    to bottom right,
+    #212121 0%,
+    #3a3a3a 50%,
+    #212121 100%
+  );
+  border-radius: 18px;
+  padding: 10px;
+}
+
+.sliderTrack,
+.sliderTrack--pdp-slider-relacinado{
+  gap: 10px;
+}
+
 .sliderLayoutContainer--shelf {
   padding: 20px 0;
 }
