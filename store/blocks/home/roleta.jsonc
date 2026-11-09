@@ -1,7 +1,7 @@
 {
   "modal-trigger#roleta": {
     "props": {
-      "trigger": "load"
+      "trigger": "load-session"
     },
     "children": [
 
@@ -81,7 +81,7 @@
     }
   },
   // FORM
-  
+
   "flex-layout.row#rules": {
     "props": {
       "blockClass": "rules-roleta-container"
