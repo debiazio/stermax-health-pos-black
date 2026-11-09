@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [5.2.143] - 2026-11-09
+
 ## [5.2.142] - 2026-11-09
 
 ## [5.2.141] - 2026-10-23
