@@ -74,6 +74,10 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .sliderTrack{
+    gap: 0px;
+  }
+
   .paginationDotsContainer{
     bottom: -10px;
     gap: 20px;
