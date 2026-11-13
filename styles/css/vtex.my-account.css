@@ -163,6 +163,7 @@ input:-webkit-autofill {
 }
 
 
+:global(.vtex-render__container-id-search-result-layout),
 :global(.vtex-render__container-id-carrossel-home-desktop-esp),
 :global(.vtex-render__container-id-carrossel-home-desktop-eng),
 :global(.vtex-render__container-id-carrossel-home-desktop) {
